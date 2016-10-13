@@ -1,0 +1,10 @@
+D:\work\Current Initiatives\Writing\SLBook\WorkInProgress\ChapterSamples\Ch07_Networking\7.3 JSON Over HTTP\7.3 ProductsDataJSONService\bin\Ch07_Networking.Recipe7_3.ProductsDataJSONService.dll
+D:\work\Current Initiatives\Writing\SLBook\WorkInProgress\ChapterSamples\Ch07_Networking\7.3 JSON Over HTTP\7.3 ProductsDataJSONService\bin\Ch07_Networking.Recipe7_3.ProductsDataJSONService.pdb
+D:\work\Current Initiatives\Writing\SLBook\WorkInProgress\ChapterSamples\Ch07_Networking\7.3 JSON Over HTTP\7.3 ProductsDataJSONService\obj\Debug\ResolveAssemblyReference.cache
+D:\work\Current Initiatives\Writing\SLBook\WorkInProgress\ChapterSamples\Ch07_Networking\7.3 JSON Over HTTP\7.3 ProductsDataJSONService\obj\Debug\Ch07_Networking.Recipe7_3.ProductsDataJSONService.dll
+D:\work\Current Initiatives\Writing\SLBook\WorkInProgress\ChapterSamples\Ch07_Networking\7.3 JSON Over HTTP\7.3 ProductsDataJSONService\obj\Debug\Ch07_Networking.Recipe7_3.ProductsDataJSONService.pdb
+D:\RobcamerDocs\Book Silverlight Recipes\Code\Ch07_Networking\7.3 JSON Over HTTP\7.3 ProductsDataJSONService\bin\Ch07_Networking.Recipe7_3.ProductsDataJSONService.dll
+D:\RobcamerDocs\Book Silverlight Recipes\Code\Ch07_Networking\7.3 JSON Over HTTP\7.3 ProductsDataJSONService\bin\Ch07_Networking.Recipe7_3.ProductsDataJSONService.pdb
+D:\RobcamerDocs\Book Silverlight Recipes\Code\Ch07_Networking\7.3 JSON Over HTTP\7.3 ProductsDataJSONService\obj\Debug\ResolveAssemblyReference.cache
+D:\RobcamerDocs\Book Silverlight Recipes\Code\Ch07_Networking\7.3 JSON Over HTTP\7.3 ProductsDataJSONService\obj\Debug\Ch07_Networking.Recipe7_3.ProductsDataJSONService.dll
+D:\RobcamerDocs\Book Silverlight Recipes\Code\Ch07_Networking\7.3 JSON Over HTTP\7.3 ProductsDataJSONService\obj\Debug\Ch07_Networking.Recipe7_3.ProductsDataJSONService.pdb

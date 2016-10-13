@@ -1,0 +1,6 @@
+﻿<Deployment xmlns="http://schemas.microsoft.com/client/2007/deployment" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" EntryPointAssembly="Ch02_ProgrammingModel.Recipe2_11" EntryPointType="Ch02_ProgrammingModel.Recipe2_11.App" RuntimeVersion="2.0.31005.0">
+  <Deployment.Parts>
+    <AssemblyPart x:Name="Ch02_ProgrammingModel.Recipe2_11" Source="Ch02_ProgrammingModel.Recipe2_11.dll" />
+    <AssemblyPart x:Name="System.Windows.Controls" Source="System.Windows.Controls.dll" />
+  </Deployment.Parts>
+</Deployment>

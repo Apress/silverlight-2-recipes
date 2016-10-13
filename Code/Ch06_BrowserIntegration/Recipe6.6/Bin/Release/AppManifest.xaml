@@ -1,0 +1,6 @@
+﻿<Deployment xmlns="http://schemas.microsoft.com/client/2007/deployment" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" EntryPointAssembly="Ch06_BrowserIntegration.Recipe6_5" EntryPointType="Ch06_BrowserIntegration.Recipe6_5.App" RuntimeVersion="2.0.30923.0">
+  <Deployment.Parts>
+    <AssemblyPart x:Name="Ch06_BrowserIntegration.Recipe6_5" Source="Ch06_BrowserIntegration.Recipe6_5.dll" />
+    <AssemblyPart x:Name="System.Xml.Linq" Source="System.Xml.Linq.dll" />
+  </Deployment.Parts>
+</Deployment>

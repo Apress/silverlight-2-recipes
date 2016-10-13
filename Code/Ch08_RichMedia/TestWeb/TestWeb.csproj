@@ -1,0 +1,126 @@
+﻿<Project ToolsVersion="3.5" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>9.0.30729</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{1CF05A0D-1936-4D80-BEAE-B6FAA7C83097}</ProjectGuid>
+    <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>TestWeb</RootNamespace>
+    <AssemblyName>TestWeb</AssemblyName>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+    <SccProjectName>
+    </SccProjectName>
+    <SccLocalPath>
+    </SccLocalPath>
+    <SccAuxPath>
+    </SccAuxPath>
+    <SccProvider>
+    </SccProvider>
+    <SilverlightApplicationList>{E61632CF-8FAF-4B3F-AE82-FF83085AD53D}|..\8.1 Playing Video\8.1 Playing Video\8.1 Playing Video.csproj|ClientBin|False,{F0493DAD-677D-42B0-9629-217185455293}|..\8.2 Complete Player\8.2 Complete Player\8.2 Complete Player.csproj|ClientBin|False,{7FFDD37D-9795-4D48-B458-AF26090A7BDB}|..\8.3 Streaming Player\8.3 Complete Player\8.3 Streaming Player.csproj|ClientBin|False,{B218F127-992E-4D40-92E9-C0241CDA917B}|..\8.4 Playlists\8.4 Complete Player\8.4 Playlist Player.csproj|ClientBin|False,{15BAA357-B350-4138-8D25-932AC895CAB9}|..\8.5 Using Markers\8.5 Complete Player\8.5 Marker Aware Player.csproj|ClientBin|False</SilverlightApplicationList>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Core">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data.DataSetExtensions">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Web.Extensions">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Web.Silverlight, Version=2.0.5.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL" />
+    <Reference Include="System.Xml.Linq">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.EnterpriseServices" />
+    <Reference Include="System.Web.Mobile" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="8.1 Playing VideoTestPage.aspx" />
+    <Content Include="8.1 Playing VideoTestPage.html" />
+    <Content Include="8.2 Complete PlayerTestPage.aspx" />
+    <Content Include="8.2 Complete PlayerTestPage.html" />
+    <Content Include="8.3 Streaming PlayerTestPage.aspx" />
+    <Content Include="8.3 Streaming PlayerTestPage.html" />
+    <Content Include="8.4 Playlist PlayerTestPage.aspx" />
+    <Content Include="8.4 Playlist PlayerTestPage.html" />
+    <Content Include="8.5 Marker Aware PlayerTestPage.aspx" />
+    <Content Include="8.5 Marker Aware PlayerTestPage.html" />
+    <Content Include="ClientBin\Ch08_RichMedia.Recipe8_1.xap" />
+    <Content Include="ClientBin\Ch08_RichMedia.Recipe8_2.CompletePlayer.xap" />
+    <Content Include="ClientBin\Ch08_RichMedia.Recipe8_3.StreamingPlayer.xap" />
+    <Content Include="ClientBin\Ch08_RichMedia.Recipe8_4.PlaylistPlayer.xap" />
+    <Content Include="ClientBin\Ch08_RichMedia.Recipe8_5.MarkerAwarePlaye.xap" />
+    <Content Include="Default.aspx" />
+    <Content Include="Silverlight.js" />
+    <Content Include="Web.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Default.aspx.cs">
+      <SubType>ASPXCodeBehind</SubType>
+      <DependentUpon>Default.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Default.aspx.designer.cs">
+      <DependentUpon>Default.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="App_Data\" />
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <Import Project="$(MSBuildExtensionsPath)\Microsoft\VisualStudio\v9.0\WebApplications\Microsoft.WebApplication.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
+        <WebProjectProperties>
+          <UseIIS>False</UseIIS>
+          <AutoAssignPort>False</AutoAssignPort>
+          <DevelopmentServerPort>9090</DevelopmentServerPort>
+          <DevelopmentServerVPath>/</DevelopmentServerVPath>
+          <IISUrl>
+          </IISUrl>
+          <NTLMAuthentication>False</NTLMAuthentication>
+          <UseCustomServer>False</UseCustomServer>
+          <CustomServerUrl>
+          </CustomServerUrl>
+          <SaveServerSettingsInUserFile>False</SaveServerSettingsInUserFile>
+        </WebProjectProperties>
+      </FlavorProperties>
+    </VisualStudio>
+  </ProjectExtensions>
+</Project>

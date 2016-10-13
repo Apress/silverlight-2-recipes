@@ -1,0 +1,147 @@
+﻿<Project ToolsVersion="3.5" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>9.0.30729</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{00686A92-8689-4FB6-AA9B-3A167F1A42B0}</ProjectGuid>
+    <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Ch02_ProgrammingModel.TestWeb</RootNamespace>
+    <AssemblyName>Ch02_ProgrammingModel.TestWeb</AssemblyName>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+    <SilverlightApplicationList>{DF3DE8D8-2F2D-4C76-A187-F8C4BAF957DC}|..\Recipe 2.1\2.1 Add A Class.csproj|ClientBin|False,{BFEC2C68-4323-4402-8E61-51A11D3F7858}|..\Recipe2.2\2.2 Add a Control.csproj|ClientBin|False,{0ED90DF4-FBCB-460E-AD1B-EBEC43B26897}|..\Recipe2.3\Recipe2.3.csproj|ClientBin|False,{DFF7053E-FEA3-46E8-9DDE-D1E845B68CE4}|..\Recipe2.4\Recipe2.4.csproj|ClientBin|False,{8E65A12E-AACC-4EC2-A95D-1090C604629D}|..\Recipe2.5\Recipe2.5.csproj|ClientBin|False,{2F27DBAC-C1F8-4AD5-A4BD-141EBF7BCBDE}|..\Recipe 2.6\Recipe 2.6.csproj|ClientBin|False,{387C47D7-AE46-46E2-B387-3208751FF0BF}|..\Recipe2.7\Recipe2.7.csproj|ClientBin|False,{C22785A2-368D-442B-A33E-04EEB6FFEB7E}|..\Recipe2.8\Recipe2.8.csproj|ClientBin|False,{4AC84583-ECA2-4F6F-A470-5916E0B55644}|..\Recipe2.9\Recipe2.9.csproj|ClientBin|False,{3205E6C8-23E0-47DD-9850-51BFAC33A8EA}|..\Recipe2.10\Recipe2.10.csproj|ClientBin|False,{1EFEAF85-67F7-4CED-909F-0373805D0993}|..\Recipe2.11\Recipe2.11.csproj|ClientBin|False,{8DEEA6B3-55DB-4DF0-91C3-68F366230D75}|..\Recipe2.12\Recipe2.12.csproj|ClientBin|False,{53010B59-0172-4351-BF95-B5C77A8C509F}|..\Recipe2.13\Recipe2.13.csproj|ClientBin|False,{582372A4-3EEA-49F2-832B-A3D0C332D021}|..\Recipe2.14\Recipe2.14.csproj|ClientBin|False</SilverlightApplicationList>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Core">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data.DataSetExtensions">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Web.Extensions">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Web.Silverlight, Version=2.0.5.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL" />
+    <Reference Include="System.Xml.Linq">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.EnterpriseServices" />
+    <Reference Include="System.Web.Mobile" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="ClientBin\Ch02_ProgrammingModel.Recipe2_10.xap" />
+    <Content Include="ClientBin\Ch02_ProgrammingModel.Recipe2_11.xap" />
+    <Content Include="ClientBin\Ch02_ProgrammingModel.Recipe2_12.xap" />
+    <Content Include="ClientBin\Ch02_ProgrammingModel.Recipe2_13.xap" />
+    <Content Include="ClientBin\Ch02_ProgrammingModel.Recipe2_14.xap" />
+    <Content Include="ClientBin\Ch02_ProgrammingModel.Recipe2_3.xap" />
+    <Content Include="ClientBin\Ch02_ProgrammingModel.Recipe2_4.xap" />
+    <Content Include="ClientBin\Ch02_ProgrammingModel.Recipe2_5.xap" />
+    <Content Include="ClientBin\Ch02_ProgrammingModel.Recipe2_6.xap" />
+    <Content Include="ClientBin\Ch02_ProgrammingModel.Recipe2_7.xap" />
+    <Content Include="ClientBin\Ch02_ProgrammingModel.Recipe2_8.xap" />
+    <Content Include="ClientBin\Ch02_ProgrammingModel.Recipe2_9.xap" />
+    <Content Include="js\Recipe2.4.js" />
+    <Content Include="Recipe2.10TestPage.aspx" />
+    <Content Include="Recipe2.10TestPage.html" />
+    <Content Include="Recipe2.11TestPage.aspx" />
+    <Content Include="Recipe2.11TestPage.html" />
+    <Content Include="Recipe2.12TestPage.aspx" />
+    <Content Include="Recipe2.12TestPage.html" />
+    <Content Include="Recipe2.13TestPage.aspx" />
+    <Content Include="Recipe2.13TestPage.html" />
+    <Content Include="Recipe2.14TestPage.aspx" />
+    <Content Include="Recipe2.14TestPage.html" />
+    <Content Include="Recipe2.6TestPage.aspx" />
+    <Content Include="Recipe2.6TestPage.html" />
+    <Content Include="Recipe2.2TestPage.aspx" />
+    <Content Include="Recipe2.2TestPage.html" />
+    <Content Include="ClientBin\Ch02_ProgrammingModel.Recipe2_1.xap" />
+    <Content Include="ClientBin\Ch02_ProgrammingModel.Recipe2_2.xap" />
+    <Content Include="Recipe2.1TestPage.aspx" />
+    <Content Include="Recipe2.1TestPage.html" />
+    <Content Include="Default.aspx" />
+    <Content Include="Recipe2.4TestPage.aspx" />
+    <Content Include="Recipe2.4TestPage.html" />
+    <Content Include="Recipe2.5TestPage.aspx" />
+    <Content Include="Recipe2.5TestPage.html" />
+    <Content Include="Recipe2.3TestPage.aspx" />
+    <Content Include="Recipe2.3TestPage.html" />
+    <Content Include="Recipe2.7TestPage.aspx" />
+    <Content Include="Recipe2.7TestPage.html" />
+    <Content Include="Recipe2.8TestPage.aspx" />
+    <Content Include="Recipe2.8TestPage.html" />
+    <Content Include="Recipe2.9TestPage.aspx" />
+    <Content Include="Recipe2.9TestPage.html" />
+    <Content Include="Silverlight.js" />
+    <Content Include="Web.config" />
+    <Content Include="xml\ApressBooks.xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Default.aspx.cs">
+      <SubType>ASPXCodeBehind</SubType>
+      <DependentUpon>Default.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Default.aspx.designer.cs">
+      <DependentUpon>Default.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="App_Data\" />
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <Import Project="$(MSBuildExtensionsPath)\Microsoft\VisualStudio\v9.0\WebApplications\Microsoft.WebApplication.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
+        <WebProjectProperties>
+          <UseIIS>False</UseIIS>
+          <AutoAssignPort>False</AutoAssignPort>
+          <DevelopmentServerPort>9090</DevelopmentServerPort>
+          <DevelopmentServerVPath>/</DevelopmentServerVPath>
+          <IISUrl>
+          </IISUrl>
+          <NTLMAuthentication>False</NTLMAuthentication>
+          <UseCustomServer>False</UseCustomServer>
+          <CustomServerUrl>
+          </CustomServerUrl>
+          <SaveServerSettingsInUserFile>False</SaveServerSettingsInUserFile>
+        </WebProjectProperties>
+      </FlavorProperties>
+    </VisualStudio>
+  </ProjectExtensions>
+</Project>

@@ -1,0 +1,3 @@
+﻿<%@ ServiceHost Language="C#" Debug="true" Service="Ch07_Networking.Recipe7_3.ProductsDataJSONService.ProductManager" CodeBehind="~/ProductManager.cs" 
+Factory="System.ServiceModel.Activation.WebScriptServiceHostFactory"
+%>

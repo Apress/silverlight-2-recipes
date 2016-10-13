@@ -1,0 +1,144 @@
+﻿<Project ToolsVersion="3.5" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>9.0.30729</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{F11CCDDD-8B45-4271-BE20-24D005EB6F03}</ProjectGuid>
+    <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>TestWeb</RootNamespace>
+    <AssemblyName>TestWeb</AssemblyName>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+    <SccProjectName>
+    </SccProjectName>
+    <SccLocalPath>
+    </SccLocalPath>
+    <SccAuxPath>
+    </SccAuxPath>
+    <SccProvider>
+    </SccProvider>
+    <SilverlightApplicationList>{AC422404-9BDE-4A21-A9C6-D101C6E0B7F2}|..\5.1 Using Styles\5.1 Using Styles.csproj|ClientBin|False,{103E3DE1-F368-43D4-83E3-179436A2A445}|..\5.2 Control Template\5.2 Control Template.csproj|ClientBin|False,{8A02BB72-8497-45D8-9C5A-FC79757B606F}|..\5.3 ListBoxItem Customization\5.3 ListBoxItem Customization.csproj|ClientBin|False,{E9615125-B5F2-4F76-AACA-D58464216640}|..\5.4 Using Popup\5.4 Using Popup.csproj|ClientBin|False,{1E199CEF-3706-45FB-8E83-BFD75960F44C}|..\5.5 DataGrid Row Details\5.5 DataGrid Row Details.csproj|ClientBin|False,{4DB6D494-2F5A-4654-9E6C-F6EEFAC3DFF5}|..\5.6 DataGrid Cell Templating\5.6 DataGrid Cell Templating.csproj|ClientBin|False,{B0B0B2A8-7229-4D63-847C-C0758377300A}|..\5.7 DataGrid Custom Column\5.7 DataGrid Custom Column.csproj|ClientBin|False,{D9723ABC-37EA-4F97-BBC2-17794C2AB2B8}|..\5.8 Composite Control\5.8 Composite Control Test\5.8 Composite Control Test.csproj|ClientBin|False,{44E2441A-2BCA-4646-8E52-DA1FC689ACFD}|..\5.9 Custom Wrap Panel\5.9 Wrap Panel Test\5.9 Wrap Panel Test.csproj|ClientBin|False,{F414515A-A398-404B-B0B3-D12B37C85C8A}|..\5.10 ProgressBar\5.10 ProgressBarTest\5.10 ProgressBarTest.csproj|ClientBin|False,{B2E13FB7-4FB3-4002-A1F0-1B9FDC0D25FD}|..\5.11 Expander\5.11 Expander Test\5.11 Expander Test.csproj|ClientBin|False</SilverlightApplicationList>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Core">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data.DataSetExtensions">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Web.Extensions">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Web.Silverlight, Version=2.0.5.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL" />
+    <Reference Include="System.Xml.Linq">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.EnterpriseServices" />
+    <Reference Include="System.Web.Mobile" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="5.1 Using StylesTestPage.aspx" />
+    <Content Include="5.1 Using StylesTestPage.html" />
+    <Content Include="5.10 ProgressBarTestTestPage.aspx" />
+    <Content Include="5.10 ProgressBarTestTestPage.html" />
+    <Content Include="5.11 Expander TestTestPage.aspx" />
+    <Content Include="5.11 Expander TestTestPage.html" />
+    <Content Include="5.2 Control TemplateTestPage.aspx" />
+    <Content Include="5.2 Control TemplateTestPage.html" />
+    <Content Include="5.3 ListBoxItem CustomizationTestPage.aspx" />
+    <Content Include="5.3 ListBoxItem CustomizationTestPage.html" />
+    <Content Include="5.4 Using PopupTestPage.aspx" />
+    <Content Include="5.4 Using PopupTestPage.html" />
+    <Content Include="5.5 DataGrid Row DetailsTestPage.aspx" />
+    <Content Include="5.5 DataGrid Row DetailsTestPage.html" />
+    <Content Include="5.6 DataGrid Cell TemplatingTestPage.aspx" />
+    <Content Include="5.6 DataGrid Cell TemplatingTestPage.html" />
+    <Content Include="5.7 DataGrid Custom ColumnTestPage.aspx" />
+    <Content Include="5.7 DataGrid Custom ColumnTestPage.html" />
+    <Content Include="5.8 Composite Control TestTestPage.aspx" />
+    <Content Include="5.8 Composite Control TestTestPage.html" />
+    <Content Include="5.9 Wrap Panel TestTestPage.aspx" />
+    <Content Include="5.9 Wrap Panel TestTestPage.html" />
+    <Content Include="ClientBin\Ch05_Controls.Recipe5_1.xap" />
+    <Content Include="ClientBin\Ch05_Controls.Recipe5_10.ProgressBarTest.xap" />
+    <Content Include="ClientBin\Ch05_Controls.Recipe5_11.ExpanderTest.xap" />
+    <Content Include="ClientBin\Ch05_Controls.Recipe5_2.xap" />
+    <Content Include="ClientBin\Ch05_Controls.Recipe5_3.xap" />
+    <Content Include="ClientBin\Ch05_Controls.Recipe5_4.xap" />
+    <Content Include="ClientBin\Ch05_Controls.Recipe5_5.xap" />
+    <Content Include="ClientBin\Ch05_Controls.Recipe5_6.xap" />
+    <Content Include="ClientBin\Ch05_Controls.Recipe5_7.xap" />
+    <Content Include="ClientBin\Ch05_Controls.Recipe5_8.CompositeControlTest.xap" />
+    <Content Include="ClientBin\Ch05_Controls.Recipe5_9.WrapPanelTest.xap" />
+    <Content Include="Default.aspx" />
+    <Content Include="Silverlight.js" />
+    <Content Include="Web.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Default.aspx.cs">
+      <SubType>ASPXCodeBehind</SubType>
+      <DependentUpon>Default.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Default.aspx.designer.cs">
+      <DependentUpon>Default.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="App_Data\" />
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <Import Project="$(MSBuildExtensionsPath)\Microsoft\VisualStudio\v9.0\WebApplications\Microsoft.WebApplication.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
+        <WebProjectProperties>
+          <UseIIS>False</UseIIS>
+          <AutoAssignPort>False</AutoAssignPort>
+          <DevelopmentServerPort>9090</DevelopmentServerPort>
+          <DevelopmentServerVPath>/</DevelopmentServerVPath>
+          <IISUrl>
+          </IISUrl>
+          <NTLMAuthentication>False</NTLMAuthentication>
+          <UseCustomServer>False</UseCustomServer>
+          <CustomServerUrl>
+          </CustomServerUrl>
+          <SaveServerSettingsInUserFile>False</SaveServerSettingsInUserFile>
+        </WebProjectProperties>
+      </FlavorProperties>
+    </VisualStudio>
+  </ProjectExtensions>
+</Project>

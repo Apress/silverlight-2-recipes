@@ -1,0 +1,103 @@
+﻿<UserControl x:Class="Ch02_ProgrammingModel.Recipe2_11.Page"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation" 
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" 
+    Width="400" Height="300" xmlns:d="http://schemas.microsoft.com/expression/blend/2008" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" mc:Ignorable="d">
+  <UserControl.Resources>
+    <Storyboard x:Name="AnnimateStatusEllipse">
+      <ColorAnimationUsingKeyFrames BeginTime="00:00:00" Storyboard.TargetName="StatusEllipse" Storyboard.TargetProperty="(Shape.Fill).(SolidColorBrush.Color)">
+        <SplineColorKeyFrame KeyTime="00:00:00" Value="#FF008000"/>
+        <SplineColorKeyFrame KeyTime="00:00:01.5000000" Value="#FFFFFF00"/>
+        <SplineColorKeyFrame KeyTime="00:00:03" Value="#FF008000"/>
+        <SplineColorKeyFrame KeyTime="00:00:04.5000000" Value="#FF008000"/>
+        <SplineColorKeyFrame KeyTime="00:00:06" Value="#FFFFFF00"/>
+        <SplineColorKeyFrame KeyTime="00:00:07.5000000" Value="#FF008000"/>
+      </ColorAnimationUsingKeyFrames>
+      <DoubleAnimationUsingKeyFrames BeginTime="00:00:00" Storyboard.TargetName="StatusEllipse" Storyboard.TargetProperty="(UIElement.Opacity)">
+        <SplineDoubleKeyFrame KeyTime="00:00:00" Value="0.7"/>
+        <SplineDoubleKeyFrame KeyTime="00:00:01.5000000" Value="0.5"/>
+        <SplineDoubleKeyFrame KeyTime="00:00:03" Value="0.5"/>
+        <SplineDoubleKeyFrame KeyTime="00:00:04.5000000" Value="0.7"/>
+        <SplineDoubleKeyFrame KeyTime="00:00:06" Value="0.5"/>
+        <SplineDoubleKeyFrame KeyTime="00:00:07.5000000" Value="0.5"/>
+      </DoubleAnimationUsingKeyFrames>
+      <DoubleAnimationUsingKeyFrames BeginTime="00:00:00" Storyboard.TargetName="StatusEllipse" Storyboard.TargetProperty="(UIElement.RenderTransform).(TransformGroup.Children)[1].(SkewTransform.AngleX)">
+        <SplineDoubleKeyFrame KeyTime="00:00:00" Value="0"/>
+        <SplineDoubleKeyFrame KeyTime="00:00:01.5000000" Value="0"/>
+        <SplineDoubleKeyFrame KeyTime="00:00:03" Value="0"/>
+        <SplineDoubleKeyFrame KeyTime="00:00:04.5000000" Value="0"/>
+        <SplineDoubleKeyFrame KeyTime="00:00:06" Value="0"/>
+        <SplineDoubleKeyFrame KeyTime="00:00:07.5000000" Value="0"/>
+      </DoubleAnimationUsingKeyFrames>
+      <DoubleAnimationUsingKeyFrames BeginTime="00:00:00" Storyboard.TargetName="StatusEllipse" Storyboard.TargetProperty="(UIElement.RenderTransform).(TransformGroup.Children)[1].(SkewTransform.AngleY)">
+        <SplineDoubleKeyFrame KeyTime="00:00:00" Value="0"/>
+        <SplineDoubleKeyFrame KeyTime="00:00:01.5000000" Value="0"/>
+        <SplineDoubleKeyFrame KeyTime="00:00:03" Value="0"/>
+        <SplineDoubleKeyFrame KeyTime="00:00:04.5000000" Value="0"/>
+        <SplineDoubleKeyFrame KeyTime="00:00:06" Value="0"/>
+        <SplineDoubleKeyFrame KeyTime="00:00:07.5000000" Value="0"/>
+      </DoubleAnimationUsingKeyFrames>
+    </Storyboard>
+  </UserControl.Resources>
+  <Grid x:Name="LayoutRoot" Background="#FFFFFFFF">
+    <Grid.ColumnDefinitions>
+      <ColumnDefinition Width="0.068*"/>
+      <ColumnDefinition Width="0.438*"/>
+      <ColumnDefinition Width="0.495*"/>
+    </Grid.ColumnDefinitions>
+    <Grid.RowDefinitions>
+      <RowDefinition Height="0.08*"/>
+      <RowDefinition Height="0.217*"/>
+      <RowDefinition Height="0.61*"/>
+      <RowDefinition Height="0.093*"/>
+    </Grid.RowDefinitions>
+    <Button HorizontalAlignment="Stretch" Margin="5,8,5,8" VerticalAlignment="Stretch" Grid.Column="1" Grid.Row="1" Content="Save Form Data" Click="SaveFormData_Click"/>
+    <StackPanel HorizontalAlignment="Stretch" Margin="4.8270001411438,8,6.19799995422363,8" Grid.Column="1" Grid.Row="2">
+      <TextBlock Height="Auto" Width="Auto" Text="Work Results Appear Below" TextWrapping="Wrap" Margin="4,4,4,4"/>
+      <TextBox Height="103" Width="Auto" Text="" TextWrapping="Wrap" Margin="4,4,4,4" x:Name="WorkResultsTextData"/>
+    </StackPanel>
+    <Button HorizontalAlignment="Stretch" Margin="12,8,8,8" VerticalAlignment="Stretch" Grid.Column="2" Grid.Row="1" Content="Load Form Data" Click="ReadFormData_Click"/>
+    <Button HorizontalAlignment="Stretch" Margin="10,2,8,6" VerticalAlignment="Stretch" Grid.Column="1" Grid.Row="3" Content="Kick Off Work" x:Name="DoWorkButton" Click="DoWorkButton_Click"/>
+    <Border Grid.Column="2" Grid.Row="2" Grid.RowSpan="2" CornerRadius="10,10,10,10" Margin="1.80200004577637,2,2,2">
+      <Border.Background>
+        <LinearGradientBrush EndPoint="0.560000002384186,0.00300000002607703" StartPoint="0.439999997615814,0.996999979019165">
+          <GradientStop Color="#FF586C57"/>
+          <GradientStop Color="#FFA3BDA3" Offset="0.536"/>
+          <GradientStop Color="#FF586C57" Offset="0.968999981880188"/>
+        </LinearGradientBrush>
+      </Border.Background>
+      <StackPanel Margin="4,4,4,4"  x:Name="FormData">
+        <TextBlock Height="Auto" Width="Auto" Text="First Name:" TextWrapping="Wrap" Margin="2,2,2,0"/>
+        <TextBox Height="Auto" Width="Auto" Text="" TextWrapping="Wrap" x:Name="Field1" Margin="2,0,2,4"/>
+        <TextBlock Height="Auto" Width="Auto" Text="Last Name:" TextWrapping="Wrap" Margin="2,4,2,0"/>
+        <TextBox Height="Auto" x:Name="Field2" Width="Auto" Text="" TextWrapping="Wrap" Margin="2,0,2,4"/>
+        <TextBlock Height="Auto" Width="Auto" Text="Company:" TextWrapping="Wrap" Margin="2,4,2,0"/>
+        <TextBox Height="Auto" x:Name="Field3" Width="Auto" Text="" TextWrapping="Wrap" Margin="2,0,2,2"/>
+        <TextBlock Height="22.537" Width="182" Text="Title:" TextWrapping="Wrap" Margin="2,4,2,0"/>
+        <TextBox Height="20.772" x:Name="Field4" Width="182" Text="" TextWrapping="Wrap" Margin="2,0,2,2"/>
+      </StackPanel>
+    </Border>
+    <Ellipse x:Name="StatusEllipse" Margin="4,2,2,2" Grid.Row="3" Stroke="#FF000000" Fill="#FF2D4DE0" MouseLeftButtonDown="StatusEllipse_MouseLeftButtonDown" RenderTransformOrigin="0.5,0.5" >
+      <Ellipse.RenderTransform>
+        <TransformGroup>
+          <ScaleTransform/>
+          <SkewTransform/>
+          <RotateTransform/>
+          <TranslateTransform/>
+        </TransformGroup>
+      </Ellipse.RenderTransform>
+      <ToolTipService.ToolTip>
+        <ToolTip Content="Click button to start work." />
+      </ToolTipService.ToolTip>
+    </Ellipse>
+    <Canvas HorizontalAlignment="Stretch" Margin="0,0,2,8" Grid.RowSpan="4" Grid.ColumnSpan="3" x:Name="PromptCancelCanvas" Visibility="Collapsed">
+      <Rectangle Height="300" Width="400" Fill="#FF808080" Stroke="#FF000000" Stretch="Fill" Opacity="0.6"/>
+      <Canvas Height="106" Width="289" Canvas.Left="46" Canvas.Top="85">
+        <Rectangle Height="106" Width="289" Fill="#FFFFFFFF" Stroke="#FF000000" RadiusX="23" RadiusY="23" Opacity="0.85"/>
+        <Button Height="34" x:Name="ButtonConfirmCancelYes" Width="100" Canvas.Left="15" Canvas.Top="49" Content="Yes" Click="ButtonConfirmCancelYes_Click"/>
+        <Button Height="34" x:Name="ButtonConfirmCancelNo" Width="100" Canvas.Left="164" Canvas.Top="49" Content="No" Click="ButtonConfirmCancelNo_Click"/>
+        <TextBlock Width="134.835" Canvas.Left="75" Canvas.Top="12.463" Text="Cancel Operation?" TextWrapping="Wrap"/>
+      </Canvas>
+    </Canvas>
+    <TextBlock Margin="67.8270034790039,0,-88.802001953125,0" Grid.Column="1" Grid.ColumnSpan="1" Text="BackgroundWorker Thread" TextWrapping="Wrap"/>
+  </Grid>
+</UserControl>

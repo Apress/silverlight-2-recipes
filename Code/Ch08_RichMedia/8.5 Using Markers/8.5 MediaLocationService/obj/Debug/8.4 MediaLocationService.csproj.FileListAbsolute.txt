@@ -1,0 +1,5 @@
+D:\work\Current Initiatives\Writing\SLBook\WorkInProgress\ChapterSamples\Ch08_RichMedia\8.4 Playlists\8.4 MediaLocationService\bin\Ch08_RichMedia.Recipe8_4.MediaLocatorService.dll
+D:\work\Current Initiatives\Writing\SLBook\WorkInProgress\ChapterSamples\Ch08_RichMedia\8.4 Playlists\8.4 MediaLocationService\bin\Ch08_RichMedia.Recipe8_4.MediaLocatorService.pdb
+D:\work\Current Initiatives\Writing\SLBook\WorkInProgress\ChapterSamples\Ch08_RichMedia\8.4 Playlists\8.4 MediaLocationService\obj\Debug\ResolveAssemblyReference.cache
+D:\work\Current Initiatives\Writing\SLBook\WorkInProgress\ChapterSamples\Ch08_RichMedia\8.4 Playlists\8.4 MediaLocationService\obj\Debug\Ch08_RichMedia.Recipe8_4.MediaLocatorService.dll
+D:\work\Current Initiatives\Writing\SLBook\WorkInProgress\ChapterSamples\Ch08_RichMedia\8.4 Playlists\8.4 MediaLocationService\obj\Debug\Ch08_RichMedia.Recipe8_4.MediaLocatorService.pdb

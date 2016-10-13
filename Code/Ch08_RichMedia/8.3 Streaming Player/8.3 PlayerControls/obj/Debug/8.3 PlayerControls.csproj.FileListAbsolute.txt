@@ -1,0 +1,12 @@
+D:\work\Current Initiatives\Writing\SLBook\WorkInProgress\ChapterSamples\Ch08_RichMedia\8.3 Streaming Player\8.3 PlayerControls\Bin\Debug\Ch08_RichMedia.Recipe8_3.PlrCntls.dll
+D:\work\Current Initiatives\Writing\SLBook\WorkInProgress\ChapterSamples\Ch08_RichMedia\8.3 Streaming Player\8.3 PlayerControls\Bin\Debug\Ch08_RichMedia.Recipe8_3.PlrCntls.pdb
+D:\work\Current Initiatives\Writing\SLBook\WorkInProgress\ChapterSamples\Ch08_RichMedia\8.3 Streaming Player\8.3 PlayerControls\obj\Debug\ResolveAssemblyReference.cache
+D:\work\Current Initiatives\Writing\SLBook\WorkInProgress\ChapterSamples\Ch08_RichMedia\8.3 Streaming Player\8.3 PlayerControls\obj\Debug\Ch08_RichMedia.Recipe8_3.PlrCntls.g.resources
+D:\work\Current Initiatives\Writing\SLBook\WorkInProgress\ChapterSamples\Ch08_RichMedia\8.3 Streaming Player\8.3 PlayerControls\obj\Debug\Ch08_RichMedia.Recipe8_3.PlrCntls.dll
+D:\work\Current Initiatives\Writing\SLBook\WorkInProgress\ChapterSamples\Ch08_RichMedia\8.3 Streaming Player\8.3 PlayerControls\obj\Debug\Ch08_RichMedia.Recipe8_3.PlrCntls.pdb
+D:\RobcamerDocs\Book Silverlight Recipes\Code\Ch08_RichMedia\8.3 Streaming Player\8.3 PlayerControls\Bin\Debug\Ch08_RichMedia.Recipe8_3.PlrCntls.dll
+D:\RobcamerDocs\Book Silverlight Recipes\Code\Ch08_RichMedia\8.3 Streaming Player\8.3 PlayerControls\Bin\Debug\Ch08_RichMedia.Recipe8_3.PlrCntls.pdb
+D:\RobcamerDocs\Book Silverlight Recipes\Code\Ch08_RichMedia\8.3 Streaming Player\8.3 PlayerControls\obj\Debug\ResolveAssemblyReference.cache
+D:\RobcamerDocs\Book Silverlight Recipes\Code\Ch08_RichMedia\8.3 Streaming Player\8.3 PlayerControls\obj\Debug\Ch08_RichMedia.Recipe8_3.PlrCntls.g.resources
+D:\RobcamerDocs\Book Silverlight Recipes\Code\Ch08_RichMedia\8.3 Streaming Player\8.3 PlayerControls\obj\Debug\Ch08_RichMedia.Recipe8_3.PlrCntls.dll
+D:\RobcamerDocs\Book Silverlight Recipes\Code\Ch08_RichMedia\8.3 Streaming Player\8.3 PlayerControls\obj\Debug\Ch08_RichMedia.Recipe8_3.PlrCntls.pdb

@@ -1,0 +1,19 @@
+﻿html
+{
+  height: 100%;
+}
+
+body
+{
+  margin: 0px;
+  padding:0px;
+  width: 400px;
+  height: 300px;
+}
+
+#silverlightControlHost
+{
+  margin: 0px;
+  padding:0px;
+  height: 100%;
+}

@@ -1,0 +1,14 @@
+C:\Users\robcamer.NORTHAMERICA\Documents\Book Silverlight Recipes\Code\Ch06_BrowserIntegration\TestWeb\bin\TestWeb.dll
+C:\Users\robcamer.NORTHAMERICA\Documents\Book Silverlight Recipes\Code\Ch06_BrowserIntegration\TestWeb\bin\TestWeb.pdb
+C:\Users\robcamer.NORTHAMERICA\Documents\Book Silverlight Recipes\Code\Ch06_BrowserIntegration\TestWeb\bin\System.Web.Silverlight.dll
+C:\Users\robcamer.NORTHAMERICA\Documents\Book Silverlight Recipes\Code\Ch06_BrowserIntegration\TestWeb\bin\de\System.Web.Silverlight.resources.dll
+C:\Users\robcamer.NORTHAMERICA\Documents\Book Silverlight Recipes\Code\Ch06_BrowserIntegration\TestWeb\bin\es\System.Web.Silverlight.resources.dll
+C:\Users\robcamer.NORTHAMERICA\Documents\Book Silverlight Recipes\Code\Ch06_BrowserIntegration\TestWeb\bin\fr\System.Web.Silverlight.resources.dll
+C:\Users\robcamer.NORTHAMERICA\Documents\Book Silverlight Recipes\Code\Ch06_BrowserIntegration\TestWeb\bin\it\System.Web.Silverlight.resources.dll
+C:\Users\robcamer.NORTHAMERICA\Documents\Book Silverlight Recipes\Code\Ch06_BrowserIntegration\TestWeb\bin\ja\System.Web.Silverlight.resources.dll
+C:\Users\robcamer.NORTHAMERICA\Documents\Book Silverlight Recipes\Code\Ch06_BrowserIntegration\TestWeb\bin\ko\System.Web.Silverlight.resources.dll
+C:\Users\robcamer.NORTHAMERICA\Documents\Book Silverlight Recipes\Code\Ch06_BrowserIntegration\TestWeb\bin\zh-Hans\System.Web.Silverlight.resources.dll
+C:\Users\robcamer.NORTHAMERICA\Documents\Book Silverlight Recipes\Code\Ch06_BrowserIntegration\TestWeb\bin\zh-Hant\System.Web.Silverlight.resources.dll
+C:\Users\robcamer.NORTHAMERICA\Documents\Book Silverlight Recipes\Code\Ch06_BrowserIntegration\TestWeb\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\robcamer.NORTHAMERICA\Documents\Book Silverlight Recipes\Code\Ch06_BrowserIntegration\TestWeb\obj\Debug\TestWeb.dll
+C:\Users\robcamer.NORTHAMERICA\Documents\Book Silverlight Recipes\Code\Ch06_BrowserIntegration\TestWeb\obj\Debug\TestWeb.pdb

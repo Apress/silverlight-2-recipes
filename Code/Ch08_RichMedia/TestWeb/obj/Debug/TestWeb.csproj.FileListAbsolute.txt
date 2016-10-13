@@ -1,0 +1,28 @@
+D:\work\Current Initiatives\Writing\SLBook\WorkInProgress\ChapterSamples\Ch08_RichMedia\TestWeb\bin\TestWeb.dll
+D:\work\Current Initiatives\Writing\SLBook\WorkInProgress\ChapterSamples\Ch08_RichMedia\TestWeb\bin\TestWeb.pdb
+D:\work\Current Initiatives\Writing\SLBook\WorkInProgress\ChapterSamples\Ch08_RichMedia\TestWeb\bin\System.Web.Silverlight.dll
+D:\work\Current Initiatives\Writing\SLBook\WorkInProgress\ChapterSamples\Ch08_RichMedia\TestWeb\bin\de\System.Web.Silverlight.resources.dll
+D:\work\Current Initiatives\Writing\SLBook\WorkInProgress\ChapterSamples\Ch08_RichMedia\TestWeb\bin\es\System.Web.Silverlight.resources.dll
+D:\work\Current Initiatives\Writing\SLBook\WorkInProgress\ChapterSamples\Ch08_RichMedia\TestWeb\bin\fr\System.Web.Silverlight.resources.dll
+D:\work\Current Initiatives\Writing\SLBook\WorkInProgress\ChapterSamples\Ch08_RichMedia\TestWeb\bin\it\System.Web.Silverlight.resources.dll
+D:\work\Current Initiatives\Writing\SLBook\WorkInProgress\ChapterSamples\Ch08_RichMedia\TestWeb\bin\ja\System.Web.Silverlight.resources.dll
+D:\work\Current Initiatives\Writing\SLBook\WorkInProgress\ChapterSamples\Ch08_RichMedia\TestWeb\bin\ko\System.Web.Silverlight.resources.dll
+D:\work\Current Initiatives\Writing\SLBook\WorkInProgress\ChapterSamples\Ch08_RichMedia\TestWeb\bin\zh-Hans\System.Web.Silverlight.resources.dll
+D:\work\Current Initiatives\Writing\SLBook\WorkInProgress\ChapterSamples\Ch08_RichMedia\TestWeb\bin\zh-Hant\System.Web.Silverlight.resources.dll
+D:\work\Current Initiatives\Writing\SLBook\WorkInProgress\ChapterSamples\Ch08_RichMedia\TestWeb\obj\Debug\ResolveAssemblyReference.cache
+D:\work\Current Initiatives\Writing\SLBook\WorkInProgress\ChapterSamples\Ch08_RichMedia\TestWeb\obj\Debug\TestWeb.dll
+D:\work\Current Initiatives\Writing\SLBook\WorkInProgress\ChapterSamples\Ch08_RichMedia\TestWeb\obj\Debug\TestWeb.pdb
+D:\RobcamerDocs\Book Silverlight Recipes\Code\Ch08_RichMedia\TestWeb\bin\TestWeb.dll
+D:\RobcamerDocs\Book Silverlight Recipes\Code\Ch08_RichMedia\TestWeb\bin\TestWeb.pdb
+D:\RobcamerDocs\Book Silverlight Recipes\Code\Ch08_RichMedia\TestWeb\bin\System.Web.Silverlight.dll
+D:\RobcamerDocs\Book Silverlight Recipes\Code\Ch08_RichMedia\TestWeb\bin\de\System.Web.Silverlight.resources.dll
+D:\RobcamerDocs\Book Silverlight Recipes\Code\Ch08_RichMedia\TestWeb\bin\es\System.Web.Silverlight.resources.dll
+D:\RobcamerDocs\Book Silverlight Recipes\Code\Ch08_RichMedia\TestWeb\bin\fr\System.Web.Silverlight.resources.dll
+D:\RobcamerDocs\Book Silverlight Recipes\Code\Ch08_RichMedia\TestWeb\bin\it\System.Web.Silverlight.resources.dll
+D:\RobcamerDocs\Book Silverlight Recipes\Code\Ch08_RichMedia\TestWeb\bin\ja\System.Web.Silverlight.resources.dll
+D:\RobcamerDocs\Book Silverlight Recipes\Code\Ch08_RichMedia\TestWeb\bin\ko\System.Web.Silverlight.resources.dll
+D:\RobcamerDocs\Book Silverlight Recipes\Code\Ch08_RichMedia\TestWeb\bin\zh-Hans\System.Web.Silverlight.resources.dll
+D:\RobcamerDocs\Book Silverlight Recipes\Code\Ch08_RichMedia\TestWeb\bin\zh-Hant\System.Web.Silverlight.resources.dll
+D:\RobcamerDocs\Book Silverlight Recipes\Code\Ch08_RichMedia\TestWeb\obj\Debug\ResolveAssemblyReference.cache
+D:\RobcamerDocs\Book Silverlight Recipes\Code\Ch08_RichMedia\TestWeb\obj\Debug\TestWeb.dll
+D:\RobcamerDocs\Book Silverlight Recipes\Code\Ch08_RichMedia\TestWeb\obj\Debug\TestWeb.pdb

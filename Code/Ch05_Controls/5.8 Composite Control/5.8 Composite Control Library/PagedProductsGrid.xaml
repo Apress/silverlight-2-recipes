@@ -1,0 +1,139 @@
+﻿<UserControl 
+  x:Class="Ch05_Controls.Recipe5_8.PagedProductsGrid"
+  xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation" 
+  xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" 
+  xmlns:vsm="clr-namespace:System.Windows;assembly=System.Windows"
+  xmlns:data=
+  "clr-namespace:System.Windows.Controls;assembly=System.Windows.Controls.Data"
+  Width="700" Height="300">
+  <UserControl.Resources>
+    <!-- control template for Pager ListBoxItem -->
+    <ControlTemplate TargetType="ListBoxItem" x:Key="ctLbxItemPageNum">
+      <Grid>        
+        <vsm:VisualStateManager.VisualStateGroups>
+          <vsm:VisualStateGroup x:Name="CommonStates">
+            <vsm:VisualState x:Name="Normal">
+              <Storyboard/>
+            </vsm:VisualState>
+            <vsm:VisualState x:Name="MouseOver">
+              <Storyboard>
+                <ColorAnimationUsingKeyFrames 
+                  BeginTime="00:00:00" 
+                  Duration="00:00:00.0010000" 
+                  Storyboard.TargetName="ContentBorder" 
+                  Storyboard.TargetProperty=
+                  "(Border.BorderBrush).(SolidColorBrush.Color)">
+                  <SplineColorKeyFrame KeyTime="00:00:00" Value="#FF091F88"/>
+                </ColorAnimationUsingKeyFrames>
+              </Storyboard>
+            </vsm:VisualState>
+          </vsm:VisualStateGroup>
+          <vsm:VisualStateGroup x:Name="SelectionStates">
+            <vsm:VisualState x:Name="Unselected">
+              <Storyboard/>
+            </vsm:VisualState>
+            <vsm:VisualState x:Name="Selected">
+              <Storyboard>
+                <ColorAnimationUsingKeyFrames 
+                  BeginTime="00:00:00" 
+                  Duration="00:00:00.0010000" 
+                  Storyboard.TargetName="ContentBorder" 
+                  Storyboard.TargetProperty=
+                  "(Border.Background).(SolidColorBrush.Color)">
+                  <SplineColorKeyFrame KeyTime="00:00:00" Value="#FF1279F5"/>
+                </ColorAnimationUsingKeyFrames>
+              </Storyboard>
+            </vsm:VisualState>
+            <vsm:VisualState x:Name="SelectedUnfocused">
+              <Storyboard>
+                <ColorAnimationUsingKeyFrames 
+                  BeginTime="00:00:00" 
+                  Duration="00:00:00.0010000" 
+                  Storyboard.TargetName="ContentBorder" 
+                  Storyboard.TargetProperty=
+                  "(Border.Background).(SolidColorBrush.Color)">
+                  <SplineColorKeyFrame KeyTime="00:00:00" Value="#FF1279F5"/>
+                </ColorAnimationUsingKeyFrames>
+              </Storyboard>
+            </vsm:VisualState>
+          </vsm:VisualStateGroup>
+          <vsm:VisualStateGroup x:Name="FocusStates">
+            <vsm:VisualState x:Name="Unfocused">
+              <Storyboard/>
+            </vsm:VisualState>
+            <vsm:VisualState x:Name="Focused">
+              <Storyboard/>
+            </vsm:VisualState>
+          </vsm:VisualStateGroup>
+        </vsm:VisualStateManager.VisualStateGroups>
+        
+        <Border HorizontalAlignment="Left" 
+                VerticalAlignment="Top" 
+                Margin="5,5,5,5" 
+                Padding="5,5,5,5" 
+                BorderBrush="#00091F88" 
+                BorderThickness="2,2,2,2" 
+                Background="#001279F5" 
+                x:Name="ContentBorder">
+          <ContentPresenter 
+            Content="{TemplateBinding Content}" 
+            ContentTemplate="{TemplateBinding ContentTemplate}"/>
+        </Border>
+      </Grid>
+    </ControlTemplate>
+    
+    <!-- style applying the Pager ListBoxItem control template -->
+    <Style x:Key="stylePageNum" TargetType="ListBoxItem">
+      <Setter Property="Template" Value="{StaticResource ctLbxItemPageNum}" />
+    </Style>
+    
+    <!-- Horizontal panel for the Pager ListBox -->
+    <ItemsPanelTemplate x:Key="iptHorizontalPanel">
+      <StackPanel Orientation="Horizontal"/>
+    </ItemsPanelTemplate>
+    
+    <!--Control template for Pager ListBox-->
+    <ControlTemplate x:Key="ctlbxPager" TargetType="ListBox">
+      <Grid>
+        <ItemsPresenter HorizontalAlignment="Left" VerticalAlignment="Top" />
+      </Grid>
+    </ControlTemplate>    
+  </UserControl.Resources>
+  
+  <Border Background="LightGray" BorderBrush="Black" BorderThickness="2,2,2,2">
+    <Grid x:Name="LayoutRoot">
+      <Grid.RowDefinitions>
+        <RowDefinition Height="85*" />
+        <RowDefinition Height="15*" />
+      </Grid.RowDefinitions>
+      <!-- data grid to display Products data -->
+      <data:DataGrid x:Name="dgProductPage" AutoGenerateColumns="False" 
+                     Grid.Row="0" 
+                     SelectionChanged="dgProductPage_SelectionChanged">
+        <data:DataGrid.Columns>
+          <data:DataGridTextColumn Binding="{Binding ProductID}" 
+                                   Header="ID" />
+          <data:DataGridTextColumn Binding="{Binding Name}" 
+                                   Header="Name"/>
+          <data:DataGridTextColumn Binding="{Binding ProductNumber}" 
+                                   Header="Number"/>
+          <data:DataGridTextColumn Binding="{Binding SellStartDate}" 
+                                   Header="Sell From"/>
+          <data:DataGridTextColumn Binding="{Binding SellEndDate}" 
+                                   Header="Sell Till"/>
+          <data:DataGridTextColumn Binding="{Binding Style}" 
+                                   Header="Style"/>
+        </data:DataGrid.Columns>
+      </data:DataGrid>
+      <!-- Pager Listbox-->
+      <ListBox x:Name="lbxPager" Grid.Row="1" 
+               HorizontalAlignment="Right" VerticalAlignment="Center"
+               SelectionChanged="lbxPager_SelectionChanged" 
+               ItemsPanel="{StaticResource iptHorizontalPanel}"             
+               ItemContainerStyle="{StaticResource stylePageNum}" 
+               Template="{StaticResource ctlbxPager}">
+      </ListBox>
+    </Grid>
+  </Border>
+</UserControl>
+

@@ -1,0 +1,14 @@
+C:\Users\robcamer.NORTHAMERICA\Documents\Book Silverlight Recipes\Code\Ch06_BrowserIntegration\Recipe6.8\Bin\Release\AppManifest.xaml
+C:\Users\robcamer.NORTHAMERICA\Documents\Book Silverlight Recipes\Code\Ch06_BrowserIntegration\Recipe6.8\Bin\Release\Ch06_BrowserIntegration.Recipe6_8.dll
+C:\Users\robcamer.NORTHAMERICA\Documents\Book Silverlight Recipes\Code\Ch06_BrowserIntegration\Recipe6.8\Bin\Release\Ch06_BrowserIntegration.Recipe6_8.pdb
+C:\Users\robcamer.NORTHAMERICA\Documents\Book Silverlight Recipes\Code\Ch06_BrowserIntegration\Recipe6.8\Bin\Release\Ch06_BrowserIntegration.Recipe6_8.xap
+C:\Users\robcamer.NORTHAMERICA\Documents\Book Silverlight Recipes\Code\Ch06_BrowserIntegration\Recipe6.8\Bin\Release\TestPage.html
+C:\Users\robcamer.NORTHAMERICA\Documents\Book Silverlight Recipes\Code\Ch06_BrowserIntegration\Recipe6.8\obj\Release\ResolveAssemblyReference.cache
+C:\Users\robcamer.NORTHAMERICA\Documents\Book Silverlight Recipes\Code\Ch06_BrowserIntegration\Recipe6.8\obj\Release\Ch06_BrowserIntegration.Recipe6_8.g.resources
+C:\Users\robcamer.NORTHAMERICA\Documents\Book Silverlight Recipes\Code\Ch06_BrowserIntegration\Recipe6.8\obj\Release\Ch06_BrowserIntegration.Recipe6_8.dll
+C:\Users\robcamer.NORTHAMERICA\Documents\Book Silverlight Recipes\Code\Ch06_BrowserIntegration\Recipe6.8\obj\Release\Ch06_BrowserIntegration.Recipe6_8.pdb
+C:\Users\robcamer.NORTHAMERICA\Documents\Book Silverlight Recipes\Code\Ch06_BrowserIntegration\Recipe6.8\obj\Release\XapCacheFile.xml
+C:\Users\robcamer.NORTHAMERICA\Documents\Book Silverlight Recipes\Code\Ch06_BrowserIntegration\Recipe6.8\obj\Release\DockedView.g.cs
+C:\Users\robcamer.NORTHAMERICA\Documents\Book Silverlight Recipes\Code\Ch06_BrowserIntegration\Recipe6.8\obj\Release\GadgetApp.g.cs
+C:\Users\robcamer.NORTHAMERICA\Documents\Book Silverlight Recipes\Code\Ch06_BrowserIntegration\Recipe6.8\obj\Release\FlyoutView.g.cs
+C:\Users\robcamer.NORTHAMERICA\Documents\Book Silverlight Recipes\Code\Ch06_BrowserIntegration\Recipe6.8\obj\Release\SettingsView.g.cs

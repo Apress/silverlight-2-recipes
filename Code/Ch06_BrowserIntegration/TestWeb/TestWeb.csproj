@@ -1,0 +1,268 @@
+﻿<Project ToolsVersion="3.5" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>9.0.30729</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{4011EE4E-A91C-4A3F-8A45-B750C8FC1B5A}</ProjectGuid>
+    <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>TestWeb</RootNamespace>
+    <AssemblyName>TestWeb</AssemblyName>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+    <SilverlightApplicationList>{1038005C-C190-40B0-9F9A-56DAE351064A}|..\Recipe6.1\Recipe6.1.csproj|ClientBin|False,{8A644214-9C59-4551-94E1-C5CBCC5E8CA2}|..\Recipe6.2\Recipe6.2.csproj|ClientBin|False,{F3868E4E-0E7F-423C-A9D0-8C328820BA7A}|..\Recipe6.3\Recipe6.3.csproj|ClientBin|False,{607FA5D2-5398-413D-893D-D49417644184}|..\Recipe6.4\Recipe6.4.csproj|ClientBin|False,{DC8C9DC6-0A96-4E6A-91D3-D9719A999420}|..\Recipe6.7\Recipe6.7.csproj|ClientBin|False,{D9A7FA7F-2A5E-4D4F-83DB-5C51E7EE7C24}|..\Recipe6.8\Recipe6.8.csproj|ClientBin|False,{DA6BAE75-9E48-4098-AEED-C288A04A98AA}|..\Recipe6.6\6-5 Call a JavaScript Method from Managed Code.csproj|ClientBin|False,{0B5B0F07-E67D-41E8-B5F9-74FD09D40F78}|..\Recipe6.5\6-6 Call a Managed Code Method from JavaScript.csproj|ClientBin|False</SilverlightApplicationList>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Core">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data.DataSetExtensions">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Web.Extensions">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Web.Silverlight, Version=2.0.5.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL" />
+    <Reference Include="System.Xml.Linq">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.EnterpriseServices" />
+    <Reference Include="System.Web.Mobile" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="ClientBin\Ch06_BrowserIntegration.Recipe6_8.xap" />
+    <Content Include="js\Recipe6.7.js" />
+    <Content Include="js\System.Web.Extensions\1.0.61025.0\Globalization\af-ZA.js" />
+    <Content Include="js\System.Web.Extensions\1.0.61025.0\Globalization\ar-AE.js" />
+    <Content Include="js\System.Web.Extensions\1.0.61025.0\Globalization\ar-BH.js" />
+    <Content Include="js\System.Web.Extensions\1.0.61025.0\Globalization\ar-DZ.js" />
+    <Content Include="js\System.Web.Extensions\1.0.61025.0\Globalization\ar-EG.js" />
+    <Content Include="js\System.Web.Extensions\1.0.61025.0\Globalization\ar-IQ.js" />
+    <Content Include="js\System.Web.Extensions\1.0.61025.0\Globalization\ar-JO.js" />
+    <Content Include="js\System.Web.Extensions\1.0.61025.0\Globalization\ar-KW.js" />
+    <Content Include="js\System.Web.Extensions\1.0.61025.0\Globalization\ar-LB.js" />
+    <Content Include="js\System.Web.Extensions\1.0.61025.0\Globalization\ar-LY.js" />
+    <Content Include="js\System.Web.Extensions\1.0.61025.0\Globalization\ar-MA.js" />
+    <Content Include="js\System.Web.Extensions\1.0.61025.0\Globalization\ar-OM.js" />
+    <Content Include="js\System.Web.Extensions\1.0.61025.0\Globalization\ar-QA.js" />
+    <Content Include="js\System.Web.Extensions\1.0.61025.0\Globalization\ar-SA.js" />
+    <Content Include="js\System.Web.Extensions\1.0.61025.0\Globalization\ar-SY.js" />
+    <Content Include="js\System.Web.Extensions\1.0.61025.0\Globalization\ar-TN.js" />
+    <Content Include="js\System.Web.Extensions\1.0.61025.0\Globalization\ar-YE.js" />
+    <Content Include="js\System.Web.Extensions\1.0.61025.0\Globalization\az-AZ-Cyrl.js" />
+    <Content Include="js\System.Web.Extensions\1.0.61025.0\Globalization\az-AZ-Latn.js" />
+    <Content Include="js\System.Web.Extensions\1.0.61025.0\Globalization\be-BY.js" />
+    <Content Include="js\System.Web.Extensions\1.0.61025.0\Globalization\bg-BG.js" />
+    <Content Include="js\System.Web.Extensions\1.0.61025.0\Globalization\ca-ES.js" />
+    <Content Include="js\System.Web.Extensions\1.0.61025.0\Globalization\cs-CZ.js" />
+    <Content Include="js\System.Web.Extensions\1.0.61025.0\Globalization\da-DK.js" />
+    <Content Include="js\System.Web.Extensions\1.0.61025.0\Globalization\de-AT.js" />
+    <Content Include="js\System.Web.Extensions\1.0.61025.0\Globalization\de-CH.js" />
+    <Content Include="js\System.Web.Extensions\1.0.61025.0\Globalization\de-DE.js" />
+    <Content Include="js\System.Web.Extensions\1.0.61025.0\Globalization\de-LI.js" />
+    <Content Include="js\System.Web.Extensions\1.0.61025.0\Globalization\de-LU.js" />
+    <Content Include="js\System.Web.Extensions\1.0.61025.0\Globalization\div-MV.js" />
+    <Content Include="js\System.Web.Extensions\1.0.61025.0\Globalization\el-GR.js" />
+    <Content Include="js\System.Web.Extensions\1.0.61025.0\Globalization\en-AU.js" />
+    <Content Include="js\System.Web.Extensions\1.0.61025.0\Globalization\en-BZ.js" />
+    <Content Include="js\System.Web.Extensions\1.0.61025.0\Globalization\en-CA.js" />
+    <Content Include="js\System.Web.Extensions\1.0.61025.0\Globalization\en-CB.js" />
+    <Content Include="js\System.Web.Extensions\1.0.61025.0\Globalization\en-GB.js" />
+    <Content Include="js\System.Web.Extensions\1.0.61025.0\Globalization\en-IE.js" />
+    <Content Include="js\System.Web.Extensions\1.0.61025.0\Globalization\en-JM.js" />
+    <Content Include="js\System.Web.Extensions\1.0.61025.0\Globalization\en-NZ.js" />
+    <Content Include="js\System.Web.Extensions\1.0.61025.0\Globalization\en-PH.js" />
+    <Content Include="js\System.Web.Extensions\1.0.61025.0\Globalization\en-TT.js" />
+    <Content Include="js\System.Web.Extensions\1.0.61025.0\Globalization\en-US.js" />
+    <Content Include="js\System.Web.Extensions\1.0.61025.0\Globalization\en-ZA.js" />
+    <Content Include="js\System.Web.Extensions\1.0.61025.0\Globalization\en-ZW.js" />
+    <Content Include="js\System.Web.Extensions\1.0.61025.0\Globalization\es-AR.js" />
+    <Content Include="js\System.Web.Extensions\1.0.61025.0\Globalization\es-BO.js" />
+    <Content Include="js\System.Web.Extensions\1.0.61025.0\Globalization\es-CL.js" />
+    <Content Include="js\System.Web.Extensions\1.0.61025.0\Globalization\es-CO.js" />
+    <Content Include="js\System.Web.Extensions\1.0.61025.0\Globalization\es-CR.js" />
+    <Content Include="js\System.Web.Extensions\1.0.61025.0\Globalization\es-DO.js" />
+    <Content Include="js\System.Web.Extensions\1.0.61025.0\Globalization\es-EC.js" />
+    <Content Include="js\System.Web.Extensions\1.0.61025.0\Globalization\es-ES.js" />
+    <Content Include="js\System.Web.Extensions\1.0.61025.0\Globalization\es-GT.js" />
+    <Content Include="js\System.Web.Extensions\1.0.61025.0\Globalization\es-HN.js" />
+    <Content Include="js\System.Web.Extensions\1.0.61025.0\Globalization\es-MX.js" />
+    <Content Include="js\System.Web.Extensions\1.0.61025.0\Globalization\es-NI.js" />
+    <Content Include="js\System.Web.Extensions\1.0.61025.0\Globalization\es-PA.js" />
+    <Content Include="js\System.Web.Extensions\1.0.61025.0\Globalization\es-PE.js" />
+    <Content Include="js\System.Web.Extensions\1.0.61025.0\Globalization\es-PR.js" />
+    <Content Include="js\System.Web.Extensions\1.0.61025.0\Globalization\es-PY.js" />
+    <Content Include="js\System.Web.Extensions\1.0.61025.0\Globalization\es-SV.js" />
+    <Content Include="js\System.Web.Extensions\1.0.61025.0\Globalization\es-UY.js" />
+    <Content Include="js\System.Web.Extensions\1.0.61025.0\Globalization\es-VE.js" />
+    <Content Include="js\System.Web.Extensions\1.0.61025.0\Globalization\et-EE.js" />
+    <Content Include="js\System.Web.Extensions\1.0.61025.0\Globalization\eu-ES.js" />
+    <Content Include="js\System.Web.Extensions\1.0.61025.0\Globalization\fa-IR.js" />
+    <Content Include="js\System.Web.Extensions\1.0.61025.0\Globalization\fi-FI.js" />
+    <Content Include="js\System.Web.Extensions\1.0.61025.0\Globalization\fo-FO.js" />
+    <Content Include="js\System.Web.Extensions\1.0.61025.0\Globalization\fr-BE.js" />
+    <Content Include="js\System.Web.Extensions\1.0.61025.0\Globalization\fr-CA.js" />
+    <Content Include="js\System.Web.Extensions\1.0.61025.0\Globalization\fr-CH.js" />
+    <Content Include="js\System.Web.Extensions\1.0.61025.0\Globalization\fr-FR.js" />
+    <Content Include="js\System.Web.Extensions\1.0.61025.0\Globalization\fr-LU.js" />
+    <Content Include="js\System.Web.Extensions\1.0.61025.0\Globalization\fr-MC.js" />
+    <Content Include="js\System.Web.Extensions\1.0.61025.0\Globalization\gl-ES.js" />
+    <Content Include="js\System.Web.Extensions\1.0.61025.0\Globalization\gu-IN.js" />
+    <Content Include="js\System.Web.Extensions\1.0.61025.0\Globalization\he-IL.js" />
+    <Content Include="js\System.Web.Extensions\1.0.61025.0\Globalization\hi-IN.js" />
+    <Content Include="js\System.Web.Extensions\1.0.61025.0\Globalization\hr-HR.js" />
+    <Content Include="js\System.Web.Extensions\1.0.61025.0\Globalization\hu-HU.js" />
+    <Content Include="js\System.Web.Extensions\1.0.61025.0\Globalization\hy-AM.js" />
+    <Content Include="js\System.Web.Extensions\1.0.61025.0\Globalization\id-ID.js" />
+    <Content Include="js\System.Web.Extensions\1.0.61025.0\Globalization\is-IS.js" />
+    <Content Include="js\System.Web.Extensions\1.0.61025.0\Globalization\it-CH.js" />
+    <Content Include="js\System.Web.Extensions\1.0.61025.0\Globalization\it-IT.js" />
+    <Content Include="js\System.Web.Extensions\1.0.61025.0\Globalization\ja-JP.js" />
+    <Content Include="js\System.Web.Extensions\1.0.61025.0\Globalization\ka-GE.js" />
+    <Content Include="js\System.Web.Extensions\1.0.61025.0\Globalization\kk-KZ.js" />
+    <Content Include="js\System.Web.Extensions\1.0.61025.0\Globalization\kn-IN.js" />
+    <Content Include="js\System.Web.Extensions\1.0.61025.0\Globalization\ko-KR.js" />
+    <Content Include="js\System.Web.Extensions\1.0.61025.0\Globalization\kok-IN.js" />
+    <Content Include="js\System.Web.Extensions\1.0.61025.0\Globalization\ky-KG.js" />
+    <Content Include="js\System.Web.Extensions\1.0.61025.0\Globalization\lt-LT.js" />
+    <Content Include="js\System.Web.Extensions\1.0.61025.0\Globalization\lv-LV.js" />
+    <Content Include="js\System.Web.Extensions\1.0.61025.0\Globalization\mk-MK.js" />
+    <Content Include="js\System.Web.Extensions\1.0.61025.0\Globalization\mn-MN.js" />
+    <Content Include="js\System.Web.Extensions\1.0.61025.0\Globalization\mr-IN.js" />
+    <Content Include="js\System.Web.Extensions\1.0.61025.0\Globalization\ms-BN.js" />
+    <Content Include="js\System.Web.Extensions\1.0.61025.0\Globalization\ms-MY.js" />
+    <Content Include="js\System.Web.Extensions\1.0.61025.0\Globalization\nb-NO.js" />
+    <Content Include="js\System.Web.Extensions\1.0.61025.0\Globalization\nl-BE.js" />
+    <Content Include="js\System.Web.Extensions\1.0.61025.0\Globalization\nl-NL.js" />
+    <Content Include="js\System.Web.Extensions\1.0.61025.0\Globalization\nn-NO.js" />
+    <Content Include="js\System.Web.Extensions\1.0.61025.0\Globalization\pa-IN.js" />
+    <Content Include="js\System.Web.Extensions\1.0.61025.0\Globalization\pl-PL.js" />
+    <Content Include="js\System.Web.Extensions\1.0.61025.0\Globalization\pt-BR.js" />
+    <Content Include="js\System.Web.Extensions\1.0.61025.0\Globalization\pt-PT.js" />
+    <Content Include="js\System.Web.Extensions\1.0.61025.0\Globalization\ro-RO.js" />
+    <Content Include="js\System.Web.Extensions\1.0.61025.0\Globalization\ru-RU.js" />
+    <Content Include="js\System.Web.Extensions\1.0.61025.0\Globalization\sa-IN.js" />
+    <Content Include="js\System.Web.Extensions\1.0.61025.0\Globalization\sk-SK.js" />
+    <Content Include="js\System.Web.Extensions\1.0.61025.0\Globalization\sl-SI.js" />
+    <Content Include="js\System.Web.Extensions\1.0.61025.0\Globalization\sq-AL.js" />
+    <Content Include="js\System.Web.Extensions\1.0.61025.0\Globalization\sr-SP-Cyrl.js" />
+    <Content Include="js\System.Web.Extensions\1.0.61025.0\Globalization\sr-SP-Latn.js" />
+    <Content Include="js\System.Web.Extensions\1.0.61025.0\Globalization\sv-FI.js" />
+    <Content Include="js\System.Web.Extensions\1.0.61025.0\Globalization\sv-SE.js" />
+    <Content Include="js\System.Web.Extensions\1.0.61025.0\Globalization\sw-KE.js" />
+    <Content Include="js\System.Web.Extensions\1.0.61025.0\Globalization\syr-SY.js" />
+    <Content Include="js\System.Web.Extensions\1.0.61025.0\Globalization\ta-IN.js" />
+    <Content Include="js\System.Web.Extensions\1.0.61025.0\Globalization\te-IN.js" />
+    <Content Include="js\System.Web.Extensions\1.0.61025.0\Globalization\th-TH.js" />
+    <Content Include="js\System.Web.Extensions\1.0.61025.0\Globalization\tr-TR.js" />
+    <Content Include="js\System.Web.Extensions\1.0.61025.0\Globalization\tt-RU.js" />
+    <Content Include="js\System.Web.Extensions\1.0.61025.0\Globalization\uk-UA.js" />
+    <Content Include="js\System.Web.Extensions\1.0.61025.0\Globalization\ur-PK.js" />
+    <Content Include="js\System.Web.Extensions\1.0.61025.0\Globalization\uz-UZ-Cyrl.js" />
+    <Content Include="js\System.Web.Extensions\1.0.61025.0\Globalization\uz-UZ-Latn.js" />
+    <Content Include="js\System.Web.Extensions\1.0.61025.0\Globalization\vi-VN.js" />
+    <Content Include="js\System.Web.Extensions\1.0.61025.0\Globalization\zh-CN.js" />
+    <Content Include="js\System.Web.Extensions\1.0.61025.0\Globalization\zh-HK.js" />
+    <Content Include="js\System.Web.Extensions\1.0.61025.0\Globalization\zh-MO.js" />
+    <Content Include="js\System.Web.Extensions\1.0.61025.0\Globalization\zh-SG.js" />
+    <Content Include="js\System.Web.Extensions\1.0.61025.0\Globalization\zh-TW.js" />
+    <Content Include="js\System.Web.Extensions\1.0.61025.0\MicrosoftAjax.debug.js" />
+    <Content Include="js\System.Web.Extensions\1.0.61025.0\MicrosoftAjax.js" />
+    <Content Include="js\System.Web.Extensions\1.0.61025.0\MicrosoftAjaxTimer.debug.js" />
+    <Content Include="js\System.Web.Extensions\1.0.61025.0\MicrosoftAjaxTimer.js" />
+    <Content Include="js\System.Web.Extensions\1.0.61025.0\MicrosoftAjaxWebForms.debug.js" />
+    <Content Include="js\System.Web.Extensions\1.0.61025.0\MicrosoftAjaxWebForms.js" />
+    <Content Include="xml\ApressBooks.xml" />
+    <Content Include="ClientBin\Ch06_BrowserIntegration.Recipe6_1.xap" />
+    <Content Include="ClientBin\Ch06_BrowserIntegration.Recipe6_2.xap" />
+    <Content Include="ClientBin\Ch06_BrowserIntegration.Recipe6_3.xap" />
+    <Content Include="ClientBin\Ch06_BrowserIntegration.Recipe6_4.xap" />
+    <EmbeddedResource Include="Default.aspx" />
+    <Content Include="ClientBin\Ch06_BrowserIntegration.Recipe6_5.xap" />
+    <Content Include="ClientBin\Ch06_BrowserIntegration.Recipe6_6.xap" />
+    <Content Include="ClientBin\Ch06_BrowserIntegration.Recipe6_7.xap" />
+    <Content Include="bin\css\Recipe6.5.css" />
+    <Content Include="js\Recipe6.5.js" />
+    <Content Include="js\Recipe6.6.js" />
+    <Content Include="Recipe6.1TestPage.html" />
+    <Content Include="Recipe6.2TestPage.aspx" />
+    <Content Include="Recipe6.3TestPage.aspx" />
+    <Content Include="Recipe6.3TestPage.html" />
+    <Content Include="Recipe6.4TestPage.aspx" />
+    <Content Include="Recipe6.4TestPage.html" />
+    <Content Include="Recipe6.6TestPage.aspx" />
+    <Content Include="Recipe6.6TestPage.html" />
+    <Content Include="Recipe6.5TestPage.aspx" />
+    <Content Include="Recipe6.5TestPage.html" />
+    <Content Include="Recipe6.7TestPage.aspx" />
+    <Content Include="Recipe6.7TestPage.html" />
+    <Content Include="Silverlight.js" />
+    <Content Include="Web.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Default.aspx.cs">
+      <SubType>ASPXCodeBehind</SubType>
+      <DependentUpon>Default.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Default.aspx.designer.cs">
+      <DependentUpon>Default.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="App_Data\" />
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <Import Project="$(MSBuildExtensionsPath)\Microsoft\VisualStudio\v9.0\WebApplications\Microsoft.WebApplication.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
+        <WebProjectProperties>
+          <UseIIS>False</UseIIS>
+          <AutoAssignPort>False</AutoAssignPort>
+          <DevelopmentServerPort>9090</DevelopmentServerPort>
+          <DevelopmentServerVPath>/</DevelopmentServerVPath>
+          <IISUrl>
+          </IISUrl>
+          <NTLMAuthentication>False</NTLMAuthentication>
+          <UseCustomServer>False</UseCustomServer>
+          <CustomServerUrl>
+          </CustomServerUrl>
+          <SaveServerSettingsInUserFile>False</SaveServerSettingsInUserFile>
+        </WebProjectProperties>
+      </FlavorProperties>
+    </VisualStudio>
+  </ProjectExtensions>
+</Project>

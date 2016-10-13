@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<gadget>
+  <name>Silverlight 2 Recipes Gadget</name>
+  <namespace>Ch06_BrowserIntegration</namespace>
+  <version>1.0</version>
+  <author name="Rob Cameron and Jit Ghosh">
+  </author>
+  <copyright>2008</copyright>
+  <description>Demonstrating Silverlight 2 in a Gadget</description>
+  <icons>
+  </icons>
+  <hosts>
+    <host name="sidebar">
+      <base type="HTML" apiVersion="1.0.0"
+            src="DockedUndockedView.html" />
+      <permissions>full</permissions>
+      <platform minPlatformVersion="1.0" />
+    </host>
+  </hosts>
+</gadget>
+

@@ -1,0 +1,14 @@
+D:\work\Current Initiatives\Writing\SLBook\WorkInProgress\ChapterSamples\Ch05_Controls\5.9 Custom Wrap Panel\5.9 Wrap Panel Test\Bin\Debug\AppManifest.xaml
+D:\work\Current Initiatives\Writing\SLBook\WorkInProgress\ChapterSamples\Ch05_Controls\5.9 Custom Wrap Panel\5.9 Wrap Panel Test\Bin\Debug\Ch05_Controls.Recipe5_9.WrapPanelTest.dll
+D:\work\Current Initiatives\Writing\SLBook\WorkInProgress\ChapterSamples\Ch05_Controls\5.9 Custom Wrap Panel\5.9 Wrap Panel Test\Bin\Debug\Ch05_Controls.Recipe5_9.WrapPanelTest.pdb
+D:\work\Current Initiatives\Writing\SLBook\WorkInProgress\ChapterSamples\Ch05_Controls\5.9 Custom Wrap Panel\5.9 Wrap Panel Test\Bin\Debug\Ch05_Controls.Recipe5_9.WrapPanelTest.xap
+D:\work\Current Initiatives\Writing\SLBook\WorkInProgress\ChapterSamples\Ch05_Controls\5.9 Custom Wrap Panel\5.9 Wrap Panel Test\Bin\Debug\TestPage.html
+D:\work\Current Initiatives\Writing\SLBook\WorkInProgress\ChapterSamples\Ch05_Controls\5.9 Custom Wrap Panel\5.9 Wrap Panel Test\Bin\Debug\Ch05_Controls.Recipe5_9.WrapPanel.dll
+D:\work\Current Initiatives\Writing\SLBook\WorkInProgress\ChapterSamples\Ch05_Controls\5.9 Custom Wrap Panel\5.9 Wrap Panel Test\Bin\Debug\Ch05_Controls.Recipe5_9.WrapPanel.pdb
+D:\work\Current Initiatives\Writing\SLBook\WorkInProgress\ChapterSamples\Ch05_Controls\5.9 Custom Wrap Panel\5.9 Wrap Panel Test\obj\Debug\ResolveAssemblyReference.cache
+D:\work\Current Initiatives\Writing\SLBook\WorkInProgress\ChapterSamples\Ch05_Controls\5.9 Custom Wrap Panel\5.9 Wrap Panel Test\obj\Debug\App.g.cs
+D:\work\Current Initiatives\Writing\SLBook\WorkInProgress\ChapterSamples\Ch05_Controls\5.9 Custom Wrap Panel\5.9 Wrap Panel Test\obj\Debug\Page.g.cs
+D:\work\Current Initiatives\Writing\SLBook\WorkInProgress\ChapterSamples\Ch05_Controls\5.9 Custom Wrap Panel\5.9 Wrap Panel Test\obj\Debug\Ch05_Controls.Recipe5_9.WrapPanelTest.g.resources
+D:\work\Current Initiatives\Writing\SLBook\WorkInProgress\ChapterSamples\Ch05_Controls\5.9 Custom Wrap Panel\5.9 Wrap Panel Test\obj\Debug\Ch05_Controls.Recipe5_9.WrapPanelTest.dll
+D:\work\Current Initiatives\Writing\SLBook\WorkInProgress\ChapterSamples\Ch05_Controls\5.9 Custom Wrap Panel\5.9 Wrap Panel Test\obj\Debug\Ch05_Controls.Recipe5_9.WrapPanelTest.pdb
+D:\work\Current Initiatives\Writing\SLBook\WorkInProgress\ChapterSamples\Ch05_Controls\5.9 Custom Wrap Panel\5.9 Wrap Panel Test\obj\Debug\XapCacheFile.xml

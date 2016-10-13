@@ -1,0 +1,12 @@
+D:\work\Current Initiatives\Writing\SLBook\WorkInProgress\ChapterSamples\Ch08_RichMedia\8.4 Playlists\8.4 PlayerControls\Bin\Debug\Ch08_RichMedia.Recipe8_4.PlrCntls.dll
+D:\work\Current Initiatives\Writing\SLBook\WorkInProgress\ChapterSamples\Ch08_RichMedia\8.4 Playlists\8.4 PlayerControls\Bin\Debug\Ch08_RichMedia.Recipe8_4.PlrCntls.pdb
+D:\work\Current Initiatives\Writing\SLBook\WorkInProgress\ChapterSamples\Ch08_RichMedia\8.4 Playlists\8.4 PlayerControls\obj\Debug\ResolveAssemblyReference.cache
+D:\work\Current Initiatives\Writing\SLBook\WorkInProgress\ChapterSamples\Ch08_RichMedia\8.4 Playlists\8.4 PlayerControls\obj\Debug\Ch08_RichMedia.Recipe8_4.PlrCntls.g.resources
+D:\work\Current Initiatives\Writing\SLBook\WorkInProgress\ChapterSamples\Ch08_RichMedia\8.4 Playlists\8.4 PlayerControls\obj\Debug\Ch08_RichMedia.Recipe8_4.PlrCntls.dll
+D:\work\Current Initiatives\Writing\SLBook\WorkInProgress\ChapterSamples\Ch08_RichMedia\8.4 Playlists\8.4 PlayerControls\obj\Debug\Ch08_RichMedia.Recipe8_4.PlrCntls.pdb
+D:\work\Current Initiatives\Writing\SLBook\WorkInProgress\ChapterSamples\Ch08_RichMedia\8.5 Using Markers\8.5 PlayerControls\Bin\Debug\Ch08_RichMedia.Recipe8_5.PlrCntls.dll
+D:\work\Current Initiatives\Writing\SLBook\WorkInProgress\ChapterSamples\Ch08_RichMedia\8.5 Using Markers\8.5 PlayerControls\Bin\Debug\Ch08_RichMedia.Recipe8_5.PlrCntls.pdb
+D:\work\Current Initiatives\Writing\SLBook\WorkInProgress\ChapterSamples\Ch08_RichMedia\8.5 Using Markers\8.5 PlayerControls\obj\Debug\ResolveAssemblyReference.cache
+D:\work\Current Initiatives\Writing\SLBook\WorkInProgress\ChapterSamples\Ch08_RichMedia\8.5 Using Markers\8.5 PlayerControls\obj\Debug\Ch08_RichMedia.Recipe8_5.PlrCntls.g.resources
+D:\work\Current Initiatives\Writing\SLBook\WorkInProgress\ChapterSamples\Ch08_RichMedia\8.5 Using Markers\8.5 PlayerControls\obj\Debug\Ch08_RichMedia.Recipe8_5.PlrCntls.dll
+D:\work\Current Initiatives\Writing\SLBook\WorkInProgress\ChapterSamples\Ch08_RichMedia\8.5 Using Markers\8.5 PlayerControls\obj\Debug\Ch08_RichMedia.Recipe8_5.PlrCntls.pdb

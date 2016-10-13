@@ -1,0 +1,45 @@
+﻿<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <ProjectView>ProjectFiles</ProjectView>
+  </PropertyGroup>
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
+        <WebProjectProperties>
+          <StartPageUrl>Default.aspx</StartPageUrl>
+          <StartAction>SpecificPage</StartAction>
+          <AspNetDebugging>True</AspNetDebugging>
+          <SilverlightDebugging>True</SilverlightDebugging>
+          <NativeDebugging>False</NativeDebugging>
+          <SQLDebugging>False</SQLDebugging>
+          <PublishCopyOption>RunFiles</PublishCopyOption>
+          <PublishTargetLocation>
+          </PublishTargetLocation>
+          <PublishDeleteAllFiles>False</PublishDeleteAllFiles>
+          <PublishCopyAppData>True</PublishCopyAppData>
+          <ExternalProgram>
+          </ExternalProgram>
+          <StartExternalURL>
+          </StartExternalURL>
+          <StartCmdLineArguments>
+          </StartCmdLineArguments>
+          <StartWorkingDirectory>
+          </StartWorkingDirectory>
+          <EnableENC>False</EnableENC>
+          <AlwaysStartWebServerOnDebug>True</AlwaysStartWebServerOnDebug>
+          <EnableWcfTestClientForSVC>False</EnableWcfTestClientForSVC>
+          <ProjectOutputReferences>
+            <Ref Project="{1038005C-C190-40B0-9F9A-56DAE351064A}" Folder="ClientBin">Ch06_BrowserIntegration.Recipe6_1.xap</Ref>
+            <Ref Project="{8A644214-9C59-4551-94E1-C5CBCC5E8CA2}" Folder="ClientBin">Ch06_BrowserIntegration.Recipe6_2.xap</Ref>
+            <Ref Project="{F3868E4E-0E7F-423C-A9D0-8C328820BA7A}" Folder="ClientBin">Ch06_BrowserIntegration.Recipe6_3.xap</Ref>
+            <Ref Project="{607FA5D2-5398-413D-893D-D49417644184}" Folder="ClientBin">Ch06_BrowserIntegration.Recipe6_4.xap</Ref>
+            <Ref Project="{DC8C9DC6-0A96-4E6A-91D3-D9719A999420}" Folder="ClientBin">Ch06_BrowserIntegration.Recipe6_7.xap</Ref>
+            <Ref Project="{D9A7FA7F-2A5E-4D4F-83DB-5C51E7EE7C24}" Folder="ClientBin">Ch06_BrowserIntegration.Recipe6_8.xap</Ref>
+            <Ref Project="{DA6BAE75-9E48-4098-AEED-C288A04A98AA}" Folder="ClientBin">Ch06_BrowserIntegration.Recipe6_5.xap</Ref>
+            <Ref Project="{0B5B0F07-E67D-41E8-B5F9-74FD09D40F78}" Folder="ClientBin">Ch06_BrowserIntegration.Recipe6_6.xap</Ref>
+          </ProjectOutputReferences>
+        </WebProjectProperties>
+      </FlavorProperties>
+    </VisualStudio>
+  </ProjectExtensions>
+</Project>

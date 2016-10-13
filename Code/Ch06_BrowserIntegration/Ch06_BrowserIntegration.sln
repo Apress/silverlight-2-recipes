@@ -1,0 +1,93 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 10.00
+# Visual Studio 2008
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestWeb", "TestWeb\TestWeb.csproj", "{4011EE4E-A91C-4A3F-8A45-B750C8FC1B5A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "6-1 Hosting Silverlight in Any Technology", "Recipe6.1\6-1 Hosting Silverlight in Any Technology.csproj", "{1038005C-C190-40B0-9F9A-56DAE351064A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "6-2 Hosting Silverlight in ASP.NET", "Recipe6.2\6-2 Hosting Silverlight in ASP.NET.csproj", "{8A644214-9C59-4551-94E1-C5CBCC5E8CA2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "6-3 Setting Focus for Keyboard Input", "Recipe6.3\6-3 Setting Focus for Keyboard Input.csproj", "{F3868E4E-0E7F-423C-A9D0-8C328820BA7A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "6-4 Implementing a Full-Screen UI", "Recipe6.4\6-4 Implementing a Full-Screen UI.csproj", "{607FA5D2-5398-413D-893D-D49417644184}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "6-6 Calling a Managed Code Method from JavaScript", "Recipe6.5\6-6 Calling a Managed Code Method from JavaScript.csproj", "{0B5B0F07-E67D-41E8-B5F9-74FD09D40F78}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "6-5 Calling a JavaScript Method from Managed Code", "Recipe6.6\6-5 Calling a JavaScript Method from Managed Code.csproj", "{DA6BAE75-9E48-4098-AEED-C288A04A98AA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "6-7 Exchanging Data between Multiple Plug-ins", "Recipe6.7\6-7 Exchanging Data between Multiple Plug-ins.csproj", "{DC8C9DC6-0A96-4E6A-91D3-D9719A999420}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "6-8 Embeding Silverlight within a Vista Gadget", "Recipe6.8\6-8 Embeding Silverlight within a Vista Gadget.csproj", "{D9A7FA7F-2A5E-4D4F-83DB-5C51E7EE7C24}"
+EndProject
+Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "Silverlight2RecipesGadget", "Silverlight2RecipesGadget\", "{63992E08-520B-4FBA-A4D1-DE1F67EF5F8A}"
+	ProjectSection(WebsiteProperties) = preProject
+		TargetFramework = "3.5"
+		Debug.AspNetCompiler.VirtualPath = "/Silverlight2RecipesGadget"
+		Debug.AspNetCompiler.PhysicalPath = "Silverlight2RecipesGadget\"
+		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\Silverlight2RecipesGadget\"
+		Debug.AspNetCompiler.Updateable = "true"
+		Debug.AspNetCompiler.ForceOverwrite = "true"
+		Debug.AspNetCompiler.FixedNames = "false"
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.VirtualPath = "/Silverlight2RecipesGadget"
+		Release.AspNetCompiler.PhysicalPath = "Silverlight2RecipesGadget\"
+		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\Silverlight2RecipesGadget\"
+		Release.AspNetCompiler.Updateable = "true"
+		Release.AspNetCompiler.ForceOverwrite = "true"
+		Release.AspNetCompiler.FixedNames = "false"
+		Release.AspNetCompiler.Debug = "False"
+		VWDPort = "52449"
+		ProjOutputReferences = "{D9A7FA7F-2A5E-4D4F-83DB-5C51E7EE7C24}|ClientBin|false;"
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{4011EE4E-A91C-4A3F-8A45-B750C8FC1B5A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4011EE4E-A91C-4A3F-8A45-B750C8FC1B5A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4011EE4E-A91C-4A3F-8A45-B750C8FC1B5A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4011EE4E-A91C-4A3F-8A45-B750C8FC1B5A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1038005C-C190-40B0-9F9A-56DAE351064A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1038005C-C190-40B0-9F9A-56DAE351064A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1038005C-C190-40B0-9F9A-56DAE351064A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1038005C-C190-40B0-9F9A-56DAE351064A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8A644214-9C59-4551-94E1-C5CBCC5E8CA2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8A644214-9C59-4551-94E1-C5CBCC5E8CA2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8A644214-9C59-4551-94E1-C5CBCC5E8CA2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8A644214-9C59-4551-94E1-C5CBCC5E8CA2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F3868E4E-0E7F-423C-A9D0-8C328820BA7A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F3868E4E-0E7F-423C-A9D0-8C328820BA7A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F3868E4E-0E7F-423C-A9D0-8C328820BA7A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F3868E4E-0E7F-423C-A9D0-8C328820BA7A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{607FA5D2-5398-413D-893D-D49417644184}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{607FA5D2-5398-413D-893D-D49417644184}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{607FA5D2-5398-413D-893D-D49417644184}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{607FA5D2-5398-413D-893D-D49417644184}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0B5B0F07-E67D-41E8-B5F9-74FD09D40F78}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0B5B0F07-E67D-41E8-B5F9-74FD09D40F78}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0B5B0F07-E67D-41E8-B5F9-74FD09D40F78}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0B5B0F07-E67D-41E8-B5F9-74FD09D40F78}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DA6BAE75-9E48-4098-AEED-C288A04A98AA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DA6BAE75-9E48-4098-AEED-C288A04A98AA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DA6BAE75-9E48-4098-AEED-C288A04A98AA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DA6BAE75-9E48-4098-AEED-C288A04A98AA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DC8C9DC6-0A96-4E6A-91D3-D9719A999420}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DC8C9DC6-0A96-4E6A-91D3-D9719A999420}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DC8C9DC6-0A96-4E6A-91D3-D9719A999420}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DC8C9DC6-0A96-4E6A-91D3-D9719A999420}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D9A7FA7F-2A5E-4D4F-83DB-5C51E7EE7C24}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D9A7FA7F-2A5E-4D4F-83DB-5C51E7EE7C24}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D9A7FA7F-2A5E-4D4F-83DB-5C51E7EE7C24}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D9A7FA7F-2A5E-4D4F-83DB-5C51E7EE7C24}.Release|Any CPU.Build.0 = Release|Any CPU
+		{63992E08-520B-4FBA-A4D1-DE1F67EF5F8A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{63992E08-520B-4FBA-A4D1-DE1F67EF5F8A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{63992E08-520B-4FBA-A4D1-DE1F67EF5F8A}.Release|Any CPU.ActiveCfg = Debug|Any CPU
+		{63992E08-520B-4FBA-A4D1-DE1F67EF5F8A}.Release|Any CPU.Build.0 = Debug|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,22 @@
+﻿<asx version="3.0">
+  <Title>SampleCSPL</Title>
+  <Entry>
+    <Duration value = "00:00:10" />
+    <Title>Amazon_1080</Title>
+    <Ref href = "mms://dc7600:43000/Media/Amazon_1080.wmv"/>
+  </Entry>
+  <Entry>
+    <Title>AdrenalineRush</Title>
+    <Ref href = "mms://dc7600:43000/Media/AdrenalineRush.wmv"/>
+  </Entry>
+  <Entry>
+    <Duration value = "00:00:10" />
+    <Title>Alexander_Trailer_1080p</Title>
+    <Ref href = "mms://dc7600:43000/Media/Alexander_Trailer_1080p.wmv"/>
+  </Entry>
+  <Entry>
+    <Duration value = "00:00:10" />
+    <Title>Amazing_Caves_1080</Title>
+    <Ref href = "mms://dc7600:43000/Media/Amazing_Caves_1080.wmv"/>
+  </Entry>
+</asx>

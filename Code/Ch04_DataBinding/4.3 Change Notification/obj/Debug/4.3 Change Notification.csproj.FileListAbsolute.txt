@@ -1,0 +1,44 @@
+D:\work\Current Initiatives\Writing\SLBook\WorkInProgress\ChapterSamples\DataBinding\recipe_4_dot_3\ClientBin\recipe_4_dot_3.dll
+D:\work\Current Initiatives\Writing\SLBook\WorkInProgress\ChapterSamples\DataBinding\recipe_4_dot_3\ClientBin\recipe_4_dot_3.pdb
+D:\work\Current Initiatives\Writing\SLBook\WorkInProgress\ChapterSamples\DataBinding\recipe_4_dot_3\ClientBin\AppManifest.xaml
+D:\work\Current Initiatives\Writing\SLBook\WorkInProgress\ChapterSamples\DataBinding\recipe_4_dot_3\ClientBin\recipe_4_dot_3.xap
+D:\work\Current Initiatives\Writing\SLBook\WorkInProgress\ChapterSamples\DataBinding\recipe_4_dot_3\ClientBin\TestPage.html
+D:\work\Current Initiatives\Writing\SLBook\WorkInProgress\ChapterSamples\DataBinding\recipe_4_dot_3\ClientBin\System.Windows.Controls.Extended.dll
+D:\work\Current Initiatives\Writing\SLBook\WorkInProgress\ChapterSamples\DataBinding\recipe_4_dot_3\ClientBin\System.Windows.Controls.Extended.xml
+D:\work\Current Initiatives\Writing\SLBook\WorkInProgress\ChapterSamples\DataBinding\recipe_4_dot_3\ClientBin\de\System.Windows.Controls.Extended.resources.dll
+D:\work\Current Initiatives\Writing\SLBook\WorkInProgress\ChapterSamples\DataBinding\recipe_4_dot_3\ClientBin\es\System.Windows.Controls.Extended.resources.dll
+D:\work\Current Initiatives\Writing\SLBook\WorkInProgress\ChapterSamples\DataBinding\recipe_4_dot_3\ClientBin\fr\System.Windows.Controls.Extended.resources.dll
+D:\work\Current Initiatives\Writing\SLBook\WorkInProgress\ChapterSamples\DataBinding\recipe_4_dot_3\ClientBin\it\System.Windows.Controls.Extended.resources.dll
+D:\work\Current Initiatives\Writing\SLBook\WorkInProgress\ChapterSamples\DataBinding\recipe_4_dot_3\ClientBin\ja\System.Windows.Controls.Extended.resources.dll
+D:\work\Current Initiatives\Writing\SLBook\WorkInProgress\ChapterSamples\DataBinding\recipe_4_dot_3\ClientBin\ko\System.Windows.Controls.Extended.resources.dll
+D:\work\Current Initiatives\Writing\SLBook\WorkInProgress\ChapterSamples\DataBinding\recipe_4_dot_3\ClientBin\zh-hant\System.Windows.Controls.Extended.Resources.dll
+D:\work\Current Initiatives\Writing\SLBook\WorkInProgress\ChapterSamples\DataBinding\recipe_4_dot_3\ClientBin\zh-hans\System.Windows.Controls.Extended.Resources.dll
+D:\work\Current Initiatives\Writing\SLBook\WorkInProgress\ChapterSamples\DataBinding\recipe_4_dot_3\obj\Debug\ResolveAssemblyReference.cache
+D:\work\Current Initiatives\Writing\SLBook\WorkInProgress\ChapterSamples\DataBinding\recipe_4_dot_3\obj\Debug\App.g.cs
+D:\work\Current Initiatives\Writing\SLBook\WorkInProgress\ChapterSamples\DataBinding\recipe_4_dot_3\obj\Debug\Page.g.cs
+D:\work\Current Initiatives\Writing\SLBook\WorkInProgress\ChapterSamples\DataBinding\recipe_4_dot_3\obj\Debug\recipe_4_dot_3.g.resources
+D:\work\Current Initiatives\Writing\SLBook\WorkInProgress\ChapterSamples\DataBinding\recipe_4_dot_3\obj\Debug\recipe_4_dot_3.dll
+D:\work\Current Initiatives\Writing\SLBook\WorkInProgress\ChapterSamples\DataBinding\recipe_4_dot_3\obj\Debug\recipe_4_dot_3.pdb
+D:\work\Current Initiatives\Writing\SLBook\WorkInProgress\ChapterSamples\DataBinding\recipe_4_dot_3\obj\Debug\XapCacheFile.xml
+D:\work\Current Initiatives\Writing\SLBook\WorkInProgress\ChapterSamples\Ch04_DataBinding\4.3 Change Notification\ClientBin\AppManifest.xaml
+D:\work\Current Initiatives\Writing\SLBook\WorkInProgress\ChapterSamples\Ch04_DataBinding\4.3 Change Notification\ClientBin\Ch04_DataBinding.Recipe4_3.dll
+D:\work\Current Initiatives\Writing\SLBook\WorkInProgress\ChapterSamples\Ch04_DataBinding\4.3 Change Notification\ClientBin\Ch04_DataBinding.Recipe4_3.pdb
+D:\work\Current Initiatives\Writing\SLBook\WorkInProgress\ChapterSamples\Ch04_DataBinding\4.3 Change Notification\ClientBin\Ch04_DataBinding.Recipe4_3.xap
+D:\work\Current Initiatives\Writing\SLBook\WorkInProgress\ChapterSamples\Ch04_DataBinding\4.3 Change Notification\ClientBin\TestPage.html
+D:\work\Current Initiatives\Writing\SLBook\WorkInProgress\ChapterSamples\Ch04_DataBinding\4.3 Change Notification\ClientBin\System.Windows.Controls.dll
+D:\work\Current Initiatives\Writing\SLBook\WorkInProgress\ChapterSamples\Ch04_DataBinding\4.3 Change Notification\ClientBin\System.Windows.Controls.xml
+D:\work\Current Initiatives\Writing\SLBook\WorkInProgress\ChapterSamples\Ch04_DataBinding\4.3 Change Notification\ClientBin\de\System.Windows.Controls.resources.dll
+D:\work\Current Initiatives\Writing\SLBook\WorkInProgress\ChapterSamples\Ch04_DataBinding\4.3 Change Notification\ClientBin\es\System.Windows.Controls.resources.dll
+D:\work\Current Initiatives\Writing\SLBook\WorkInProgress\ChapterSamples\Ch04_DataBinding\4.3 Change Notification\ClientBin\fr\System.Windows.Controls.resources.dll
+D:\work\Current Initiatives\Writing\SLBook\WorkInProgress\ChapterSamples\Ch04_DataBinding\4.3 Change Notification\ClientBin\it\System.Windows.Controls.resources.dll
+D:\work\Current Initiatives\Writing\SLBook\WorkInProgress\ChapterSamples\Ch04_DataBinding\4.3 Change Notification\ClientBin\ja\System.Windows.Controls.resources.dll
+D:\work\Current Initiatives\Writing\SLBook\WorkInProgress\ChapterSamples\Ch04_DataBinding\4.3 Change Notification\ClientBin\ko\System.Windows.Controls.resources.dll
+D:\work\Current Initiatives\Writing\SLBook\WorkInProgress\ChapterSamples\Ch04_DataBinding\4.3 Change Notification\ClientBin\zh-Hans\System.Windows.Controls.resources.dll
+D:\work\Current Initiatives\Writing\SLBook\WorkInProgress\ChapterSamples\Ch04_DataBinding\4.3 Change Notification\ClientBin\zh-Hant\System.Windows.Controls.resources.dll
+D:\work\Current Initiatives\Writing\SLBook\WorkInProgress\ChapterSamples\Ch04_DataBinding\4.3 Change Notification\obj\Debug\ResolveAssemblyReference.cache
+D:\work\Current Initiatives\Writing\SLBook\WorkInProgress\ChapterSamples\Ch04_DataBinding\4.3 Change Notification\obj\Debug\App.g.cs
+D:\work\Current Initiatives\Writing\SLBook\WorkInProgress\ChapterSamples\Ch04_DataBinding\4.3 Change Notification\obj\Debug\Page.g.cs
+D:\work\Current Initiatives\Writing\SLBook\WorkInProgress\ChapterSamples\Ch04_DataBinding\4.3 Change Notification\obj\Debug\Ch04_DataBinding.Recipe4_3.g.resources
+D:\work\Current Initiatives\Writing\SLBook\WorkInProgress\ChapterSamples\Ch04_DataBinding\4.3 Change Notification\obj\Debug\Ch04_DataBinding.Recipe4_3.dll
+D:\work\Current Initiatives\Writing\SLBook\WorkInProgress\ChapterSamples\Ch04_DataBinding\4.3 Change Notification\obj\Debug\Ch04_DataBinding.Recipe4_3.pdb
+D:\work\Current Initiatives\Writing\SLBook\WorkInProgress\ChapterSamples\Ch04_DataBinding\4.3 Change Notification\obj\Debug\XapCacheFile.xml

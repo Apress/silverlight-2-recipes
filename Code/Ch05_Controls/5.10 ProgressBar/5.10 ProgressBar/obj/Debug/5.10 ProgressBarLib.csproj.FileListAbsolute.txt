@@ -1,0 +1,6 @@
+D:\work\Current Initiatives\Writing\SLBook\WorkInProgress\ChapterSamples\Ch05_Controls\5.10 ProgressBar\5.10 ProgressBar\Bin\Debug\Ch05_Controls.Recipe5_10.PBarLib.dll
+D:\work\Current Initiatives\Writing\SLBook\WorkInProgress\ChapterSamples\Ch05_Controls\5.10 ProgressBar\5.10 ProgressBar\Bin\Debug\Ch05_Controls.Recipe5_10.PBarLib.pdb
+D:\work\Current Initiatives\Writing\SLBook\WorkInProgress\ChapterSamples\Ch05_Controls\5.10 ProgressBar\5.10 ProgressBar\obj\Debug\ResolveAssemblyReference.cache
+D:\work\Current Initiatives\Writing\SLBook\WorkInProgress\ChapterSamples\Ch05_Controls\5.10 ProgressBar\5.10 ProgressBar\obj\Debug\Ch05_Controls.Recipe5_10.PBarLib.g.resources
+D:\work\Current Initiatives\Writing\SLBook\WorkInProgress\ChapterSamples\Ch05_Controls\5.10 ProgressBar\5.10 ProgressBar\obj\Debug\Ch05_Controls.Recipe5_10.PBarLib.dll
+D:\work\Current Initiatives\Writing\SLBook\WorkInProgress\ChapterSamples\Ch05_Controls\5.10 ProgressBar\5.10 ProgressBar\obj\Debug\Ch05_Controls.Recipe5_10.PBarLib.pdb

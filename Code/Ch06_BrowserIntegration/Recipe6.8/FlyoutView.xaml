@@ -1,0 +1,20 @@
+﻿<UserControl x:Class="Ch06_BrowserIntegration.Recipe6_8.FlyoutView"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation" 
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" 
+    Width="400" Height="300" xmlns:d="http://schemas.microsoft.com/expression/blend/2008" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" mc:Ignorable="d">
+    <Grid Background="#00FFFFFF" >
+    <Border CornerRadius="15,15,15,15">
+  	 <Border.Background>
+  		<LinearGradientBrush EndPoint="0.5,1" StartPoint="1.164,-1.028">
+  			<GradientStop Color="#FF808080"/>
+  			<GradientStop Color="#FF808080" Offset="1"/>
+  			<GradientStop Color="#FF96D7A8" Offset="0.50400000810623169"/>
+  		</LinearGradientBrush>
+  	</Border.Background>
+      <Grid x:Name="LayoutRoot">
+        <TextBlock Text="Cool Flyout Silverlight 2 UI goes here" TextWrapping="Wrap"/>
+        <Button Margin="169,137,188,141" Content="Close"  d:LayoutOverrides="Width, Height" Click="btnCloseFlyout_Click"/>  		
+      </Grid>
+  	</Border>
+  </Grid>
+</UserControl>

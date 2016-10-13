@@ -1,0 +1,5 @@
+D:\work\Current Initiatives\Writing\SLBook\WorkInProgress\ChapterSamples\Ch05_Controls\AdventureWorksDataService\bin\AdventureWorksDataService.dll
+D:\work\Current Initiatives\Writing\SLBook\WorkInProgress\ChapterSamples\Ch05_Controls\AdventureWorksDataService\bin\AdventureWorksDataService.pdb
+D:\work\Current Initiatives\Writing\SLBook\WorkInProgress\ChapterSamples\Ch05_Controls\AdventureWorksDataService\obj\Debug\ResolveAssemblyReference.cache
+D:\work\Current Initiatives\Writing\SLBook\WorkInProgress\ChapterSamples\Ch05_Controls\AdventureWorksDataService\obj\Debug\AdventureWorksDataService.dll
+D:\work\Current Initiatives\Writing\SLBook\WorkInProgress\ChapterSamples\Ch05_Controls\AdventureWorksDataService\obj\Debug\AdventureWorksDataService.pdb

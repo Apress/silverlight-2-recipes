@@ -1,0 +1,188 @@
+﻿<UserControl x:Class="Ch05_Controls.Recipe5_2.Page"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation" 
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" 
+    Width="400" Height="300" 
+    xmlns:vsm="clr-namespace:System.Windows;assembly=System.Windows">
+  <UserControl.Resources>
+    <!-- The Custom Control Template targeting a RadioButton -->
+    <ControlTemplate x:Key="ctCustomRadioButton" 
+                     TargetType="RadioButton">
+      <Grid Background="{TemplateBinding Background}" 
+                  MinHeight="{TemplateBinding MinHeight}" 
+                  MinWidth="{TemplateBinding MinWidth}" 
+                  MaxWidth="{TemplateBinding MaxWidth}" 
+                  MaxHeight="{TemplateBinding MaxHeight}">
+        <vsm:VisualStateManager.VisualStateGroups>
+          <vsm:VisualStateGroup x:Name="CommonStates">
+            <vsm:VisualStateGroup.Transitions>
+              <vsm:VisualTransition  GeneratedDuration="00:00:00.2500000" To="MouseOver"/>
+              <vsm:VisualTransition GeneratedDuration="00:00:00.2500000" From="MouseOver"/>
+            </vsm:VisualStateGroup.Transitions>
+            <vsm:VisualState x:Name="Disabled"/>
+            <vsm:VisualState x:Name="Normal">
+              <Storyboard/>
+            </vsm:VisualState>
+            <vsm:VisualState x:Name="MouseOver">
+              <Storyboard>
+                <ColorAnimationUsingKeyFrames BeginTime="00:00:00" 
+                  Duration="00:00:00.0010000"
+                  Storyboard.TargetName="OuterRing"
+                  Storyboard.TargetProperty=
+                      "(Shape.Stroke).(SolidColorBrush.Color)">
+                  <SplineColorKeyFrame KeyTime="00:00:00" Value="#FF144EEA"/>
+                </ColorAnimationUsingKeyFrames>
+                <ColorAnimationUsingKeyFrames BeginTime="00:00:00" 
+                  Duration="00:00:00.0010000" 
+                  Storyboard.TargetName="InnerCore" 
+                  Storyboard.TargetProperty=
+            "(Shape.Fill).(GradientBrush.GradientStops)[1].(GradientStop.Color)">
+                  <SplineColorKeyFrame KeyTime="00:00:00" Value="#FF144EEA"/>
+                </ColorAnimationUsingKeyFrames>
+              </Storyboard>
+            </vsm:VisualState>
+            <vsm:VisualState x:Name="Pressed"/>
+          </vsm:VisualStateGroup>
+          <vsm:VisualStateGroup x:Name="FocusStates">
+            <vsm:VisualState x:Name="Unfocused">
+              <Storyboard>
+                <ObjectAnimationUsingKeyFrames 
+                  Storyboard.TargetName="FocusIndicator" 
+                  Storyboard.TargetProperty="Visibility" 
+                  Duration="0">
+                  <DiscreteObjectKeyFrame KeyTime="0">
+                    <DiscreteObjectKeyFrame.Value>
+                      <Visibility>Collapsed</Visibility>
+                    </DiscreteObjectKeyFrame.Value>
+                  </DiscreteObjectKeyFrame>
+                </ObjectAnimationUsingKeyFrames>
+              </Storyboard>
+            </vsm:VisualState>
+            <vsm:VisualState x:Name="Focused">
+              <Storyboard>
+                <ObjectAnimationUsingKeyFrames 
+                  Storyboard.TargetName="FocusIndicator" 
+                  Storyboard.TargetProperty="Visibility" 
+                  Duration="0">
+                  <DiscreteObjectKeyFrame KeyTime="0">
+                    <DiscreteObjectKeyFrame.Value>
+                      <Visibility>Visible</Visibility>
+                    </DiscreteObjectKeyFrame.Value>
+                  </DiscreteObjectKeyFrame>
+                </ObjectAnimationUsingKeyFrames>
+              </Storyboard>
+            </vsm:VisualState>
+            <vsm:VisualState x:Name="ContentFocused">
+              <Storyboard>
+                <ObjectAnimationUsingKeyFrames 
+                  Storyboard.TargetName="FocusIndicator" 
+                  Storyboard.TargetProperty="Visibility" 
+                  Duration="0">
+                  <DiscreteObjectKeyFrame KeyTime="0">
+                    <DiscreteObjectKeyFrame.Value>
+                      <Visibility>Visible</Visibility>
+                    </DiscreteObjectKeyFrame.Value>
+                  </DiscreteObjectKeyFrame>
+                </ObjectAnimationUsingKeyFrames>
+              </Storyboard>
+            </vsm:VisualState>
+          </vsm:VisualStateGroup>
+          <vsm:VisualStateGroup x:Name="CheckStates">
+            <vsm:VisualStateGroup.Transitions>
+              <vsm:VisualTransition GeneratedDuration="00:00:00.2500000" To="Checked"/>
+              <vsm:VisualTransition GeneratedDuration="00:00:00.2500000" From="Checked"/>
+            </vsm:VisualStateGroup.Transitions>
+            <vsm:VisualState x:Name="Unchecked">
+              <Storyboard/>
+            </vsm:VisualState>
+            <vsm:VisualState x:Name="Checked">
+              <Storyboard>
+                <ColorAnimationUsingKeyFrames 
+                  BeginTime="00:00:00" 
+                  Duration="00:00:00.0010000" 
+                  Storyboard.TargetName="InnerCore" 
+                  Storyboard.TargetProperty=
+            "(Shape.Fill).(GradientBrush.GradientStops)[0].(GradientStop.Color)">
+                  <SplineColorKeyFrame KeyTime="00:00:00" Value="#FF144EEA"/>
+                </ColorAnimationUsingKeyFrames>
+              </Storyboard>
+            </vsm:VisualState>
+            <vsm:VisualState x:Name="Indeterminate"/>
+          </vsm:VisualStateGroup>
+        </vsm:VisualStateManager.VisualStateGroups>
+        <Grid.ColumnDefinitions>
+          <ColumnDefinition Width="0.20*"/>
+          <ColumnDefinition Width="0.80*"/>
+        </Grid.ColumnDefinitions>
+        <Ellipse Margin="0,0,0,0" x:Name="OuterRing" 
+                 Stroke="#00000000" StrokeThickness="2">
+          <Ellipse.Fill>
+            <LinearGradientBrush 
+              EndPoint="1.13300001621246,1.13999998569489" 
+              StartPoint="-0.0640000030398369,-0.0560000017285347">
+              <GradientStop Color="#FF000000"/>
+              <GradientStop Color="#FFADADAD" Offset="1"/>
+            </LinearGradientBrush>
+          </Ellipse.Fill>
+        </Ellipse>
+        <Grid Margin="0,0,0,0">
+          <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="0.2*"/>
+            <ColumnDefinition Width="0.6*"/>
+            <ColumnDefinition Width="0.2*"/>
+          </Grid.ColumnDefinitions>
+          <Grid.RowDefinitions>
+            <RowDefinition Height="0.2*"/>
+            <RowDefinition Height="0.6*"/>
+            <RowDefinition Height="0.2*"/>
+          </Grid.RowDefinitions>
+
+          <Ellipse x:Name="InnerRing" 
+                   Fill="#FF000000" 
+                   Grid.Column="1" Grid.Row="1"/>
+          <Ellipse Grid.Row="1" Grid.Column="1" 
+                   x:Name="InnerCore" Margin="0,0,0,0">
+            <Ellipse.Fill>
+              <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                <GradientStop Color="#FFFFFFFF"/>
+                <GradientStop Color="#FF000000" Offset="1"/>
+              </LinearGradientBrush>
+            </Ellipse.Fill>
+          </Ellipse>
+        </Grid>
+        <ContentPresenter HorizontalAlignment="Center" 
+                          VerticalAlignment="Center" 
+                          Grid.Column="1" Margin="2,0,0,2"
+            Content="{TemplateBinding Content}" 
+            ContentTemplate="{TemplateBinding ContentTemplate}"/>
+        <Rectangle Stroke="Black" x:Name="FocusIndicator" Grid.Column="1" 
+                   StrokeThickness="0.5" Height="1" 
+                   HorizontalAlignment="Stretch" VerticalAlignment="Bottom" 
+                   Margin="2,0,0,0" />
+      </Grid>
+    </ControlTemplate>
+
+    <!-- A style targeting the RadioButton referencing the control template -->
+    <Style TargetType="RadioButton" x:Name="styleGelRadioButton">
+      <Setter Property="Template" Value="{StaticResource ctCustomRadioButton}"/>
+      <Setter Property="Height" Value="20" />
+      <Setter Property="Width" Value="100" />
+      <Setter Property="Background" Value="Transparent" />
+    </Style>
+  </UserControl.Resources>
+
+  <Grid x:Name="LayoutRoot" Background="White" Margin="20,20,20,20">
+    <Grid.RowDefinitions>
+      <RowDefinition Height="0.5*"/>
+      <RowDefinition Height="0.5*"/>
+    </Grid.RowDefinitions>
+    <!-- A RadioButton with default look & feel -->
+    <RadioButton  HorizontalAlignment="Left" VerticalAlignment="Top"
+                  Content="RadioButton" GroupName="Test" Grid.Row="0"/>
+    <!-- A RadioButton with the style (and hence the custom template) applied -->
+    <RadioButton  HorizontalAlignment="Left" VerticalAlignment="Top" 
+                  Content="RadioButton" 
+                  Style="{StaticResource styleGelRadioButton}" 
+                  GroupName="Test" Grid.Row="1"/>
+
+  </Grid> 
+</UserControl>

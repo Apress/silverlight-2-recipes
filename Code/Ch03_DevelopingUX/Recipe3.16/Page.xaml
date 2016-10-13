@@ -1,0 +1,36 @@
+﻿<UserControl x:Class="Ch03_DevelopingUX.Recipe3_16.Page"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation" 
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" 
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+    Width="600" Height="800" mc:Ignorable="d">
+    <Grid x:Name="LayoutRoot" Background="White">
+    	<Grid.RowDefinitions>
+    		<RowDefinition Height="0.502*"/>
+    		<RowDefinition Height="0.498*"/>
+    	</Grid.RowDefinitions>
+    	<Grid.ColumnDefinitions>
+    		<ColumnDefinition Width="0.5*"/>
+    		<ColumnDefinition Width="0.5*"/>
+    	</Grid.ColumnDefinitions>
+    <Border Margin="4,4,4,4" CornerRadius="10,10,10,10" Padding="0,0,0,0" >
+      <Border.Background>
+        <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+          <GradientStop Color="#FF767373" Offset="0.004"/>
+          <GradientStop Color="#FF1A1818" Offset="1"/>
+          <GradientStop Color="#FF888686" Offset="0.473"/>
+        </LinearGradientBrush>
+      </Border.Background>
+      <InkPresenter x:Name="InkEssentials" Background="Transparent"
+    		MouseLeftButtonDown="InkEssentials_MouseLeftButtonDown" 
+    		MouseMove="InkEssentials_MouseMove" Height="Auto" Width="Auto"
+    		MouseLeftButtonUp="InkEssentials_MouseLeftButtonUp" />
+    </Border>
+    <Image Margin="4,4,4,4" Grid.Column="1" x:Name="Picture" 
+     Source="/img/VerticalLandscape.jpg"/>
+    <InkPresenter Margin="4,4,4,4" Grid.Column="1" x:Name="InkPicture"
+        MouseLeftButtonDown="InkPicture_MouseLeftButtonDown"
+        MouseMove="InkPicture_MouseMove" Background="Transparent"
+        MouseLeftButtonUp="InkPicture_MouseLeftButtonUp"/>
+  </Grid>
+</UserControl>

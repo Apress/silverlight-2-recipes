@@ -1,0 +1,5 @@
+D:\work\Current Initiatives\Writing\SLBook\WorkInProgress\ChapterSamples\Ch07_Networking\7.1 Consuming WCF\7.1 ProductsDataSoapService\bin\Ch07_Networking.Recipe7_1.ProductsDataSoapService.dll
+D:\work\Current Initiatives\Writing\SLBook\WorkInProgress\ChapterSamples\Ch07_Networking\7.1 Consuming WCF\7.1 ProductsDataSoapService\bin\Ch07_Networking.Recipe7_1.ProductsDataSoapService.pdb
+D:\work\Current Initiatives\Writing\SLBook\WorkInProgress\ChapterSamples\Ch07_Networking\7.1 Consuming WCF\7.1 ProductsDataSoapService\obj\Debug\ResolveAssemblyReference.cache
+D:\work\Current Initiatives\Writing\SLBook\WorkInProgress\ChapterSamples\Ch07_Networking\7.1 Consuming WCF\7.1 ProductsDataSoapService\obj\Debug\Ch07_Networking.Recipe7_1.ProductsDataSoapService.dll
+D:\work\Current Initiatives\Writing\SLBook\WorkInProgress\ChapterSamples\Ch07_Networking\7.1 Consuming WCF\7.1 ProductsDataSoapService\obj\Debug\Ch07_Networking.Recipe7_1.ProductsDataSoapService.pdb

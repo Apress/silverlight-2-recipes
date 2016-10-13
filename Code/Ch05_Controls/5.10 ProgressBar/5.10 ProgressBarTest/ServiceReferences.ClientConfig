@@ -1,0 +1,18 @@
+﻿<configuration>
+    <system.serviceModel>
+        <bindings>
+            <basicHttpBinding>
+                <binding name="BasicHttpBinding_IAdvWorksDataService" maxBufferSize="65536"
+                    maxReceivedMessageSize="65536">
+                    <security mode="None" />
+                </binding>
+            </basicHttpBinding>
+        </bindings>
+        <client>
+            <endpoint address="http://localhost:9191/AdvWorksDataService.svc"
+                binding="basicHttpBinding" bindingConfiguration="BasicHttpBinding_IAdvWorksDataService"
+                contract="Ch05_Controls.Recipe5_10.AdvWorks.IAdvWorksDataService"
+                name="BasicHttpBinding_IAdvWorksDataService" />
+        </client>
+    </system.serviceModel>
+</configuration>

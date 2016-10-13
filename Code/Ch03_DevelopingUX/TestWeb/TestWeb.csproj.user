@@ -1,0 +1,53 @@
+﻿<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <ProjectView>ShowAllFiles</ProjectView>
+  </PropertyGroup>
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
+        <WebProjectProperties>
+          <StartPageUrl>Default.aspx</StartPageUrl>
+          <StartAction>SpecificPage</StartAction>
+          <AspNetDebugging>True</AspNetDebugging>
+          <SilverlightDebugging>True</SilverlightDebugging>
+          <NativeDebugging>False</NativeDebugging>
+          <SQLDebugging>False</SQLDebugging>
+          <PublishCopyOption>RunFiles</PublishCopyOption>
+          <PublishTargetLocation>
+          </PublishTargetLocation>
+          <PublishDeleteAllFiles>False</PublishDeleteAllFiles>
+          <PublishCopyAppData>True</PublishCopyAppData>
+          <ExternalProgram>
+          </ExternalProgram>
+          <StartExternalURL>
+          </StartExternalURL>
+          <StartCmdLineArguments>
+          </StartCmdLineArguments>
+          <StartWorkingDirectory>
+          </StartWorkingDirectory>
+          <EnableENC>False</EnableENC>
+          <AlwaysStartWebServerOnDebug>True</AlwaysStartWebServerOnDebug>
+          <EnableWcfTestClientForSVC>False</EnableWcfTestClientForSVC>
+          <ProjectOutputReferences>
+            <Ref Project="{CDBF8B4A-66D9-48C3-9E16-A240D0F615E2}" Folder="ClientBin">Ch03_DevelopingUX.Recipe3_1.xap</Ref>
+            <Ref Project="{1A97ECA1-242B-4E88-96AC-FEF922E28370}" Folder="ClientBin">Ch03_DevelopingUX.Recipe3_5.xap</Ref>
+            <Ref Project="{A139FF17-2B00-4339-9BCE-E27C1F3D5A19}" Folder="ClientBin">Ch03_DevelopingUX.Recipe3_6.xap</Ref>
+            <Ref Project="{64C0432F-18CD-42DD-979F-3A3983AECEBA}" Folder="ClientBin">Ch03_DevelopingUX.Recipe3_8.xap</Ref>
+            <Ref Project="{A9835974-24D2-4AA1-AEBD-E43F24F03D30}" Folder="ClientBin">Ch03_DevelopingUX.Recipe3_9.xap</Ref>
+            <Ref Project="{F1C1B806-6538-4C8F-86FF-CEF58EC26DE5}" Folder="ClientBin">Ch03_DevelopingUX.Recipe3_13.xap</Ref>
+            <Ref Project="{0CA71931-3DC6-440C-8C8C-0E58E345992E}" Folder="ClientBin">Ch03_DevelopingUX.Recipe3_11.xap</Ref>
+            <Ref Project="{B57DC9B6-8351-4BD8-BCF5-14A49560F231}" Folder="ClientBin">Ch03_DevelopingUX.Recipe3_12.xap</Ref>
+            <Ref Project="{AAE272E9-B483-4346-AD12-15BBC6C12CFB}" Folder="ClientBin">Ch03_DevelopingUX.Recipe3_2.xap</Ref>
+            <Ref Project="{F64EE8FB-6D0D-4D67-ADDE-FD309D14BBF0}" Folder="ClientBin">Ch03_DevelopingUX.Recipe3_3.xap</Ref>
+            <Ref Project="{D4B16EFE-4C51-43F8-A14E-422A3B45D260}" Folder="ClientBin">Ch03_DevelopingUX.Recipe3_4.xap</Ref>
+            <Ref Project="{417E7DEC-8AF9-4B71-87A0-883EE2D55F66}" Folder="ClientBin">Ch03_DevelopingUX.Recipe3_7.xap</Ref>
+            <Ref Project="{79C554A7-3CD4-483A-89CF-C8E7DECAB336}" Folder="ClientBin">Ch03_DevelopingUX.Recipe3_10.xap</Ref>
+            <Ref Project="{519F899C-DCA3-4FA6-8736-7D6C4CEE01F0}" Folder="ClientBin">Ch03_DevelopingUX.Recipe3_14.xap</Ref>
+            <Ref Project="{A848D7A5-5793-4C7E-88B1-4F61BF040DEE}" Folder="ClientBin">Ch03_DevelopingUX.Recipe3_15.xap</Ref>
+            <Ref Project="{CB96116F-5D36-44A9-B24C-1A31E6E3BF93}" Folder="ClientBin">Ch03_DevelopingUX.Recipe3_16.xap</Ref>
+          </ProjectOutputReferences>
+        </WebProjectProperties>
+      </FlavorProperties>
+    </VisualStudio>
+  </ProjectExtensions>
+</Project>

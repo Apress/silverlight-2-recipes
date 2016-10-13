@@ -1,0 +1,5 @@
+D:\work\Current Initiatives\Writing\SLBook\WorkInProgress\ChapterSamples\Ch05_Controls\5.9 Custom Wrap Panel\5.9 Wrap Panel\Bin\Debug\Ch05_Controls.Recipe5_9.WrapPanel.dll
+D:\work\Current Initiatives\Writing\SLBook\WorkInProgress\ChapterSamples\Ch05_Controls\5.9 Custom Wrap Panel\5.9 Wrap Panel\Bin\Debug\Ch05_Controls.Recipe5_9.WrapPanel.pdb
+D:\work\Current Initiatives\Writing\SLBook\WorkInProgress\ChapterSamples\Ch05_Controls\5.9 Custom Wrap Panel\5.9 Wrap Panel\obj\Debug\ResolveAssemblyReference.cache
+D:\work\Current Initiatives\Writing\SLBook\WorkInProgress\ChapterSamples\Ch05_Controls\5.9 Custom Wrap Panel\5.9 Wrap Panel\obj\Debug\Ch05_Controls.Recipe5_9.WrapPanel.dll
+D:\work\Current Initiatives\Writing\SLBook\WorkInProgress\ChapterSamples\Ch05_Controls\5.9 Custom Wrap Panel\5.9 Wrap Panel\obj\Debug\Ch05_Controls.Recipe5_9.WrapPanel.pdb

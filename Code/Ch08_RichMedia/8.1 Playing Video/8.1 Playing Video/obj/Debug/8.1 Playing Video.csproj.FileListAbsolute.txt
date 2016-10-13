@@ -1,0 +1,24 @@
+D:\work\Current Initiatives\Writing\SLBook\WorkInProgress\ChapterSamples\Ch08_RichMedia\8.1 Playing Video\8.1 Playing Video\Bin\Debug\AppManifest.xaml
+D:\work\Current Initiatives\Writing\SLBook\WorkInProgress\ChapterSamples\Ch08_RichMedia\8.1 Playing Video\8.1 Playing Video\Bin\Debug\Ch08_RichMedia.Recipe8_1.dll
+D:\work\Current Initiatives\Writing\SLBook\WorkInProgress\ChapterSamples\Ch08_RichMedia\8.1 Playing Video\8.1 Playing Video\Bin\Debug\Ch08_RichMedia.Recipe8_1.pdb
+D:\work\Current Initiatives\Writing\SLBook\WorkInProgress\ChapterSamples\Ch08_RichMedia\8.1 Playing Video\8.1 Playing Video\Bin\Debug\Ch08_RichMedia.Recipe8_1.xap
+D:\work\Current Initiatives\Writing\SLBook\WorkInProgress\ChapterSamples\Ch08_RichMedia\8.1 Playing Video\8.1 Playing Video\Bin\Debug\TestPage.html
+D:\work\Current Initiatives\Writing\SLBook\WorkInProgress\ChapterSamples\Ch08_RichMedia\8.1 Playing Video\8.1 Playing Video\obj\Debug\ResolveAssemblyReference.cache
+D:\work\Current Initiatives\Writing\SLBook\WorkInProgress\ChapterSamples\Ch08_RichMedia\8.1 Playing Video\8.1 Playing Video\obj\Debug\App.g.cs
+D:\work\Current Initiatives\Writing\SLBook\WorkInProgress\ChapterSamples\Ch08_RichMedia\8.1 Playing Video\8.1 Playing Video\obj\Debug\Page.g.cs
+D:\work\Current Initiatives\Writing\SLBook\WorkInProgress\ChapterSamples\Ch08_RichMedia\8.1 Playing Video\8.1 Playing Video\obj\Debug\Ch08_RichMedia.Recipe8_1.g.resources
+D:\work\Current Initiatives\Writing\SLBook\WorkInProgress\ChapterSamples\Ch08_RichMedia\8.1 Playing Video\8.1 Playing Video\obj\Debug\Ch08_RichMedia.Recipe8_1.dll
+D:\work\Current Initiatives\Writing\SLBook\WorkInProgress\ChapterSamples\Ch08_RichMedia\8.1 Playing Video\8.1 Playing Video\obj\Debug\Ch08_RichMedia.Recipe8_1.pdb
+D:\work\Current Initiatives\Writing\SLBook\WorkInProgress\ChapterSamples\Ch08_RichMedia\8.1 Playing Video\8.1 Playing Video\obj\Debug\XapCacheFile.xml
+D:\RobcamerDocs\Book Silverlight Recipes\Code\Ch08_RichMedia\8.1 Playing Video\8.1 Playing Video\Bin\Debug\AppManifest.xaml
+D:\RobcamerDocs\Book Silverlight Recipes\Code\Ch08_RichMedia\8.1 Playing Video\8.1 Playing Video\Bin\Debug\Ch08_RichMedia.Recipe8_1.dll
+D:\RobcamerDocs\Book Silverlight Recipes\Code\Ch08_RichMedia\8.1 Playing Video\8.1 Playing Video\Bin\Debug\Ch08_RichMedia.Recipe8_1.pdb
+D:\RobcamerDocs\Book Silverlight Recipes\Code\Ch08_RichMedia\8.1 Playing Video\8.1 Playing Video\Bin\Debug\Ch08_RichMedia.Recipe8_1.xap
+D:\RobcamerDocs\Book Silverlight Recipes\Code\Ch08_RichMedia\8.1 Playing Video\8.1 Playing Video\Bin\Debug\TestPage.html
+D:\RobcamerDocs\Book Silverlight Recipes\Code\Ch08_RichMedia\8.1 Playing Video\8.1 Playing Video\obj\Debug\ResolveAssemblyReference.cache
+D:\RobcamerDocs\Book Silverlight Recipes\Code\Ch08_RichMedia\8.1 Playing Video\8.1 Playing Video\obj\Debug\App.g.cs
+D:\RobcamerDocs\Book Silverlight Recipes\Code\Ch08_RichMedia\8.1 Playing Video\8.1 Playing Video\obj\Debug\Page.g.cs
+D:\RobcamerDocs\Book Silverlight Recipes\Code\Ch08_RichMedia\8.1 Playing Video\8.1 Playing Video\obj\Debug\Ch08_RichMedia.Recipe8_1.g.resources
+D:\RobcamerDocs\Book Silverlight Recipes\Code\Ch08_RichMedia\8.1 Playing Video\8.1 Playing Video\obj\Debug\Ch08_RichMedia.Recipe8_1.dll
+D:\RobcamerDocs\Book Silverlight Recipes\Code\Ch08_RichMedia\8.1 Playing Video\8.1 Playing Video\obj\Debug\Ch08_RichMedia.Recipe8_1.pdb
+D:\RobcamerDocs\Book Silverlight Recipes\Code\Ch08_RichMedia\8.1 Playing Video\8.1 Playing Video\obj\Debug\XapCacheFile.xml

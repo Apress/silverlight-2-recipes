@@ -1,0 +1,175 @@
+﻿<UserControl x:Class="Ch04_DataBinding.Recipe4_5.Page"
+    xmlns="http://schemas.microsoft.com/client/2007" 
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" 
+    xmlns:local="clr-namespace:Ch04_DataBinding.Recipe4_5"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+    mc:Ignorable="d"
+    Width="400" Height="441.000015258789" >
+  <UserControl.Resources>
+    <local:EmployeeCollection x:Key="REF_EmployeeCollection"/>
+    <DataTemplate x:Key="dtEmployee">
+      <StackPanel Orientation="Horizontal">
+        <TextBlock Text="{Binding FirstName}" />
+        <TextBlock Text="{Binding LastName}" Margin="5,0,0,0"/>
+      </StackPanel>
+    </DataTemplate>
+    <DataTemplate x:Key="dtErrorTooltip">
+      <Grid Background="LightBlue" Width="125">
+        <Grid.RowDefinitions>
+          <RowDefinition Height="Auto"/>
+          <RowDefinition Height="Auto"/>
+        </Grid.RowDefinitions>
+        <Rectangle Fill="Red" Margin="2,2,2,2" 
+                   Grid.Row="0" HorizontalAlignment="Stretch"/>
+        <TextBlock Margin="2,2,2,2" Grid.Row="0" 
+                   Text="Error" Foreground="Black" HorizontalAlignment="Center"/>
+        <TextBlock  Grid.Row="1" Text="{Binding}" 
+                    TextWrapping="Wrap" HorizontalAlignment="Stretch"/>
+      </Grid>
+    </DataTemplate>
+  </UserControl.Resources>
+
+  <Grid x:Name="LayoutRoot" Background="White" Margin="10,10,10,10">
+    <Grid.RowDefinitions>
+      <RowDefinition Height="*"/>
+      <RowDefinition Height="Auto"/>
+    </Grid.RowDefinitions>
+    <ListBox Grid.Row="0" Margin="0,0,0,9.8769998550415" 
+            x:Name="lbx_Employees" ItemTemplate="{StaticResource dtEmployee}" 
+            ItemsSource="{StaticResource REF_EmployeeCollection}" 
+            SelectionChanged="lbx_Employees_SelectionChanged" />
+    <Grid x:Name="grid_NewButton" Grid.Row="1">
+      <Button  x:Name="btn_New" Click="btn_New_Click" 
+               Content="New Employee" Margin="250,0,10,10"/>
+    </Grid>
+    <Grid Grid.Row="1" Margin="12,22.1270008087158,8,-36" 
+          Visibility="Collapsed" x:Name="grid_EmployeeForm">
+      <Grid.ColumnDefinitions>
+        <ColumnDefinition Width="0.142*"/>
+        <ColumnDefinition Width="0.379*"/>
+        <ColumnDefinition Width="0.1*"/>
+        <ColumnDefinition Width="0.097*"/>
+        <ColumnDefinition Width="0.082*"/>
+        <ColumnDefinition Width="0.2*"/>
+      </Grid.ColumnDefinitions>
+      <Grid.RowDefinitions>
+        <RowDefinition Height="0.10*"/>
+        <RowDefinition Height="0.15*"/>
+        <RowDefinition Height="0.15*"/>
+        <RowDefinition Height="0.15*"/>
+        <RowDefinition Height="0.45*"/>
+      </Grid.RowDefinitions>
+      <Rectangle HorizontalAlignment="Stretch" Margin="-11,-12,-9,45" 
+                 Grid.ColumnSpan="6" Grid.RowSpan="5" 
+                 Stroke="#FF000000" StrokeThickness="3"/>
+      <TextBox HorizontalAlignment="Stretch" VerticalAlignment="Stretch" 
+               Text="{Binding FirstName, Mode=TwoWay}" Grid.Row="1" 
+               Margin="2,2,4.26800012588501,2" Width="Auto" 
+               Grid.RowSpan="1" Grid.ColumnSpan="2" Grid.Column="1" />
+      <TextBox HorizontalAlignment="Stretch" VerticalAlignment="Stretch" 
+               Text="{Binding LastName, Mode=TwoWay}" Grid.Row="1" 
+               Margin="-0.26800000667572,2,2,2" Grid.Column="3" 
+               Width="Auto" Grid.RowSpan="1"  Grid.ColumnSpan="3"/>
+      <TextBlock HorizontalAlignment="Stretch" VerticalAlignment="Stretch" 
+                 Text="Last" TextWrapping="Wrap" Grid.RowSpan="1" 
+                 Margin="-1.87999999523163,-2.14400005340576,18.0559997558594,0" 
+                 Grid.Column="4" Grid.ColumnSpan="2" Height="Auto" Width="Auto"/>
+      <TextBlock HorizontalAlignment="Center" VerticalAlignment="Center" 
+                 Text="First" TextWrapping="Wrap" Grid.RowSpan="1" 
+                 Grid.Column="1" Margin="0,0,0,0" Width="Auto" Height="Auto"/>
+      <TextBlock HorizontalAlignment="Center" VerticalAlignment="Stretch" 
+                 Text="Name" TextWrapping="Wrap" Grid.RowSpan="1" 
+                 Grid.Row="1" Margin="0,0,0,0" Height="Auto" Width="Auto"/>
+      <TextBlock HorizontalAlignment="Center" VerticalAlignment="Stretch" 
+                 Text="Street" TextWrapping="Wrap" Grid.Row="2"  
+                 Margin="0,0,0,0" Width="Auto"/>
+      <TextBox HorizontalAlignment="Stretch" VerticalAlignment="Stretch" 
+               Text="{Binding Address.Street, Mode=TwoWay}" Grid.Row="2"  
+               Grid.Column="1" Margin="2,2,2,2" Grid.ColumnSpan="5" 
+               Width="Auto" />
+      <TextBlock HorizontalAlignment="Center" VerticalAlignment="Stretch" 
+                 Text="City" TextWrapping="Wrap" Grid.Row="3" 
+                 Margin="0,0,0,0"/>
+      <TextBlock Margin="0,0,0,0" Text="State" TextWrapping="Wrap" 
+                 Grid.Column="2" Grid.Row="3" HorizontalAlignment="Center"/>
+      <TextBlock Margin="0,0,0,0" Text="Zip" TextWrapping="Wrap" 
+                 Grid.Column="4" Grid.Row="3" HorizontalAlignment="Center"/>
+      <TextBox HorizontalAlignment="Stretch" VerticalAlignment="Stretch" 
+               Text="{Binding Address.City, Mode=TwoWay}" Grid.Row="3" 
+               Margin="2,2,8,2" Grid.Column="1"/>
+      <Grid BindingValidationError="TextBox_BindingValidationError" 
+            Grid.Column="3" Grid.Row="3" Margin="2,2,2,2" 
+            HorizontalAlignment="Stretch"  VerticalAlignment="Stretch" >
+        <Grid.ColumnDefinitions>
+          <ColumnDefinition Width="90*" />
+          <ColumnDefinition Width="Auto" />
+        </Grid.ColumnDefinitions>
+        <TextBox Background="Transparent" Grid.Column="0"
+                Text="{Binding Address.State, Mode=TwoWay, 
+                ValidatesOnExceptions=True,NotifyOnValidationError=True}" 
+                BindingValidationError="TextBox_BindingValidationError" 
+                 x:Name="State">
+        </TextBox>
+        <TextBlock Visibility="Collapsed" x:Name="State_ErrorIndicator" 
+                   Grid.Column="1" Foreground="Red" FontSize="12" 
+                   FontWeight="Bold">
+          <ToolTipService.ToolTip>                    
+             <ContentControl ContentTemplate="{StaticResource dtErrorTooltip}" 
+                             x:Name="State_TooltipContent"/>
+          </ToolTipService.ToolTip>
+        </TextBlock>
+      </Grid>
+      <Grid BindingValidationError="TextBox_BindingValidationError" 
+            Grid.Column="5" Grid.Row="3"  Margin="2,2,2,2" 
+            HorizontalAlignment="Stretch"  VerticalAlignment="Stretch" >
+        <Grid.ColumnDefinitions>
+          <ColumnDefinition Width="90*" />
+          <ColumnDefinition Width="Auto" />
+        </Grid.ColumnDefinitions>
+        <TextBox Background="Transparent" Grid.Column="0"
+                  Text="{Binding Address.ZipCode, Mode=TwoWay, 
+                  ValidatesOnExceptions=True,NotifyOnValidationError=True}" 
+                  BindingValidationError="TextBox_BindingValidationError" 
+                  x:Name="ZipCode"/>
+        <TextBlock Visibility="Collapsed" x:Name="ZipCode_ErrorIndicator" 
+                   Grid.Column="1" Foreground="Red" FontSize="12" 
+                   FontWeight="Bold">
+        <ToolTipService.ToolTip>                    
+           <ContentControl ContentTemplate="{StaticResource dtErrorTooltip}" 
+                           x:Name="ZipCode_TooltipContent"/>
+        </ToolTipService.ToolTip>
+        </TextBlock>
+      </Grid>
+      <TextBlock HorizontalAlignment="Center" Margin="0,0,0,0" 
+                 VerticalAlignment="Stretch" Text="Phone" 
+                 TextWrapping="Wrap" Grid.Row="4"  />
+      <Grid BindingValidationError="TextBox_BindingValidationError" 
+            Grid.Column="1" Grid.Row="4" Margin="2,2,8,65" 
+            HorizontalAlignment="Stretch"  VerticalAlignment="Stretch" >
+        <Grid.ColumnDefinitions>
+          <ColumnDefinition Width="90*" />
+          <ColumnDefinition Width="Auto" />
+        </Grid.ColumnDefinitions>
+        <TextBox                 
+          Text="{Binding PhoneNum, Mode=TwoWay, 
+          ValidatesOnExceptions=True,NotifyOnValidationError=True}" 
+          BindingValidationError="TextBox_BindingValidationError" 
+          x:Name="PhoneNum"/>
+        <TextBlock Visibility="Collapsed" x:Name="PhoneNum_ErrorIndicator" 
+                   Grid.Column="1" Foreground="Red" FontSize="12" 
+                   FontWeight="Bold">
+          <ToolTipService.ToolTip>                    
+             <ContentControl ContentTemplate="{StaticResource dtErrorTooltip}" 
+                             x:Name="PhoneNum_TooltipContent"/>
+          </ToolTipService.ToolTip>
+        </TextBlock>
+      </Grid>
+      <Button Height="30.911" Margin="2,2,2,0" VerticalAlignment="Top" 
+              Content="Close" Grid.Column="5" Grid.Row="4" 
+              x:Name="btnClose" Click="btnClose_Click"/>
+    </Grid>
+  </Grid>
+</UserControl>
+
+    

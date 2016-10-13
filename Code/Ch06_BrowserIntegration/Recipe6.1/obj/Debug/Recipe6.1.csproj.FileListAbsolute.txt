@@ -1,0 +1,12 @@
+C:\Users\robcamer.NORTHAMERICA\Documents\Book Silverlight Recipes\Code\Ch06_BrowserIntegration\Recipe6.1\Bin\Debug\AppManifest.xaml
+C:\Users\robcamer.NORTHAMERICA\Documents\Book Silverlight Recipes\Code\Ch06_BrowserIntegration\Recipe6.1\Bin\Debug\Ch06_BrowserIntegration.Recipe6_1.dll
+C:\Users\robcamer.NORTHAMERICA\Documents\Book Silverlight Recipes\Code\Ch06_BrowserIntegration\Recipe6.1\Bin\Debug\Ch06_BrowserIntegration.Recipe6_1.pdb
+C:\Users\robcamer.NORTHAMERICA\Documents\Book Silverlight Recipes\Code\Ch06_BrowserIntegration\Recipe6.1\Bin\Debug\Ch06_BrowserIntegration.Recipe6_1.xap
+C:\Users\robcamer.NORTHAMERICA\Documents\Book Silverlight Recipes\Code\Ch06_BrowserIntegration\Recipe6.1\Bin\Debug\TestPage.html
+C:\Users\robcamer.NORTHAMERICA\Documents\Book Silverlight Recipes\Code\Ch06_BrowserIntegration\Recipe6.1\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\robcamer.NORTHAMERICA\Documents\Book Silverlight Recipes\Code\Ch06_BrowserIntegration\Recipe6.1\obj\Debug\App.g.cs
+C:\Users\robcamer.NORTHAMERICA\Documents\Book Silverlight Recipes\Code\Ch06_BrowserIntegration\Recipe6.1\obj\Debug\Page.g.cs
+C:\Users\robcamer.NORTHAMERICA\Documents\Book Silverlight Recipes\Code\Ch06_BrowserIntegration\Recipe6.1\obj\Debug\Ch06_BrowserIntegration.Recipe6_1.g.resources
+C:\Users\robcamer.NORTHAMERICA\Documents\Book Silverlight Recipes\Code\Ch06_BrowserIntegration\Recipe6.1\obj\Debug\Ch06_BrowserIntegration.Recipe6_1.dll
+C:\Users\robcamer.NORTHAMERICA\Documents\Book Silverlight Recipes\Code\Ch06_BrowserIntegration\Recipe6.1\obj\Debug\Ch06_BrowserIntegration.Recipe6_1.pdb
+C:\Users\robcamer.NORTHAMERICA\Documents\Book Silverlight Recipes\Code\Ch06_BrowserIntegration\Recipe6.1\obj\Debug\XapCacheFile.xml

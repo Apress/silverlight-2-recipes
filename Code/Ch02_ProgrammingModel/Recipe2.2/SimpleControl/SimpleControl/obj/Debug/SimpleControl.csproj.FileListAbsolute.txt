@@ -1,0 +1,12 @@
+C:\Users\robcamer.NORTHAMERICA\Documents\Book Silverlight Recipes\Code\Ch02_ProgrammingModel\Recipe 2.1\SimpleControl\SimpleControl\Bin\Debug\SimpleControl.dll
+C:\Users\robcamer.NORTHAMERICA\Documents\Book Silverlight Recipes\Code\Ch02_ProgrammingModel\Recipe 2.1\SimpleControl\SimpleControl\Bin\Debug\SimpleControl.pdb
+C:\Users\robcamer.NORTHAMERICA\Documents\Book Silverlight Recipes\Code\Ch02_ProgrammingModel\Recipe 2.1\SimpleControl\SimpleControl\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\robcamer.NORTHAMERICA\Documents\Book Silverlight Recipes\Code\Ch02_ProgrammingModel\Recipe 2.1\SimpleControl\SimpleControl\obj\Debug\SimpleControl.g.resources
+C:\Users\robcamer.NORTHAMERICA\Documents\Book Silverlight Recipes\Code\Ch02_ProgrammingModel\Recipe 2.1\SimpleControl\SimpleControl\obj\Debug\SimpleControl.dll
+C:\Users\robcamer.NORTHAMERICA\Documents\Book Silverlight Recipes\Code\Ch02_ProgrammingModel\Recipe 2.1\SimpleControl\SimpleControl\obj\Debug\SimpleControl.pdb
+C:\Users\robcamer.NORTHAMERICA\Documents\Book Silverlight Recipes\Code\Ch02_ProgrammingModel\Recipe2.2\SimpleControl\SimpleControl\Bin\Debug\SimpleControl.dll
+C:\Users\robcamer.NORTHAMERICA\Documents\Book Silverlight Recipes\Code\Ch02_ProgrammingModel\Recipe2.2\SimpleControl\SimpleControl\Bin\Debug\SimpleControl.pdb
+C:\Users\robcamer.NORTHAMERICA\Documents\Book Silverlight Recipes\Code\Ch02_ProgrammingModel\Recipe2.2\SimpleControl\SimpleControl\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\robcamer.NORTHAMERICA\Documents\Book Silverlight Recipes\Code\Ch02_ProgrammingModel\Recipe2.2\SimpleControl\SimpleControl\obj\Debug\SimpleControl.g.resources
+C:\Users\robcamer.NORTHAMERICA\Documents\Book Silverlight Recipes\Code\Ch02_ProgrammingModel\Recipe2.2\SimpleControl\SimpleControl\obj\Debug\SimpleControl.dll
+C:\Users\robcamer.NORTHAMERICA\Documents\Book Silverlight Recipes\Code\Ch02_ProgrammingModel\Recipe2.2\SimpleControl\SimpleControl\obj\Debug\SimpleControl.pdb

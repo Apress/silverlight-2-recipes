@@ -1,0 +1,13 @@
+﻿<?wsx  version="1.0" encoding="utf-8"?>
+<smil>
+  <media src="D:\Media\Amazon_1080.wmv" begin="0s" dur="15s"/>
+  <seq>
+    <media src="D:\Media\Coral_Reef_Adventure_1080.wmv" dur="20s"/>
+    <media src="D:\Media\Discoverers_1080.wmv" begin="prev.begin+10s" dur="30s"/>
+    <switch>
+      <media src="D:\Media\AdrenalineRush.wmv" dur="15s"/>
+      <media src="D:\Media\Alexander_Trailer_1080p.wmv" dur="15s"/>
+    </switch>
+  </seq>
+  <media src="D:\Media\Discoverers_1080.wmv" begin="70s" dur="45s"/>
+</smil>

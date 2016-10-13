@@ -1,0 +1,64 @@
+D:\work\Current Initiatives\Writing\SLBook\WorkInProgress\ChapterSamples\DataBinding\recipe_4_dot_4\ClientBin\recipe_4_dot_4.dll
+D:\work\Current Initiatives\Writing\SLBook\WorkInProgress\ChapterSamples\DataBinding\recipe_4_dot_4\ClientBin\recipe_4_dot_4.pdb
+D:\work\Current Initiatives\Writing\SLBook\WorkInProgress\ChapterSamples\DataBinding\recipe_4_dot_4\ClientBin\AppManifest.xaml
+D:\work\Current Initiatives\Writing\SLBook\WorkInProgress\ChapterSamples\DataBinding\recipe_4_dot_4\ClientBin\recipe_4_dot_4.xap
+D:\work\Current Initiatives\Writing\SLBook\WorkInProgress\ChapterSamples\DataBinding\recipe_4_dot_4\ClientBin\TestPage.html
+D:\work\Current Initiatives\Writing\SLBook\WorkInProgress\ChapterSamples\DataBinding\recipe_4_dot_4\ClientBin\System.Windows.Controls.Data.dll
+D:\work\Current Initiatives\Writing\SLBook\WorkInProgress\ChapterSamples\DataBinding\recipe_4_dot_4\ClientBin\System.Windows.Controls.Extended.dll
+D:\work\Current Initiatives\Writing\SLBook\WorkInProgress\ChapterSamples\DataBinding\recipe_4_dot_4\ClientBin\System.Windows.Controls.Extended.xml
+D:\work\Current Initiatives\Writing\SLBook\WorkInProgress\ChapterSamples\DataBinding\recipe_4_dot_4\ClientBin\System.Windows.Controls.Data.xml
+D:\work\Current Initiatives\Writing\SLBook\WorkInProgress\ChapterSamples\DataBinding\recipe_4_dot_4\ClientBin\de\System.Windows.Controls.Extended.resources.dll
+D:\work\Current Initiatives\Writing\SLBook\WorkInProgress\ChapterSamples\DataBinding\recipe_4_dot_4\ClientBin\es\System.Windows.Controls.Extended.resources.dll
+D:\work\Current Initiatives\Writing\SLBook\WorkInProgress\ChapterSamples\DataBinding\recipe_4_dot_4\ClientBin\fr\System.Windows.Controls.Extended.resources.dll
+D:\work\Current Initiatives\Writing\SLBook\WorkInProgress\ChapterSamples\DataBinding\recipe_4_dot_4\ClientBin\it\System.Windows.Controls.Extended.resources.dll
+D:\work\Current Initiatives\Writing\SLBook\WorkInProgress\ChapterSamples\DataBinding\recipe_4_dot_4\ClientBin\ja\System.Windows.Controls.Extended.resources.dll
+D:\work\Current Initiatives\Writing\SLBook\WorkInProgress\ChapterSamples\DataBinding\recipe_4_dot_4\ClientBin\ko\System.Windows.Controls.Extended.resources.dll
+D:\work\Current Initiatives\Writing\SLBook\WorkInProgress\ChapterSamples\DataBinding\recipe_4_dot_4\ClientBin\de\System.Windows.Controls.Data.resources.dll
+D:\work\Current Initiatives\Writing\SLBook\WorkInProgress\ChapterSamples\DataBinding\recipe_4_dot_4\ClientBin\es\System.Windows.Controls.Data.resources.dll
+D:\work\Current Initiatives\Writing\SLBook\WorkInProgress\ChapterSamples\DataBinding\recipe_4_dot_4\ClientBin\fr\System.Windows.Controls.Data.resources.dll
+D:\work\Current Initiatives\Writing\SLBook\WorkInProgress\ChapterSamples\DataBinding\recipe_4_dot_4\ClientBin\it\System.Windows.Controls.Data.resources.dll
+D:\work\Current Initiatives\Writing\SLBook\WorkInProgress\ChapterSamples\DataBinding\recipe_4_dot_4\ClientBin\ja\System.Windows.Controls.Data.resources.dll
+D:\work\Current Initiatives\Writing\SLBook\WorkInProgress\ChapterSamples\DataBinding\recipe_4_dot_4\ClientBin\ko\System.Windows.Controls.Data.resources.dll
+D:\work\Current Initiatives\Writing\SLBook\WorkInProgress\ChapterSamples\DataBinding\recipe_4_dot_4\ClientBin\zh-hant\System.Windows.Controls.Data.Resources.dll
+D:\work\Current Initiatives\Writing\SLBook\WorkInProgress\ChapterSamples\DataBinding\recipe_4_dot_4\ClientBin\zh-hans\System.Windows.Controls.Data.Resources.dll
+D:\work\Current Initiatives\Writing\SLBook\WorkInProgress\ChapterSamples\DataBinding\recipe_4_dot_4\ClientBin\zh-hant\System.Windows.Controls.Extended.Resources.dll
+D:\work\Current Initiatives\Writing\SLBook\WorkInProgress\ChapterSamples\DataBinding\recipe_4_dot_4\ClientBin\zh-hans\System.Windows.Controls.Extended.Resources.dll
+D:\work\Current Initiatives\Writing\SLBook\WorkInProgress\ChapterSamples\DataBinding\recipe_4_dot_4\obj\Debug\ResolveAssemblyReference.cache
+D:\work\Current Initiatives\Writing\SLBook\WorkInProgress\ChapterSamples\DataBinding\recipe_4_dot_4\obj\Debug\App.g.cs
+D:\work\Current Initiatives\Writing\SLBook\WorkInProgress\ChapterSamples\DataBinding\recipe_4_dot_4\obj\Debug\Page.g.cs
+D:\work\Current Initiatives\Writing\SLBook\WorkInProgress\ChapterSamples\DataBinding\recipe_4_dot_4\obj\Debug\recipe_4_dot_4.g.resources
+D:\work\Current Initiatives\Writing\SLBook\WorkInProgress\ChapterSamples\DataBinding\recipe_4_dot_4\obj\Debug\recipe_4_dot_4.dll
+D:\work\Current Initiatives\Writing\SLBook\WorkInProgress\ChapterSamples\DataBinding\recipe_4_dot_4\obj\Debug\recipe_4_dot_4.pdb
+D:\work\Current Initiatives\Writing\SLBook\WorkInProgress\ChapterSamples\DataBinding\recipe_4_dot_4\obj\Debug\XapCacheFile.xml
+D:\work\Current Initiatives\Writing\SLBook\WorkInProgress\ChapterSamples\Ch04_DataBinding\4.4 Value Conversion\ClientBin\AppManifest.xaml
+D:\work\Current Initiatives\Writing\SLBook\WorkInProgress\ChapterSamples\Ch04_DataBinding\4.4 Value Conversion\ClientBin\Ch04_DataBinding.Recipe4_4.dll
+D:\work\Current Initiatives\Writing\SLBook\WorkInProgress\ChapterSamples\Ch04_DataBinding\4.4 Value Conversion\ClientBin\Ch04_DataBinding.Recipe4_4.pdb
+D:\work\Current Initiatives\Writing\SLBook\WorkInProgress\ChapterSamples\Ch04_DataBinding\4.4 Value Conversion\ClientBin\Ch04_DataBinding.Recipe4_4.xap
+D:\work\Current Initiatives\Writing\SLBook\WorkInProgress\ChapterSamples\Ch04_DataBinding\4.4 Value Conversion\ClientBin\TestPage.html
+D:\work\Current Initiatives\Writing\SLBook\WorkInProgress\ChapterSamples\Ch04_DataBinding\4.4 Value Conversion\ClientBin\System.Windows.Controls.Data.dll
+D:\work\Current Initiatives\Writing\SLBook\WorkInProgress\ChapterSamples\Ch04_DataBinding\4.4 Value Conversion\ClientBin\System.Windows.Controls.dll
+D:\work\Current Initiatives\Writing\SLBook\WorkInProgress\ChapterSamples\Ch04_DataBinding\4.4 Value Conversion\ClientBin\System.Windows.Controls.xml
+D:\work\Current Initiatives\Writing\SLBook\WorkInProgress\ChapterSamples\Ch04_DataBinding\4.4 Value Conversion\ClientBin\System.Windows.Controls.Data.xml
+D:\work\Current Initiatives\Writing\SLBook\WorkInProgress\ChapterSamples\Ch04_DataBinding\4.4 Value Conversion\ClientBin\de\System.Windows.Controls.resources.dll
+D:\work\Current Initiatives\Writing\SLBook\WorkInProgress\ChapterSamples\Ch04_DataBinding\4.4 Value Conversion\ClientBin\es\System.Windows.Controls.resources.dll
+D:\work\Current Initiatives\Writing\SLBook\WorkInProgress\ChapterSamples\Ch04_DataBinding\4.4 Value Conversion\ClientBin\fr\System.Windows.Controls.resources.dll
+D:\work\Current Initiatives\Writing\SLBook\WorkInProgress\ChapterSamples\Ch04_DataBinding\4.4 Value Conversion\ClientBin\it\System.Windows.Controls.resources.dll
+D:\work\Current Initiatives\Writing\SLBook\WorkInProgress\ChapterSamples\Ch04_DataBinding\4.4 Value Conversion\ClientBin\ja\System.Windows.Controls.resources.dll
+D:\work\Current Initiatives\Writing\SLBook\WorkInProgress\ChapterSamples\Ch04_DataBinding\4.4 Value Conversion\ClientBin\ko\System.Windows.Controls.resources.dll
+D:\work\Current Initiatives\Writing\SLBook\WorkInProgress\ChapterSamples\Ch04_DataBinding\4.4 Value Conversion\ClientBin\zh-Hans\System.Windows.Controls.resources.dll
+D:\work\Current Initiatives\Writing\SLBook\WorkInProgress\ChapterSamples\Ch04_DataBinding\4.4 Value Conversion\ClientBin\zh-Hant\System.Windows.Controls.resources.dll
+D:\work\Current Initiatives\Writing\SLBook\WorkInProgress\ChapterSamples\Ch04_DataBinding\4.4 Value Conversion\ClientBin\de\System.Windows.Controls.Data.resources.dll
+D:\work\Current Initiatives\Writing\SLBook\WorkInProgress\ChapterSamples\Ch04_DataBinding\4.4 Value Conversion\ClientBin\es\System.Windows.Controls.Data.resources.dll
+D:\work\Current Initiatives\Writing\SLBook\WorkInProgress\ChapterSamples\Ch04_DataBinding\4.4 Value Conversion\ClientBin\fr\System.Windows.Controls.Data.resources.dll
+D:\work\Current Initiatives\Writing\SLBook\WorkInProgress\ChapterSamples\Ch04_DataBinding\4.4 Value Conversion\ClientBin\it\System.Windows.Controls.Data.resources.dll
+D:\work\Current Initiatives\Writing\SLBook\WorkInProgress\ChapterSamples\Ch04_DataBinding\4.4 Value Conversion\ClientBin\ja\System.Windows.Controls.Data.resources.dll
+D:\work\Current Initiatives\Writing\SLBook\WorkInProgress\ChapterSamples\Ch04_DataBinding\4.4 Value Conversion\ClientBin\ko\System.Windows.Controls.Data.resources.dll
+D:\work\Current Initiatives\Writing\SLBook\WorkInProgress\ChapterSamples\Ch04_DataBinding\4.4 Value Conversion\ClientBin\zh-Hans\System.Windows.Controls.Data.resources.dll
+D:\work\Current Initiatives\Writing\SLBook\WorkInProgress\ChapterSamples\Ch04_DataBinding\4.4 Value Conversion\ClientBin\zh-Hant\System.Windows.Controls.Data.resources.dll
+D:\work\Current Initiatives\Writing\SLBook\WorkInProgress\ChapterSamples\Ch04_DataBinding\4.4 Value Conversion\obj\Debug\ResolveAssemblyReference.cache
+D:\work\Current Initiatives\Writing\SLBook\WorkInProgress\ChapterSamples\Ch04_DataBinding\4.4 Value Conversion\obj\Debug\App.g.cs
+D:\work\Current Initiatives\Writing\SLBook\WorkInProgress\ChapterSamples\Ch04_DataBinding\4.4 Value Conversion\obj\Debug\Page.g.cs
+D:\work\Current Initiatives\Writing\SLBook\WorkInProgress\ChapterSamples\Ch04_DataBinding\4.4 Value Conversion\obj\Debug\Ch04_DataBinding.Recipe4_4.g.resources
+D:\work\Current Initiatives\Writing\SLBook\WorkInProgress\ChapterSamples\Ch04_DataBinding\4.4 Value Conversion\obj\Debug\Ch04_DataBinding.Recipe4_4.dll
+D:\work\Current Initiatives\Writing\SLBook\WorkInProgress\ChapterSamples\Ch04_DataBinding\4.4 Value Conversion\obj\Debug\Ch04_DataBinding.Recipe4_4.pdb
+D:\work\Current Initiatives\Writing\SLBook\WorkInProgress\ChapterSamples\Ch04_DataBinding\4.4 Value Conversion\obj\Debug\XapCacheFile.xml

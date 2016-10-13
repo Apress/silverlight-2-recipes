@@ -1,0 +1,10 @@
+D:\work\Current Initiatives\Writing\SLBook\WorkInProgress\ChapterSamples\Ch07_Networking\7.5 Sockets\7.5 ChatBroker\bin\Debug\Ch07_Networking.Recipe7_5.ChatBroker.exe
+D:\work\Current Initiatives\Writing\SLBook\WorkInProgress\ChapterSamples\Ch07_Networking\7.5 Sockets\7.5 ChatBroker\bin\Debug\Ch07_Networking.Recipe7_5.ChatBroker.pdb
+D:\work\Current Initiatives\Writing\SLBook\WorkInProgress\ChapterSamples\Ch07_Networking\7.5 Sockets\7.5 ChatBroker\obj\Debug\ResolveAssemblyReference.cache
+D:\work\Current Initiatives\Writing\SLBook\WorkInProgress\ChapterSamples\Ch07_Networking\7.5 Sockets\7.5 ChatBroker\obj\Debug\Ch07_Networking.Recipe7_5.ChatBroker.exe
+D:\work\Current Initiatives\Writing\SLBook\WorkInProgress\ChapterSamples\Ch07_Networking\7.5 Sockets\7.5 ChatBroker\obj\Debug\Ch07_Networking.Recipe7_5.ChatBroker.pdb
+D:\RobcamerDocs\Book Silverlight Recipes\Code\Ch07_Networking\7.5 Sockets\7.5 ChatBroker\bin\Debug\Ch07_Networking.Recipe7_5.ChatBroker.exe
+D:\RobcamerDocs\Book Silverlight Recipes\Code\Ch07_Networking\7.5 Sockets\7.5 ChatBroker\bin\Debug\Ch07_Networking.Recipe7_5.ChatBroker.pdb
+D:\RobcamerDocs\Book Silverlight Recipes\Code\Ch07_Networking\7.5 Sockets\7.5 ChatBroker\obj\Debug\ResolveAssemblyReference.cache
+D:\RobcamerDocs\Book Silverlight Recipes\Code\Ch07_Networking\7.5 Sockets\7.5 ChatBroker\obj\Debug\Ch07_Networking.Recipe7_5.ChatBroker.exe
+D:\RobcamerDocs\Book Silverlight Recipes\Code\Ch07_Networking\7.5 Sockets\7.5 ChatBroker\obj\Debug\Ch07_Networking.Recipe7_5.ChatBroker.pdb

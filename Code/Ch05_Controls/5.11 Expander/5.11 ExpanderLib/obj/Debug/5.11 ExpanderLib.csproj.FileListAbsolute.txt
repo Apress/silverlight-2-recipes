@@ -1,0 +1,6 @@
+D:\work\Current Initiatives\Writing\SLBook\WorkInProgress\ChapterSamples\Ch05_Controls\5.11 Expander\5.11 ExpanderLib\Bin\Debug\Ch05_Controls.Recipe5_11.ExpLib.dll
+D:\work\Current Initiatives\Writing\SLBook\WorkInProgress\ChapterSamples\Ch05_Controls\5.11 Expander\5.11 ExpanderLib\Bin\Debug\Ch05_Controls.Recipe5_11.ExpLib.pdb
+D:\work\Current Initiatives\Writing\SLBook\WorkInProgress\ChapterSamples\Ch05_Controls\5.11 Expander\5.11 ExpanderLib\obj\Debug\ResolveAssemblyReference.cache
+D:\work\Current Initiatives\Writing\SLBook\WorkInProgress\ChapterSamples\Ch05_Controls\5.11 Expander\5.11 ExpanderLib\obj\Debug\Ch05_Controls.Recipe5_11.ExpLib.g.resources
+D:\work\Current Initiatives\Writing\SLBook\WorkInProgress\ChapterSamples\Ch05_Controls\5.11 Expander\5.11 ExpanderLib\obj\Debug\Ch05_Controls.Recipe5_11.ExpLib.dll
+D:\work\Current Initiatives\Writing\SLBook\WorkInProgress\ChapterSamples\Ch05_Controls\5.11 Expander\5.11 ExpanderLib\obj\Debug\Ch05_Controls.Recipe5_11.ExpLib.pdb

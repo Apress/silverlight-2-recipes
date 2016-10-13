@@ -1,0 +1,152 @@
+﻿<UserControl x:Class="Ch04_DataBinding.Recipe4_4.Page"
+    xmlns="http://schemas.microsoft.com/client/2007" 
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:data=
+    "clr-namespace:System.Windows.Controls;assembly=System.Windows.Controls.Data"
+    xmlns:local="clr-namespace:Ch04_DataBinding.Recipe4_4"
+    Width="800" Height="510">
+
+  <UserControl.Resources>
+    <local:SpendingCollection x:Key="REF_SpendingList" />
+    <local:SpendingToBarWidthConverter x:Key="REF_SpendingToBarWidthConverter" />
+    <local:SpendingToPercentageStringConverter 
+      x:Key="REF_SpendingToPercentageStringConverter" />
+    <DataTemplate x:Key="dtBarTemplate">
+      <Grid HorizontalAlignment="Left" VerticalAlignment="Stretch" 
+            Height="30"  Margin="0,2,0,0" >
+        <Grid.RowDefinitions>
+          <RowDefinition Height="0.5*" />
+          <RowDefinition Height="0.5*" />
+        </Grid.RowDefinitions>
+        <Rectangle Grid.Row="1" VerticalAlignment="Stretch" 
+                   Fill="Black" HorizontalAlignment="Left" 
+                   Width="{Binding Amount,Mode=TwoWay,
+                    Converter={StaticResource REF_SpendingToBarWidthConverter},
+                    ConverterParameter={StaticResource REF_SpendingList}}" 
+                   MouseMove="Rectangle_MouseMove" 
+                   MouseLeftButtonDown="Rectangle_MouseLeftButtonDown" 
+                   MouseLeftButtonUp="Rectangle_MouseLeftButtonUp"/>
+        <StackPanel Orientation="Horizontal" Grid.Row="0">
+          <TextBlock Text="{Binding Item}" FontSize="9" />
+          <TextBlock Text="{Binding Amount,
+            Converter={StaticResource REF_SpendingToPercentageStringConverter},
+            ConverterParameter={StaticResource REF_SpendingList}}" 
+                     Margin="5,0,0,0" 
+                     FontSize="9"/>
+        </StackPanel>
+      </Grid>
+    </DataTemplate>
+  </UserControl.Resources>
+
+  <Grid x:Name="LayoutRoot" Background="White" Width="694">
+    <Grid.ColumnDefinitions>
+      <ColumnDefinition Width="*"/>
+      <ColumnDefinition Width="*"/>
+    </Grid.ColumnDefinitions>
+    <data:DataGrid HorizontalAlignment="Stretch" Margin="8,8,8,8" 
+                   VerticalAlignment="Stretch" 
+                   HeadersVisibility="Column" x:Name="dgSpending" 
+                   ItemsSource="{StaticResource REF_SpendingList}" 
+                   AutoGenerateColumns="False">
+      <data:DataGrid.Columns>
+        <data:DataGridTextColumn Header="Item"  
+                            Binding="{Binding Item,Mode=TwoWay}"/>
+        <data:DataGridTextColumn Header="Value" Width="100" 
+                            Binding="{Binding Amount,Mode=TwoWay}"/>
+      </data:DataGrid.Columns>
+    </data:DataGrid>
+    <Grid HorizontalAlignment="Stretch" VerticalAlignment="Stretch" 
+          Grid.Column="1" Margin="8,8,8,8" x:Name="GraphRoot" 
+          DataContext="{StaticResource REF_SpendingList}">
+      <Grid.RowDefinitions>
+        <RowDefinition Height="*"/>
+        <RowDefinition Height="20"/>
+      </Grid.RowDefinitions>
+      <Rectangle Height="Auto" HorizontalAlignment="Left" 
+                 VerticalAlignment="Stretch" Width="2" 
+                 Stroke="#FF000000" StrokeThickness="0" 
+                 Fill="#FF000000" x:Name="rectYAxis" Margin="0,0,0,0"/>
+      <Rectangle Height="2" HorizontalAlignment="Stretch" 
+                 VerticalAlignment="Bottom" Fill="#FF000000" 
+                 Stroke="#FF000000" StrokeThickness="0" 
+                 Stretch="Fill" x:Name="rectXAxis" Margin="0,0,0,0" 
+                 Width="350" />
+      <Grid HorizontalAlignment="Stretch" VerticalAlignment="Stretch" 
+            Width="Auto" Grid.Row="1" Margin="2,0,0,0" 
+            x:Name="gridMarkers">
+        <Grid.ColumnDefinitions>
+          <ColumnDefinition Width="0.1*" />
+          <ColumnDefinition Width="0.1*" />
+          <ColumnDefinition Width="0.1*" />
+          <ColumnDefinition Width="0.1*" />
+          <ColumnDefinition Width="0.1*" />
+          <ColumnDefinition Width="0.1*" />
+          <ColumnDefinition Width="0.1*" />
+          <ColumnDefinition Width="0.1*" />
+          <ColumnDefinition Width="0.1*" />
+          <ColumnDefinition Width="0.1*" />
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+          <RowDefinition Height="0.3*" />
+          <RowDefinition Height="0.7*" />
+        </Grid.RowDefinitions>
+        <Rectangle Width="2" Fill="Black" VerticalAlignment="Stretch"
+                   HorizontalAlignment="Right" Grid.Column="0" />
+        <Rectangle Width="2" Fill="Black" VerticalAlignment="Stretch" 
+                   HorizontalAlignment="Right" Grid.Column="1" />
+        <Rectangle Width="2" Fill="Black" VerticalAlignment="Stretch" 
+                   HorizontalAlignment="Right" Grid.Column="2" />
+        <Rectangle Width="2" Fill="Black" VerticalAlignment="Stretch" 
+                   HorizontalAlignment="Right" Grid.Column="3" />
+        <Rectangle Width="2" Fill="Black" VerticalAlignment="Stretch" 
+                   HorizontalAlignment="Right" Grid.Column="4" />
+        <Rectangle Width="2" Fill="Black" VerticalAlignment="Stretch" 
+                   HorizontalAlignment="Right" Grid.Column="5" />
+        <Rectangle Width="2" Fill="Black" VerticalAlignment="Stretch" 
+                   HorizontalAlignment="Right" Grid.Column="6" />
+        <Rectangle Width="2" Fill="Black" VerticalAlignment="Stretch" 
+                   HorizontalAlignment="Right" Grid.Column="7" />
+        <Rectangle Width="2" Fill="Black" VerticalAlignment="Stretch" 
+                   HorizontalAlignment="Right" Grid.Column="8" />
+        <Rectangle Width="2" Fill="Black" VerticalAlignment="Stretch" 
+                   HorizontalAlignment="Right" Grid.Column="9" />
+        <TextBlock HorizontalAlignment="Right" VerticalAlignment="Stretch" 
+                   Grid.Row="1" Grid.Column="0" Text="10%" FontSize="11" 
+                   FontWeight="Bold" />
+        <TextBlock HorizontalAlignment="Right" VerticalAlignment="Stretch" 
+                   Grid.Row="1" Grid.Column="1" Text="20%" FontSize="11" 
+                   FontWeight="Bold" />
+        <TextBlock HorizontalAlignment="Right" VerticalAlignment="Stretch" 
+                   Grid.Row="1" Grid.Column="2" Text="30%" FontSize="11" 
+                   FontWeight="Bold" />
+        <TextBlock HorizontalAlignment="Right" VerticalAlignment="Stretch" 
+                   Grid.Row="1" Grid.Column="3" Text="40%" FontSize="11" 
+                   FontWeight="Bold" />
+        <TextBlock HorizontalAlignment="Right" VerticalAlignment="Stretch" 
+                   Grid.Row="1" Grid.Column="4" Text="50%" FontSize="11" 
+                   FontWeight="Bold" />
+        <TextBlock HorizontalAlignment="Right" VerticalAlignment="Stretch" 
+                   Grid.Row="1" Grid.Column="5" Text="60%" FontSize="11" 
+                   FontWeight="Bold" />
+        <TextBlock HorizontalAlignment="Right" VerticalAlignment="Stretch" 
+                   Grid.Row="1" Grid.Column="6" Text="70%" FontSize="11" 
+                   FontWeight="Bold" />
+        <TextBlock HorizontalAlignment="Right" VerticalAlignment="Stretch" 
+                   Grid.Row="1" Grid.Column="7" Text="80%" FontSize="11" 
+                   FontWeight="Bold" />
+        <TextBlock HorizontalAlignment="Right" VerticalAlignment="Stretch" 
+                   Grid.Row="1" Grid.Column="8" Text="90%" FontSize="11" 
+                   FontWeight="Bold" />
+        <TextBlock HorizontalAlignment="Right" VerticalAlignment="Stretch" 
+                   Grid.Row="1" Grid.Column="9" Text="100%" FontSize="11" 
+                   FontWeight="Bold" />
+      </Grid>
+      <Grid Height="Auto" HorizontalAlignment="Stretch" Margin="2,0,0,2" 
+            VerticalAlignment="Stretch" Width="Auto" x:Name="gridBars" 
+            ShowGridLines="True">
+        <ItemsControl ItemsSource="{StaticResource REF_SpendingList}" 
+                      ItemTemplate="{StaticResource dtBarTemplate}" />
+      </Grid>
+    </Grid>
+  </Grid>
+</UserControl>

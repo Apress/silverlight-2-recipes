@@ -1,0 +1,14 @@
+D:\work\Current Initiatives\Writing\SLBook\WorkInProgress\ChapterSamples\Ch05_Controls\5.11 Expander\5.11 Expander Test\Bin\Debug\AppManifest.xaml
+D:\work\Current Initiatives\Writing\SLBook\WorkInProgress\ChapterSamples\Ch05_Controls\5.11 Expander\5.11 Expander Test\Bin\Debug\Ch05_Controls.Recipe5_11.ExpanderTest.dll
+D:\work\Current Initiatives\Writing\SLBook\WorkInProgress\ChapterSamples\Ch05_Controls\5.11 Expander\5.11 Expander Test\Bin\Debug\Ch05_Controls.Recipe5_11.ExpanderTest.pdb
+D:\work\Current Initiatives\Writing\SLBook\WorkInProgress\ChapterSamples\Ch05_Controls\5.11 Expander\5.11 Expander Test\Bin\Debug\Ch05_Controls.Recipe5_11.ExpanderTest.xap
+D:\work\Current Initiatives\Writing\SLBook\WorkInProgress\ChapterSamples\Ch05_Controls\5.11 Expander\5.11 Expander Test\Bin\Debug\TestPage.html
+D:\work\Current Initiatives\Writing\SLBook\WorkInProgress\ChapterSamples\Ch05_Controls\5.11 Expander\5.11 Expander Test\Bin\Debug\Ch05_Controls.Recipe5_11.ExpLib.dll
+D:\work\Current Initiatives\Writing\SLBook\WorkInProgress\ChapterSamples\Ch05_Controls\5.11 Expander\5.11 Expander Test\Bin\Debug\Ch05_Controls.Recipe5_11.ExpLib.pdb
+D:\work\Current Initiatives\Writing\SLBook\WorkInProgress\ChapterSamples\Ch05_Controls\5.11 Expander\5.11 Expander Test\obj\Debug\ResolveAssemblyReference.cache
+D:\work\Current Initiatives\Writing\SLBook\WorkInProgress\ChapterSamples\Ch05_Controls\5.11 Expander\5.11 Expander Test\obj\Debug\App.g.cs
+D:\work\Current Initiatives\Writing\SLBook\WorkInProgress\ChapterSamples\Ch05_Controls\5.11 Expander\5.11 Expander Test\obj\Debug\Page.g.cs
+D:\work\Current Initiatives\Writing\SLBook\WorkInProgress\ChapterSamples\Ch05_Controls\5.11 Expander\5.11 Expander Test\obj\Debug\Ch05_Controls.Recipe5_11.ExpanderTest.g.resources
+D:\work\Current Initiatives\Writing\SLBook\WorkInProgress\ChapterSamples\Ch05_Controls\5.11 Expander\5.11 Expander Test\obj\Debug\Ch05_Controls.Recipe5_11.ExpanderTest.dll
+D:\work\Current Initiatives\Writing\SLBook\WorkInProgress\ChapterSamples\Ch05_Controls\5.11 Expander\5.11 Expander Test\obj\Debug\Ch05_Controls.Recipe5_11.ExpanderTest.pdb
+D:\work\Current Initiatives\Writing\SLBook\WorkInProgress\ChapterSamples\Ch05_Controls\5.11 Expander\5.11 Expander Test\obj\Debug\XapCacheFile.xml

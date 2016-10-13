@@ -1,0 +1,14 @@
+D:\work\Current Initiatives\Writing\SLBook\WorkInProgress\ChapterSamples\Ch07_Networking\TestApp\bin\TestApp.dll
+D:\work\Current Initiatives\Writing\SLBook\WorkInProgress\ChapterSamples\Ch07_Networking\TestApp\bin\TestApp.pdb
+D:\work\Current Initiatives\Writing\SLBook\WorkInProgress\ChapterSamples\Ch07_Networking\TestApp\bin\System.Web.Silverlight.dll
+D:\work\Current Initiatives\Writing\SLBook\WorkInProgress\ChapterSamples\Ch07_Networking\TestApp\bin\de\System.Web.Silverlight.resources.dll
+D:\work\Current Initiatives\Writing\SLBook\WorkInProgress\ChapterSamples\Ch07_Networking\TestApp\bin\es\System.Web.Silverlight.resources.dll
+D:\work\Current Initiatives\Writing\SLBook\WorkInProgress\ChapterSamples\Ch07_Networking\TestApp\bin\fr\System.Web.Silverlight.resources.dll
+D:\work\Current Initiatives\Writing\SLBook\WorkInProgress\ChapterSamples\Ch07_Networking\TestApp\bin\it\System.Web.Silverlight.resources.dll
+D:\work\Current Initiatives\Writing\SLBook\WorkInProgress\ChapterSamples\Ch07_Networking\TestApp\bin\ja\System.Web.Silverlight.resources.dll
+D:\work\Current Initiatives\Writing\SLBook\WorkInProgress\ChapterSamples\Ch07_Networking\TestApp\bin\ko\System.Web.Silverlight.resources.dll
+D:\work\Current Initiatives\Writing\SLBook\WorkInProgress\ChapterSamples\Ch07_Networking\TestApp\bin\zh-Hans\System.Web.Silverlight.resources.dll
+D:\work\Current Initiatives\Writing\SLBook\WorkInProgress\ChapterSamples\Ch07_Networking\TestApp\bin\zh-Hant\System.Web.Silverlight.resources.dll
+D:\work\Current Initiatives\Writing\SLBook\WorkInProgress\ChapterSamples\Ch07_Networking\TestApp\obj\Debug\ResolveAssemblyReference.cache
+D:\work\Current Initiatives\Writing\SLBook\WorkInProgress\ChapterSamples\Ch07_Networking\TestApp\obj\Debug\TestApp.dll
+D:\work\Current Initiatives\Writing\SLBook\WorkInProgress\ChapterSamples\Ch07_Networking\TestApp\obj\Debug\TestApp.pdb

@@ -1,0 +1,17 @@
+D:\work\Current Initiatives\Writing\SLBook\WorkInProgress\ChapterSamples\Ch05_Controls\5.8 Composite Control\5.8 Composite Control Library\Bin\Debug\Ch05_Controls.Recipe5_8.ControlLib.dll
+D:\work\Current Initiatives\Writing\SLBook\WorkInProgress\ChapterSamples\Ch05_Controls\5.8 Composite Control\5.8 Composite Control Library\Bin\Debug\Ch05_Controls.Recipe5_8.ControlLib.pdb
+D:\work\Current Initiatives\Writing\SLBook\WorkInProgress\ChapterSamples\Ch05_Controls\5.8 Composite Control\5.8 Composite Control Library\Bin\Debug\System.Windows.Controls.Data.dll
+D:\work\Current Initiatives\Writing\SLBook\WorkInProgress\ChapterSamples\Ch05_Controls\5.8 Composite Control\5.8 Composite Control Library\Bin\Debug\System.Windows.Controls.Data.xml
+D:\work\Current Initiatives\Writing\SLBook\WorkInProgress\ChapterSamples\Ch05_Controls\5.8 Composite Control\5.8 Composite Control Library\Bin\Debug\de\System.Windows.Controls.Data.resources.dll
+D:\work\Current Initiatives\Writing\SLBook\WorkInProgress\ChapterSamples\Ch05_Controls\5.8 Composite Control\5.8 Composite Control Library\Bin\Debug\es\System.Windows.Controls.Data.resources.dll
+D:\work\Current Initiatives\Writing\SLBook\WorkInProgress\ChapterSamples\Ch05_Controls\5.8 Composite Control\5.8 Composite Control Library\Bin\Debug\fr\System.Windows.Controls.Data.resources.dll
+D:\work\Current Initiatives\Writing\SLBook\WorkInProgress\ChapterSamples\Ch05_Controls\5.8 Composite Control\5.8 Composite Control Library\Bin\Debug\it\System.Windows.Controls.Data.resources.dll
+D:\work\Current Initiatives\Writing\SLBook\WorkInProgress\ChapterSamples\Ch05_Controls\5.8 Composite Control\5.8 Composite Control Library\Bin\Debug\ja\System.Windows.Controls.Data.resources.dll
+D:\work\Current Initiatives\Writing\SLBook\WorkInProgress\ChapterSamples\Ch05_Controls\5.8 Composite Control\5.8 Composite Control Library\Bin\Debug\ko\System.Windows.Controls.Data.resources.dll
+D:\work\Current Initiatives\Writing\SLBook\WorkInProgress\ChapterSamples\Ch05_Controls\5.8 Composite Control\5.8 Composite Control Library\Bin\Debug\zh-Hans\System.Windows.Controls.Data.resources.dll
+D:\work\Current Initiatives\Writing\SLBook\WorkInProgress\ChapterSamples\Ch05_Controls\5.8 Composite Control\5.8 Composite Control Library\Bin\Debug\zh-Hant\System.Windows.Controls.Data.resources.dll
+D:\work\Current Initiatives\Writing\SLBook\WorkInProgress\ChapterSamples\Ch05_Controls\5.8 Composite Control\5.8 Composite Control Library\obj\Debug\ResolveAssemblyReference.cache
+D:\work\Current Initiatives\Writing\SLBook\WorkInProgress\ChapterSamples\Ch05_Controls\5.8 Composite Control\5.8 Composite Control Library\obj\Debug\PagedProductsGrid.g.cs
+D:\work\Current Initiatives\Writing\SLBook\WorkInProgress\ChapterSamples\Ch05_Controls\5.8 Composite Control\5.8 Composite Control Library\obj\Debug\Ch05_Controls.Recipe5_8.ControlLib.g.resources
+D:\work\Current Initiatives\Writing\SLBook\WorkInProgress\ChapterSamples\Ch05_Controls\5.8 Composite Control\5.8 Composite Control Library\obj\Debug\Ch05_Controls.Recipe5_8.ControlLib.dll
+D:\work\Current Initiatives\Writing\SLBook\WorkInProgress\ChapterSamples\Ch05_Controls\5.8 Composite Control\5.8 Composite Control Library\obj\Debug\Ch05_Controls.Recipe5_8.ControlLib.pdb

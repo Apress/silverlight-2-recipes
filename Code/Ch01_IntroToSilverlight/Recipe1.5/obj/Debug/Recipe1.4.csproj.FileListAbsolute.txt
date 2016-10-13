@@ -1,0 +1,4 @@
+C:\Users\robcamer.NORTHAMERICA\Documents\Book Silverlight Recipes\Code\Ch01_IntroToSilverlight\Recipe1.4\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\robcamer.NORTHAMERICA\Documents\Book Silverlight Recipes\Code\Ch01_IntroToSilverlight\Recipe1.4\obj\Debug\App.g.cs
+C:\Users\robcamer.NORTHAMERICA\Documents\Book Silverlight Recipes\Code\Ch01_IntroToSilverlight\Recipe1.4\obj\Debug\Page.g.cs
+C:\Users\robcamer.NORTHAMERICA\Documents\Book Silverlight Recipes\Code\Ch01_IntroToSilverlight\Recipe1.4\obj\Debug\Ch01_IntroToSilverlight.Recipe1_4.g.resources

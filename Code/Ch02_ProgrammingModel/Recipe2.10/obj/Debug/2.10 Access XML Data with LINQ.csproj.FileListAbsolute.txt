@@ -1,0 +1,12 @@
+C:\Users\robcamer.NORTHAMERICA\Documents\Book Silverlight Recipes\Code\Ch02_ProgrammingModel\Recipe2.10\Bin\Debug\Ch02_ProgrammingModel.Recipe2_10.dll
+C:\Users\robcamer.NORTHAMERICA\Documents\Book Silverlight Recipes\Code\Ch02_ProgrammingModel\Recipe2.10\Bin\Debug\Ch02_ProgrammingModel.Recipe2_10.pdb
+C:\Users\robcamer.NORTHAMERICA\Documents\Book Silverlight Recipes\Code\Ch02_ProgrammingModel\Recipe2.10\Bin\Debug\AppManifest.xaml
+C:\Users\robcamer.NORTHAMERICA\Documents\Book Silverlight Recipes\Code\Ch02_ProgrammingModel\Recipe2.10\Bin\Debug\Ch02_ProgrammingModel.Recipe2_10.xap
+C:\Users\robcamer.NORTHAMERICA\Documents\Book Silverlight Recipes\Code\Ch02_ProgrammingModel\Recipe2.10\Bin\Debug\TestPage.html
+C:\Users\robcamer.NORTHAMERICA\Documents\Book Silverlight Recipes\Code\Ch02_ProgrammingModel\Recipe2.10\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\robcamer.NORTHAMERICA\Documents\Book Silverlight Recipes\Code\Ch02_ProgrammingModel\Recipe2.10\obj\Debug\App.g.cs
+C:\Users\robcamer.NORTHAMERICA\Documents\Book Silverlight Recipes\Code\Ch02_ProgrammingModel\Recipe2.10\obj\Debug\Page.g.cs
+C:\Users\robcamer.NORTHAMERICA\Documents\Book Silverlight Recipes\Code\Ch02_ProgrammingModel\Recipe2.10\obj\Debug\Ch02_ProgrammingModel.Recipe2_10.g.resources
+C:\Users\robcamer.NORTHAMERICA\Documents\Book Silverlight Recipes\Code\Ch02_ProgrammingModel\Recipe2.10\obj\Debug\Ch02_ProgrammingModel.Recipe2_10.dll
+C:\Users\robcamer.NORTHAMERICA\Documents\Book Silverlight Recipes\Code\Ch02_ProgrammingModel\Recipe2.10\obj\Debug\Ch02_ProgrammingModel.Recipe2_10.pdb
+C:\Users\robcamer.NORTHAMERICA\Documents\Book Silverlight Recipes\Code\Ch02_ProgrammingModel\Recipe2.10\obj\Debug\XapCacheFile.xml

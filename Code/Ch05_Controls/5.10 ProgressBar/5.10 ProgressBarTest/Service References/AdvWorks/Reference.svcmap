@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ReferenceGroup xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" ID="49289173-1a48-4c21-b3b1-8fb4eaf54786" xmlns="urn:schemas-microsoft-com:xml-wcfservicemap">
+  <ClientOptions>
+    <GenerateAsynchronousMethods>true</GenerateAsynchronousMethods>
+    <EnableDataBinding>true</EnableDataBinding>
+    <ExcludedTypes />
+    <ImportXmlTypes>false</ImportXmlTypes>
+    <GenerateInternalTypes>false</GenerateInternalTypes>
+    <GenerateMessageContracts>false</GenerateMessageContracts>
+    <NamespaceMappings />
+    <CollectionMappings>
+      <CollectionMapping TypeName="System.Collections.ObjectModel.ObservableCollection`1" Category="List" />
+    </CollectionMappings>
+    <GenerateSerializableTypes>false</GenerateSerializableTypes>
+    <Serializer>Auto</Serializer>
+    <ReferenceAllAssemblies>true</ReferenceAllAssemblies>
+    <ReferencedAssemblies />
+    <ReferencedDataContractTypes />
+    <ServiceContractMappings />
+  </ClientOptions>
+  <MetadataSources>
+    <MetadataSource Address="http://localhost:9191/AdvWorksDataService.svc" Protocol="http" SourceId="1" />
+  </MetadataSources>
+  <Metadata>
+    <MetadataFile FileName="AdvWorksDataService4.xsd" MetadataType="Schema" ID="a6ac62c4-454f-4b0f-a4c9-9c72569a7e2a" SourceId="1" SourceUrl="http://localhost:9191/AdvWorksDataService.svc?xsd=xsd4" />
+    <MetadataFile FileName="DataService.wsdl" MetadataType="Wsdl" ID="46ae196b-fdbc-4eac-80ab-81d03c98b3c8" SourceId="1" SourceUrl="http://localhost:9191/AdvWorksDataService.svc?wsdl" />
+    <MetadataFile FileName="AdvWorksDataService.disco" MetadataType="Disco" ID="784d1217-2c5f-4ba9-897a-2c1420f13543" SourceId="1" SourceUrl="http://localhost:9191/AdvWorksDataService.svc?disco" />
+    <MetadataFile FileName="AdvWorksDataService.xsd" MetadataType="Schema" ID="dd2288e4-ff03-496f-9e32-c8ced80d2795" SourceId="1" SourceUrl="http://localhost:9191/AdvWorksDataService.svc?xsd=xsd3" />
+    <MetadataFile FileName="AdvWorksDataService1.xsd" MetadataType="Schema" ID="09039e26-7c0b-44e7-90cf-f15c9f37a11b" SourceId="1" SourceUrl="http://localhost:9191/AdvWorksDataService.svc?xsd=xsd1" />
+    <MetadataFile FileName="AdvWorksDataService2.xsd" MetadataType="Schema" ID="8b43cfd7-4beb-42ff-8a0b-0fa0b16b634e" SourceId="1" SourceUrl="http://localhost:9191/AdvWorksDataService.svc?xsd=xsd0" />
+    <MetadataFile FileName="AdvWorksDataService3.xsd" MetadataType="Schema" ID="2aa076a2-a202-424e-b787-238f23da1721" SourceId="1" SourceUrl="http://localhost:9191/AdvWorksDataService.svc?xsd=xsd2" />
+  </Metadata>
+  <Extensions>
+    <ExtensionFile FileName="configuration91.svcinfo" Name="configuration91.svcinfo" />
+    <ExtensionFile FileName="configuration.svcinfo" Name="configuration.svcinfo" />
+  </Extensions>
+</ReferenceGroup>

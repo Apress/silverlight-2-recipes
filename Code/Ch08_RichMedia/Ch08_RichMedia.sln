@@ -1,0 +1,187 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 10.00
+# Visual Studio 2008
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "8.1 Playing Video", "8.1 Playing Video", "{E7874CF4-A9C6-4884-9378-593E25E1B9B0}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "8.2 Complete Player", "8.2 Complete Player", "{DB88AA81-E389-4CC0-B561-69F0133CD37A}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "8.3 Streaming Player", "8.3 Streaming Player", "{19FDC868-D68B-4BA5-BD74-EFFA74DDAF11}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "8.5 Using Markers", "8.5 Using Markers", "{C9ED190F-397A-4513-8F11-A8E18B51EC4D}"
+	ProjectSection(SolutionItems) = preProject
+		8.5 Using Markers\EncodedMarkers.xml = 8.5 Using Markers\EncodedMarkers.xml
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "8.1 Playing Video", "8.1 Playing Video\8.1 Playing Video\8.1 Playing Video.csproj", "{E61632CF-8FAF-4B3F-AE82-FF83085AD53D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "8.2 Complete Player", "8.2 Complete Player\8.2 Complete Player\8.2 Complete Player.csproj", "{F0493DAD-677D-42B0-9629-217185455293}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "8.2 PlayerControls", "8.2 Complete Player\8.2 PlayerControls\8.2 PlayerControls.csproj", "{01555A03-921F-468A-9044-DB85524ED414}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "8.2 MediaLocationService", "8.2 Complete Player\8.2 MediaLocationService\8.2 MediaLocationService.csproj", "{607D3F50-7BD7-4A87-86CB-1F7BBE65B86B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestWeb", "TestWeb\TestWeb.csproj", "{1CF05A0D-1936-4D80-BEAE-B6FAA7C83097}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "8.3 PlayerControls", "8.3 Streaming Player\8.3 PlayerControls\8.3 PlayerControls.csproj", "{48D61E8F-40FA-4AFD-87E0-35860F85F229}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "8.3 MediaLocationService", "8.3 Streaming Player\8.3 MediaLocationService\8.3 MediaLocationService.csproj", "{1803502A-F593-4E6E-8692-D7313EB3906C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "8.3 Streaming Player", "8.3 Streaming Player\8.3 Complete Player\8.3 Streaming Player.csproj", "{7FFDD37D-9795-4D48-B458-AF26090A7BDB}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "8.4 Playlists", "8.4 Playlists", "{E29CC9DE-871D-4245-B8D8-94C199D20019}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "8.4 Playlist Player", "8.4 Playlists\8.4 Complete Player\8.4 Playlist Player.csproj", "{B218F127-992E-4D40-92E9-C0241CDA917B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "8.4 MediaLocationService", "8.4 Playlists\8.4 MediaLocationService\8.4 MediaLocationService.csproj", "{6D1C5179-C12F-4045-A08F-737552F028D3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "8.4 PlayerControls", "8.4 Playlists\8.4 PlayerControls\8.4 PlayerControls.csproj", "{C8A29AD9-7A7F-44F6-A301-EBE91B1BBDF2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "8.5 Marker Aware Player", "8.5 Using Markers\8.5 Complete Player\8.5 Marker Aware Player.csproj", "{15BAA357-B350-4138-8D25-932AC895CAB9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "8.5 MediaLocationService", "8.5 Using Markers\8.5 MediaLocationService\8.5 MediaLocationService.csproj", "{75675180-0E39-4910-85A4-F9B64C4A038C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "8.5 PlayerControls", "8.5 Using Markers\8.5 PlayerControls\8.5 PlayerControls.csproj", "{C2AEC646-2FAA-4734-8F36-D417C49AAF2E}"
+EndProject
+Global
+	GlobalSection(TeamFoundationVersionControl) = preSolution
+		SccNumberOfProjects = 15
+		SccEnterpriseProvider = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+		SccTeamFoundationServer = http://jit-m7:8080/
+		SccLocalPath0 = .
+		SccProjectUniqueName1 = 8.1\u0020Playing\u0020Video\\8.1\u0020Playing\u0020Video\\8.1\u0020Playing\u0020Video.csproj
+		SccProjectTopLevelParentUniqueName1 = Ch08_RichMedia.sln
+		SccProjectName1 = 8.1\u0020Playing\u0020Video/8.1\u0020Playing\u0020Video
+		SccLocalPath1 = 8.1\u0020Playing\u0020Video\\8.1\u0020Playing\u0020Video
+		SccProjectUniqueName2 = 8.2\u0020Complete\u0020Player\\8.2\u0020Complete\u0020Player\\8.2\u0020Complete\u0020Player.csproj
+		SccProjectTopLevelParentUniqueName2 = Ch08_RichMedia.sln
+		SccProjectName2 = 8.2\u0020Complete\u0020Player/8.2\u0020Complete\u0020Player
+		SccLocalPath2 = 8.2\u0020Complete\u0020Player\\8.2\u0020Complete\u0020Player
+		SccProjectUniqueName3 = 8.2\u0020Complete\u0020Player\\8.2\u0020PlayerControls\\8.2\u0020PlayerControls.csproj
+		SccProjectTopLevelParentUniqueName3 = Ch08_RichMedia.sln
+		SccProjectName3 = 8.2\u0020Complete\u0020Player/8.2\u0020PlayerControls
+		SccLocalPath3 = 8.2\u0020Complete\u0020Player\\8.2\u0020PlayerControls
+		SccProjectUniqueName4 = 8.2\u0020Complete\u0020Player\\8.2\u0020MediaLocationService\\8.2\u0020MediaLocationService.csproj
+		SccProjectTopLevelParentUniqueName4 = Ch08_RichMedia.sln
+		SccProjectName4 = 8.2\u0020Complete\u0020Player/8.2\u0020MediaLocationService
+		SccLocalPath4 = 8.2\u0020Complete\u0020Player\\8.2\u0020MediaLocationService
+		SccProjectUniqueName5 = TestWeb\\TestWeb.csproj
+		SccProjectName5 = TestWeb
+		SccLocalPath5 = TestWeb
+		SccProjectUniqueName6 = 8.3\u0020Streaming\u0020Player\\8.3\u0020PlayerControls\\8.3\u0020PlayerControls.csproj
+		SccProjectTopLevelParentUniqueName6 = Ch08_RichMedia.sln
+		SccProjectName6 = 8.3\u0020Streaming\u0020Player/8.3\u0020PlayerControls
+		SccLocalPath6 = 8.3\u0020Streaming\u0020Player\\8.3\u0020PlayerControls
+		SccProjectUniqueName7 = 8.3\u0020Streaming\u0020Player\\8.3\u0020MediaLocationService\\8.3\u0020MediaLocationService.csproj
+		SccProjectTopLevelParentUniqueName7 = Ch08_RichMedia.sln
+		SccProjectName7 = 8.3\u0020Streaming\u0020Player/8.3\u0020MediaLocationService
+		SccLocalPath7 = 8.3\u0020Streaming\u0020Player\\8.3\u0020MediaLocationService
+		SccProjectUniqueName8 = 8.3\u0020Streaming\u0020Player\\8.3\u0020Complete\u0020Player\\8.3\u0020Streaming\u0020Player.csproj
+		SccProjectTopLevelParentUniqueName8 = Ch08_RichMedia.sln
+		SccProjectName8 = 8.3\u0020Streaming\u0020Player/8.3\u0020Complete\u0020Player
+		SccLocalPath8 = 8.3\u0020Streaming\u0020Player\\8.3\u0020Complete\u0020Player
+		SccProjectUniqueName9 = 8.4\u0020Playlists\\8.4\u0020Complete\u0020Player\\8.4\u0020Playlist\u0020Player.csproj
+		SccProjectTopLevelParentUniqueName9 = Ch08_RichMedia.sln
+		SccProjectName9 = 8.4\u0020Playlists/8.4\u0020Complete\u0020Player
+		SccLocalPath9 = 8.4\u0020Playlists\\8.4\u0020Complete\u0020Player
+		SccProjectUniqueName10 = 8.4\u0020Playlists\\8.4\u0020MediaLocationService\\8.4\u0020MediaLocationService.csproj
+		SccProjectTopLevelParentUniqueName10 = Ch08_RichMedia.sln
+		SccProjectName10 = 8.4\u0020Playlists/8.4\u0020MediaLocationService
+		SccLocalPath10 = 8.4\u0020Playlists\\8.4\u0020MediaLocationService
+		SccProjectUniqueName11 = 8.4\u0020Playlists\\8.4\u0020PlayerControls\\8.4\u0020PlayerControls.csproj
+		SccProjectTopLevelParentUniqueName11 = Ch08_RichMedia.sln
+		SccProjectName11 = 8.4\u0020Playlists/8.4\u0020PlayerControls
+		SccLocalPath11 = 8.4\u0020Playlists\\8.4\u0020PlayerControls
+		SccProjectUniqueName12 = 8.5\u0020Using\u0020Markers\\8.5\u0020Complete\u0020Player\\8.5\u0020Marker\u0020Aware\u0020Player.csproj
+		SccProjectTopLevelParentUniqueName12 = Ch08_RichMedia.sln
+		SccProjectName12 = 8.5\u0020Using\u0020Markers/8.5\u0020Complete\u0020Player
+		SccLocalPath12 = 8.5\u0020Using\u0020Markers\\8.5\u0020Complete\u0020Player
+		SccProjectUniqueName13 = 8.5\u0020Using\u0020Markers\\8.5\u0020MediaLocationService\\8.5\u0020MediaLocationService.csproj
+		SccProjectTopLevelParentUniqueName13 = Ch08_RichMedia.sln
+		SccProjectName13 = 8.5\u0020Using\u0020Markers/8.5\u0020MediaLocationService
+		SccLocalPath13 = 8.5\u0020Using\u0020Markers\\8.5\u0020MediaLocationService
+		SccProjectUniqueName14 = 8.5\u0020Using\u0020Markers\\8.5\u0020PlayerControls\\8.5\u0020PlayerControls.csproj
+		SccProjectTopLevelParentUniqueName14 = Ch08_RichMedia.sln
+		SccProjectName14 = 8.5\u0020Using\u0020Markers/8.5\u0020PlayerControls
+		SccLocalPath14 = 8.5\u0020Using\u0020Markers\\8.5\u0020PlayerControls
+	EndGlobalSection
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E61632CF-8FAF-4B3F-AE82-FF83085AD53D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E61632CF-8FAF-4B3F-AE82-FF83085AD53D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E61632CF-8FAF-4B3F-AE82-FF83085AD53D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E61632CF-8FAF-4B3F-AE82-FF83085AD53D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F0493DAD-677D-42B0-9629-217185455293}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F0493DAD-677D-42B0-9629-217185455293}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F0493DAD-677D-42B0-9629-217185455293}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F0493DAD-677D-42B0-9629-217185455293}.Release|Any CPU.Build.0 = Release|Any CPU
+		{01555A03-921F-468A-9044-DB85524ED414}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{01555A03-921F-468A-9044-DB85524ED414}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{01555A03-921F-468A-9044-DB85524ED414}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{01555A03-921F-468A-9044-DB85524ED414}.Release|Any CPU.Build.0 = Release|Any CPU
+		{607D3F50-7BD7-4A87-86CB-1F7BBE65B86B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{607D3F50-7BD7-4A87-86CB-1F7BBE65B86B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{607D3F50-7BD7-4A87-86CB-1F7BBE65B86B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{607D3F50-7BD7-4A87-86CB-1F7BBE65B86B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1CF05A0D-1936-4D80-BEAE-B6FAA7C83097}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1CF05A0D-1936-4D80-BEAE-B6FAA7C83097}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1CF05A0D-1936-4D80-BEAE-B6FAA7C83097}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1CF05A0D-1936-4D80-BEAE-B6FAA7C83097}.Release|Any CPU.Build.0 = Release|Any CPU
+		{48D61E8F-40FA-4AFD-87E0-35860F85F229}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{48D61E8F-40FA-4AFD-87E0-35860F85F229}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{48D61E8F-40FA-4AFD-87E0-35860F85F229}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{48D61E8F-40FA-4AFD-87E0-35860F85F229}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1803502A-F593-4E6E-8692-D7313EB3906C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1803502A-F593-4E6E-8692-D7313EB3906C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1803502A-F593-4E6E-8692-D7313EB3906C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1803502A-F593-4E6E-8692-D7313EB3906C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7FFDD37D-9795-4D48-B458-AF26090A7BDB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7FFDD37D-9795-4D48-B458-AF26090A7BDB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7FFDD37D-9795-4D48-B458-AF26090A7BDB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7FFDD37D-9795-4D48-B458-AF26090A7BDB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B218F127-992E-4D40-92E9-C0241CDA917B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B218F127-992E-4D40-92E9-C0241CDA917B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B218F127-992E-4D40-92E9-C0241CDA917B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B218F127-992E-4D40-92E9-C0241CDA917B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6D1C5179-C12F-4045-A08F-737552F028D3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6D1C5179-C12F-4045-A08F-737552F028D3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6D1C5179-C12F-4045-A08F-737552F028D3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6D1C5179-C12F-4045-A08F-737552F028D3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C8A29AD9-7A7F-44F6-A301-EBE91B1BBDF2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C8A29AD9-7A7F-44F6-A301-EBE91B1BBDF2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C8A29AD9-7A7F-44F6-A301-EBE91B1BBDF2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C8A29AD9-7A7F-44F6-A301-EBE91B1BBDF2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{15BAA357-B350-4138-8D25-932AC895CAB9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{15BAA357-B350-4138-8D25-932AC895CAB9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{15BAA357-B350-4138-8D25-932AC895CAB9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{15BAA357-B350-4138-8D25-932AC895CAB9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{75675180-0E39-4910-85A4-F9B64C4A038C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{75675180-0E39-4910-85A4-F9B64C4A038C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{75675180-0E39-4910-85A4-F9B64C4A038C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{75675180-0E39-4910-85A4-F9B64C4A038C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C2AEC646-2FAA-4734-8F36-D417C49AAF2E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C2AEC646-2FAA-4734-8F36-D417C49AAF2E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C2AEC646-2FAA-4734-8F36-D417C49AAF2E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C2AEC646-2FAA-4734-8F36-D417C49AAF2E}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{E61632CF-8FAF-4B3F-AE82-FF83085AD53D} = {E7874CF4-A9C6-4884-9378-593E25E1B9B0}
+		{F0493DAD-677D-42B0-9629-217185455293} = {DB88AA81-E389-4CC0-B561-69F0133CD37A}
+		{01555A03-921F-468A-9044-DB85524ED414} = {DB88AA81-E389-4CC0-B561-69F0133CD37A}
+		{607D3F50-7BD7-4A87-86CB-1F7BBE65B86B} = {DB88AA81-E389-4CC0-B561-69F0133CD37A}
+		{48D61E8F-40FA-4AFD-87E0-35860F85F229} = {19FDC868-D68B-4BA5-BD74-EFFA74DDAF11}
+		{1803502A-F593-4E6E-8692-D7313EB3906C} = {19FDC868-D68B-4BA5-BD74-EFFA74DDAF11}
+		{7FFDD37D-9795-4D48-B458-AF26090A7BDB} = {19FDC868-D68B-4BA5-BD74-EFFA74DDAF11}
+		{15BAA357-B350-4138-8D25-932AC895CAB9} = {C9ED190F-397A-4513-8F11-A8E18B51EC4D}
+		{75675180-0E39-4910-85A4-F9B64C4A038C} = {C9ED190F-397A-4513-8F11-A8E18B51EC4D}
+		{C2AEC646-2FAA-4734-8F36-D417C49AAF2E} = {C9ED190F-397A-4513-8F11-A8E18B51EC4D}
+		{B218F127-992E-4D40-92E9-C0241CDA917B} = {E29CC9DE-871D-4245-B8D8-94C199D20019}
+		{6D1C5179-C12F-4045-A08F-737552F028D3} = {E29CC9DE-871D-4245-B8D8-94C199D20019}
+		{C8A29AD9-7A7F-44F6-A301-EBE91B1BBDF2} = {E29CC9DE-871D-4245-B8D8-94C199D20019}
+	EndGlobalSection
+EndGlobal

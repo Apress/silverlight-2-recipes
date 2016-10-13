@@ -1,0 +1,59 @@
+﻿<UserControl x:Class="Ch05_Controls.Recipe5_6.Page"
+  xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation" 
+  xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+  xmlns:data=
+  "clr-namespace:System.Windows.Controls;assembly=System.Windows.Controls.Data"
+  xmlns:local="clr-namespace:Ch05_Controls.Recipe5_6"
+  Width="800" Height="400" 
+  xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+  xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+  mc:Ignorable="d">
+  <UserControl.Resources>
+    <local:ColorNameToBrushConverter x:Key="REF_ColorNameToBrushConverter"/>
+    <DataTemplate x:Key="dtColorViewTemplate">
+      <Border CornerRadius="5,5,5,5" BorderBrush="Black" 
+              BorderThickness="1,1,1,1" VerticalAlignment="Stretch" 
+              HorizontalAlignment="Stretch" Margin="1,1,1,1"
+              Background="{Binding Color, 
+                Converter={StaticResource REF_ColorNameToBrushConverter}}"/>
+    </DataTemplate>
+    <DataTemplate x:Key="dtColorEditingTemplate">
+      <Grid>
+        <Grid.RowDefinitions>
+          <RowDefinition Height="Auto" />
+          <RowDefinition Height="Auto" />
+        </Grid.RowDefinitions>
+        <ListBox Grid.Row="0" VerticalAlignment="Stretch" 
+                 HorizontalAlignment="Stretch"
+                 ItemsSource="{Binding ColorList}" 
+                 SelectedItem="{Binding Color, Mode=TwoWay}"
+                 Height="200">
+          <ListBox.ItemTemplate>
+            <DataTemplate>
+              <Border CornerRadius="5,5,5,5" BorderBrush="Black" 
+                      BorderThickness="1,1,1,1" Height="25" Width="70"
+                      Margin="2,5,2,5" 
+                      Background=
+                      "{Binding Converter=
+                          {StaticResource REF_ColorNameToBrushConverter}}"/>
+            </DataTemplate>
+          </ListBox.ItemTemplate>
+        </ListBox>
+      </Grid>
+    </DataTemplate>
+  </UserControl.Resources>
+  <Grid x:Name="LayoutRoot" Background="White">
+    <data:DataGrid x:Name="dgProducts" AutoGenerateColumns="False">
+      <data:DataGrid.Columns>
+        <data:DataGridTextColumn Binding="{Binding ProductID}"
+                                 Header="ID" />
+        <data:DataGridTextColumn Binding="{Binding Name}"
+                                 Header="Name" />
+        <data:DataGridTemplateColumn 
+          CellTemplate="{StaticResource dtColorViewTemplate}" 
+          CellEditingTemplate="{StaticResource dtColorEditingTemplate}" 
+          Header="Color" Width="100"/>
+      </data:DataGrid.Columns>
+    </data:DataGrid>
+  </Grid>
+</UserControl>

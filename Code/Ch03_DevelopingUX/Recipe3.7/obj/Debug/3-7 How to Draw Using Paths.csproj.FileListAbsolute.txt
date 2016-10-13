@@ -1,0 +1,13 @@
+D:\RobcamerDocs\Book Silverlight Recipes\Code\Ch03_DevelopingUX\Recipe3.7\Bin\Debug\AppManifest.xaml
+D:\RobcamerDocs\Book Silverlight Recipes\Code\Ch03_DevelopingUX\Recipe3.7\Bin\Debug\Ch03_DevelopingUX.Recipe3_7.dll
+D:\RobcamerDocs\Book Silverlight Recipes\Code\Ch03_DevelopingUX\Recipe3.7\Bin\Debug\Ch03_DevelopingUX.Recipe3_7.pdb
+D:\RobcamerDocs\Book Silverlight Recipes\Code\Ch03_DevelopingUX\Recipe3.7\Bin\Debug\Ch03_DevelopingUX.Recipe3_7.xap
+D:\RobcamerDocs\Book Silverlight Recipes\Code\Ch03_DevelopingUX\Recipe3.7\Bin\Debug\TestPage.html
+D:\RobcamerDocs\Book Silverlight Recipes\Code\Ch03_DevelopingUX\Recipe3.7\obj\Debug\ResolveAssemblyReference.cache
+D:\RobcamerDocs\Book Silverlight Recipes\Code\Ch03_DevelopingUX\Recipe3.7\obj\Debug\App.g.cs
+D:\RobcamerDocs\Book Silverlight Recipes\Code\Ch03_DevelopingUX\Recipe3.7\obj\Debug\ExcludeOverlapControl.g.cs
+D:\RobcamerDocs\Book Silverlight Recipes\Code\Ch03_DevelopingUX\Recipe3.7\obj\Debug\Page.g.cs
+D:\RobcamerDocs\Book Silverlight Recipes\Code\Ch03_DevelopingUX\Recipe3.7\obj\Debug\Ch03_DevelopingUX.Recipe3_7.g.resources
+D:\RobcamerDocs\Book Silverlight Recipes\Code\Ch03_DevelopingUX\Recipe3.7\obj\Debug\Ch03_DevelopingUX.Recipe3_7.dll
+D:\RobcamerDocs\Book Silverlight Recipes\Code\Ch03_DevelopingUX\Recipe3.7\obj\Debug\Ch03_DevelopingUX.Recipe3_7.pdb
+D:\RobcamerDocs\Book Silverlight Recipes\Code\Ch03_DevelopingUX\Recipe3.7\obj\Debug\XapCacheFile.xml

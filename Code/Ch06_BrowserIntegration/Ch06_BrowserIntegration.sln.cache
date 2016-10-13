@@ -1,0 +1,490 @@
+﻿<Project DefaultTargets="Build" ToolsVersion="3.5" InitialTargets="ValidateSolutionConfiguration;ValidateToolsVersions" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <_SolutionProjectConfiguration>Debug|Any CPU</_SolutionProjectConfiguration>
+    <_SolutionProjectToolsVersion>3.5</_SolutionProjectToolsVersion>
+    <_SolutionProjectCacheVersion>3.5</_SolutionProjectCacheVersion>
+  </PropertyGroup>
+  <ItemGroup>
+    <_SolutionProjectProjects Include="Recipe6.1\6-1 Hosting Silverlight in Any Technology.csproj" />
+    <_SolutionProjectProjects Include="Recipe6.2\6-2 Hosting Silverlight in ASP.NET.csproj" />
+    <_SolutionProjectProjects Include="Recipe6.3\6-3 How to Set Focus for Keyboard Input.csproj" />
+    <_SolutionProjectProjects Include="Recipe6.4\6-4 Implementing a Full Screen UI.csproj" />
+    <_SolutionProjectProjects Include="Recipe6.5\6-6 Call a Managed Code Method from JavaScript.csproj" />
+    <_SolutionProjectProjects Include="Recipe6.6\6-5 Call a JavaScript Method from Managed Code.csproj" />
+    <_SolutionProjectProjects Include="Recipe6.7\6-7 Exchange Data between Multiple Plug-ins.csproj" />
+    <_SolutionProjectProjects Include="Recipe6.8\6-8 Embed Silverlight within a Vista Gadget.csproj" />
+    <_SolutionProjectProjects Include="TestWeb\TestWeb.csproj" />
+  </ItemGroup>
+  <ItemGroup Condition=" ('$(Configuration)' == 'Debug') and ('$(Platform)' == 'Any CPU') ">
+    <BuildLevel0 Include="Recipe6.1\6-1 Hosting Silverlight in Any Technology.csproj">
+      <Configuration>Debug</Configuration>
+      <Platform>AnyCPU</Platform>
+    </BuildLevel0>
+    <BuildLevel0 Include="Recipe6.2\6-2 Hosting Silverlight in ASP.NET.csproj">
+      <Configuration>Debug</Configuration>
+      <Platform>AnyCPU</Platform>
+    </BuildLevel0>
+    <BuildLevel0 Include="Recipe6.3\6-3 How to Set Focus for Keyboard Input.csproj">
+      <Configuration>Debug</Configuration>
+      <Platform>AnyCPU</Platform>
+    </BuildLevel0>
+    <BuildLevel0 Include="Recipe6.4\6-4 Implementing a Full Screen UI.csproj">
+      <Configuration>Debug</Configuration>
+      <Platform>AnyCPU</Platform>
+    </BuildLevel0>
+    <BuildLevel0 Include="Recipe6.5\6-6 Call a Managed Code Method from JavaScript.csproj">
+      <Configuration>Debug</Configuration>
+      <Platform>AnyCPU</Platform>
+    </BuildLevel0>
+    <BuildLevel0 Include="Recipe6.6\6-5 Call a JavaScript Method from Managed Code.csproj">
+      <Configuration>Debug</Configuration>
+      <Platform>AnyCPU</Platform>
+    </BuildLevel0>
+    <BuildLevel0 Include="Recipe6.7\6-7 Exchange Data between Multiple Plug-ins.csproj">
+      <Configuration>Debug</Configuration>
+      <Platform>AnyCPU</Platform>
+    </BuildLevel0>
+    <BuildLevel0 Include="Recipe6.8\6-8 Embed Silverlight within a Vista Gadget.csproj">
+      <Configuration>Debug</Configuration>
+      <Platform>AnyCPU</Platform>
+    </BuildLevel0>
+    <BuildLevel0 Include="TestWeb\TestWeb.csproj">
+      <Configuration>Debug</Configuration>
+      <Platform>AnyCPU</Platform>
+    </BuildLevel0>
+  </ItemGroup>
+  <ItemGroup Condition=" ('$(Configuration)' == 'Release') and ('$(Platform)' == 'Any CPU') ">
+    <BuildLevel0 Include="Recipe6.1\6-1 Hosting Silverlight in Any Technology.csproj">
+      <Configuration>Release</Configuration>
+      <Platform>AnyCPU</Platform>
+    </BuildLevel0>
+    <BuildLevel0 Include="Recipe6.2\6-2 Hosting Silverlight in ASP.NET.csproj">
+      <Configuration>Release</Configuration>
+      <Platform>AnyCPU</Platform>
+    </BuildLevel0>
+    <BuildLevel0 Include="Recipe6.3\6-3 How to Set Focus for Keyboard Input.csproj">
+      <Configuration>Release</Configuration>
+      <Platform>AnyCPU</Platform>
+    </BuildLevel0>
+    <BuildLevel0 Include="Recipe6.4\6-4 Implementing a Full Screen UI.csproj">
+      <Configuration>Release</Configuration>
+      <Platform>AnyCPU</Platform>
+    </BuildLevel0>
+    <BuildLevel0 Include="Recipe6.5\6-6 Call a Managed Code Method from JavaScript.csproj">
+      <Configuration>Release</Configuration>
+      <Platform>AnyCPU</Platform>
+    </BuildLevel0>
+    <BuildLevel0 Include="Recipe6.6\6-5 Call a JavaScript Method from Managed Code.csproj">
+      <Configuration>Release</Configuration>
+      <Platform>AnyCPU</Platform>
+    </BuildLevel0>
+    <BuildLevel0 Include="Recipe6.7\6-7 Exchange Data between Multiple Plug-ins.csproj">
+      <Configuration>Release</Configuration>
+      <Platform>AnyCPU</Platform>
+    </BuildLevel0>
+    <BuildLevel0 Include="Recipe6.8\6-8 Embed Silverlight within a Vista Gadget.csproj">
+      <Configuration>Release</Configuration>
+      <Platform>AnyCPU</Platform>
+    </BuildLevel0>
+    <BuildLevel0 Include="TestWeb\TestWeb.csproj">
+      <Configuration>Release</Configuration>
+      <Platform>AnyCPU</Platform>
+    </BuildLevel0>
+  </ItemGroup>
+  <UsingTask TaskName="Microsoft.Build.Tasks.CreateTemporaryVCProject" AssemblyName="Microsoft.Build.Tasks.v3.5, Version=3.5.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <UsingTask TaskName="Microsoft.Build.Tasks.ResolveVCProjectOutput" AssemblyName="Microsoft.Build.Tasks.v3.5, Version=3.5.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <PropertyGroup Condition=" '$(Configuration)' == '' ">
+    <Configuration>Debug</Configuration>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Platform)' == '' ">
+    <Platform>Any CPU</Platform>
+  </PropertyGroup>
+  <PropertyGroup Condition=" ('$(AspNetConfiguration)' == '') ">
+    <AspNetConfiguration>$(Configuration)</AspNetConfiguration>
+  </PropertyGroup>
+  <PropertyGroup>
+    <SolutionDir>C:\Users\robcamer.NORTHAMERICA\Documents\Book Silverlight Recipes\Code\Ch06_BrowserIntegration\</SolutionDir>
+    <SolutionExt>.sln</SolutionExt>
+    <SolutionFileName>Ch06_BrowserIntegration.sln</SolutionFileName>
+    <SolutionName>Ch06_BrowserIntegration</SolutionName>
+    <SolutionPath>C:\Users\robcamer.NORTHAMERICA\Documents\Book Silverlight Recipes\Code\Ch06_BrowserIntegration\Ch06_BrowserIntegration.sln</SolutionPath>
+  </PropertyGroup>
+  <PropertyGroup>
+    <TargetFrameworkVersion Condition="'$(TargetFrameworkVersion)' == '' and '$(MSBuildToolsVersion)' == '2.0'">v2.0</TargetFrameworkVersion>
+    <TargetFrameworkVersion Condition="'$(TargetFrameworkVersion)' == '' and '$(MSBuildToolsVersion)' != '2.0'">v3.5</TargetFrameworkVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition=" ('$(Configuration)' == 'Debug') and ('$(Platform)' == 'Any CPU') ">
+    <CurrentSolutionConfigurationContents>
+      <SolutionConfiguration xmlns="">
+        <ProjectConfiguration Project="{4011EE4E-A91C-4A3F-8A45-B750C8FC1B5A}">Debug|AnyCPU</ProjectConfiguration>
+        <ProjectConfiguration Project="{1038005C-C190-40B0-9F9A-56DAE351064A}">Debug|AnyCPU</ProjectConfiguration>
+        <ProjectConfiguration Project="{8A644214-9C59-4551-94E1-C5CBCC5E8CA2}">Debug|AnyCPU</ProjectConfiguration>
+        <ProjectConfiguration Project="{F3868E4E-0E7F-423C-A9D0-8C328820BA7A}">Debug|AnyCPU</ProjectConfiguration>
+        <ProjectConfiguration Project="{607FA5D2-5398-413D-893D-D49417644184}">Debug|AnyCPU</ProjectConfiguration>
+        <ProjectConfiguration Project="{0B5B0F07-E67D-41E8-B5F9-74FD09D40F78}">Debug|AnyCPU</ProjectConfiguration>
+        <ProjectConfiguration Project="{DA6BAE75-9E48-4098-AEED-C288A04A98AA}">Debug|AnyCPU</ProjectConfiguration>
+        <ProjectConfiguration Project="{DC8C9DC6-0A96-4E6A-91D3-D9719A999420}">Debug|AnyCPU</ProjectConfiguration>
+        <ProjectConfiguration Project="{D9A7FA7F-2A5E-4D4F-83DB-5C51E7EE7C24}">Debug|AnyCPU</ProjectConfiguration>
+        <ProjectConfiguration Project="{63992E08-520B-4FBA-A4D1-DE1F67EF5F8A}">Debug|AnyCPU</ProjectConfiguration>
+      </SolutionConfiguration>
+    </CurrentSolutionConfigurationContents>
+  </PropertyGroup>
+  <PropertyGroup Condition=" ('$(Configuration)' == 'Release') and ('$(Platform)' == 'Any CPU') ">
+    <CurrentSolutionConfigurationContents>
+      <SolutionConfiguration xmlns="">
+        <ProjectConfiguration Project="{4011EE4E-A91C-4A3F-8A45-B750C8FC1B5A}">Release|AnyCPU</ProjectConfiguration>
+        <ProjectConfiguration Project="{1038005C-C190-40B0-9F9A-56DAE351064A}">Release|AnyCPU</ProjectConfiguration>
+        <ProjectConfiguration Project="{8A644214-9C59-4551-94E1-C5CBCC5E8CA2}">Release|AnyCPU</ProjectConfiguration>
+        <ProjectConfiguration Project="{F3868E4E-0E7F-423C-A9D0-8C328820BA7A}">Release|AnyCPU</ProjectConfiguration>
+        <ProjectConfiguration Project="{607FA5D2-5398-413D-893D-D49417644184}">Release|AnyCPU</ProjectConfiguration>
+        <ProjectConfiguration Project="{0B5B0F07-E67D-41E8-B5F9-74FD09D40F78}">Release|AnyCPU</ProjectConfiguration>
+        <ProjectConfiguration Project="{DA6BAE75-9E48-4098-AEED-C288A04A98AA}">Release|AnyCPU</ProjectConfiguration>
+        <ProjectConfiguration Project="{DC8C9DC6-0A96-4E6A-91D3-D9719A999420}">Release|AnyCPU</ProjectConfiguration>
+        <ProjectConfiguration Project="{D9A7FA7F-2A5E-4D4F-83DB-5C51E7EE7C24}">Release|AnyCPU</ProjectConfiguration>
+        <ProjectConfiguration Project="{63992E08-520B-4FBA-A4D1-DE1F67EF5F8A}">Debug|AnyCPU</ProjectConfiguration>
+      </SolutionConfiguration>
+    </CurrentSolutionConfigurationContents>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(AspNetConfiguration)' == 'Debug' ">
+    <Project_63992E08-520B-4FBA-A4D1-DE1F67EF5F8A_AspNetVirtualPath>/Silverlight2RecipesGadget</Project_63992E08-520B-4FBA-A4D1-DE1F67EF5F8A_AspNetVirtualPath>
+    <Project_63992E08-520B-4FBA-A4D1-DE1F67EF5F8A_AspNetPhysicalPath>Silverlight2RecipesGadget\</Project_63992E08-520B-4FBA-A4D1-DE1F67EF5F8A_AspNetPhysicalPath>
+    <Project_63992E08-520B-4FBA-A4D1-DE1F67EF5F8A_AspNetTargetPath>PrecompiledWeb\Silverlight2RecipesGadget\</Project_63992E08-520B-4FBA-A4D1-DE1F67EF5F8A_AspNetTargetPath>
+    <Project_63992E08-520B-4FBA-A4D1-DE1F67EF5F8A_AspNetForce>true</Project_63992E08-520B-4FBA-A4D1-DE1F67EF5F8A_AspNetForce>
+    <Project_63992E08-520B-4FBA-A4D1-DE1F67EF5F8A_AspNetUpdateable>true</Project_63992E08-520B-4FBA-A4D1-DE1F67EF5F8A_AspNetUpdateable>
+    <Project_63992E08-520B-4FBA-A4D1-DE1F67EF5F8A_AspNetDebug>True</Project_63992E08-520B-4FBA-A4D1-DE1F67EF5F8A_AspNetDebug>
+    <Project_63992E08-520B-4FBA-A4D1-DE1F67EF5F8A_AspNetKeyFile>
+    </Project_63992E08-520B-4FBA-A4D1-DE1F67EF5F8A_AspNetKeyFile>
+    <Project_63992E08-520B-4FBA-A4D1-DE1F67EF5F8A_AspNetKeyContainer>
+    </Project_63992E08-520B-4FBA-A4D1-DE1F67EF5F8A_AspNetKeyContainer>
+    <Project_63992E08-520B-4FBA-A4D1-DE1F67EF5F8A_AspNetDelaySign>
+    </Project_63992E08-520B-4FBA-A4D1-DE1F67EF5F8A_AspNetDelaySign>
+    <Project_63992E08-520B-4FBA-A4D1-DE1F67EF5F8A_AspNetAPTCA>
+    </Project_63992E08-520B-4FBA-A4D1-DE1F67EF5F8A_AspNetAPTCA>
+    <Project_63992E08-520B-4FBA-A4D1-DE1F67EF5F8A_AspNetFixedNames>false</Project_63992E08-520B-4FBA-A4D1-DE1F67EF5F8A_AspNetFixedNames>
+    <Project_63992E08-520B-4FBA-A4D1-DE1F67EF5F8A_AspNetTargetPath Condition=" '$(OutDir)' != '' ">$(OutDir)_PublishedWebsites\Silverlight2RecipesGadget\</Project_63992E08-520B-4FBA-A4D1-DE1F67EF5F8A_AspNetTargetPath>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(AspNetConfiguration)' == 'Release' ">
+    <Project_63992E08-520B-4FBA-A4D1-DE1F67EF5F8A_AspNetVirtualPath>/Silverlight2RecipesGadget</Project_63992E08-520B-4FBA-A4D1-DE1F67EF5F8A_AspNetVirtualPath>
+    <Project_63992E08-520B-4FBA-A4D1-DE1F67EF5F8A_AspNetPhysicalPath>Silverlight2RecipesGadget\</Project_63992E08-520B-4FBA-A4D1-DE1F67EF5F8A_AspNetPhysicalPath>
+    <Project_63992E08-520B-4FBA-A4D1-DE1F67EF5F8A_AspNetTargetPath>PrecompiledWeb\Silverlight2RecipesGadget\</Project_63992E08-520B-4FBA-A4D1-DE1F67EF5F8A_AspNetTargetPath>
+    <Project_63992E08-520B-4FBA-A4D1-DE1F67EF5F8A_AspNetForce>true</Project_63992E08-520B-4FBA-A4D1-DE1F67EF5F8A_AspNetForce>
+    <Project_63992E08-520B-4FBA-A4D1-DE1F67EF5F8A_AspNetUpdateable>true</Project_63992E08-520B-4FBA-A4D1-DE1F67EF5F8A_AspNetUpdateable>
+    <Project_63992E08-520B-4FBA-A4D1-DE1F67EF5F8A_AspNetDebug>False</Project_63992E08-520B-4FBA-A4D1-DE1F67EF5F8A_AspNetDebug>
+    <Project_63992E08-520B-4FBA-A4D1-DE1F67EF5F8A_AspNetKeyFile>
+    </Project_63992E08-520B-4FBA-A4D1-DE1F67EF5F8A_AspNetKeyFile>
+    <Project_63992E08-520B-4FBA-A4D1-DE1F67EF5F8A_AspNetKeyContainer>
+    </Project_63992E08-520B-4FBA-A4D1-DE1F67EF5F8A_AspNetKeyContainer>
+    <Project_63992E08-520B-4FBA-A4D1-DE1F67EF5F8A_AspNetDelaySign>
+    </Project_63992E08-520B-4FBA-A4D1-DE1F67EF5F8A_AspNetDelaySign>
+    <Project_63992E08-520B-4FBA-A4D1-DE1F67EF5F8A_AspNetAPTCA>
+    </Project_63992E08-520B-4FBA-A4D1-DE1F67EF5F8A_AspNetAPTCA>
+    <Project_63992E08-520B-4FBA-A4D1-DE1F67EF5F8A_AspNetFixedNames>false</Project_63992E08-520B-4FBA-A4D1-DE1F67EF5F8A_AspNetFixedNames>
+    <Project_63992E08-520B-4FBA-A4D1-DE1F67EF5F8A_AspNetTargetPath Condition=" '$(OutDir)' != '' ">$(OutDir)_PublishedWebsites\Silverlight2RecipesGadget\</Project_63992E08-520B-4FBA-A4D1-DE1F67EF5F8A_AspNetTargetPath>
+  </PropertyGroup>
+  <Target Name="ValidateSolutionConfiguration">
+    <Error Text="The specified solution configuration &quot;$(Configuration)|$(Platform)&quot; is invalid. Please specify a valid solution configuration using the Configuration and Platform properties (e.g. MSBuild.exe Solution.sln /p:Configuration=Debug /p:Platform=&quot;Any CPU&quot;) or leave those properties blank to use the default solution configuration." Code="MSB4126" HelpKeyword="MSBuild.SolutionInvalidSolutionConfiguration" Condition="('$(CurrentSolutionConfigurationContents)' == '') and ('$(SkipInvalidConfigurations)' != 'true')" />
+    <Warning Text="The specified solution configuration &quot;$(Configuration)|$(Platform)&quot; is invalid. Please specify a valid solution configuration using the Configuration and Platform properties (e.g. MSBuild.exe Solution.sln /p:Configuration=Debug /p:Platform=&quot;Any CPU&quot;) or leave those properties blank to use the default solution configuration." Code="MSB4126" HelpKeyword="MSBuild.SolutionInvalidSolutionConfiguration" Condition="('$(CurrentSolutionConfigurationContents)' == '') and ('$(SkipInvalidConfigurations)' == 'true')" />
+    <Message Text="Building solution configuration &quot;$(Configuration)|$(Platform)&quot;." Condition="'$(CurrentSolutionConfigurationContents)' != ''" />
+  </Target>
+  <Target Name="ValidateToolsVersions">
+    <Error Text="The tools version &quot;$(MSBuildToolsVersion)&quot; of the solution does not support building projects with a different tools version." Code="MSB4149" HelpKeyword="MSBuild.SolutionToolsVersionDoesNotSupportProjectToolsVersion" Condition="'$(MSBuildToolsVersion)' == '2.0' and ('$(ProjectToolsVersion)' != '2.0' and '$(ProjectToolsVersion)' != '')" />
+  </Target>
+  <Target Name="TestWeb" Condition="'$(CurrentSolutionConfigurationContents)' != ''" Outputs="@(TestWebBuildOutput)">
+    <MSBuild Projects="TestWeb\TestWeb.csproj" Properties="Configuration=Debug; Platform=AnyCPU; BuildingSolutionFile=true; CurrentSolutionConfigurationContents=$(CurrentSolutionConfigurationContents); SolutionDir=$(SolutionDir); SolutionExt=$(SolutionExt); SolutionFileName=$(SolutionFileName); SolutionName=$(SolutionName); SolutionPath=$(SolutionPath)" ToolsVersion="$(ProjectToolsVersion)" UnloadProjectsOnCompletion="$(UnloadProjectsOnCompletion)" UseResultsCache="$(UseResultsCache)" Condition=" ('$(Configuration)' == 'Debug') and ('$(Platform)' == 'Any CPU') ">
+      <Output TaskParameter="TargetOutputs" ItemName="TestWebBuildOutput" />
+    </MSBuild>
+    <MSBuild Projects="TestWeb\TestWeb.csproj" Properties="Configuration=Release; Platform=AnyCPU; BuildingSolutionFile=true; CurrentSolutionConfigurationContents=$(CurrentSolutionConfigurationContents); SolutionDir=$(SolutionDir); SolutionExt=$(SolutionExt); SolutionFileName=$(SolutionFileName); SolutionName=$(SolutionName); SolutionPath=$(SolutionPath)" ToolsVersion="$(ProjectToolsVersion)" UnloadProjectsOnCompletion="$(UnloadProjectsOnCompletion)" UseResultsCache="$(UseResultsCache)" Condition=" ('$(Configuration)' == 'Release') and ('$(Platform)' == 'Any CPU') ">
+      <Output TaskParameter="TargetOutputs" ItemName="TestWebBuildOutput" />
+    </MSBuild>
+  </Target>
+  <Target Name="TestWeb:Clean" Condition="'$(CurrentSolutionConfigurationContents)' != ''">
+    <MSBuild Projects="TestWeb\TestWeb.csproj" Targets="Clean" Properties="Configuration=Debug; Platform=AnyCPU; BuildingSolutionFile=true; CurrentSolutionConfigurationContents=$(CurrentSolutionConfigurationContents); SolutionDir=$(SolutionDir); SolutionExt=$(SolutionExt); SolutionFileName=$(SolutionFileName); SolutionName=$(SolutionName); SolutionPath=$(SolutionPath)" ToolsVersion="$(ProjectToolsVersion)" UnloadProjectsOnCompletion="$(UnloadProjectsOnCompletion)" UseResultsCache="$(UseResultsCache)" Condition=" ('$(Configuration)' == 'Debug') and ('$(Platform)' == 'Any CPU') " />
+    <MSBuild Projects="TestWeb\TestWeb.csproj" Targets="Clean" Properties="Configuration=Release; Platform=AnyCPU; BuildingSolutionFile=true; CurrentSolutionConfigurationContents=$(CurrentSolutionConfigurationContents); SolutionDir=$(SolutionDir); SolutionExt=$(SolutionExt); SolutionFileName=$(SolutionFileName); SolutionName=$(SolutionName); SolutionPath=$(SolutionPath)" ToolsVersion="$(ProjectToolsVersion)" UnloadProjectsOnCompletion="$(UnloadProjectsOnCompletion)" UseResultsCache="$(UseResultsCache)" Condition=" ('$(Configuration)' == 'Release') and ('$(Platform)' == 'Any CPU') " />
+  </Target>
+  <Target Name="TestWeb:Rebuild" Condition="'$(CurrentSolutionConfigurationContents)' != ''" Outputs="@(TestWebBuildOutput)">
+    <MSBuild Projects="TestWeb\TestWeb.csproj" Targets="Rebuild" Properties="Configuration=Debug; Platform=AnyCPU; BuildingSolutionFile=true; CurrentSolutionConfigurationContents=$(CurrentSolutionConfigurationContents); SolutionDir=$(SolutionDir); SolutionExt=$(SolutionExt); SolutionFileName=$(SolutionFileName); SolutionName=$(SolutionName); SolutionPath=$(SolutionPath)" ToolsVersion="$(ProjectToolsVersion)" UnloadProjectsOnCompletion="$(UnloadProjectsOnCompletion)" UseResultsCache="$(UseResultsCache)" Condition=" ('$(Configuration)' == 'Debug') and ('$(Platform)' == 'Any CPU') ">
+      <Output TaskParameter="TargetOutputs" ItemName="TestWebBuildOutput" />
+    </MSBuild>
+    <MSBuild Projects="TestWeb\TestWeb.csproj" Targets="Rebuild" Properties="Configuration=Release; Platform=AnyCPU; BuildingSolutionFile=true; CurrentSolutionConfigurationContents=$(CurrentSolutionConfigurationContents); SolutionDir=$(SolutionDir); SolutionExt=$(SolutionExt); SolutionFileName=$(SolutionFileName); SolutionName=$(SolutionName); SolutionPath=$(SolutionPath)" ToolsVersion="$(ProjectToolsVersion)" UnloadProjectsOnCompletion="$(UnloadProjectsOnCompletion)" UseResultsCache="$(UseResultsCache)" Condition=" ('$(Configuration)' == 'Release') and ('$(Platform)' == 'Any CPU') ">
+      <Output TaskParameter="TargetOutputs" ItemName="TestWebBuildOutput" />
+    </MSBuild>
+  </Target>
+  <Target Name="TestWeb:Publish" Condition="'$(CurrentSolutionConfigurationContents)' != ''">
+    <MSBuild Projects="TestWeb\TestWeb.csproj" Targets="Publish" Properties="Configuration=Debug; Platform=AnyCPU; BuildingSolutionFile=true; CurrentSolutionConfigurationContents=$(CurrentSolutionConfigurationContents); SolutionDir=$(SolutionDir); SolutionExt=$(SolutionExt); SolutionFileName=$(SolutionFileName); SolutionName=$(SolutionName); SolutionPath=$(SolutionPath)" ToolsVersion="$(ProjectToolsVersion)" UnloadProjectsOnCompletion="$(UnloadProjectsOnCompletion)" UseResultsCache="$(UseResultsCache)" Condition=" ('$(Configuration)' == 'Debug') and ('$(Platform)' == 'Any CPU') " />
+    <MSBuild Projects="TestWeb\TestWeb.csproj" Targets="Publish" Properties="Configuration=Release; Platform=AnyCPU; BuildingSolutionFile=true; CurrentSolutionConfigurationContents=$(CurrentSolutionConfigurationContents); SolutionDir=$(SolutionDir); SolutionExt=$(SolutionExt); SolutionFileName=$(SolutionFileName); SolutionName=$(SolutionName); SolutionPath=$(SolutionPath)" ToolsVersion="$(ProjectToolsVersion)" UnloadProjectsOnCompletion="$(UnloadProjectsOnCompletion)" UseResultsCache="$(UseResultsCache)" Condition=" ('$(Configuration)' == 'Release') and ('$(Platform)' == 'Any CPU') " />
+  </Target>
+  <Target Name="6-1 Hosting Silverlight in Any Technology" Condition="'$(CurrentSolutionConfigurationContents)' != ''" Outputs="@(_-1_Hosting_Silverlight_in_Any_TechnologyBuildOutput)">
+    <MSBuild Projects="Recipe6.1\6-1 Hosting Silverlight in Any Technology.csproj" Properties="Configuration=Debug; Platform=AnyCPU; BuildingSolutionFile=true; CurrentSolutionConfigurationContents=$(CurrentSolutionConfigurationContents); SolutionDir=$(SolutionDir); SolutionExt=$(SolutionExt); SolutionFileName=$(SolutionFileName); SolutionName=$(SolutionName); SolutionPath=$(SolutionPath)" ToolsVersion="$(ProjectToolsVersion)" UnloadProjectsOnCompletion="$(UnloadProjectsOnCompletion)" UseResultsCache="$(UseResultsCache)" Condition=" ('$(Configuration)' == 'Debug') and ('$(Platform)' == 'Any CPU') ">
+      <Output TaskParameter="TargetOutputs" ItemName="_-1_Hosting_Silverlight_in_Any_TechnologyBuildOutput" />
+    </MSBuild>
+    <MSBuild Projects="Recipe6.1\6-1 Hosting Silverlight in Any Technology.csproj" Properties="Configuration=Release; Platform=AnyCPU; BuildingSolutionFile=true; CurrentSolutionConfigurationContents=$(CurrentSolutionConfigurationContents); SolutionDir=$(SolutionDir); SolutionExt=$(SolutionExt); SolutionFileName=$(SolutionFileName); SolutionName=$(SolutionName); SolutionPath=$(SolutionPath)" ToolsVersion="$(ProjectToolsVersion)" UnloadProjectsOnCompletion="$(UnloadProjectsOnCompletion)" UseResultsCache="$(UseResultsCache)" Condition=" ('$(Configuration)' == 'Release') and ('$(Platform)' == 'Any CPU') ">
+      <Output TaskParameter="TargetOutputs" ItemName="_-1_Hosting_Silverlight_in_Any_TechnologyBuildOutput" />
+    </MSBuild>
+  </Target>
+  <Target Name="6-1 Hosting Silverlight in Any Technology:Clean" Condition="'$(CurrentSolutionConfigurationContents)' != ''">
+    <MSBuild Projects="Recipe6.1\6-1 Hosting Silverlight in Any Technology.csproj" Targets="Clean" Properties="Configuration=Debug; Platform=AnyCPU; BuildingSolutionFile=true; CurrentSolutionConfigurationContents=$(CurrentSolutionConfigurationContents); SolutionDir=$(SolutionDir); SolutionExt=$(SolutionExt); SolutionFileName=$(SolutionFileName); SolutionName=$(SolutionName); SolutionPath=$(SolutionPath)" ToolsVersion="$(ProjectToolsVersion)" UnloadProjectsOnCompletion="$(UnloadProjectsOnCompletion)" UseResultsCache="$(UseResultsCache)" Condition=" ('$(Configuration)' == 'Debug') and ('$(Platform)' == 'Any CPU') " />
+    <MSBuild Projects="Recipe6.1\6-1 Hosting Silverlight in Any Technology.csproj" Targets="Clean" Properties="Configuration=Release; Platform=AnyCPU; BuildingSolutionFile=true; CurrentSolutionConfigurationContents=$(CurrentSolutionConfigurationContents); SolutionDir=$(SolutionDir); SolutionExt=$(SolutionExt); SolutionFileName=$(SolutionFileName); SolutionName=$(SolutionName); SolutionPath=$(SolutionPath)" ToolsVersion="$(ProjectToolsVersion)" UnloadProjectsOnCompletion="$(UnloadProjectsOnCompletion)" UseResultsCache="$(UseResultsCache)" Condition=" ('$(Configuration)' == 'Release') and ('$(Platform)' == 'Any CPU') " />
+  </Target>
+  <Target Name="6-1 Hosting Silverlight in Any Technology:Rebuild" Condition="'$(CurrentSolutionConfigurationContents)' != ''" Outputs="@(_-1_Hosting_Silverlight_in_Any_TechnologyBuildOutput)">
+    <MSBuild Projects="Recipe6.1\6-1 Hosting Silverlight in Any Technology.csproj" Targets="Rebuild" Properties="Configuration=Debug; Platform=AnyCPU; BuildingSolutionFile=true; CurrentSolutionConfigurationContents=$(CurrentSolutionConfigurationContents); SolutionDir=$(SolutionDir); SolutionExt=$(SolutionExt); SolutionFileName=$(SolutionFileName); SolutionName=$(SolutionName); SolutionPath=$(SolutionPath)" ToolsVersion="$(ProjectToolsVersion)" UnloadProjectsOnCompletion="$(UnloadProjectsOnCompletion)" UseResultsCache="$(UseResultsCache)" Condition=" ('$(Configuration)' == 'Debug') and ('$(Platform)' == 'Any CPU') ">
+      <Output TaskParameter="TargetOutputs" ItemName="_-1_Hosting_Silverlight_in_Any_TechnologyBuildOutput" />
+    </MSBuild>
+    <MSBuild Projects="Recipe6.1\6-1 Hosting Silverlight in Any Technology.csproj" Targets="Rebuild" Properties="Configuration=Release; Platform=AnyCPU; BuildingSolutionFile=true; CurrentSolutionConfigurationContents=$(CurrentSolutionConfigurationContents); SolutionDir=$(SolutionDir); SolutionExt=$(SolutionExt); SolutionFileName=$(SolutionFileName); SolutionName=$(SolutionName); SolutionPath=$(SolutionPath)" ToolsVersion="$(ProjectToolsVersion)" UnloadProjectsOnCompletion="$(UnloadProjectsOnCompletion)" UseResultsCache="$(UseResultsCache)" Condition=" ('$(Configuration)' == 'Release') and ('$(Platform)' == 'Any CPU') ">
+      <Output TaskParameter="TargetOutputs" ItemName="_-1_Hosting_Silverlight_in_Any_TechnologyBuildOutput" />
+    </MSBuild>
+  </Target>
+  <Target Name="6-1 Hosting Silverlight in Any Technology:Publish" Condition="'$(CurrentSolutionConfigurationContents)' != ''">
+    <MSBuild Projects="Recipe6.1\6-1 Hosting Silverlight in Any Technology.csproj" Targets="Publish" Properties="Configuration=Debug; Platform=AnyCPU; BuildingSolutionFile=true; CurrentSolutionConfigurationContents=$(CurrentSolutionConfigurationContents); SolutionDir=$(SolutionDir); SolutionExt=$(SolutionExt); SolutionFileName=$(SolutionFileName); SolutionName=$(SolutionName); SolutionPath=$(SolutionPath)" ToolsVersion="$(ProjectToolsVersion)" UnloadProjectsOnCompletion="$(UnloadProjectsOnCompletion)" UseResultsCache="$(UseResultsCache)" Condition=" ('$(Configuration)' == 'Debug') and ('$(Platform)' == 'Any CPU') " />
+    <MSBuild Projects="Recipe6.1\6-1 Hosting Silverlight in Any Technology.csproj" Targets="Publish" Properties="Configuration=Release; Platform=AnyCPU; BuildingSolutionFile=true; CurrentSolutionConfigurationContents=$(CurrentSolutionConfigurationContents); SolutionDir=$(SolutionDir); SolutionExt=$(SolutionExt); SolutionFileName=$(SolutionFileName); SolutionName=$(SolutionName); SolutionPath=$(SolutionPath)" ToolsVersion="$(ProjectToolsVersion)" UnloadProjectsOnCompletion="$(UnloadProjectsOnCompletion)" UseResultsCache="$(UseResultsCache)" Condition=" ('$(Configuration)' == 'Release') and ('$(Platform)' == 'Any CPU') " />
+  </Target>
+  <Target Name="6-2 Hosting Silverlight in ASP_NET" Condition="'$(CurrentSolutionConfigurationContents)' != ''" Outputs="@(_-2_Hosting_Silverlight_in_ASP_NETBuildOutput)">
+    <MSBuild Projects="Recipe6.2\6-2 Hosting Silverlight in ASP.NET.csproj" Properties="Configuration=Debug; Platform=AnyCPU; BuildingSolutionFile=true; CurrentSolutionConfigurationContents=$(CurrentSolutionConfigurationContents); SolutionDir=$(SolutionDir); SolutionExt=$(SolutionExt); SolutionFileName=$(SolutionFileName); SolutionName=$(SolutionName); SolutionPath=$(SolutionPath)" ToolsVersion="$(ProjectToolsVersion)" UnloadProjectsOnCompletion="$(UnloadProjectsOnCompletion)" UseResultsCache="$(UseResultsCache)" Condition=" ('$(Configuration)' == 'Debug') and ('$(Platform)' == 'Any CPU') ">
+      <Output TaskParameter="TargetOutputs" ItemName="_-2_Hosting_Silverlight_in_ASP_NETBuildOutput" />
+    </MSBuild>
+    <MSBuild Projects="Recipe6.2\6-2 Hosting Silverlight in ASP.NET.csproj" Properties="Configuration=Release; Platform=AnyCPU; BuildingSolutionFile=true; CurrentSolutionConfigurationContents=$(CurrentSolutionConfigurationContents); SolutionDir=$(SolutionDir); SolutionExt=$(SolutionExt); SolutionFileName=$(SolutionFileName); SolutionName=$(SolutionName); SolutionPath=$(SolutionPath)" ToolsVersion="$(ProjectToolsVersion)" UnloadProjectsOnCompletion="$(UnloadProjectsOnCompletion)" UseResultsCache="$(UseResultsCache)" Condition=" ('$(Configuration)' == 'Release') and ('$(Platform)' == 'Any CPU') ">
+      <Output TaskParameter="TargetOutputs" ItemName="_-2_Hosting_Silverlight_in_ASP_NETBuildOutput" />
+    </MSBuild>
+  </Target>
+  <Target Name="6-2 Hosting Silverlight in ASP_NET:Clean" Condition="'$(CurrentSolutionConfigurationContents)' != ''">
+    <MSBuild Projects="Recipe6.2\6-2 Hosting Silverlight in ASP.NET.csproj" Targets="Clean" Properties="Configuration=Debug; Platform=AnyCPU; BuildingSolutionFile=true; CurrentSolutionConfigurationContents=$(CurrentSolutionConfigurationContents); SolutionDir=$(SolutionDir); SolutionExt=$(SolutionExt); SolutionFileName=$(SolutionFileName); SolutionName=$(SolutionName); SolutionPath=$(SolutionPath)" ToolsVersion="$(ProjectToolsVersion)" UnloadProjectsOnCompletion="$(UnloadProjectsOnCompletion)" UseResultsCache="$(UseResultsCache)" Condition=" ('$(Configuration)' == 'Debug') and ('$(Platform)' == 'Any CPU') " />
+    <MSBuild Projects="Recipe6.2\6-2 Hosting Silverlight in ASP.NET.csproj" Targets="Clean" Properties="Configuration=Release; Platform=AnyCPU; BuildingSolutionFile=true; CurrentSolutionConfigurationContents=$(CurrentSolutionConfigurationContents); SolutionDir=$(SolutionDir); SolutionExt=$(SolutionExt); SolutionFileName=$(SolutionFileName); SolutionName=$(SolutionName); SolutionPath=$(SolutionPath)" ToolsVersion="$(ProjectToolsVersion)" UnloadProjectsOnCompletion="$(UnloadProjectsOnCompletion)" UseResultsCache="$(UseResultsCache)" Condition=" ('$(Configuration)' == 'Release') and ('$(Platform)' == 'Any CPU') " />
+  </Target>
+  <Target Name="6-2 Hosting Silverlight in ASP_NET:Rebuild" Condition="'$(CurrentSolutionConfigurationContents)' != ''" Outputs="@(_-2_Hosting_Silverlight_in_ASP_NETBuildOutput)">
+    <MSBuild Projects="Recipe6.2\6-2 Hosting Silverlight in ASP.NET.csproj" Targets="Rebuild" Properties="Configuration=Debug; Platform=AnyCPU; BuildingSolutionFile=true; CurrentSolutionConfigurationContents=$(CurrentSolutionConfigurationContents); SolutionDir=$(SolutionDir); SolutionExt=$(SolutionExt); SolutionFileName=$(SolutionFileName); SolutionName=$(SolutionName); SolutionPath=$(SolutionPath)" ToolsVersion="$(ProjectToolsVersion)" UnloadProjectsOnCompletion="$(UnloadProjectsOnCompletion)" UseResultsCache="$(UseResultsCache)" Condition=" ('$(Configuration)' == 'Debug') and ('$(Platform)' == 'Any CPU') ">
+      <Output TaskParameter="TargetOutputs" ItemName="_-2_Hosting_Silverlight_in_ASP_NETBuildOutput" />
+    </MSBuild>
+    <MSBuild Projects="Recipe6.2\6-2 Hosting Silverlight in ASP.NET.csproj" Targets="Rebuild" Properties="Configuration=Release; Platform=AnyCPU; BuildingSolutionFile=true; CurrentSolutionConfigurationContents=$(CurrentSolutionConfigurationContents); SolutionDir=$(SolutionDir); SolutionExt=$(SolutionExt); SolutionFileName=$(SolutionFileName); SolutionName=$(SolutionName); SolutionPath=$(SolutionPath)" ToolsVersion="$(ProjectToolsVersion)" UnloadProjectsOnCompletion="$(UnloadProjectsOnCompletion)" UseResultsCache="$(UseResultsCache)" Condition=" ('$(Configuration)' == 'Release') and ('$(Platform)' == 'Any CPU') ">
+      <Output TaskParameter="TargetOutputs" ItemName="_-2_Hosting_Silverlight_in_ASP_NETBuildOutput" />
+    </MSBuild>
+  </Target>
+  <Target Name="6-2 Hosting Silverlight in ASP_NET:Publish" Condition="'$(CurrentSolutionConfigurationContents)' != ''">
+    <MSBuild Projects="Recipe6.2\6-2 Hosting Silverlight in ASP.NET.csproj" Targets="Publish" Properties="Configuration=Debug; Platform=AnyCPU; BuildingSolutionFile=true; CurrentSolutionConfigurationContents=$(CurrentSolutionConfigurationContents); SolutionDir=$(SolutionDir); SolutionExt=$(SolutionExt); SolutionFileName=$(SolutionFileName); SolutionName=$(SolutionName); SolutionPath=$(SolutionPath)" ToolsVersion="$(ProjectToolsVersion)" UnloadProjectsOnCompletion="$(UnloadProjectsOnCompletion)" UseResultsCache="$(UseResultsCache)" Condition=" ('$(Configuration)' == 'Debug') and ('$(Platform)' == 'Any CPU') " />
+    <MSBuild Projects="Recipe6.2\6-2 Hosting Silverlight in ASP.NET.csproj" Targets="Publish" Properties="Configuration=Release; Platform=AnyCPU; BuildingSolutionFile=true; CurrentSolutionConfigurationContents=$(CurrentSolutionConfigurationContents); SolutionDir=$(SolutionDir); SolutionExt=$(SolutionExt); SolutionFileName=$(SolutionFileName); SolutionName=$(SolutionName); SolutionPath=$(SolutionPath)" ToolsVersion="$(ProjectToolsVersion)" UnloadProjectsOnCompletion="$(UnloadProjectsOnCompletion)" UseResultsCache="$(UseResultsCache)" Condition=" ('$(Configuration)' == 'Release') and ('$(Platform)' == 'Any CPU') " />
+  </Target>
+  <Target Name="6-3 How to Set Focus for Keyboard Input" Condition="'$(CurrentSolutionConfigurationContents)' != ''" Outputs="@(_-3_How_to_Set_Focus_for_Keyboard_InputBuildOutput)">
+    <MSBuild Projects="Recipe6.3\6-3 How to Set Focus for Keyboard Input.csproj" Properties="Configuration=Debug; Platform=AnyCPU; BuildingSolutionFile=true; CurrentSolutionConfigurationContents=$(CurrentSolutionConfigurationContents); SolutionDir=$(SolutionDir); SolutionExt=$(SolutionExt); SolutionFileName=$(SolutionFileName); SolutionName=$(SolutionName); SolutionPath=$(SolutionPath)" ToolsVersion="$(ProjectToolsVersion)" UnloadProjectsOnCompletion="$(UnloadProjectsOnCompletion)" UseResultsCache="$(UseResultsCache)" Condition=" ('$(Configuration)' == 'Debug') and ('$(Platform)' == 'Any CPU') ">
+      <Output TaskParameter="TargetOutputs" ItemName="_-3_How_to_Set_Focus_for_Keyboard_InputBuildOutput" />
+    </MSBuild>
+    <MSBuild Projects="Recipe6.3\6-3 How to Set Focus for Keyboard Input.csproj" Properties="Configuration=Release; Platform=AnyCPU; BuildingSolutionFile=true; CurrentSolutionConfigurationContents=$(CurrentSolutionConfigurationContents); SolutionDir=$(SolutionDir); SolutionExt=$(SolutionExt); SolutionFileName=$(SolutionFileName); SolutionName=$(SolutionName); SolutionPath=$(SolutionPath)" ToolsVersion="$(ProjectToolsVersion)" UnloadProjectsOnCompletion="$(UnloadProjectsOnCompletion)" UseResultsCache="$(UseResultsCache)" Condition=" ('$(Configuration)' == 'Release') and ('$(Platform)' == 'Any CPU') ">
+      <Output TaskParameter="TargetOutputs" ItemName="_-3_How_to_Set_Focus_for_Keyboard_InputBuildOutput" />
+    </MSBuild>
+  </Target>
+  <Target Name="6-3 How to Set Focus for Keyboard Input:Clean" Condition="'$(CurrentSolutionConfigurationContents)' != ''">
+    <MSBuild Projects="Recipe6.3\6-3 How to Set Focus for Keyboard Input.csproj" Targets="Clean" Properties="Configuration=Debug; Platform=AnyCPU; BuildingSolutionFile=true; CurrentSolutionConfigurationContents=$(CurrentSolutionConfigurationContents); SolutionDir=$(SolutionDir); SolutionExt=$(SolutionExt); SolutionFileName=$(SolutionFileName); SolutionName=$(SolutionName); SolutionPath=$(SolutionPath)" ToolsVersion="$(ProjectToolsVersion)" UnloadProjectsOnCompletion="$(UnloadProjectsOnCompletion)" UseResultsCache="$(UseResultsCache)" Condition=" ('$(Configuration)' == 'Debug') and ('$(Platform)' == 'Any CPU') " />
+    <MSBuild Projects="Recipe6.3\6-3 How to Set Focus for Keyboard Input.csproj" Targets="Clean" Properties="Configuration=Release; Platform=AnyCPU; BuildingSolutionFile=true; CurrentSolutionConfigurationContents=$(CurrentSolutionConfigurationContents); SolutionDir=$(SolutionDir); SolutionExt=$(SolutionExt); SolutionFileName=$(SolutionFileName); SolutionName=$(SolutionName); SolutionPath=$(SolutionPath)" ToolsVersion="$(ProjectToolsVersion)" UnloadProjectsOnCompletion="$(UnloadProjectsOnCompletion)" UseResultsCache="$(UseResultsCache)" Condition=" ('$(Configuration)' == 'Release') and ('$(Platform)' == 'Any CPU') " />
+  </Target>
+  <Target Name="6-3 How to Set Focus for Keyboard Input:Rebuild" Condition="'$(CurrentSolutionConfigurationContents)' != ''" Outputs="@(_-3_How_to_Set_Focus_for_Keyboard_InputBuildOutput)">
+    <MSBuild Projects="Recipe6.3\6-3 How to Set Focus for Keyboard Input.csproj" Targets="Rebuild" Properties="Configuration=Debug; Platform=AnyCPU; BuildingSolutionFile=true; CurrentSolutionConfigurationContents=$(CurrentSolutionConfigurationContents); SolutionDir=$(SolutionDir); SolutionExt=$(SolutionExt); SolutionFileName=$(SolutionFileName); SolutionName=$(SolutionName); SolutionPath=$(SolutionPath)" ToolsVersion="$(ProjectToolsVersion)" UnloadProjectsOnCompletion="$(UnloadProjectsOnCompletion)" UseResultsCache="$(UseResultsCache)" Condition=" ('$(Configuration)' == 'Debug') and ('$(Platform)' == 'Any CPU') ">
+      <Output TaskParameter="TargetOutputs" ItemName="_-3_How_to_Set_Focus_for_Keyboard_InputBuildOutput" />
+    </MSBuild>
+    <MSBuild Projects="Recipe6.3\6-3 How to Set Focus for Keyboard Input.csproj" Targets="Rebuild" Properties="Configuration=Release; Platform=AnyCPU; BuildingSolutionFile=true; CurrentSolutionConfigurationContents=$(CurrentSolutionConfigurationContents); SolutionDir=$(SolutionDir); SolutionExt=$(SolutionExt); SolutionFileName=$(SolutionFileName); SolutionName=$(SolutionName); SolutionPath=$(SolutionPath)" ToolsVersion="$(ProjectToolsVersion)" UnloadProjectsOnCompletion="$(UnloadProjectsOnCompletion)" UseResultsCache="$(UseResultsCache)" Condition=" ('$(Configuration)' == 'Release') and ('$(Platform)' == 'Any CPU') ">
+      <Output TaskParameter="TargetOutputs" ItemName="_-3_How_to_Set_Focus_for_Keyboard_InputBuildOutput" />
+    </MSBuild>
+  </Target>
+  <Target Name="6-3 How to Set Focus for Keyboard Input:Publish" Condition="'$(CurrentSolutionConfigurationContents)' != ''">
+    <MSBuild Projects="Recipe6.3\6-3 How to Set Focus for Keyboard Input.csproj" Targets="Publish" Properties="Configuration=Debug; Platform=AnyCPU; BuildingSolutionFile=true; CurrentSolutionConfigurationContents=$(CurrentSolutionConfigurationContents); SolutionDir=$(SolutionDir); SolutionExt=$(SolutionExt); SolutionFileName=$(SolutionFileName); SolutionName=$(SolutionName); SolutionPath=$(SolutionPath)" ToolsVersion="$(ProjectToolsVersion)" UnloadProjectsOnCompletion="$(UnloadProjectsOnCompletion)" UseResultsCache="$(UseResultsCache)" Condition=" ('$(Configuration)' == 'Debug') and ('$(Platform)' == 'Any CPU') " />
+    <MSBuild Projects="Recipe6.3\6-3 How to Set Focus for Keyboard Input.csproj" Targets="Publish" Properties="Configuration=Release; Platform=AnyCPU; BuildingSolutionFile=true; CurrentSolutionConfigurationContents=$(CurrentSolutionConfigurationContents); SolutionDir=$(SolutionDir); SolutionExt=$(SolutionExt); SolutionFileName=$(SolutionFileName); SolutionName=$(SolutionName); SolutionPath=$(SolutionPath)" ToolsVersion="$(ProjectToolsVersion)" UnloadProjectsOnCompletion="$(UnloadProjectsOnCompletion)" UseResultsCache="$(UseResultsCache)" Condition=" ('$(Configuration)' == 'Release') and ('$(Platform)' == 'Any CPU') " />
+  </Target>
+  <Target Name="6-4 Implementing a Full Screen UI" Condition="'$(CurrentSolutionConfigurationContents)' != ''" Outputs="@(_-4_Implementing_a_Full_Screen_UIBuildOutput)">
+    <MSBuild Projects="Recipe6.4\6-4 Implementing a Full Screen UI.csproj" Properties="Configuration=Debug; Platform=AnyCPU; BuildingSolutionFile=true; CurrentSolutionConfigurationContents=$(CurrentSolutionConfigurationContents); SolutionDir=$(SolutionDir); SolutionExt=$(SolutionExt); SolutionFileName=$(SolutionFileName); SolutionName=$(SolutionName); SolutionPath=$(SolutionPath)" ToolsVersion="$(ProjectToolsVersion)" UnloadProjectsOnCompletion="$(UnloadProjectsOnCompletion)" UseResultsCache="$(UseResultsCache)" Condition=" ('$(Configuration)' == 'Debug') and ('$(Platform)' == 'Any CPU') ">
+      <Output TaskParameter="TargetOutputs" ItemName="_-4_Implementing_a_Full_Screen_UIBuildOutput" />
+    </MSBuild>
+    <MSBuild Projects="Recipe6.4\6-4 Implementing a Full Screen UI.csproj" Properties="Configuration=Release; Platform=AnyCPU; BuildingSolutionFile=true; CurrentSolutionConfigurationContents=$(CurrentSolutionConfigurationContents); SolutionDir=$(SolutionDir); SolutionExt=$(SolutionExt); SolutionFileName=$(SolutionFileName); SolutionName=$(SolutionName); SolutionPath=$(SolutionPath)" ToolsVersion="$(ProjectToolsVersion)" UnloadProjectsOnCompletion="$(UnloadProjectsOnCompletion)" UseResultsCache="$(UseResultsCache)" Condition=" ('$(Configuration)' == 'Release') and ('$(Platform)' == 'Any CPU') ">
+      <Output TaskParameter="TargetOutputs" ItemName="_-4_Implementing_a_Full_Screen_UIBuildOutput" />
+    </MSBuild>
+  </Target>
+  <Target Name="6-4 Implementing a Full Screen UI:Clean" Condition="'$(CurrentSolutionConfigurationContents)' != ''">
+    <MSBuild Projects="Recipe6.4\6-4 Implementing a Full Screen UI.csproj" Targets="Clean" Properties="Configuration=Debug; Platform=AnyCPU; BuildingSolutionFile=true; CurrentSolutionConfigurationContents=$(CurrentSolutionConfigurationContents); SolutionDir=$(SolutionDir); SolutionExt=$(SolutionExt); SolutionFileName=$(SolutionFileName); SolutionName=$(SolutionName); SolutionPath=$(SolutionPath)" ToolsVersion="$(ProjectToolsVersion)" UnloadProjectsOnCompletion="$(UnloadProjectsOnCompletion)" UseResultsCache="$(UseResultsCache)" Condition=" ('$(Configuration)' == 'Debug') and ('$(Platform)' == 'Any CPU') " />
+    <MSBuild Projects="Recipe6.4\6-4 Implementing a Full Screen UI.csproj" Targets="Clean" Properties="Configuration=Release; Platform=AnyCPU; BuildingSolutionFile=true; CurrentSolutionConfigurationContents=$(CurrentSolutionConfigurationContents); SolutionDir=$(SolutionDir); SolutionExt=$(SolutionExt); SolutionFileName=$(SolutionFileName); SolutionName=$(SolutionName); SolutionPath=$(SolutionPath)" ToolsVersion="$(ProjectToolsVersion)" UnloadProjectsOnCompletion="$(UnloadProjectsOnCompletion)" UseResultsCache="$(UseResultsCache)" Condition=" ('$(Configuration)' == 'Release') and ('$(Platform)' == 'Any CPU') " />
+  </Target>
+  <Target Name="6-4 Implementing a Full Screen UI:Rebuild" Condition="'$(CurrentSolutionConfigurationContents)' != ''" Outputs="@(_-4_Implementing_a_Full_Screen_UIBuildOutput)">
+    <MSBuild Projects="Recipe6.4\6-4 Implementing a Full Screen UI.csproj" Targets="Rebuild" Properties="Configuration=Debug; Platform=AnyCPU; BuildingSolutionFile=true; CurrentSolutionConfigurationContents=$(CurrentSolutionConfigurationContents); SolutionDir=$(SolutionDir); SolutionExt=$(SolutionExt); SolutionFileName=$(SolutionFileName); SolutionName=$(SolutionName); SolutionPath=$(SolutionPath)" ToolsVersion="$(ProjectToolsVersion)" UnloadProjectsOnCompletion="$(UnloadProjectsOnCompletion)" UseResultsCache="$(UseResultsCache)" Condition=" ('$(Configuration)' == 'Debug') and ('$(Platform)' == 'Any CPU') ">
+      <Output TaskParameter="TargetOutputs" ItemName="_-4_Implementing_a_Full_Screen_UIBuildOutput" />
+    </MSBuild>
+    <MSBuild Projects="Recipe6.4\6-4 Implementing a Full Screen UI.csproj" Targets="Rebuild" Properties="Configuration=Release; Platform=AnyCPU; BuildingSolutionFile=true; CurrentSolutionConfigurationContents=$(CurrentSolutionConfigurationContents); SolutionDir=$(SolutionDir); SolutionExt=$(SolutionExt); SolutionFileName=$(SolutionFileName); SolutionName=$(SolutionName); SolutionPath=$(SolutionPath)" ToolsVersion="$(ProjectToolsVersion)" UnloadProjectsOnCompletion="$(UnloadProjectsOnCompletion)" UseResultsCache="$(UseResultsCache)" Condition=" ('$(Configuration)' == 'Release') and ('$(Platform)' == 'Any CPU') ">
+      <Output TaskParameter="TargetOutputs" ItemName="_-4_Implementing_a_Full_Screen_UIBuildOutput" />
+    </MSBuild>
+  </Target>
+  <Target Name="6-4 Implementing a Full Screen UI:Publish" Condition="'$(CurrentSolutionConfigurationContents)' != ''">
+    <MSBuild Projects="Recipe6.4\6-4 Implementing a Full Screen UI.csproj" Targets="Publish" Properties="Configuration=Debug; Platform=AnyCPU; BuildingSolutionFile=true; CurrentSolutionConfigurationContents=$(CurrentSolutionConfigurationContents); SolutionDir=$(SolutionDir); SolutionExt=$(SolutionExt); SolutionFileName=$(SolutionFileName); SolutionName=$(SolutionName); SolutionPath=$(SolutionPath)" ToolsVersion="$(ProjectToolsVersion)" UnloadProjectsOnCompletion="$(UnloadProjectsOnCompletion)" UseResultsCache="$(UseResultsCache)" Condition=" ('$(Configuration)' == 'Debug') and ('$(Platform)' == 'Any CPU') " />
+    <MSBuild Projects="Recipe6.4\6-4 Implementing a Full Screen UI.csproj" Targets="Publish" Properties="Configuration=Release; Platform=AnyCPU; BuildingSolutionFile=true; CurrentSolutionConfigurationContents=$(CurrentSolutionConfigurationContents); SolutionDir=$(SolutionDir); SolutionExt=$(SolutionExt); SolutionFileName=$(SolutionFileName); SolutionName=$(SolutionName); SolutionPath=$(SolutionPath)" ToolsVersion="$(ProjectToolsVersion)" UnloadProjectsOnCompletion="$(UnloadProjectsOnCompletion)" UseResultsCache="$(UseResultsCache)" Condition=" ('$(Configuration)' == 'Release') and ('$(Platform)' == 'Any CPU') " />
+  </Target>
+  <Target Name="6-6 Call a Managed Code Method from JavaScript" Condition="'$(CurrentSolutionConfigurationContents)' != ''" Outputs="@(_-6_Call_a_Managed_Code_Method_from_JavaScriptBuildOutput)">
+    <MSBuild Projects="Recipe6.5\6-6 Call a Managed Code Method from JavaScript.csproj" Properties="Configuration=Debug; Platform=AnyCPU; BuildingSolutionFile=true; CurrentSolutionConfigurationContents=$(CurrentSolutionConfigurationContents); SolutionDir=$(SolutionDir); SolutionExt=$(SolutionExt); SolutionFileName=$(SolutionFileName); SolutionName=$(SolutionName); SolutionPath=$(SolutionPath)" ToolsVersion="$(ProjectToolsVersion)" UnloadProjectsOnCompletion="$(UnloadProjectsOnCompletion)" UseResultsCache="$(UseResultsCache)" Condition=" ('$(Configuration)' == 'Debug') and ('$(Platform)' == 'Any CPU') ">
+      <Output TaskParameter="TargetOutputs" ItemName="_-6_Call_a_Managed_Code_Method_from_JavaScriptBuildOutput" />
+    </MSBuild>
+    <MSBuild Projects="Recipe6.5\6-6 Call a Managed Code Method from JavaScript.csproj" Properties="Configuration=Release; Platform=AnyCPU; BuildingSolutionFile=true; CurrentSolutionConfigurationContents=$(CurrentSolutionConfigurationContents); SolutionDir=$(SolutionDir); SolutionExt=$(SolutionExt); SolutionFileName=$(SolutionFileName); SolutionName=$(SolutionName); SolutionPath=$(SolutionPath)" ToolsVersion="$(ProjectToolsVersion)" UnloadProjectsOnCompletion="$(UnloadProjectsOnCompletion)" UseResultsCache="$(UseResultsCache)" Condition=" ('$(Configuration)' == 'Release') and ('$(Platform)' == 'Any CPU') ">
+      <Output TaskParameter="TargetOutputs" ItemName="_-6_Call_a_Managed_Code_Method_from_JavaScriptBuildOutput" />
+    </MSBuild>
+  </Target>
+  <Target Name="6-6 Call a Managed Code Method from JavaScript:Clean" Condition="'$(CurrentSolutionConfigurationContents)' != ''">
+    <MSBuild Projects="Recipe6.5\6-6 Call a Managed Code Method from JavaScript.csproj" Targets="Clean" Properties="Configuration=Debug; Platform=AnyCPU; BuildingSolutionFile=true; CurrentSolutionConfigurationContents=$(CurrentSolutionConfigurationContents); SolutionDir=$(SolutionDir); SolutionExt=$(SolutionExt); SolutionFileName=$(SolutionFileName); SolutionName=$(SolutionName); SolutionPath=$(SolutionPath)" ToolsVersion="$(ProjectToolsVersion)" UnloadProjectsOnCompletion="$(UnloadProjectsOnCompletion)" UseResultsCache="$(UseResultsCache)" Condition=" ('$(Configuration)' == 'Debug') and ('$(Platform)' == 'Any CPU') " />
+    <MSBuild Projects="Recipe6.5\6-6 Call a Managed Code Method from JavaScript.csproj" Targets="Clean" Properties="Configuration=Release; Platform=AnyCPU; BuildingSolutionFile=true; CurrentSolutionConfigurationContents=$(CurrentSolutionConfigurationContents); SolutionDir=$(SolutionDir); SolutionExt=$(SolutionExt); SolutionFileName=$(SolutionFileName); SolutionName=$(SolutionName); SolutionPath=$(SolutionPath)" ToolsVersion="$(ProjectToolsVersion)" UnloadProjectsOnCompletion="$(UnloadProjectsOnCompletion)" UseResultsCache="$(UseResultsCache)" Condition=" ('$(Configuration)' == 'Release') and ('$(Platform)' == 'Any CPU') " />
+  </Target>
+  <Target Name="6-6 Call a Managed Code Method from JavaScript:Rebuild" Condition="'$(CurrentSolutionConfigurationContents)' != ''" Outputs="@(_-6_Call_a_Managed_Code_Method_from_JavaScriptBuildOutput)">
+    <MSBuild Projects="Recipe6.5\6-6 Call a Managed Code Method from JavaScript.csproj" Targets="Rebuild" Properties="Configuration=Debug; Platform=AnyCPU; BuildingSolutionFile=true; CurrentSolutionConfigurationContents=$(CurrentSolutionConfigurationContents); SolutionDir=$(SolutionDir); SolutionExt=$(SolutionExt); SolutionFileName=$(SolutionFileName); SolutionName=$(SolutionName); SolutionPath=$(SolutionPath)" ToolsVersion="$(ProjectToolsVersion)" UnloadProjectsOnCompletion="$(UnloadProjectsOnCompletion)" UseResultsCache="$(UseResultsCache)" Condition=" ('$(Configuration)' == 'Debug') and ('$(Platform)' == 'Any CPU') ">
+      <Output TaskParameter="TargetOutputs" ItemName="_-6_Call_a_Managed_Code_Method_from_JavaScriptBuildOutput" />
+    </MSBuild>
+    <MSBuild Projects="Recipe6.5\6-6 Call a Managed Code Method from JavaScript.csproj" Targets="Rebuild" Properties="Configuration=Release; Platform=AnyCPU; BuildingSolutionFile=true; CurrentSolutionConfigurationContents=$(CurrentSolutionConfigurationContents); SolutionDir=$(SolutionDir); SolutionExt=$(SolutionExt); SolutionFileName=$(SolutionFileName); SolutionName=$(SolutionName); SolutionPath=$(SolutionPath)" ToolsVersion="$(ProjectToolsVersion)" UnloadProjectsOnCompletion="$(UnloadProjectsOnCompletion)" UseResultsCache="$(UseResultsCache)" Condition=" ('$(Configuration)' == 'Release') and ('$(Platform)' == 'Any CPU') ">
+      <Output TaskParameter="TargetOutputs" ItemName="_-6_Call_a_Managed_Code_Method_from_JavaScriptBuildOutput" />
+    </MSBuild>
+  </Target>
+  <Target Name="6-6 Call a Managed Code Method from JavaScript:Publish" Condition="'$(CurrentSolutionConfigurationContents)' != ''">
+    <MSBuild Projects="Recipe6.5\6-6 Call a Managed Code Method from JavaScript.csproj" Targets="Publish" Properties="Configuration=Debug; Platform=AnyCPU; BuildingSolutionFile=true; CurrentSolutionConfigurationContents=$(CurrentSolutionConfigurationContents); SolutionDir=$(SolutionDir); SolutionExt=$(SolutionExt); SolutionFileName=$(SolutionFileName); SolutionName=$(SolutionName); SolutionPath=$(SolutionPath)" ToolsVersion="$(ProjectToolsVersion)" UnloadProjectsOnCompletion="$(UnloadProjectsOnCompletion)" UseResultsCache="$(UseResultsCache)" Condition=" ('$(Configuration)' == 'Debug') and ('$(Platform)' == 'Any CPU') " />
+    <MSBuild Projects="Recipe6.5\6-6 Call a Managed Code Method from JavaScript.csproj" Targets="Publish" Properties="Configuration=Release; Platform=AnyCPU; BuildingSolutionFile=true; CurrentSolutionConfigurationContents=$(CurrentSolutionConfigurationContents); SolutionDir=$(SolutionDir); SolutionExt=$(SolutionExt); SolutionFileName=$(SolutionFileName); SolutionName=$(SolutionName); SolutionPath=$(SolutionPath)" ToolsVersion="$(ProjectToolsVersion)" UnloadProjectsOnCompletion="$(UnloadProjectsOnCompletion)" UseResultsCache="$(UseResultsCache)" Condition=" ('$(Configuration)' == 'Release') and ('$(Platform)' == 'Any CPU') " />
+  </Target>
+  <Target Name="6-5 Call a JavaScript Method from Managed Code" Condition="'$(CurrentSolutionConfigurationContents)' != ''" Outputs="@(_-5_Call_a_JavaScript_Method_from_Managed_CodeBuildOutput)">
+    <MSBuild Projects="Recipe6.6\6-5 Call a JavaScript Method from Managed Code.csproj" Properties="Configuration=Debug; Platform=AnyCPU; BuildingSolutionFile=true; CurrentSolutionConfigurationContents=$(CurrentSolutionConfigurationContents); SolutionDir=$(SolutionDir); SolutionExt=$(SolutionExt); SolutionFileName=$(SolutionFileName); SolutionName=$(SolutionName); SolutionPath=$(SolutionPath)" ToolsVersion="$(ProjectToolsVersion)" UnloadProjectsOnCompletion="$(UnloadProjectsOnCompletion)" UseResultsCache="$(UseResultsCache)" Condition=" ('$(Configuration)' == 'Debug') and ('$(Platform)' == 'Any CPU') ">
+      <Output TaskParameter="TargetOutputs" ItemName="_-5_Call_a_JavaScript_Method_from_Managed_CodeBuildOutput" />
+    </MSBuild>
+    <MSBuild Projects="Recipe6.6\6-5 Call a JavaScript Method from Managed Code.csproj" Properties="Configuration=Release; Platform=AnyCPU; BuildingSolutionFile=true; CurrentSolutionConfigurationContents=$(CurrentSolutionConfigurationContents); SolutionDir=$(SolutionDir); SolutionExt=$(SolutionExt); SolutionFileName=$(SolutionFileName); SolutionName=$(SolutionName); SolutionPath=$(SolutionPath)" ToolsVersion="$(ProjectToolsVersion)" UnloadProjectsOnCompletion="$(UnloadProjectsOnCompletion)" UseResultsCache="$(UseResultsCache)" Condition=" ('$(Configuration)' == 'Release') and ('$(Platform)' == 'Any CPU') ">
+      <Output TaskParameter="TargetOutputs" ItemName="_-5_Call_a_JavaScript_Method_from_Managed_CodeBuildOutput" />
+    </MSBuild>
+  </Target>
+  <Target Name="6-5 Call a JavaScript Method from Managed Code:Clean" Condition="'$(CurrentSolutionConfigurationContents)' != ''">
+    <MSBuild Projects="Recipe6.6\6-5 Call a JavaScript Method from Managed Code.csproj" Targets="Clean" Properties="Configuration=Debug; Platform=AnyCPU; BuildingSolutionFile=true; CurrentSolutionConfigurationContents=$(CurrentSolutionConfigurationContents); SolutionDir=$(SolutionDir); SolutionExt=$(SolutionExt); SolutionFileName=$(SolutionFileName); SolutionName=$(SolutionName); SolutionPath=$(SolutionPath)" ToolsVersion="$(ProjectToolsVersion)" UnloadProjectsOnCompletion="$(UnloadProjectsOnCompletion)" UseResultsCache="$(UseResultsCache)" Condition=" ('$(Configuration)' == 'Debug') and ('$(Platform)' == 'Any CPU') " />
+    <MSBuild Projects="Recipe6.6\6-5 Call a JavaScript Method from Managed Code.csproj" Targets="Clean" Properties="Configuration=Release; Platform=AnyCPU; BuildingSolutionFile=true; CurrentSolutionConfigurationContents=$(CurrentSolutionConfigurationContents); SolutionDir=$(SolutionDir); SolutionExt=$(SolutionExt); SolutionFileName=$(SolutionFileName); SolutionName=$(SolutionName); SolutionPath=$(SolutionPath)" ToolsVersion="$(ProjectToolsVersion)" UnloadProjectsOnCompletion="$(UnloadProjectsOnCompletion)" UseResultsCache="$(UseResultsCache)" Condition=" ('$(Configuration)' == 'Release') and ('$(Platform)' == 'Any CPU') " />
+  </Target>
+  <Target Name="6-5 Call a JavaScript Method from Managed Code:Rebuild" Condition="'$(CurrentSolutionConfigurationContents)' != ''" Outputs="@(_-5_Call_a_JavaScript_Method_from_Managed_CodeBuildOutput)">
+    <MSBuild Projects="Recipe6.6\6-5 Call a JavaScript Method from Managed Code.csproj" Targets="Rebuild" Properties="Configuration=Debug; Platform=AnyCPU; BuildingSolutionFile=true; CurrentSolutionConfigurationContents=$(CurrentSolutionConfigurationContents); SolutionDir=$(SolutionDir); SolutionExt=$(SolutionExt); SolutionFileName=$(SolutionFileName); SolutionName=$(SolutionName); SolutionPath=$(SolutionPath)" ToolsVersion="$(ProjectToolsVersion)" UnloadProjectsOnCompletion="$(UnloadProjectsOnCompletion)" UseResultsCache="$(UseResultsCache)" Condition=" ('$(Configuration)' == 'Debug') and ('$(Platform)' == 'Any CPU') ">
+      <Output TaskParameter="TargetOutputs" ItemName="_-5_Call_a_JavaScript_Method_from_Managed_CodeBuildOutput" />
+    </MSBuild>
+    <MSBuild Projects="Recipe6.6\6-5 Call a JavaScript Method from Managed Code.csproj" Targets="Rebuild" Properties="Configuration=Release; Platform=AnyCPU; BuildingSolutionFile=true; CurrentSolutionConfigurationContents=$(CurrentSolutionConfigurationContents); SolutionDir=$(SolutionDir); SolutionExt=$(SolutionExt); SolutionFileName=$(SolutionFileName); SolutionName=$(SolutionName); SolutionPath=$(SolutionPath)" ToolsVersion="$(ProjectToolsVersion)" UnloadProjectsOnCompletion="$(UnloadProjectsOnCompletion)" UseResultsCache="$(UseResultsCache)" Condition=" ('$(Configuration)' == 'Release') and ('$(Platform)' == 'Any CPU') ">
+      <Output TaskParameter="TargetOutputs" ItemName="_-5_Call_a_JavaScript_Method_from_Managed_CodeBuildOutput" />
+    </MSBuild>
+  </Target>
+  <Target Name="6-5 Call a JavaScript Method from Managed Code:Publish" Condition="'$(CurrentSolutionConfigurationContents)' != ''">
+    <MSBuild Projects="Recipe6.6\6-5 Call a JavaScript Method from Managed Code.csproj" Targets="Publish" Properties="Configuration=Debug; Platform=AnyCPU; BuildingSolutionFile=true; CurrentSolutionConfigurationContents=$(CurrentSolutionConfigurationContents); SolutionDir=$(SolutionDir); SolutionExt=$(SolutionExt); SolutionFileName=$(SolutionFileName); SolutionName=$(SolutionName); SolutionPath=$(SolutionPath)" ToolsVersion="$(ProjectToolsVersion)" UnloadProjectsOnCompletion="$(UnloadProjectsOnCompletion)" UseResultsCache="$(UseResultsCache)" Condition=" ('$(Configuration)' == 'Debug') and ('$(Platform)' == 'Any CPU') " />
+    <MSBuild Projects="Recipe6.6\6-5 Call a JavaScript Method from Managed Code.csproj" Targets="Publish" Properties="Configuration=Release; Platform=AnyCPU; BuildingSolutionFile=true; CurrentSolutionConfigurationContents=$(CurrentSolutionConfigurationContents); SolutionDir=$(SolutionDir); SolutionExt=$(SolutionExt); SolutionFileName=$(SolutionFileName); SolutionName=$(SolutionName); SolutionPath=$(SolutionPath)" ToolsVersion="$(ProjectToolsVersion)" UnloadProjectsOnCompletion="$(UnloadProjectsOnCompletion)" UseResultsCache="$(UseResultsCache)" Condition=" ('$(Configuration)' == 'Release') and ('$(Platform)' == 'Any CPU') " />
+  </Target>
+  <Target Name="6-7 Exchange Data between Multiple Plug-ins" Condition="'$(CurrentSolutionConfigurationContents)' != ''" Outputs="@(_-7_Exchange_Data_between_Multiple_Plug-insBuildOutput)">
+    <MSBuild Projects="Recipe6.7\6-7 Exchange Data between Multiple Plug-ins.csproj" Properties="Configuration=Debug; Platform=AnyCPU; BuildingSolutionFile=true; CurrentSolutionConfigurationContents=$(CurrentSolutionConfigurationContents); SolutionDir=$(SolutionDir); SolutionExt=$(SolutionExt); SolutionFileName=$(SolutionFileName); SolutionName=$(SolutionName); SolutionPath=$(SolutionPath)" ToolsVersion="$(ProjectToolsVersion)" UnloadProjectsOnCompletion="$(UnloadProjectsOnCompletion)" UseResultsCache="$(UseResultsCache)" Condition=" ('$(Configuration)' == 'Debug') and ('$(Platform)' == 'Any CPU') ">
+      <Output TaskParameter="TargetOutputs" ItemName="_-7_Exchange_Data_between_Multiple_Plug-insBuildOutput" />
+    </MSBuild>
+    <MSBuild Projects="Recipe6.7\6-7 Exchange Data between Multiple Plug-ins.csproj" Properties="Configuration=Release; Platform=AnyCPU; BuildingSolutionFile=true; CurrentSolutionConfigurationContents=$(CurrentSolutionConfigurationContents); SolutionDir=$(SolutionDir); SolutionExt=$(SolutionExt); SolutionFileName=$(SolutionFileName); SolutionName=$(SolutionName); SolutionPath=$(SolutionPath)" ToolsVersion="$(ProjectToolsVersion)" UnloadProjectsOnCompletion="$(UnloadProjectsOnCompletion)" UseResultsCache="$(UseResultsCache)" Condition=" ('$(Configuration)' == 'Release') and ('$(Platform)' == 'Any CPU') ">
+      <Output TaskParameter="TargetOutputs" ItemName="_-7_Exchange_Data_between_Multiple_Plug-insBuildOutput" />
+    </MSBuild>
+  </Target>
+  <Target Name="6-7 Exchange Data between Multiple Plug-ins:Clean" Condition="'$(CurrentSolutionConfigurationContents)' != ''">
+    <MSBuild Projects="Recipe6.7\6-7 Exchange Data between Multiple Plug-ins.csproj" Targets="Clean" Properties="Configuration=Debug; Platform=AnyCPU; BuildingSolutionFile=true; CurrentSolutionConfigurationContents=$(CurrentSolutionConfigurationContents); SolutionDir=$(SolutionDir); SolutionExt=$(SolutionExt); SolutionFileName=$(SolutionFileName); SolutionName=$(SolutionName); SolutionPath=$(SolutionPath)" ToolsVersion="$(ProjectToolsVersion)" UnloadProjectsOnCompletion="$(UnloadProjectsOnCompletion)" UseResultsCache="$(UseResultsCache)" Condition=" ('$(Configuration)' == 'Debug') and ('$(Platform)' == 'Any CPU') " />
+    <MSBuild Projects="Recipe6.7\6-7 Exchange Data between Multiple Plug-ins.csproj" Targets="Clean" Properties="Configuration=Release; Platform=AnyCPU; BuildingSolutionFile=true; CurrentSolutionConfigurationContents=$(CurrentSolutionConfigurationContents); SolutionDir=$(SolutionDir); SolutionExt=$(SolutionExt); SolutionFileName=$(SolutionFileName); SolutionName=$(SolutionName); SolutionPath=$(SolutionPath)" ToolsVersion="$(ProjectToolsVersion)" UnloadProjectsOnCompletion="$(UnloadProjectsOnCompletion)" UseResultsCache="$(UseResultsCache)" Condition=" ('$(Configuration)' == 'Release') and ('$(Platform)' == 'Any CPU') " />
+  </Target>
+  <Target Name="6-7 Exchange Data between Multiple Plug-ins:Rebuild" Condition="'$(CurrentSolutionConfigurationContents)' != ''" Outputs="@(_-7_Exchange_Data_between_Multiple_Plug-insBuildOutput)">
+    <MSBuild Projects="Recipe6.7\6-7 Exchange Data between Multiple Plug-ins.csproj" Targets="Rebuild" Properties="Configuration=Debug; Platform=AnyCPU; BuildingSolutionFile=true; CurrentSolutionConfigurationContents=$(CurrentSolutionConfigurationContents); SolutionDir=$(SolutionDir); SolutionExt=$(SolutionExt); SolutionFileName=$(SolutionFileName); SolutionName=$(SolutionName); SolutionPath=$(SolutionPath)" ToolsVersion="$(ProjectToolsVersion)" UnloadProjectsOnCompletion="$(UnloadProjectsOnCompletion)" UseResultsCache="$(UseResultsCache)" Condition=" ('$(Configuration)' == 'Debug') and ('$(Platform)' == 'Any CPU') ">
+      <Output TaskParameter="TargetOutputs" ItemName="_-7_Exchange_Data_between_Multiple_Plug-insBuildOutput" />
+    </MSBuild>
+    <MSBuild Projects="Recipe6.7\6-7 Exchange Data between Multiple Plug-ins.csproj" Targets="Rebuild" Properties="Configuration=Release; Platform=AnyCPU; BuildingSolutionFile=true; CurrentSolutionConfigurationContents=$(CurrentSolutionConfigurationContents); SolutionDir=$(SolutionDir); SolutionExt=$(SolutionExt); SolutionFileName=$(SolutionFileName); SolutionName=$(SolutionName); SolutionPath=$(SolutionPath)" ToolsVersion="$(ProjectToolsVersion)" UnloadProjectsOnCompletion="$(UnloadProjectsOnCompletion)" UseResultsCache="$(UseResultsCache)" Condition=" ('$(Configuration)' == 'Release') and ('$(Platform)' == 'Any CPU') ">
+      <Output TaskParameter="TargetOutputs" ItemName="_-7_Exchange_Data_between_Multiple_Plug-insBuildOutput" />
+    </MSBuild>
+  </Target>
+  <Target Name="6-7 Exchange Data between Multiple Plug-ins:Publish" Condition="'$(CurrentSolutionConfigurationContents)' != ''">
+    <MSBuild Projects="Recipe6.7\6-7 Exchange Data between Multiple Plug-ins.csproj" Targets="Publish" Properties="Configuration=Debug; Platform=AnyCPU; BuildingSolutionFile=true; CurrentSolutionConfigurationContents=$(CurrentSolutionConfigurationContents); SolutionDir=$(SolutionDir); SolutionExt=$(SolutionExt); SolutionFileName=$(SolutionFileName); SolutionName=$(SolutionName); SolutionPath=$(SolutionPath)" ToolsVersion="$(ProjectToolsVersion)" UnloadProjectsOnCompletion="$(UnloadProjectsOnCompletion)" UseResultsCache="$(UseResultsCache)" Condition=" ('$(Configuration)' == 'Debug') and ('$(Platform)' == 'Any CPU') " />
+    <MSBuild Projects="Recipe6.7\6-7 Exchange Data between Multiple Plug-ins.csproj" Targets="Publish" Properties="Configuration=Release; Platform=AnyCPU; BuildingSolutionFile=true; CurrentSolutionConfigurationContents=$(CurrentSolutionConfigurationContents); SolutionDir=$(SolutionDir); SolutionExt=$(SolutionExt); SolutionFileName=$(SolutionFileName); SolutionName=$(SolutionName); SolutionPath=$(SolutionPath)" ToolsVersion="$(ProjectToolsVersion)" UnloadProjectsOnCompletion="$(UnloadProjectsOnCompletion)" UseResultsCache="$(UseResultsCache)" Condition=" ('$(Configuration)' == 'Release') and ('$(Platform)' == 'Any CPU') " />
+  </Target>
+  <Target Name="6-8 Embed Silverlight within a Vista Gadget" Condition="'$(CurrentSolutionConfigurationContents)' != ''" Outputs="@(_-8_Embed_Silverlight_within_a_Vista_GadgetBuildOutput)">
+    <MSBuild Projects="Recipe6.8\6-8 Embed Silverlight within a Vista Gadget.csproj" Properties="Configuration=Debug; Platform=AnyCPU; BuildingSolutionFile=true; CurrentSolutionConfigurationContents=$(CurrentSolutionConfigurationContents); SolutionDir=$(SolutionDir); SolutionExt=$(SolutionExt); SolutionFileName=$(SolutionFileName); SolutionName=$(SolutionName); SolutionPath=$(SolutionPath)" ToolsVersion="$(ProjectToolsVersion)" UnloadProjectsOnCompletion="$(UnloadProjectsOnCompletion)" UseResultsCache="$(UseResultsCache)" Condition=" ('$(Configuration)' == 'Debug') and ('$(Platform)' == 'Any CPU') ">
+      <Output TaskParameter="TargetOutputs" ItemName="_-8_Embed_Silverlight_within_a_Vista_GadgetBuildOutput" />
+    </MSBuild>
+    <MSBuild Projects="Recipe6.8\6-8 Embed Silverlight within a Vista Gadget.csproj" Properties="Configuration=Release; Platform=AnyCPU; BuildingSolutionFile=true; CurrentSolutionConfigurationContents=$(CurrentSolutionConfigurationContents); SolutionDir=$(SolutionDir); SolutionExt=$(SolutionExt); SolutionFileName=$(SolutionFileName); SolutionName=$(SolutionName); SolutionPath=$(SolutionPath)" ToolsVersion="$(ProjectToolsVersion)" UnloadProjectsOnCompletion="$(UnloadProjectsOnCompletion)" UseResultsCache="$(UseResultsCache)" Condition=" ('$(Configuration)' == 'Release') and ('$(Platform)' == 'Any CPU') ">
+      <Output TaskParameter="TargetOutputs" ItemName="_-8_Embed_Silverlight_within_a_Vista_GadgetBuildOutput" />
+    </MSBuild>
+  </Target>
+  <Target Name="6-8 Embed Silverlight within a Vista Gadget:Clean" Condition="'$(CurrentSolutionConfigurationContents)' != ''">
+    <MSBuild Projects="Recipe6.8\6-8 Embed Silverlight within a Vista Gadget.csproj" Targets="Clean" Properties="Configuration=Debug; Platform=AnyCPU; BuildingSolutionFile=true; CurrentSolutionConfigurationContents=$(CurrentSolutionConfigurationContents); SolutionDir=$(SolutionDir); SolutionExt=$(SolutionExt); SolutionFileName=$(SolutionFileName); SolutionName=$(SolutionName); SolutionPath=$(SolutionPath)" ToolsVersion="$(ProjectToolsVersion)" UnloadProjectsOnCompletion="$(UnloadProjectsOnCompletion)" UseResultsCache="$(UseResultsCache)" Condition=" ('$(Configuration)' == 'Debug') and ('$(Platform)' == 'Any CPU') " />
+    <MSBuild Projects="Recipe6.8\6-8 Embed Silverlight within a Vista Gadget.csproj" Targets="Clean" Properties="Configuration=Release; Platform=AnyCPU; BuildingSolutionFile=true; CurrentSolutionConfigurationContents=$(CurrentSolutionConfigurationContents); SolutionDir=$(SolutionDir); SolutionExt=$(SolutionExt); SolutionFileName=$(SolutionFileName); SolutionName=$(SolutionName); SolutionPath=$(SolutionPath)" ToolsVersion="$(ProjectToolsVersion)" UnloadProjectsOnCompletion="$(UnloadProjectsOnCompletion)" UseResultsCache="$(UseResultsCache)" Condition=" ('$(Configuration)' == 'Release') and ('$(Platform)' == 'Any CPU') " />
+  </Target>
+  <Target Name="6-8 Embed Silverlight within a Vista Gadget:Rebuild" Condition="'$(CurrentSolutionConfigurationContents)' != ''" Outputs="@(_-8_Embed_Silverlight_within_a_Vista_GadgetBuildOutput)">
+    <MSBuild Projects="Recipe6.8\6-8 Embed Silverlight within a Vista Gadget.csproj" Targets="Rebuild" Properties="Configuration=Debug; Platform=AnyCPU; BuildingSolutionFile=true; CurrentSolutionConfigurationContents=$(CurrentSolutionConfigurationContents); SolutionDir=$(SolutionDir); SolutionExt=$(SolutionExt); SolutionFileName=$(SolutionFileName); SolutionName=$(SolutionName); SolutionPath=$(SolutionPath)" ToolsVersion="$(ProjectToolsVersion)" UnloadProjectsOnCompletion="$(UnloadProjectsOnCompletion)" UseResultsCache="$(UseResultsCache)" Condition=" ('$(Configuration)' == 'Debug') and ('$(Platform)' == 'Any CPU') ">
+      <Output TaskParameter="TargetOutputs" ItemName="_-8_Embed_Silverlight_within_a_Vista_GadgetBuildOutput" />
+    </MSBuild>
+    <MSBuild Projects="Recipe6.8\6-8 Embed Silverlight within a Vista Gadget.csproj" Targets="Rebuild" Properties="Configuration=Release; Platform=AnyCPU; BuildingSolutionFile=true; CurrentSolutionConfigurationContents=$(CurrentSolutionConfigurationContents); SolutionDir=$(SolutionDir); SolutionExt=$(SolutionExt); SolutionFileName=$(SolutionFileName); SolutionName=$(SolutionName); SolutionPath=$(SolutionPath)" ToolsVersion="$(ProjectToolsVersion)" UnloadProjectsOnCompletion="$(UnloadProjectsOnCompletion)" UseResultsCache="$(UseResultsCache)" Condition=" ('$(Configuration)' == 'Release') and ('$(Platform)' == 'Any CPU') ">
+      <Output TaskParameter="TargetOutputs" ItemName="_-8_Embed_Silverlight_within_a_Vista_GadgetBuildOutput" />
+    </MSBuild>
+  </Target>
+  <Target Name="6-8 Embed Silverlight within a Vista Gadget:Publish" Condition="'$(CurrentSolutionConfigurationContents)' != ''">
+    <MSBuild Projects="Recipe6.8\6-8 Embed Silverlight within a Vista Gadget.csproj" Targets="Publish" Properties="Configuration=Debug; Platform=AnyCPU; BuildingSolutionFile=true; CurrentSolutionConfigurationContents=$(CurrentSolutionConfigurationContents); SolutionDir=$(SolutionDir); SolutionExt=$(SolutionExt); SolutionFileName=$(SolutionFileName); SolutionName=$(SolutionName); SolutionPath=$(SolutionPath)" ToolsVersion="$(ProjectToolsVersion)" UnloadProjectsOnCompletion="$(UnloadProjectsOnCompletion)" UseResultsCache="$(UseResultsCache)" Condition=" ('$(Configuration)' == 'Debug') and ('$(Platform)' == 'Any CPU') " />
+    <MSBuild Projects="Recipe6.8\6-8 Embed Silverlight within a Vista Gadget.csproj" Targets="Publish" Properties="Configuration=Release; Platform=AnyCPU; BuildingSolutionFile=true; CurrentSolutionConfigurationContents=$(CurrentSolutionConfigurationContents); SolutionDir=$(SolutionDir); SolutionExt=$(SolutionExt); SolutionFileName=$(SolutionFileName); SolutionName=$(SolutionName); SolutionPath=$(SolutionPath)" ToolsVersion="$(ProjectToolsVersion)" UnloadProjectsOnCompletion="$(UnloadProjectsOnCompletion)" UseResultsCache="$(UseResultsCache)" Condition=" ('$(Configuration)' == 'Release') and ('$(Platform)' == 'Any CPU') " />
+  </Target>
+  <Target Name="GetFrameworkPathAndRedistList">
+    <GetFrameworkPath>
+      <Output TaskParameter="Path" ItemName="_CombinedTargetFrameworkDirectoriesItem" Condition="'$(MSBuildToolsVersion)' == '2.0'" />
+      <Output TaskParameter="FrameworkVersion35Path" ItemName="_CombinedTargetFrameworkDirectoriesItem" Condition=" '$(TargetFrameworkVersion)' == 'v3.5' and '$(MSBuildToolsVersion)' != '2.0'" />
+      <Output TaskParameter="FrameworkVersion30Path" ItemName="_CombinedTargetFrameworkDirectoriesItem" Condition=" ('$(TargetFrameworkVersion)' == 'v3.0' or '$(TargetFrameworkVersion)' == 'v3.5') and '$(MSBuildToolsVersion)' != '2.0'" />
+      <Output TaskParameter="FrameworkVersion20Path" ItemName="_CombinedTargetFrameworkDirectoriesItem" Condition=" ('$(TargetFrameworkVersion)' == 'v2.0' or '$(TargetFrameworkVersion)' == 'v3.0' or '$(TargetFrameworkVersion)' == 'v3.5') and '$(MSBuildToolsVersion)' != '2.0'" />
+    </GetFrameworkPath>
+    <CreateItem Include="@(_CombinedTargetFrameworkDirectoriesItem->'%(Identity)\RedistList\*.xml')">
+      <Output TaskParameter="Include" ItemName="InstalledAssemblyTables" />
+    </CreateItem>
+  </Target>
+  <Target Name="Silverlight2RecipesGadget" DependsOnTargets=";GetFrameworkPathAndRedistList" Condition=" ('$(CurrentSolutionConfigurationContents)' != '') and (false or ( ('$(Configuration)' == 'Debug') and ('$(Platform)' == 'Any CPU') ) or ( ('$(Configuration)' == 'Release') and ('$(Platform)' == 'Any CPU') )) ">
+    <CreateItem Include="$(Project_63992E08-520B-4FBA-A4D1-DE1F67EF5F8A_AspNetPhysicalPath)\Bin\*.refresh">
+      <Output TaskParameter="Include" ItemName="Project_63992E08-520B-4FBA-A4D1-DE1F67EF5F8A_References_RefreshFile" />
+    </CreateItem>
+    <ReadLinesFromFile File="%(Project_63992E08-520B-4FBA-A4D1-DE1F67EF5F8A_References_RefreshFile.Identity)" Condition=" '%(Project_63992E08-520B-4FBA-A4D1-DE1F67EF5F8A_References_RefreshFile.Identity)' != '' ">
+      <Output TaskParameter="Lines" ItemName="Project_63992E08-520B-4FBA-A4D1-DE1F67EF5F8A_References_ReferenceRelPath" />
+    </ReadLinesFromFile>
+    <CombinePath BasePath="$(Project_63992E08-520B-4FBA-A4D1-DE1F67EF5F8A_AspNetPhysicalPath)" Paths="@(Project_63992E08-520B-4FBA-A4D1-DE1F67EF5F8A_References_ReferenceRelPath)">
+      <Output TaskParameter="CombinedPaths" ItemName="Project_63992E08-520B-4FBA-A4D1-DE1F67EF5F8A_References" />
+    </CombinePath>
+    <Copy SourceFiles="@(Project_63992E08-520B-4FBA-A4D1-DE1F67EF5F8A_References->'%(FullPath)')" DestinationFolder="$(Project_63992E08-520B-4FBA-A4D1-DE1F67EF5F8A_AspNetPhysicalPath)\Bin\" Condition="!Exists('%(Project_63992E08-520B-4FBA-A4D1-DE1F67EF5F8A_References.Identity)')" ContinueOnError="true" />
+    <ResolveAssemblyReference Assemblies="@(Project_63992E08-520B-4FBA-A4D1-DE1F67EF5F8A_References->'%(FullPath)')" TargetFrameworkDirectories="@(_CombinedTargetFrameworkDirectoriesItem)" InstalledAssemblyTables="@(InstalledAssemblyTables)" SearchPaths="{RawFileName};{TargetFrameworkDirectory};{GAC}" FindDependencies="true" FindSatellites="true" FindSerializationAssemblies="true" FindRelatedFiles="true" Condition="Exists('%(Project_63992E08-520B-4FBA-A4D1-DE1F67EF5F8A_References.Identity)')">
+      <Output TaskParameter="CopyLocalFiles" ItemName="Project_63992E08-520B-4FBA-A4D1-DE1F67EF5F8A_References_CopyLocalFiles" />
+    </ResolveAssemblyReference>
+    <Copy SourceFiles="@(Project_63992E08-520B-4FBA-A4D1-DE1F67EF5F8A_References_CopyLocalFiles)" DestinationFiles="@(Project_63992E08-520B-4FBA-A4D1-DE1F67EF5F8A_References_CopyLocalFiles->'$(Project_63992E08-520B-4FBA-A4D1-DE1F67EF5F8A_AspNetPhysicalPath)\Bin\%(DestinationSubDirectory)%(Filename)%(Extension)')" Condition="(false) or ('$(AspNetConfiguration)' == 'Debug') or ('$(AspNetConfiguration)' == 'Release')" />
+    <AspNetCompiler VirtualPath="$(Project_63992E08-520B-4FBA-A4D1-DE1F67EF5F8A_AspNetVirtualPath)" PhysicalPath="$(Project_63992E08-520B-4FBA-A4D1-DE1F67EF5F8A_AspNetPhysicalPath)" TargetPath="$(Project_63992E08-520B-4FBA-A4D1-DE1F67EF5F8A_AspNetTargetPath)" Force="$(Project_63992E08-520B-4FBA-A4D1-DE1F67EF5F8A_AspNetForce)" Updateable="$(Project_63992E08-520B-4FBA-A4D1-DE1F67EF5F8A_AspNetUpdateable)" Debug="$(Project_63992E08-520B-4FBA-A4D1-DE1F67EF5F8A_AspNetDebug)" KeyFile="$(Project_63992E08-520B-4FBA-A4D1-DE1F67EF5F8A_AspNetKeyFile)" KeyContainer="$(Project_63992E08-520B-4FBA-A4D1-DE1F67EF5F8A_AspNetKeyContainer)" DelaySign="$(Project_63992E08-520B-4FBA-A4D1-DE1F67EF5F8A_AspNetDelaySign)" AllowPartiallyTrustedCallers="$(Project_63992E08-520B-4FBA-A4D1-DE1F67EF5F8A_AspNetAPTCA)" FixedNames="$(Project_63992E08-520B-4FBA-A4D1-DE1F67EF5F8A_AspNetFixedNames)" Condition="(false) or ('$(AspNetConfiguration)' == 'Debug') or ('$(AspNetConfiguration)' == 'Release')" />
+    <Message Text="Skipping because the &quot;$(AspNetConfiguration)&quot; configuration is not supported for this web project.  You can use the AspNetConfiguration property to override the configuration used for building web projects, by adding /p:AspNetConfiguration=&lt;value&gt; to the command line. Currently web projects only support Debug and Release configurations." Condition="!((false) or ('$(AspNetConfiguration)' == 'Debug') or ('$(AspNetConfiguration)' == 'Release'))" />
+  </Target>
+  <Target Name="Silverlight2RecipesGadget:Clean" DependsOnTargets=";GetFrameworkPathAndRedistList">
+    <Message Text="Web projects do not support the &quot;Clean&quot; target.  Continuing with remaining projects ..." />
+  </Target>
+  <Target Name="Silverlight2RecipesGadget:Rebuild" DependsOnTargets=";GetFrameworkPathAndRedistList" Condition=" ('$(CurrentSolutionConfigurationContents)' != '') and (false or ( ('$(Configuration)' == 'Debug') and ('$(Platform)' == 'Any CPU') ) or ( ('$(Configuration)' == 'Release') and ('$(Platform)' == 'Any CPU') )) ">
+    <CreateItem Include="$(Project_63992E08-520B-4FBA-A4D1-DE1F67EF5F8A_AspNetPhysicalPath)\Bin\*.refresh">
+      <Output TaskParameter="Include" ItemName="Project_63992E08-520B-4FBA-A4D1-DE1F67EF5F8A_References_Rebuild_RefreshFile" />
+    </CreateItem>
+    <ReadLinesFromFile File="%(Project_63992E08-520B-4FBA-A4D1-DE1F67EF5F8A_References_Rebuild_RefreshFile.Identity)" Condition=" '%(Project_63992E08-520B-4FBA-A4D1-DE1F67EF5F8A_References_Rebuild_RefreshFile.Identity)' != '' ">
+      <Output TaskParameter="Lines" ItemName="Project_63992E08-520B-4FBA-A4D1-DE1F67EF5F8A_References_Rebuild_ReferenceRelPath" />
+    </ReadLinesFromFile>
+    <CombinePath BasePath="$(Project_63992E08-520B-4FBA-A4D1-DE1F67EF5F8A_AspNetPhysicalPath)" Paths="@(Project_63992E08-520B-4FBA-A4D1-DE1F67EF5F8A_References_Rebuild_ReferenceRelPath)">
+      <Output TaskParameter="CombinedPaths" ItemName="Project_63992E08-520B-4FBA-A4D1-DE1F67EF5F8A_References_Rebuild" />
+    </CombinePath>
+    <Copy SourceFiles="@(Project_63992E08-520B-4FBA-A4D1-DE1F67EF5F8A_References_Rebuild->'%(FullPath)')" DestinationFolder="$(Project_63992E08-520B-4FBA-A4D1-DE1F67EF5F8A_AspNetPhysicalPath)\Bin\" Condition="!Exists('%(Project_63992E08-520B-4FBA-A4D1-DE1F67EF5F8A_References_Rebuild.Identity)')" ContinueOnError="true" />
+    <ResolveAssemblyReference Assemblies="@(Project_63992E08-520B-4FBA-A4D1-DE1F67EF5F8A_References_Rebuild->'%(FullPath)')" TargetFrameworkDirectories="@(_CombinedTargetFrameworkDirectoriesItem)" InstalledAssemblyTables="@(InstalledAssemblyTables)" SearchPaths="{RawFileName};{TargetFrameworkDirectory};{GAC}" FindDependencies="true" FindSatellites="true" FindSerializationAssemblies="true" FindRelatedFiles="true" Condition="Exists('%(Project_63992E08-520B-4FBA-A4D1-DE1F67EF5F8A_References_Rebuild.Identity)')">
+      <Output TaskParameter="CopyLocalFiles" ItemName="Project_63992E08-520B-4FBA-A4D1-DE1F67EF5F8A_References_Rebuild_CopyLocalFiles" />
+    </ResolveAssemblyReference>
+    <Copy SourceFiles="@(Project_63992E08-520B-4FBA-A4D1-DE1F67EF5F8A_References_Rebuild_CopyLocalFiles)" DestinationFiles="@(Project_63992E08-520B-4FBA-A4D1-DE1F67EF5F8A_References_Rebuild_CopyLocalFiles->'$(Project_63992E08-520B-4FBA-A4D1-DE1F67EF5F8A_AspNetPhysicalPath)\Bin\%(DestinationSubDirectory)%(Filename)%(Extension)')" Condition="(false) or ('$(AspNetConfiguration)' == 'Debug') or ('$(AspNetConfiguration)' == 'Release')" />
+    <AspNetCompiler VirtualPath="$(Project_63992E08-520B-4FBA-A4D1-DE1F67EF5F8A_AspNetVirtualPath)" PhysicalPath="$(Project_63992E08-520B-4FBA-A4D1-DE1F67EF5F8A_AspNetPhysicalPath)" TargetPath="$(Project_63992E08-520B-4FBA-A4D1-DE1F67EF5F8A_AspNetTargetPath)" Force="$(Project_63992E08-520B-4FBA-A4D1-DE1F67EF5F8A_AspNetForce)" Updateable="$(Project_63992E08-520B-4FBA-A4D1-DE1F67EF5F8A_AspNetUpdateable)" Debug="$(Project_63992E08-520B-4FBA-A4D1-DE1F67EF5F8A_AspNetDebug)" KeyFile="$(Project_63992E08-520B-4FBA-A4D1-DE1F67EF5F8A_AspNetKeyFile)" KeyContainer="$(Project_63992E08-520B-4FBA-A4D1-DE1F67EF5F8A_AspNetKeyContainer)" DelaySign="$(Project_63992E08-520B-4FBA-A4D1-DE1F67EF5F8A_AspNetDelaySign)" AllowPartiallyTrustedCallers="$(Project_63992E08-520B-4FBA-A4D1-DE1F67EF5F8A_AspNetAPTCA)" FixedNames="$(Project_63992E08-520B-4FBA-A4D1-DE1F67EF5F8A_AspNetFixedNames)" Condition="(false) or ('$(AspNetConfiguration)' == 'Debug') or ('$(AspNetConfiguration)' == 'Release')" />
+    <Message Text="Skipping because the &quot;$(AspNetConfiguration)&quot; configuration is not supported for this web project.  You can use the AspNetConfiguration property to override the configuration used for building web projects, by adding /p:AspNetConfiguration=&lt;value&gt; to the command line. Currently web projects only support Debug and Release configurations." Condition="!((false) or ('$(AspNetConfiguration)' == 'Debug') or ('$(AspNetConfiguration)' == 'Release'))" />
+  </Target>
+  <Target Name="Silverlight2RecipesGadget:Publish" DependsOnTargets=";GetFrameworkPathAndRedistList">
+    <Message Text="Web projects do not support the &quot;Publish&quot; target.  Continuing with remaining projects ..." />
+  </Target>
+  <Target Name="Build" Condition="'$(CurrentSolutionConfigurationContents)' != ''" Outputs="@(CollectedBuildOutput)">
+    <MSBuild Condition="@(BuildLevel0) != ''" Projects="@(BuildLevel0)" Properties="Configuration=%(Configuration); Platform=%(Platform); BuildingSolutionFile=true; CurrentSolutionConfigurationContents=$(CurrentSolutionConfigurationContents); SolutionDir=$(SolutionDir); SolutionExt=$(SolutionExt); SolutionFileName=$(SolutionFileName); SolutionName=$(SolutionName); SolutionPath=$(SolutionPath)" ToolsVersion="$(ProjectToolsVersion)" BuildInParallel="true" UnloadProjectsOnCompletion="$(UnloadProjectsOnCompletion)" UseResultsCache="$(UseResultsCache)">
+      <Output TaskParameter="TargetOutputs" ItemName="CollectedBuildOutput" />
+    </MSBuild>
+    <Message Text="The project &quot;%(SkipLevel0.Identity)&quot; is not selected for building in solution configuration &quot;$(Configuration)|$(Platform)&quot;." Condition="@(SkipLevel0) != ''" />
+    <Warning Text="The project configuration for project &quot;%(MissingConfigLevel0.Identity)&quot; was not specified in the solution file for the solution configuration &quot;$(Configuration)|$(Platform)&quot;." Code="MSB4121" HelpKeyword="MSBuild.SolutionProjectConfigurationMissing" Condition="@(MissingConfigLevel0) != ''" />
+    <CallTarget Targets="Silverlight2RecipesGadget" RunEachTargetSeparately="true" />
+  </Target>
+  <Target Name="Clean" Condition="'$(CurrentSolutionConfigurationContents)' != ''">
+    <MSBuild Condition="@(BuildLevel0) != ''" Projects="@(BuildLevel0)" Properties="Configuration=%(Configuration); Platform=%(Platform); BuildingSolutionFile=true; CurrentSolutionConfigurationContents=$(CurrentSolutionConfigurationContents); SolutionDir=$(SolutionDir); SolutionExt=$(SolutionExt); SolutionFileName=$(SolutionFileName); SolutionName=$(SolutionName); SolutionPath=$(SolutionPath)" Targets="Clean" ToolsVersion="$(ProjectToolsVersion)" BuildInParallel="true" UnloadProjectsOnCompletion="$(UnloadProjectsOnCompletion)" UseResultsCache="$(UseResultsCache)" />
+    <Message Text="The project &quot;%(SkipLevel0.Identity)&quot; is not selected for building in solution configuration &quot;$(Configuration)|$(Platform)&quot;." Condition="@(SkipLevel0) != ''" />
+    <Warning Text="The project configuration for project &quot;%(MissingConfigLevel0.Identity)&quot; was not specified in the solution file for the solution configuration &quot;$(Configuration)|$(Platform)&quot;." Code="MSB4121" HelpKeyword="MSBuild.SolutionProjectConfigurationMissing" Condition="@(MissingConfigLevel0) != ''" />
+    <CallTarget Targets="Silverlight2RecipesGadget:Clean" RunEachTargetSeparately="true" />
+    <Delete Files="Ch06_BrowserIntegration.sln.cache" />
+  </Target>
+  <Target Name="Rebuild" Condition="'$(CurrentSolutionConfigurationContents)' != ''" Outputs="@(CollectedBuildOutput)">
+    <MSBuild Condition="@(BuildLevel0) != ''" Projects="@(BuildLevel0)" Properties="Configuration=%(Configuration); Platform=%(Platform); BuildingSolutionFile=true; CurrentSolutionConfigurationContents=$(CurrentSolutionConfigurationContents); SolutionDir=$(SolutionDir); SolutionExt=$(SolutionExt); SolutionFileName=$(SolutionFileName); SolutionName=$(SolutionName); SolutionPath=$(SolutionPath)" Targets="Rebuild" ToolsVersion="$(ProjectToolsVersion)" BuildInParallel="true" UnloadProjectsOnCompletion="$(UnloadProjectsOnCompletion)" UseResultsCache="$(UseResultsCache)">
+      <Output TaskParameter="TargetOutputs" ItemName="CollectedBuildOutput" />
+    </MSBuild>
+    <Message Text="The project &quot;%(SkipLevel0.Identity)&quot; is not selected for building in solution configuration &quot;$(Configuration)|$(Platform)&quot;." Condition="@(SkipLevel0) != ''" />
+    <Warning Text="The project configuration for project &quot;%(MissingConfigLevel0.Identity)&quot; was not specified in the solution file for the solution configuration &quot;$(Configuration)|$(Platform)&quot;." Code="MSB4121" HelpKeyword="MSBuild.SolutionProjectConfigurationMissing" Condition="@(MissingConfigLevel0) != ''" />
+    <CallTarget Targets="Silverlight2RecipesGadget:Rebuild" RunEachTargetSeparately="true" />
+  </Target>
+  <Target Name="Publish" Condition="'$(CurrentSolutionConfigurationContents)' != ''">
+    <MSBuild Condition="@(BuildLevel0) != ''" Projects="@(BuildLevel0)" Properties="Configuration=%(Configuration); Platform=%(Platform); BuildingSolutionFile=true; CurrentSolutionConfigurationContents=$(CurrentSolutionConfigurationContents); SolutionDir=$(SolutionDir); SolutionExt=$(SolutionExt); SolutionFileName=$(SolutionFileName); SolutionName=$(SolutionName); SolutionPath=$(SolutionPath)" Targets="Publish" ToolsVersion="$(ProjectToolsVersion)" BuildInParallel="true" UnloadProjectsOnCompletion="$(UnloadProjectsOnCompletion)" UseResultsCache="$(UseResultsCache)" />
+    <Message Text="The project &quot;%(SkipLevel0.Identity)&quot; is not selected for building in solution configuration &quot;$(Configuration)|$(Platform)&quot;." Condition="@(SkipLevel0) != ''" />
+    <Warning Text="The project configuration for project &quot;%(MissingConfigLevel0.Identity)&quot; was not specified in the solution file for the solution configuration &quot;$(Configuration)|$(Platform)&quot;." Code="MSB4121" HelpKeyword="MSBuild.SolutionProjectConfigurationMissing" Condition="@(MissingConfigLevel0) != ''" />
+    <CallTarget Targets="Silverlight2RecipesGadget:Publish" RunEachTargetSeparately="true" />
+  </Target>
+</Project>

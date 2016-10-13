@@ -1,0 +1,37 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<MediaLocations>
+  <MediaLocation>
+    <Description>Adrenaline Rush</Description>
+    <Uri>mms://dc7600:43000/Media/AdrenalineRush.wmv</Uri>
+    <ImageUri>http://localhost/SLBook/Ch08_RichMedia/Media/AdrenalineRush_Thumb.jpg</ImageUri>
+  </MediaLocation>
+  <MediaLocation>
+    <Description>Alexander</Description>
+    <Uri>mms://dc7600:43000/Media/Alexander_Trailer_1080p.wmv</Uri>
+    <ImageUri>http://localhost/SLBook/Ch08_RichMedia/Media/Alexander_Trailer_1080p_Thumb.jpg</ImageUri>
+  </MediaLocation>
+  <MediaLocation>
+    <Description>Amazing Caves</Description>
+    <Uri>mms://dc7600:43000/Media/Amazing_Caves_1080.wmv</Uri>
+    <ImageUri>http://localhost/SLBook/Ch08_RichMedia/Media/Amazing_Caves_1080_Thumb.jpg</ImageUri>
+  </MediaLocation>
+  <MediaLocation>
+    <Description>Amazon</Description>
+    <Uri>mms://dc7600:43000/Media/Amazon_1080.wmv</Uri>
+    <ImageUri>http://localhost/SLBook/Ch08_RichMedia/Media/Amazon_1080_Thumb.jpg</ImageUri>
+  </MediaLocation>
+  <MediaLocation>
+    <Description>Coral Reef Adventure</Description>
+    <Uri>mms://dc7600:43000/Media/Coral_Reef_Adventure_1080.wmv</Uri>
+    <ImageUri>http://localhost/SLBook/Ch08_RichMedia/Media/Coral_Reef_Adventure_1080_Thumb.jpg</ImageUri>
+  </MediaLocation>
+  <MediaLocation>
+    <Description>Discoverers</Description>
+    <Uri>mms://dc7600:43000/Media/Discoverers_1080.wmv</Uri>
+    <ImageUri>http://localhost/SLBook/Ch08_RichMedia/Media/Discoverers_1080_Thumb.jpg</ImageUri>
+  </MediaLocation>
+</MediaLocations>
+
+
+
+

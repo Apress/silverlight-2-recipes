@@ -1,0 +1,16 @@
+﻿<ResourceDictionary
+  xmlns="http://schemas.microsoft.com/client/2007" 
+  xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" 
+  xmlns:SimpleControl="clr-namespace:SimpleControl">
+  <Style TargetType="SimpleControl:SimpleControl">
+    <Setter Property="Template">
+      <Setter.Value>
+        <ControlTemplate TargetType="SimpleControl:SimpleControl">
+          <Grid x:Name="Root">
+            <TextBlock x:Name="fullNameTextBlock" Text="" />  
+          </Grid>
+        </ControlTemplate>
+      </Setter.Value>
+    </Setter>
+  </Style>
+</ResourceDictionary>

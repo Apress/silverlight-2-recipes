@@ -1,0 +1,7 @@
+﻿<Deployment xmlns="http://schemas.microsoft.com/client/2007/deployment" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" EntryPointAssembly="Ch08_RichMedia.Recipe8_2.CompletePlayer" EntryPointType="Ch08_RichMedia.Recipe8_2.App" RuntimeVersion="2.0.31005.0">
+  <Deployment.Parts>
+    <AssemblyPart x:Name="Ch08_RichMedia.Recipe8_2.CompletePlayer" Source="Ch08_RichMedia.Recipe8_2.CompletePlayer.dll" />
+    <AssemblyPart x:Name="Ch08_RichMedia.Recipe8_2.PlrCntls" Source="Ch08_RichMedia.Recipe8_2.PlrCntls.dll" />
+    <AssemblyPart x:Name="System.Xml.Linq" Source="System.Xml.Linq.dll" />
+  </Deployment.Parts>
+</Deployment>

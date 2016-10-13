@@ -1,0 +1,10 @@
+D:\work\Current Initiatives\Writing\SLBook\WorkInProgress\ChapterSamples\Ch08_RichMedia\8.3 Streaming Player\8.3 MediaLocationService\obj\Debug\ResolveAssemblyReference.cache
+D:\work\Current Initiatives\Writing\SLBook\WorkInProgress\ChapterSamples\Ch08_RichMedia\8.3 Streaming Player\8.3 MediaLocationService\bin\Ch08_RichMedia.Recipe8_3.MediaLocatorService.dll
+D:\work\Current Initiatives\Writing\SLBook\WorkInProgress\ChapterSamples\Ch08_RichMedia\8.3 Streaming Player\8.3 MediaLocationService\bin\Ch08_RichMedia.Recipe8_3.MediaLocatorService.pdb
+D:\work\Current Initiatives\Writing\SLBook\WorkInProgress\ChapterSamples\Ch08_RichMedia\8.3 Streaming Player\8.3 MediaLocationService\obj\Debug\Ch08_RichMedia.Recipe8_3.MediaLocatorService.dll
+D:\work\Current Initiatives\Writing\SLBook\WorkInProgress\ChapterSamples\Ch08_RichMedia\8.3 Streaming Player\8.3 MediaLocationService\obj\Debug\Ch08_RichMedia.Recipe8_3.MediaLocatorService.pdb
+D:\RobcamerDocs\Book Silverlight Recipes\Code\Ch08_RichMedia\8.3 Streaming Player\8.3 MediaLocationService\bin\Ch08_RichMedia.Recipe8_3.MediaLocatorService.dll
+D:\RobcamerDocs\Book Silverlight Recipes\Code\Ch08_RichMedia\8.3 Streaming Player\8.3 MediaLocationService\bin\Ch08_RichMedia.Recipe8_3.MediaLocatorService.pdb
+D:\RobcamerDocs\Book Silverlight Recipes\Code\Ch08_RichMedia\8.3 Streaming Player\8.3 MediaLocationService\obj\Debug\ResolveAssemblyReference.cache
+D:\RobcamerDocs\Book Silverlight Recipes\Code\Ch08_RichMedia\8.3 Streaming Player\8.3 MediaLocationService\obj\Debug\Ch08_RichMedia.Recipe8_3.MediaLocatorService.dll
+D:\RobcamerDocs\Book Silverlight Recipes\Code\Ch08_RichMedia\8.3 Streaming Player\8.3 MediaLocationService\obj\Debug\Ch08_RichMedia.Recipe8_3.MediaLocatorService.pdb

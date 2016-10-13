@@ -1,0 +1,10 @@
+D:\work\Current Initiatives\Writing\SLBook\WorkInProgress\ChapterSamples\Ch07_Networking\7.4 WebClient\7.4 PhotoService\bin\Ch07_Networking.Recipe7_4.PhotoService.dll
+D:\work\Current Initiatives\Writing\SLBook\WorkInProgress\ChapterSamples\Ch07_Networking\7.4 WebClient\7.4 PhotoService\bin\Ch07_Networking.Recipe7_4.PhotoService.pdb
+D:\work\Current Initiatives\Writing\SLBook\WorkInProgress\ChapterSamples\Ch07_Networking\7.4 WebClient\7.4 PhotoService\obj\Debug\ResolveAssemblyReference.cache
+D:\work\Current Initiatives\Writing\SLBook\WorkInProgress\ChapterSamples\Ch07_Networking\7.4 WebClient\7.4 PhotoService\obj\Debug\Ch07_Networking.Recipe7_4.PhotoService.dll
+D:\work\Current Initiatives\Writing\SLBook\WorkInProgress\ChapterSamples\Ch07_Networking\7.4 WebClient\7.4 PhotoService\obj\Debug\Ch07_Networking.Recipe7_4.PhotoService.pdb
+D:\RobcamerDocs\Book Silverlight Recipes\Code\Ch07_Networking\7.4 WebClient\7.4 PhotoService\bin\Ch07_Networking.Recipe7_4.PhotoService.dll
+D:\RobcamerDocs\Book Silverlight Recipes\Code\Ch07_Networking\7.4 WebClient\7.4 PhotoService\bin\Ch07_Networking.Recipe7_4.PhotoService.pdb
+D:\RobcamerDocs\Book Silverlight Recipes\Code\Ch07_Networking\7.4 WebClient\7.4 PhotoService\obj\Debug\ResolveAssemblyReference.cache
+D:\RobcamerDocs\Book Silverlight Recipes\Code\Ch07_Networking\7.4 WebClient\7.4 PhotoService\obj\Debug\Ch07_Networking.Recipe7_4.PhotoService.dll
+D:\RobcamerDocs\Book Silverlight Recipes\Code\Ch07_Networking\7.4 WebClient\7.4 PhotoService\obj\Debug\Ch07_Networking.Recipe7_4.PhotoService.pdb

@@ -1,0 +1,12 @@
+D:\work\Current Initiatives\Writing\SLBook\WorkInProgress\ChapterSamples\Ch07_Networking\7.5 Sockets\7.5 PolicyServer\bin\Debug\clientaccesspolicy.xml
+D:\work\Current Initiatives\Writing\SLBook\WorkInProgress\ChapterSamples\Ch07_Networking\7.5 Sockets\7.5 PolicyServer\bin\Debug\Ch07_Networking.Recipe7_5.PolicyServer.exe
+D:\work\Current Initiatives\Writing\SLBook\WorkInProgress\ChapterSamples\Ch07_Networking\7.5 Sockets\7.5 PolicyServer\bin\Debug\Ch07_Networking.Recipe7_5.PolicyServer.pdb
+D:\work\Current Initiatives\Writing\SLBook\WorkInProgress\ChapterSamples\Ch07_Networking\7.5 Sockets\7.5 PolicyServer\obj\Debug\ResolveAssemblyReference.cache
+D:\work\Current Initiatives\Writing\SLBook\WorkInProgress\ChapterSamples\Ch07_Networking\7.5 Sockets\7.5 PolicyServer\obj\Debug\Ch07_Networking.Recipe7_5.PolicyServer.exe
+D:\work\Current Initiatives\Writing\SLBook\WorkInProgress\ChapterSamples\Ch07_Networking\7.5 Sockets\7.5 PolicyServer\obj\Debug\Ch07_Networking.Recipe7_5.PolicyServer.pdb
+D:\RobcamerDocs\Book Silverlight Recipes\Code\Ch07_Networking\7.5 Sockets\7.5 PolicyServer\bin\Debug\clientaccesspolicy.xml
+D:\RobcamerDocs\Book Silverlight Recipes\Code\Ch07_Networking\7.5 Sockets\7.5 PolicyServer\bin\Debug\Ch07_Networking.Recipe7_5.PolicyServer.exe
+D:\RobcamerDocs\Book Silverlight Recipes\Code\Ch07_Networking\7.5 Sockets\7.5 PolicyServer\bin\Debug\Ch07_Networking.Recipe7_5.PolicyServer.pdb
+D:\RobcamerDocs\Book Silverlight Recipes\Code\Ch07_Networking\7.5 Sockets\7.5 PolicyServer\obj\Debug\ResolveAssemblyReference.cache
+D:\RobcamerDocs\Book Silverlight Recipes\Code\Ch07_Networking\7.5 Sockets\7.5 PolicyServer\obj\Debug\Ch07_Networking.Recipe7_5.PolicyServer.exe
+D:\RobcamerDocs\Book Silverlight Recipes\Code\Ch07_Networking\7.5 Sockets\7.5 PolicyServer\obj\Debug\Ch07_Networking.Recipe7_5.PolicyServer.pdb

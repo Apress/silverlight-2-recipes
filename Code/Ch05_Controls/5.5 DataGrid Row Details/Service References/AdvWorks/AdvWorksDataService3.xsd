@@ -1,0 +1,275 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema xmlns:tns="http://schemas.datacontract.org/2004/07/AdventureWorksDataService" xmlns:ser="http://schemas.microsoft.com/2003/10/Serialization/" elementFormDefault="qualified" targetNamespace="http://schemas.datacontract.org/2004/07/AdventureWorksDataService" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:import schemaLocation="http://localhost:9191/AdvWorksDataService.svc?xsd=xsd1" namespace="http://schemas.microsoft.com/2003/10/Serialization/" />
+  <xs:import schemaLocation="http://localhost:9191/AdvWorksDataService.svc?xsd=xsd3" namespace="http://schemas.datacontract.org/2004/07/System.Data.Linq" />
+  <xs:complexType name="ArrayOfProduct">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="Product" nillable="true" type="tns:Product" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="ArrayOfProduct" nillable="true" type="tns:ArrayOfProduct" />
+  <xs:complexType name="Product">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="ProductID" type="xs:int" />
+      <xs:element minOccurs="0" name="Name" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="ProductNumber" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="MakeFlag" type="xs:boolean" />
+      <xs:element minOccurs="0" name="FinishedGoodsFlag" type="xs:boolean" />
+      <xs:element minOccurs="0" name="Color" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="SafetyStockLevel" type="xs:short" />
+      <xs:element minOccurs="0" name="ReorderPoint" type="xs:short" />
+      <xs:element minOccurs="0" name="StandardCost" type="xs:decimal" />
+      <xs:element minOccurs="0" name="ListPrice" type="xs:decimal" />
+      <xs:element minOccurs="0" name="Size" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="SizeUnitMeasureCode" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="WeightUnitMeasureCode" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="Weight" nillable="true" type="xs:decimal" />
+      <xs:element minOccurs="0" name="DaysToManufacture" type="xs:int" />
+      <xs:element minOccurs="0" name="ProductLine" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="Class" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="Style" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="ProductSubcategoryID" nillable="true" type="xs:int" />
+      <xs:element minOccurs="0" name="ProductModelID" nillable="true" type="xs:int" />
+      <xs:element minOccurs="0" name="SellStartDate" type="xs:dateTime" />
+      <xs:element minOccurs="0" name="SellEndDate" nillable="true" type="xs:dateTime" />
+      <xs:element minOccurs="0" name="DiscontinuedDate" nillable="true" type="xs:dateTime" />
+      <xs:element minOccurs="0" name="rowguid" type="ser:guid" />
+      <xs:element minOccurs="0" name="ModifiedDate" type="xs:dateTime" />
+      <xs:element minOccurs="0" name="ProductDocuments" nillable="true" type="tns:ArrayOfProductDocument">
+        <xs:annotation>
+          <xs:appinfo>
+            <DefaultValue EmitDefaultValue="false" xmlns="http://schemas.microsoft.com/2003/10/Serialization/" />
+          </xs:appinfo>
+        </xs:annotation>
+      </xs:element>
+      <xs:element minOccurs="0" name="ProductInventories" nillable="true" type="tns:ArrayOfProductInventory">
+        <xs:annotation>
+          <xs:appinfo>
+            <DefaultValue EmitDefaultValue="false" xmlns="http://schemas.microsoft.com/2003/10/Serialization/" />
+          </xs:appinfo>
+        </xs:annotation>
+      </xs:element>
+      <xs:element minOccurs="0" name="ProductCostHistories" nillable="true" type="tns:ArrayOfProductCostHistory">
+        <xs:annotation>
+          <xs:appinfo>
+            <DefaultValue EmitDefaultValue="false" xmlns="http://schemas.microsoft.com/2003/10/Serialization/" />
+          </xs:appinfo>
+        </xs:annotation>
+      </xs:element>
+      <xs:element minOccurs="0" name="ProductListPriceHistories" nillable="true" type="tns:ArrayOfProductListPriceHistory">
+        <xs:annotation>
+          <xs:appinfo>
+            <DefaultValue EmitDefaultValue="false" xmlns="http://schemas.microsoft.com/2003/10/Serialization/" />
+          </xs:appinfo>
+        </xs:annotation>
+      </xs:element>
+      <xs:element minOccurs="0" name="ProductReviews" nillable="true" type="tns:ArrayOfProductReview">
+        <xs:annotation>
+          <xs:appinfo>
+            <DefaultValue EmitDefaultValue="false" xmlns="http://schemas.microsoft.com/2003/10/Serialization/" />
+          </xs:appinfo>
+        </xs:annotation>
+      </xs:element>
+      <xs:element minOccurs="0" name="ProductProductPhotos" nillable="true" type="tns:ArrayOfProductProductPhoto">
+        <xs:annotation>
+          <xs:appinfo>
+            <DefaultValue EmitDefaultValue="false" xmlns="http://schemas.microsoft.com/2003/10/Serialization/" />
+          </xs:appinfo>
+        </xs:annotation>
+      </xs:element>
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="Product" nillable="true" type="tns:Product" />
+  <xs:complexType name="ArrayOfProductDocument">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="ProductDocument" nillable="true" type="tns:ProductDocument" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="ArrayOfProductDocument" nillable="true" type="tns:ArrayOfProductDocument" />
+  <xs:complexType name="ProductDocument">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="ProductID" type="xs:int" />
+      <xs:element minOccurs="0" name="DocumentID" type="xs:int" />
+      <xs:element minOccurs="0" name="ModifiedDate" type="xs:dateTime" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="ProductDocument" nillable="true" type="tns:ProductDocument" />
+  <xs:complexType name="ArrayOfProductInventory">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="ProductInventory" nillable="true" type="tns:ProductInventory" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="ArrayOfProductInventory" nillable="true" type="tns:ArrayOfProductInventory" />
+  <xs:complexType name="ProductInventory">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="ProductID" type="xs:int" />
+      <xs:element minOccurs="0" name="LocationID" type="xs:short" />
+      <xs:element minOccurs="0" name="Shelf" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="Bin" type="xs:unsignedByte" />
+      <xs:element minOccurs="0" name="Quantity" type="xs:short" />
+      <xs:element minOccurs="0" name="rowguid" type="ser:guid" />
+      <xs:element minOccurs="0" name="ModifiedDate" type="xs:dateTime" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="ProductInventory" nillable="true" type="tns:ProductInventory" />
+  <xs:complexType name="ArrayOfProductCostHistory">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="ProductCostHistory" nillable="true" type="tns:ProductCostHistory" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="ArrayOfProductCostHistory" nillable="true" type="tns:ArrayOfProductCostHistory" />
+  <xs:complexType name="ProductCostHistory">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="ProductID" type="xs:int" />
+      <xs:element minOccurs="0" name="StartDate" type="xs:dateTime" />
+      <xs:element minOccurs="0" name="EndDate" nillable="true" type="xs:dateTime" />
+      <xs:element minOccurs="0" name="StandardCost" type="xs:decimal" />
+      <xs:element minOccurs="0" name="ModifiedDate" type="xs:dateTime" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="ProductCostHistory" nillable="true" type="tns:ProductCostHistory" />
+  <xs:complexType name="ArrayOfProductListPriceHistory">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="ProductListPriceHistory" nillable="true" type="tns:ProductListPriceHistory" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="ArrayOfProductListPriceHistory" nillable="true" type="tns:ArrayOfProductListPriceHistory" />
+  <xs:complexType name="ProductListPriceHistory">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="ProductID" type="xs:int" />
+      <xs:element minOccurs="0" name="StartDate" type="xs:dateTime" />
+      <xs:element minOccurs="0" name="EndDate" nillable="true" type="xs:dateTime" />
+      <xs:element minOccurs="0" name="ListPrice" type="xs:decimal" />
+      <xs:element minOccurs="0" name="ModifiedDate" type="xs:dateTime" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="ProductListPriceHistory" nillable="true" type="tns:ProductListPriceHistory" />
+  <xs:complexType name="ArrayOfProductReview">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="ProductReview" nillable="true" type="tns:ProductReview" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="ArrayOfProductReview" nillable="true" type="tns:ArrayOfProductReview" />
+  <xs:complexType name="ProductReview">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="ProductReviewID" type="xs:int" />
+      <xs:element minOccurs="0" name="ProductID" type="xs:int" />
+      <xs:element minOccurs="0" name="ReviewerName" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="ReviewDate" type="xs:dateTime" />
+      <xs:element minOccurs="0" name="EmailAddress" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="Rating" type="xs:int" />
+      <xs:element minOccurs="0" name="Comments" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="ModifiedDate" type="xs:dateTime" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="ProductReview" nillable="true" type="tns:ProductReview" />
+  <xs:complexType name="ArrayOfProductProductPhoto">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="ProductProductPhoto" nillable="true" type="tns:ProductProductPhoto" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="ArrayOfProductProductPhoto" nillable="true" type="tns:ArrayOfProductProductPhoto" />
+  <xs:complexType name="ProductProductPhoto">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="ProductID" type="xs:int" />
+      <xs:element minOccurs="0" name="ProductPhotoID" type="xs:int" />
+      <xs:element minOccurs="0" name="Primary" type="xs:boolean" />
+      <xs:element minOccurs="0" name="ModifiedDate" type="xs:dateTime" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="ProductProductPhoto" nillable="true" type="tns:ProductProductPhoto" />
+  <xs:complexType name="ProductPhoto">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="ProductPhotoID" type="xs:int" />
+      <xs:element xmlns:q1="http://schemas.datacontract.org/2004/07/System.Data.Linq" minOccurs="0" name="ThumbNailPhoto" nillable="true" type="q1:Binary" />
+      <xs:element minOccurs="0" name="ThumbnailPhotoFileName" nillable="true" type="xs:string" />
+      <xs:element xmlns:q2="http://schemas.datacontract.org/2004/07/System.Data.Linq" minOccurs="0" name="LargePhoto" nillable="true" type="q2:Binary" />
+      <xs:element minOccurs="0" name="LargePhotoFileName" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="ModifiedDate" type="xs:dateTime" />
+      <xs:element minOccurs="0" name="ProductProductPhotos" nillable="true" type="tns:ArrayOfProductProductPhoto">
+        <xs:annotation>
+          <xs:appinfo>
+            <DefaultValue EmitDefaultValue="false" xmlns="http://schemas.microsoft.com/2003/10/Serialization/" />
+          </xs:appinfo>
+        </xs:annotation>
+      </xs:element>
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="ProductPhoto" nillable="true" type="tns:ProductPhoto" />
+  <xs:complexType name="ProductDescription">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="ProductDescriptionID" type="xs:int" />
+      <xs:element minOccurs="0" name="Description" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="rowguid" type="ser:guid" />
+      <xs:element minOccurs="0" name="ModifiedDate" type="xs:dateTime" />
+      <xs:element minOccurs="0" name="ProductModelProductDescriptionCultures" nillable="true" type="tns:ArrayOfProductModelProductDescriptionCulture">
+        <xs:annotation>
+          <xs:appinfo>
+            <DefaultValue EmitDefaultValue="false" xmlns="http://schemas.microsoft.com/2003/10/Serialization/" />
+          </xs:appinfo>
+        </xs:annotation>
+      </xs:element>
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="ProductDescription" nillable="true" type="tns:ProductDescription" />
+  <xs:complexType name="ArrayOfProductModelProductDescriptionCulture">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="ProductModelProductDescriptionCulture" nillable="true" type="tns:ProductModelProductDescriptionCulture" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="ArrayOfProductModelProductDescriptionCulture" nillable="true" type="tns:ArrayOfProductModelProductDescriptionCulture" />
+  <xs:complexType name="ProductModelProductDescriptionCulture">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="ProductModelID" type="xs:int" />
+      <xs:element minOccurs="0" name="ProductDescriptionID" type="xs:int" />
+      <xs:element minOccurs="0" name="CultureID" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="ModifiedDate" type="xs:dateTime" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="ProductModelProductDescriptionCulture" nillable="true" type="tns:ProductModelProductDescriptionCulture" />
+  <xs:complexType name="ProductSubcategory">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="ProductSubcategoryID" type="xs:int" />
+      <xs:element minOccurs="0" name="ProductCategoryID" type="xs:int" />
+      <xs:element minOccurs="0" name="Name" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="rowguid" type="ser:guid" />
+      <xs:element minOccurs="0" name="ModifiedDate" type="xs:dateTime" />
+      <xs:element minOccurs="0" name="Products" nillable="true" type="tns:ArrayOfProduct">
+        <xs:annotation>
+          <xs:appinfo>
+            <DefaultValue EmitDefaultValue="false" xmlns="http://schemas.microsoft.com/2003/10/Serialization/" />
+          </xs:appinfo>
+        </xs:annotation>
+      </xs:element>
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="ProductSubcategory" nillable="true" type="tns:ProductSubcategory" />
+  <xs:complexType name="ProductCategory">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="ProductCategoryID" type="xs:int" />
+      <xs:element minOccurs="0" name="Name" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="rowguid" type="ser:guid" />
+      <xs:element minOccurs="0" name="ModifiedDate" type="xs:dateTime" />
+      <xs:element minOccurs="0" name="ProductSubcategories" nillable="true" type="tns:ArrayOfProductSubcategory">
+        <xs:annotation>
+          <xs:appinfo>
+            <DefaultValue EmitDefaultValue="false" xmlns="http://schemas.microsoft.com/2003/10/Serialization/" />
+          </xs:appinfo>
+        </xs:annotation>
+      </xs:element>
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="ProductCategory" nillable="true" type="tns:ProductCategory" />
+  <xs:complexType name="ArrayOfProductSubcategory">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="ProductSubcategory" nillable="true" type="tns:ProductSubcategory" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="ArrayOfProductSubcategory" nillable="true" type="tns:ArrayOfProductSubcategory" />
+  <xs:complexType name="ArrayOfProductCategory">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="ProductCategory" nillable="true" type="tns:ProductCategory" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="ArrayOfProductCategory" nillable="true" type="tns:ArrayOfProductCategory" />
+</xs:schema>

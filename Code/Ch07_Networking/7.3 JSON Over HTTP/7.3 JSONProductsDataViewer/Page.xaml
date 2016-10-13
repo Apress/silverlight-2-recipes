@@ -1,0 +1,99 @@
+﻿<UserControl x:Class="Ch07_Networking.Recipe7_3.JSONProductsDataViewer.Page"
+     xmlns="http://schemas.microsoft.com/client/2007" 
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" 
+    xmlns:DataControls ="clr-namespace:System.Windows.Controls;assembly=System.Windows.Controls.Data"
+    Width="800" Height="600">
+     
+    <Grid x:Name="LayoutRoot" Background="White">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="50*" />
+            <RowDefinition Height="5*" />
+            <RowDefinition Height="45*" />
+            
+        </Grid.RowDefinitions>
+       
+<DataControls:DataGrid HorizontalAlignment="Stretch" VerticalAlignment="Stretch" x:Name="ProductHeaderDataGrid" 
+                       Grid.Row="0"  
+                       SelectionChanged="ProductHeaderDataGrid_SelectionChanged"
+                       CurrentCellChanged="ProductHeaderDataGrid_CurrentCellChanged"
+                       BeginningEdit="ProductHeaderDataGrid_BeginningEdit">
+    <DataControls:DataGrid.Columns>
+        <DataControls:DataGridTextColumn Header="Id" Binding="{Binding ProductId}" />
+        <DataControls:DataGridTextColumn Header="Name" Binding="{Binding Name, Mode=TwoWay}" />   
+        <!-- Additional column bindings omitted for brevity -->
+        <DataControls:DataGridTextColumn Header="Price" Binding="{Binding ListPrice, Mode=TwoWay}" />               
+        <DataControls:DataGridTextColumn Header="Available From" Binding="{Binding SellStartDate, Mode=TwoWay}" />
+        <DataControls:DataGridTextColumn Header="Available Till" Binding="{Binding SellEndDate, Mode=TwoWay}" />
+    </DataControls:DataGrid.Columns>            
+</DataControls:DataGrid>
+
+<StackPanel Orientation="Horizontal" HorizontalAlignment="Right" VerticalAlignment="Center" Grid.Row ="1">
+    <Button x:Name="Btn_SendHeaderUpdates" Content="Update Product Headers" 
+            Width="200" Click="Click_Btn_SendHeaderUpdates" Margin="0,0,20,0"/>
+    <Button x:Name="Btn_SendDetailUpdates" Content="Update Product Detail" 
+            Width="200" Click="Click_Btn_SendDetailUpdate"/>
+</StackPanel>
+
+<Rectangle Stroke="Black" StrokeThickness="4" Grid.Row="2" />
+
+<Grid Grid.Row="2" x:Name="ProductDetailsGrid" Margin="10,10,10,10">
+    <!-- RowDefinitions and ColumnDefinitions omitted for brevity -->
+    <Grid.RowDefinitions>
+        <RowDefinition Height="Auto" />
+        <RowDefinition Height="Auto"/>
+        <RowDefinition Height="Auto"/>
+        <RowDefinition Height="Auto"/>
+        <RowDefinition Height="Auto"/>
+        <RowDefinition Height="Auto"/>
+        <RowDefinition Height="Auto"/>
+        <RowDefinition Height="Auto"/>
+    </Grid.RowDefinitions>
+    <Grid.ColumnDefinitions>
+        <ColumnDefinition Width="Auto"/>
+        <ColumnDefinition Width="Auto"/>
+        <ColumnDefinition Width="Auto"/>
+        <ColumnDefinition Width="Auto"/>                
+    </Grid.ColumnDefinitions>
+    
+    <StackPanel Orientation="Horizontal" Grid.Row="0" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="2,0,0,0">
+        <TextBlock Text="Product Details for - " FontWeight="Bold" TextDecorations="Underline"/>               
+        <TextBlock Text="{Binding ProductId}" FontWeight="Bold" TextDecorations="Underline"/>    
+    </StackPanel>    
+    
+    <TextBlock Text="Color" Grid.Row="1" Grid.Column="0" Margin="2,2,15,2" />
+    <TextBlock Text="Days To Manufacture" Grid.Row="2" Grid.Column="0" Margin="2,2,15,2" />
+    <TextBlock Text="Discontinued On" Grid.Row="3" Grid.Column="0" Margin="2,2,15,2" />
+    <!-- Additional field labels omitted for brevity -->
+    <TextBlock Text="Finished Goods" Grid.Row="4" Grid.Column="0" Margin="2,2,15,2" />
+    <TextBlock Text="Make Flag" Grid.Row="5" Grid.Column="0" Margin="2,2,15,2" />
+    <TextBlock Text="Product Line" Grid.Row="6" Grid.Column="0" Margin="2,2,15,2" />
+    <TextBlock Text="Class" Grid.Row="7" Grid.Column="0" Margin="2,2,15,2"/>            
+    <TextBlock Text="Reorder Point" Grid.Row="1" Grid.Column="2" Margin="2,2,15,2" />
+    <TextBlock Text="Safety Stock Level" Grid.Row="2" Grid.Column="2" Margin="2,2,15,2" />
+    <TextBlock Text="Size" Grid.Row="3" Grid.Column="2" Margin="2,2,15,2" />
+    <TextBlock Text="Weight" Grid.Row="4" Grid.Column="2" Margin="2,2,15,2" />
+    <TextBlock Text="Standard Cost" Grid.Row="5" Grid.Column="2" Margin="2,2,15,2" />
+    <TextBlock Text="Style" Grid.Row="6" Grid.Column="2" Margin="2,2,15,2" />
+    <TextBlock Text="Number" Grid.Row="7" Grid.Column="2" Margin="2,2,15,2" />
+    
+    
+    <TextBox Text="{Binding Color,Mode=TwoWay}" Grid.Row="1" Grid.Column="1" Margin="2,2,25,2" />
+    <TextBox Text="{Binding DaysToManufacture,Mode=TwoWay}" Grid.Row="2" Grid.Column="1" Margin="2,2,25,2" />
+    <TextBox Text="{Binding DiscontinuedDate,Mode=TwoWay}" Grid.Row="3" Grid.Column="1" Margin="2,2,25,2" />
+    <!-- Additional field bindings omitted for brevity -->
+    <TextBox Text="{Binding FinishedGoodsFlag,Mode=TwoWay}" Grid.Row="4" Grid.Column="1" Margin="2,2,25,2" />
+    <TextBox Text="{Binding MakeFlag,Mode=TwoWay}" Grid.Row="5" Grid.Column="1" Margin="2,2,25,2" />
+    <TextBox Text="{Binding ProductLine,Mode=TwoWay}" Grid.Row="6" Grid.Column="1" Margin="2,2,25,2" />
+    <TextBox Text="{Binding Class,Mode=TwoWay}" Grid.Row="7" Grid.Column="1" Margin="2,2,25,2"/>            
+    <TextBox Text="{Binding ReorderPoint,Mode=TwoWay}" Grid.Row="1" Grid.Column="3" Margin="2,2,25,2" />
+    <TextBox Text="{Binding SafetyStockLevel,Mode=TwoWay}" Grid.Row="2" Grid.Column="3" Margin="2,2,25,2" />
+    <TextBox Text="{Binding Size,Mode=TwoWay}" Grid.Row="3" Grid.Column="3" Margin="2,2,25,2" />
+    <TextBox Text="{Binding Weight,Mode=TwoWay}" Grid.Row="4" Grid.Column="3" Margin="2,2,25,2" />
+    <TextBox Text="{Binding StandardCost,Mode=TwoWay}" Grid.Row="5" Grid.Column="3" Margin="2,2,25,2" />
+    <TextBox Text="{Binding Style,Mode=TwoWay}" Grid.Row="6" Grid.Column="3" Margin="2,2,25,2" />
+    <TextBox Text="{Binding ProductNumber,Mode=TwoWay}" Grid.Row="7" Grid.Column="3" Margin="2,2,25,2" />
+    
+</Grid>            
+        
+    </Grid>
+</UserControl>

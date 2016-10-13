@@ -1,0 +1,83 @@
+﻿<UserControl x:Class="Ch03_DevelopingUX.Recipe3_15.Page"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation" 
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" 
+    Width="600" Height="400">
+  <UserControl.Resources>
+    <RadialGradientBrush x:Key="IceBrush">
+      <GradientStop Color="#FFFFFFFF"/>
+      <GradientStop Color="#FF6F74AB" Offset="1"/>
+    </RadialGradientBrush>
+    <LinearGradientBrush x:Key="MessageBorderBrush" EndPoint="0.501999974250793,1"
+                         StartPoint="0.497999995946884,0">
+      <GradientStop Color="#FF000000"/>
+      <GradientStop Color="#33FFFFFF" Offset="1"/>
+    </LinearGradientBrush>
+    <Storyboard x:Name="SpinGameBallStoryboard" RepeatBehavior="Forever">
+      <DoubleAnimationUsingKeyFrames BeginTime="00:00:00" 
+         Storyboard.TargetName="RadioactiveBall" 
+         Storyboard.TargetProperty="(UIElement.RenderTransform).(TransformGroup.Children)[2].(RotateTransform.Angle)">
+        <SplineDoubleKeyFrame KeyTime="00:00:00" Value="0"/>
+        <SplineDoubleKeyFrame KeyTime="00:00:02" Value="360">
+          <SplineDoubleKeyFrame.KeySpline>
+            <KeySpline ControlPoint1="0,0" ControlPoint2="1,1"/>
+          </SplineDoubleKeyFrame.KeySpline>
+        </SplineDoubleKeyFrame>
+      </DoubleAnimationUsingKeyFrames>
+    </Storyboard>
+  </UserControl.Resources>
+  <Canvas x:Name="GameCanvas" >
+    <Canvas.Background>
+      <RadialGradientBrush>
+        <GradientStop Color="#FFFFFFFF"/>
+        <GradientStop Color="#FFB3BBE8" Offset="1"/>
+      </RadialGradientBrush>
+    </Canvas.Background>
+    <Border Background="{StaticResource MessageBorderBrush}" Height="Auto"
+      x:Name="WelcomeMessage" Width="Auto" Canvas.Left="173" Canvas.Top="119" 
+      CornerRadius="10,10,10,10">
+      <TextBlock Height="Auto" Width="Auto" FontFamily="Comic Sans MS" 
+       FontSize="24" Text="Welcome to Ice Cave!" TextWrapping="Wrap" 
+       Padding="2,2,2,2" Foreground="#FF044FB5" Margin="2,2,2,2"/>
+    </Border>
+    <Border x:Name="ClickToPlay" Height="77" Width="169" Canvas.Top="178" 
+      Canvas.Left="207" CornerRadius="10,10,10,10" Background=
+      "{StaticResource MessageBorderBrush}" Margin="0,0,0,0" >
+      <TextBlock Height="Auto" Width="Auto" FontSize="24" Text="Click to Play" 
+      TextWrapping="Wrap" MouseLeftButtonDown="TextBlock_MouseLeftButtonDown" 
+      Margin="4,10,4,4" Padding="2,2,2,2" Foreground="#FF044FB5" HorizontalAlignment="Stretch" VerticalAlignment="Stretch" />
+    </Border>
+    <Ellipse Height="50" Width="50" Canvas.Left="259" Canvas.Top="168.879" 
+      Stroke="#FF000000" Visibility="Collapsed" x:Name="RadioactiveBall" 
+      RenderTransformOrigin="0.5,0.5">
+      <Ellipse.RenderTransform>
+        <TransformGroup>
+          <ScaleTransform/>
+          <SkewTransform/>
+          <RotateTransform/>
+          <TranslateTransform/>
+        </TransformGroup>
+      </Ellipse.RenderTransform>
+      <Ellipse.Fill>
+        <LinearGradientBrush EndPoint="0.959999978542328,0.0219999998807907" 
+          StartPoint="0.0199999995529652,1.06200003623962">
+          <GradientStop Color="#FFAED4B2"/>
+          <GradientStop Color="#FFAED4B2" Offset="1"/>
+          <GradientStop Color="#FF4A9B53" Offset="0.179"/>
+          <GradientStop Color="#FF4A9B53" Offset="0.75"/>
+          <GradientStop Color="#FF98BD9D" Offset="0.4869999885559082"/>
+        </LinearGradientBrush>
+      </Ellipse.Fill>
+    </Ellipse>
+    <Path Height="399" Width="25" Stretch="Fill" Stroke="#FF000000" 
+     Data="M0,0 L24,10 L16,18 L21,29 L11,38 L21,54 L14,63 L19,84 L6,90 L15,103 L9,119 L15,136 L9,145 L18,155 L7,165 L23,178 L7,184 L19,200 L10,211 L17,221 L9,234 L17,240 L9,255 L15,264 L9,275 L17,286 L7,293 L17,304 L9,313 L19,329 L10,337 L15,345 L12,361 L13,371 L8,382 L12,389 L0,398 z" Canvas.Top="-0.5" Canvas.Left="-0.5" Fill="{StaticResource IceBrush}" x:Name="LeftIceCaveWall"/>
+    <Path Height="30" Width="598" Canvas.Left="0.5" Canvas.Top="368.5" 
+     Fill="{StaticResource IceBrush}" Stretch="Fill" Stroke="#FF000000" 
+     Data="M1,397 L20,382 L30,387 L47,381 L63,388 L76,380 L90,385 L100,388 L110,376 L115,384 L127,378 L140,388 L155,381 L166,388 L179,378 L190,386 L206,375 L218,388 L230,372 L235,382 L249,376 L268,386 L284,375 L295,386 L309,374 L321,383 L334,369 L345,381 L357,382 L368,378 L378,391 L392,382 L412,388 L441,380 L456,390 L478,383 L494,389 L501,382 L515,390 L524,375 L534,386 L541,373 L553,369 L567,376 L576,381 L598,398 z" x:Name="IceCaveWallFloor"/>
+    <Path Height="398" Width="40" Canvas.Left="558.5" Canvas.Top="-0.5" 
+     Fill="{StaticResource IceBrush}" Stretch="Fill" Stroke="#FF000000" 
+     Data="M598,397 L578,389 L572,367 L559,355 L570,339 L559,324 L574,313 L581,294 L576,281 L584,262 L584,243 L573,229 L586,217 L575,206 L584,192 L567,182 L587,161 L576,152 L583,139 L570,131 L578,124 L568,103 L581,76 L568,56 L577,49 L573,20 L584,12 L597,0 z" x:Name="RightIceCaveWall"/>
+    <Path Height="53" Width="596" Canvas.Left="0.5" Canvas.Top="-0.5" 
+     Fill="{StaticResource IceBrush}" Stretch="Fill" Stroke="#FF000000" 
+     Data="M1,1 L21,19 L34,5 L43,13 L54,11 L65,8 L77,8 L86,11 L106,11 L115,8 L126,8 L138,12 L156,10 L171,8 L184,13 L197,7 L217,14 L231,8 L252,13 L259,8 L283,13 L295,8 L327,12 L336,18 L353,11 L365,30 L375,10 L393,16 L418,10 L437,15 L451,5 L468,17 L483,6 L501,18 L514,32 L526,19 L544,31 L556,26 L596,19 L596,0 z" x:Name="IceCaveCieiling"/>
+  </Canvas>
+</UserControl>

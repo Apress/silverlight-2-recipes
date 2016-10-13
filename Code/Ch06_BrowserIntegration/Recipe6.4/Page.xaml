@@ -1,0 +1,44 @@
+﻿<UserControl x:Class="Ch06_BrowserIntegration.Recipe6_4.Page"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation" 
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" 
+    xmlns:System="clr-namespace:System;assembly=mscorlib" 
+    Height="216" Width="334">
+  <UserControl.Resources>
+    <ScaleTransform ScaleX="1" ScaleY="1" x:Key="ReduceScaleTransform" />
+  </UserControl.Resources>
+  <UserControl.RenderTransform>
+    <ScaleTransform ScaleX="1" ScaleY="1" x:Name="ScaleToFullScreen" />
+  </UserControl.RenderTransform>
+  <Border CornerRadius="13,13,13,13" Margin="4"
+          x:Name="MediaPlayerFrame">
+    <Border.Background>
+      <RadialGradientBrush SpreadMethod="Reflect">
+        <GradientStop Color="#FF28D7A4" Offset="0.5"/>
+        <GradientStop Color="#FF70E1BF" Offset="1"/>
+        <GradientStop Color="#FF70E1BF" Offset="0.0040000001899898052"/>
+      </RadialGradientBrush>
+    </Border.Background>
+    <Grid x:Name="MediaPlayerPanel" Height="210" Width="328">
+      <Grid.RowDefinitions>
+        <RowDefinition Height="0.848*"/>
+        <RowDefinition Height="0.152*"/>
+      </Grid.RowDefinitions>
+      <MediaElement x:Name="mediaElement" Source="/Video/Video.wmv"
+          Margin="4,2,4,2" MediaEnded="mediaElement_MediaEnded">
+        <MediaElement.Clip>
+          <RectangleGeometry  Rect="0,0,260,170" RadiusX="20"  RadiusY="20"/>
+        </MediaElement.Clip>
+      </MediaElement>
+      <StackPanel x:Name="ButtonPanel" Grid.Column="0" Grid.Row="1" 
+       Orientation="Horizontal"  Margin="2" HorizontalAlignment="Center"
+       RenderTransform="{StaticResource ReduceScaleTransform}" Height="26">
+        <Button x:Name="PlayPauseButton" Content="Pause" Margin="2"
+                Click="PlayPauseButton_Click" MaxWidth="57" MaxHeight="34.5" />
+        <Button Content="Stop" x:Name="StopButton" Margin="2"
+                Click="StopButton_Click" MaxWidth="47" MaxHeight="35" />
+        <Button Content="Full" x:Name="FullScreenButton" Margin="2"
+                Click="FullScreenButton_Click" MaxWidth="47" MaxHeight="38" />
+      </StackPanel>
+    </Grid>
+  </Border>
+</UserControl>

@@ -1,0 +1,39 @@
+﻿<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
+        <WebProjectProperties>
+          <StartPageUrl>Default.aspx</StartPageUrl>
+          <StartAction>SpecificPage</StartAction>
+          <AspNetDebugging>True</AspNetDebugging>
+          <SilverlightDebugging>True</SilverlightDebugging>
+          <NativeDebugging>False</NativeDebugging>
+          <SQLDebugging>False</SQLDebugging>
+          <PublishCopyOption>RunFiles</PublishCopyOption>
+          <PublishTargetLocation>
+          </PublishTargetLocation>
+          <PublishDeleteAllFiles>False</PublishDeleteAllFiles>
+          <PublishCopyAppData>True</PublishCopyAppData>
+          <ExternalProgram>
+          </ExternalProgram>
+          <StartExternalURL>
+          </StartExternalURL>
+          <StartCmdLineArguments>
+          </StartCmdLineArguments>
+          <StartWorkingDirectory>
+          </StartWorkingDirectory>
+          <EnableENC>False</EnableENC>
+          <AlwaysStartWebServerOnDebug>True</AlwaysStartWebServerOnDebug>
+          <EnableWcfTestClientForSVC>False</EnableWcfTestClientForSVC>
+          <ProjectOutputReferences>
+            <Ref Project="{E61632CF-8FAF-4B3F-AE82-FF83085AD53D}" Folder="ClientBin">Ch08_RichMedia.Recipe8_1.xap</Ref>
+            <Ref Project="{F0493DAD-677D-42B0-9629-217185455293}" Folder="ClientBin">Ch08_RichMedia.Recipe8_2.CompletePlayer.xap</Ref>
+            <Ref Project="{7FFDD37D-9795-4D48-B458-AF26090A7BDB}" Folder="ClientBin">Ch08_RichMedia.Recipe8_3.StreamingPlayer.xap</Ref>
+            <Ref Project="{B218F127-992E-4D40-92E9-C0241CDA917B}" Folder="ClientBin">Ch08_RichMedia.Recipe8_4.PlaylistPlayer.xap</Ref>
+            <Ref Project="{15BAA357-B350-4138-8D25-932AC895CAB9}" Folder="ClientBin">Ch08_RichMedia.Recipe8_5.MarkerAwarePlaye.xap</Ref>
+          </ProjectOutputReferences>
+        </WebProjectProperties>
+      </FlavorProperties>
+    </VisualStudio>
+  </ProjectExtensions>
+</Project>

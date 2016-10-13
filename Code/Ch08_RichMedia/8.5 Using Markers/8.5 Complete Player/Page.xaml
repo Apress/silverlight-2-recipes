@@ -1,0 +1,364 @@
+﻿<UserControl x:Class="Ch08_RichMedia.Recipe8_5.Page"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation" 
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" 
+    xmlns:vsm="clr-namespace:System.Windows;assembly=System.Windows" 
+    xmlns:local="clr-namespace:Ch08_RichMedia.Recipe8_5"
+    Width="920" Height="547" 
+    xmlns:Ch08_RichMedia_Recipe8_4=
+"clr-namespace:Ch08_RichMedia.Recipe8_5;assembly=Ch08_RichMedia.Recipe8_5.PlrCntls"    
+ >  
+  <!-- Resources section deliberately left out -->
+  <UserControl.Resources>
+    <DataTemplate x:Key="dtMediaMenuItem">
+      <Grid Height="140" Width="160" Margin="0,8,0,8">
+        <Grid.RowDefinitions>
+          <RowDefinition Height="0.7*" />
+          <RowDefinition Height="0.3*" />
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+          <ColumnDefinition Width="0.7*"/>
+          <ColumnDefinition Width="0.3*" />
+        </Grid.ColumnDefinitions>
+        <Image HorizontalAlignment="Stretch" 
+               VerticalAlignment="Stretch" Stretch="Fill"
+               Source="{Binding Path=MediaPreview}" Grid.Row ="0"
+               Grid.ColumnSpan="2"/>
+        <TextBlock TextAlignment="Left" HorizontalAlignment="Stretch"
+                   VerticalAlignment="Stretch" Grid.Row="1" 
+                   Text="{Binding Path=Description}" Grid.Column="0"/>
+        <Grid Grid.Row="1" Grid.Column="1">
+          <Grid.RowDefinitions>
+            <RowDefinition Height="0.4*" />
+            <RowDefinition Height="0.2*" />
+            <RowDefinition Height="0.4*" />
+          </Grid.RowDefinitions>
+          <Button Grid.Row="0" x:Name="PlayFull" Click="PlayFull_Click" 
+                  Tag="{Binding}" HorizontalAlignment="Center">
+            <Path Stretch="Fill" StrokeLineJoin="Round" 
+          		Stroke="#FF000000" 
+          		Data="M 120,9.15527e-005L 149.937,
+                  9.15527e-005L 149.937,19.9361L 120,
+                  19.9361L 120,9.15527e-005 Z M 120,
+                  6.04175L 149.812,6.04175M 120,
+                  14.0417L 149.937,14.0417M 123.417,
+                  0.991364L 131.167,0.991364L 131.167,
+                  4.88376L 123.417,4.88376L 123.417,
+                  0.991364 Z M 135.125,1.00012L 142.875,
+                  1.00012L 142.875,4.89246L 135.125,
+                  4.89246L 135.125,1.00012 Z M 123.542,
+                  15.035L 131.292,15.035L 131.292,
+                  18.9274L 123.542,18.9274L 123.542,
+                  15.035 Z M 135.25,15.0438L 143,
+                  15.0438L 143,18.9362L 135.25,18.9362L 135.25,
+                  15.0438 Z "/>
+          </Button>
+          <Button Grid.Row="2" x:Name="PlayPIP" Click="PlayPIP_Click" 
+                  Tag="{Binding}" HorizontalAlignment="Center">
+            <Path Stretch="Fill" StrokeThickness="2" 
+          		StrokeLineJoin="Round" Stroke="#FF000000" 
+          		Data="M 120,39.8333L 149.917,
+                  39.8333L 149.917,59.9167L 120,
+                  59.9167L 120,39.8333 Z M 132.917,
+                  42.8333L 146.667,42.8333L 146.667,
+                  52.6667L 132.917,52.6667L 132.917,
+                  42.8333 Z "/>
+          </Button>
+        </Grid>
+      </Grid>
+    </DataTemplate>
+    <ControlTemplate x:Key="ctMediaMenuListBoxItem" TargetType="ListBoxItem">
+      <Grid>
+        <vsm:VisualStateManager.VisualStateGroups>
+          <vsm:VisualStateGroup x:Name="SelectionStates">
+            <vsm:VisualState x:Name="Unselected"/>
+            <vsm:VisualState x:Name="SelectedUnfocused">
+              <Storyboard/>
+            </vsm:VisualState>
+            <vsm:VisualState x:Name="Selected">
+              <Storyboard/>
+            </vsm:VisualState>
+          </vsm:VisualStateGroup>
+          <vsm:VisualStateGroup x:Name="FocusStates">
+            <vsm:VisualState x:Name="Unfocused"/>
+            <vsm:VisualState x:Name="Focused"/>
+          </vsm:VisualStateGroup>
+          <vsm:VisualStateGroup x:Name="CommonStates">
+            <vsm:VisualStateGroup.Transitions>
+              <vsm:VisualTransition 
+                GeneratedDuration="00:00:00.2000000" To="MouseOver"/>
+              <vsm:VisualTransition From="MouseOver"
+                                    GeneratedDuration="00:00:00.2000000"/>
+            </vsm:VisualStateGroup.Transitions>
+            <vsm:VisualState x:Name="MouseOver">
+              <Storyboard>
+                <ColorAnimationUsingKeyFrames BeginTime="00:00:00" 
+                        Duration="00:00:00.0010000"
+                        Storyboard.TargetName="brdrMouseOverIndicator"
+                        Storyboard.TargetProperty=
+                  "(Border.BorderBrush).(SolidColorBrush.Color)">
+                  <SplineColorKeyFrame KeyTime="00:00:00" Value="#FF126AB3"/>
+                </ColorAnimationUsingKeyFrames>
+                <ColorAnimationUsingKeyFrames BeginTime="00:00:00" 
+                Duration="00:00:00.0010000" 
+                Storyboard.TargetName="brdrMouseOverIndicator"
+                Storyboard.TargetProperty=
+                      "(Border.Background).(SolidColorBrush.Color)">
+                  <SplineColorKeyFrame KeyTime="00:00:00" Value="#FF7FDDE6"/>
+                </ColorAnimationUsingKeyFrames>
+              </Storyboard>
+            </vsm:VisualState>
+            <vsm:VisualState x:Name="Normal"/>
+          </vsm:VisualStateGroup>
+        </vsm:VisualStateManager.VisualStateGroups>
+        <Border CornerRadius="2,2,2,2" BorderThickness="3,3,3,3"
+                x:Name="brdrMouseOverIndicator" 
+                Background="#007FDDE6" BorderBrush="#00000000">
+          <ContentPresenter/>
+        </Border>
+      </Grid>
+    </ControlTemplate>
+    <Style x:Key="STYLE_MediaMenuListBoxItem" TargetType="ListBoxItem">
+      <Setter Property="Template" 
+              Value="{StaticResource ctMediaMenuListBoxItem}"/>
+    </Style>
+    
+    <ControlTemplate x:Key="ctMenuSwitchButton" TargetType="RadioButton">
+      <Grid>
+        <vsm:VisualStateManager.VisualStateGroups>
+          <vsm:VisualStateGroup x:Name="CheckStates">
+            <vsm:VisualState x:Name="Unchecked"/>
+            <vsm:VisualState x:Name="Checked">
+              <Storyboard>
+                <ColorAnimationUsingKeyFrames BeginTime="00:00:00" 
+        Duration="00:00:00.0010000" 
+        Storyboard.TargetName="border"
+        Storyboard.TargetProperty="(Border.BorderBrush).(SolidColorBrush.Color)">
+                  <SplineColorKeyFrame KeyTime="00:00:00" Value="#FF000000"/>
+                </ColorAnimationUsingKeyFrames>
+                <ColorAnimationUsingKeyFrames BeginTime="00:00:00" 
+                    Duration="00:00:00.0010000"
+                    Storyboard.TargetName="border"
+                    Storyboard.TargetProperty=
+                        "(Border.Background).(SolidColorBrush.Color)">
+                  <SplineColorKeyFrame KeyTime="00:00:00" Value="#FF3CB1E8"/>
+                </ColorAnimationUsingKeyFrames>
+              </Storyboard>
+            </vsm:VisualState>
+            <vsm:VisualState x:Name="Indeterminate"/>
+          </vsm:VisualStateGroup>
+          <vsm:VisualStateGroup x:Name="CommonStates">
+            <vsm:VisualState x:Name="Disabled"/>
+            <vsm:VisualState x:Name="Normal"/>
+            <vsm:VisualState x:Name="MouseOver"/>
+            <vsm:VisualState x:Name="Pressed"/>
+          </vsm:VisualStateGroup>
+          <vsm:VisualStateGroup x:Name="FocusStates">
+            <vsm:VisualState x:Name="Focused"/>
+            <vsm:VisualState x:Name="Unfocused"/>
+          </vsm:VisualStateGroup>
+        </vsm:VisualStateManager.VisualStateGroups>
+        <Border HorizontalAlignment="Stretch" VerticalAlignment="Stretch"
+                CornerRadius="3,3,0,0" Margin="0,0,0,0" 
+                BorderThickness="2,2,2,0" BorderBrush="#FF000000"
+                x:Name="border" Background="#003CB1E8">
+          <TextBlock Text="{TemplateBinding Content}" 
+                     TextWrapping="Wrap" TextAlignment="Center" 
+                     FontSize="10" FontWeight="Normal" 
+                     FontFamily="Portable User Interface" 
+                     VerticalAlignment="Center"/>
+        </Border>
+      </Grid>
+    </ControlTemplate>
+  </UserControl.Resources>
+
+  <Grid x:Name="LayoutRoot" 
+        Background="#FFA2A2A2" Height="Auto" Width="Auto">
+    <Grid.RowDefinitions>
+      <RowDefinition Height="0.062*"/>
+      <RowDefinition Height="0.649*"/>
+      <RowDefinition Height="0*"/>
+      <RowDefinition Height="0.289*"/>
+    </Grid.RowDefinitions>
+    <Grid.ColumnDefinitions>
+      <ColumnDefinition Width="0.2*"/>
+      <ColumnDefinition Width="0.8*"/>
+    </Grid.ColumnDefinitions>
+    <MediaElement Height="Auto" Margin="0,0,0,0" 
+                  VerticalAlignment="Top" x:Name="mediaelemMain" 
+                  BufferingTime="0:0:3"
+                  HorizontalAlignment="Left" AutoPlay="True" Opacity="0"/>
+    <MediaElement Height="Auto" Margin="0,0,0,0" VerticalAlignment="Top"
+                  x:Name="mediaelemPIP" HorizontalAlignment="Left"
+                  AutoPlay="True" Opacity="0" IsMuted="True"
+                  BufferingTime="0:0:3"/>
+    <Grid Grid.Row="0" Grid.Column="1" Grid.RowSpan="2" Margin="0,0,0,1">
+      <Grid.RowDefinitions>
+        <RowDefinition Height="0.018*" />
+        <RowDefinition Height="0.961*" />
+        <RowDefinition Height="0.021*" />
+      </Grid.RowDefinitions>
+      <Grid.ColumnDefinitions>
+        <ColumnDefinition Width="0.05*"/>
+        <ColumnDefinition Width="0.9*"/>
+        <ColumnDefinition Width="0.05*"/>
+      </Grid.ColumnDefinitions>
+      <Border x:Name="displayMain"
+              VerticalAlignment="Stretch" Grid.Column="1" Grid.Row="1" 
+              HorizontalAlignment="Stretch" BorderThickness="5,5,5,5" 
+              BorderBrush="#FF000000" Margin="0,0,0,0" >
+        <Border.Background>
+          <VideoBrush SourceName="mediaelemMain" Stretch="Fill" 
+                      x:Name="vidbrushMain" />
+        </Border.Background>
+        <Grid HorizontalAlignment="Right" MaxHeight="135" MaxWidth="240"
+              Grid.Column="1" Grid.Row="1" Opacity="0.5" 
+              x:Name="adContainer" VerticalAlignment="Bottom">           
+        </Grid>
+      </Border>
+      <Grid VerticalAlignment="Stretch" Grid.Column="1" Grid.Row="1" 
+              HorizontalAlignment="Stretch" x:Name="CaptionContainer"
+            Margin="0,0,0,0" />
+      <Grid Grid.Column="1" Grid.Row="1" Margin="0,0,0,0">
+        <Grid.RowDefinitions>
+          <RowDefinition Height="0.025*" />
+          <RowDefinition Height="0.35*" />
+          <RowDefinition Height="0.625*" />
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+          <ColumnDefinition Width="0.635*"/>
+          <ColumnDefinition Width="0.35*"/>
+          <ColumnDefinition Width="0.015*"/>
+        </Grid.ColumnDefinitions>
+        <Border Grid.Column="1" Grid.Row="1" HorizontalAlignment="Stretch"
+                VerticalAlignment="Stretch" 
+                MouseLeftButtonUp="displayPIP_MouseLeftButtonUp"  
+                x:Name="displayPIP" BorderThickness="2,2,2,2" 
+                BorderBrush="#FF000000" Visibility="Collapsed">
+          <Border.Background>
+            <VideoBrush SourceName="mediaelemPIP" 
+                        Stretch="Fill" x:Name="vidbrushPIP"/>
+          </Border.Background>
+        </Border>
+        <Grid HorizontalAlignment="Stretch" Margin="8,8,8,8" 
+              Grid.RowSpan="1" Grid.Column="1" Grid.Row="1" 
+              x:Name="buttonsPIP" Visibility="Collapsed" >
+          <Grid.RowDefinitions>
+            <RowDefinition Height="0.1*"/>
+            <RowDefinition Height="0.25*"/>
+            <RowDefinition Height="0.1*"/>
+            <RowDefinition Height="0.25*"/>
+            <RowDefinition Height="0.3*"/>
+          </Grid.RowDefinitions>
+          <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="0.749*"/>
+            <ColumnDefinition Width="0.176*"/>
+            <ColumnDefinition Width="0.075*"/>
+          </Grid.ColumnDefinitions>
+          <Button Margin="0,0,0,0" Grid.RowSpan="1" Grid.Row="1" 
+                  Grid.ColumnSpan="1" Grid.Column="1" 
+                  x:Name="btnClosePIP" Click="btnClosePIP_Click" 
+                   >
+            <Path x:Name="Path" Stretch="Fill" StrokeThickness="2"
+          		StrokeLineJoin="Round" Stroke="#FF000000" Fill="#FFE91111"
+          		Data="M 110.5,75.7635L 113.209,
+                  72.9631L 133.396,92.4865L 130.687,95.2869L 110.5,
+                  75.7635 Z M 130.801,73.4961L 133.393,76.4048L 112.425,
+                  95.0872L 109.833,92.1785L 130.801,73.4961 Z "/>
+          </Button>
+          <Button Margin="0,0,0,0" Grid.RowSpan="1" Grid.Row="3" 
+                  Grid.ColumnSpan="1" Grid.Column="1" 
+                  x:Name="btnSwitchPIP" Click="btnSwitchPIP_Click"
+                  >
+            <Path Stretch="Fill" StrokeThickness="2" StrokeLineJoin="Round"
+          		Stroke="#FF000000" Data="M 120,39.8333L 149.917,
+                  39.8333L 149.917,59.9167L 120,59.9167L 120,
+                  39.8333 Z M 132.917,42.8333L 146.667,42.8333L 146.667,
+                  52.6667L 132.917,52.6667L 132.917,42.8333 Z "/>
+          </Button>
+        </Grid>
+      </Grid>
+    </Grid>
+    <Grid Margin="2,-1,2,0" VerticalAlignment="Stretch" Grid.Column="1" 
+          Grid.Row="2" HorizontalAlignment="Stretch" Grid.RowSpan="2">
+      <Grid.RowDefinitions>
+        <RowDefinition Height="0.341*"/>
+        <RowDefinition Height="0.341*"/>
+      </Grid.RowDefinitions>
+      <Grid.ColumnDefinitions>
+        <ColumnDefinition Width="0.75*"/>
+        <ColumnDefinition Width="0.25*"/>
+      </Grid.ColumnDefinitions>
+      <Ch08_RichMedia_Recipe8_4:MediaSlider SourceName="mediaelemMain"
+                              VerticalAlignment="Stretch"
+                              IsEnabled="True" 
+                              x:Name="mediaSlider" Grid.ColumnSpan="2"
+                              Margin="0,0,0,0" Grid.Row="0" />
+      <Ch08_RichMedia_Recipe8_4:MediaButtonsPanel Grid.Row="2" Grid.Column="0"
+                              SourceName="mediaelemMain" 
+                              HorizontalAlignment="Center" 
+                              VerticalAlignment="Center" 
+                              Width="150" Height="40"                                                   
+                              x:Name="mediaControl"/>
+      <Slider x:Name="sliderVolumeControl"  Margin="5,12,5,0" Maximum="1" 
+              Minimum="0" SmallChange="0.1" 
+              LargeChange="0.2"  Value="0.5"
+              MinWidth="50" Grid.Row="2" 
+              Grid.Column="1" ValueChanged="sliderVolumeControl_ValueChanged"/>
+    </Grid>
+    <Grid Grid.RowSpan="4">
+      <Grid.RowDefinitions>
+        <RowDefinition Height="Auto" MinHeight="41" />
+        <RowDefinition Height="*" />
+      </Grid.RowDefinitions>
+      <Grid Height="Auto" VerticalAlignment="Stretch">
+        <Grid.ColumnDefinitions>
+          <ColumnDefinition Width="0.33*"/>
+          <ColumnDefinition Width="0.34*"/>
+          <ColumnDefinition Width="0.33*"/>
+        </Grid.ColumnDefinitions>
+        <RadioButton HorizontalAlignment="Stretch" VerticalAlignment="Stretch"
+      		Content="Download" 
+      		Template="{StaticResource ctMenuSwitchButton}" 
+      		HorizontalContentAlignment="Stretch" 
+      		VerticalContentAlignment="Stretch" 
+      		GroupName="MediaMenuChoices" 
+      		IsChecked="True" x:Name="rbtnDownloadsMenu"
+      		Checked="rbtnDownloadsMenu_Checked"/>
+        <RadioButton HorizontalAlignment="Stretch" VerticalAlignment="Stretch" 
+      		Content="On Demand" Grid.Column="1" 
+      		Template="{StaticResource ctMenuSwitchButton}" 
+      		HorizontalContentAlignment="Stretch" 
+      		VerticalContentAlignment="Stretch" 
+      		GroupName="MediaMenuChoices" 
+      		IsChecked="False" x:Name="rbtnOnDemandMenu"
+      		Checked="rbtnOnDemandMenu_Checked"/>
+        <RadioButton HorizontalAlignment="Stretch" VerticalAlignment="Stretch" 
+      		Content="Broadcast" Grid.Column="2" 
+      		Template="{StaticResource ctMenuSwitchButton}" 
+      		HorizontalContentAlignment="Stretch" 
+      		VerticalContentAlignment="Stretch" IsChecked="False"
+      		GroupName="MediaMenuChoices" x:Name="rbtnBroadcastMenu"
+      		Checked="rbtnBroadcastMenu_Checked"/>
+      </Grid>
+      <ListBox Margin="0,0,0,0" VerticalAlignment="Stretch"  
+    		x:Name="lbxMediaMenuDownloads" 
+    		ItemTemplate="{StaticResource dtMediaMenuItem}" 
+    		ItemContainerStyle="{StaticResource STYLE_MediaMenuListBoxItem}" 
+    		Grid.RowSpan="1" Grid.Row="1" Background="#FF3CB1E8"/>
+      <ListBox Margin="0,0,0,0" VerticalAlignment="Stretch"  
+    		x:Name="lbxMediaMenuOnDemandStreams" 
+    		ItemTemplate="{StaticResource dtMediaMenuItem}" 
+    		ItemContainerStyle="{StaticResource STYLE_MediaMenuListBoxItem}" 
+    		Grid.RowSpan="1" Grid.Row="1" Background="#FF3CB1E8" Visibility="Collapsed"
+             />
+      <ListBox Margin="0,0,0,0" VerticalAlignment="Stretch"  
+                x:Name="lbxMediaMenuBroadcastStreams" 
+                ItemTemplate="{StaticResource dtMediaMenuItem}" 
+                ItemContainerStyle="{StaticResource STYLE_MediaMenuListBoxItem}"
+               Visibility="Collapsed"
+                Background="#FF3CB1E8" Grid.RowSpan="1" Grid.Row="1"
+             />
+    </Grid>
+  </Grid>
+</UserControl>
+

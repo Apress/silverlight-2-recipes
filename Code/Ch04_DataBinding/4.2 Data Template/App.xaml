@@ -1,0 +1,7 @@
+﻿<Application xmlns="http://schemas.microsoft.com/client/2007"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" 
+             x:Class="Ch04_DataBinding.Recipe4_2.App"
+             >
+  <Application.Resources>
+  </Application.Resources>
+</Application>

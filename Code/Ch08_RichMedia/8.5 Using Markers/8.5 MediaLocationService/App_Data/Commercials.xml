@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Commercials> 
+  <Marker Type="SLMovie">
+    <![CDATA[<Grid 
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation" 
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+            <MediaElement  x:Name="medElem" Opacity="0.0" AutoPlay="true"
+            Source="mms://localhost/SLBook/Ch08_RichMedia/Media/sl.wmv"
+            HorizontalAlignment="Left" VerticalAlignment="Top" />
+            <Border> 
+            <Border.Background>
+              <VideoBrush Stretch="Fill" SourceName="medElem"/>
+            </Border.Background>
+            </Border>
+          </Grid>]]>
+  </Marker>
+</Commercials>

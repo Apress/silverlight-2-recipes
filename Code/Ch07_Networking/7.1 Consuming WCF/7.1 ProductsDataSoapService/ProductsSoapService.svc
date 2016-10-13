@@ -1,0 +1,1 @@
+﻿<%@ ServiceHost Language="C#" Debug="true" Service="Ch07_Networking.Recipe7_1.ProductsDataSoapService.ProductManager" CodeBehind="~/ProductManager.cs" %>

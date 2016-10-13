@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<MediaLocations>
+  <MediaLocation>
+    <Description>Random Loop</Description>
+    <Uri>http://dc7600:43000/LiveMedia</Uri>
+    <ImageUri>
+      http://localhost/SLBook/Ch08_RichMedia/Media/AdrenalineRush_Thumb.jpg
+    </ImageUri>
+  </MediaLocation> 
+</MediaLocations>
+

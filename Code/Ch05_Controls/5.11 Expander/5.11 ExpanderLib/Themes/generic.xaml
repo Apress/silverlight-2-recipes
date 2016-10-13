@@ -1,0 +1,146 @@
+﻿<ResourceDictionary
+  xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation" 
+  xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+  xmlns:local="clr-namespace:Ch05_Controls.Recipe5_11"
+ xmlns:vsm="clr-namespace:System.Windows;assembly=System.Windows"
+   >
+  <ControlTemplate TargetType="ToggleButton" x:Key="ctExpanderToggle">
+    <Grid>
+      <Grid.RowDefinitions>
+        <RowDefinition Height="0.3*" />
+        <RowDefinition Height="0.4*" />
+        <RowDefinition Height="0.3*" />
+      </Grid.RowDefinitions>
+      <Grid.ColumnDefinitions>
+        <ColumnDefinition Width="0.3*" />
+        <ColumnDefinition Width="0.4*" />
+        <ColumnDefinition Width="0.3*" />
+      </Grid.ColumnDefinitions>
+      <vsm:VisualStateManager.VisualStateGroups>
+        <vsm:VisualStateGroup x:Name="CommonStates">
+          <vsm:VisualStateGroup.Transitions>
+            <vsm:VisualTransition GeneratedDuration="00:00:00.2000000"
+                                  To="MouseOver"/>
+            <vsm:VisualTransition GeneratedDuration="00:00:00" From="MouseOver"/>
+          </vsm:VisualStateGroup.Transitions>
+          <vsm:VisualState x:Name="Normal">
+            <Storyboard/>
+          </vsm:VisualState>
+          <vsm:VisualState x:Name="MouseOver">
+            <Storyboard>
+              <ColorAnimationUsingKeyFrames BeginTime="00:00:00" 
+              Duration="00:00:00.0010000" 
+              Storyboard.TargetName="Path"
+              Storyboard.TargetProperty="(Shape.Fill).(SolidColorBrush.Color)">
+                <SplineColorKeyFrame KeyTime="00:00:00" Value="#FF000000"/>
+              </ColorAnimationUsingKeyFrames>
+            </Storyboard>
+          </vsm:VisualState>
+          
+        </vsm:VisualStateGroup>
+         
+      </vsm:VisualStateManager.VisualStateGroups>
+      <Path x:Name="Path" Stretch="Fill" Fill="#FF054B4A" 
+        Data="F1 M 15.1257,30.0726L 30.1081,0L 0,0.0718536L 15.1257,30.0726 Z "
+        RenderTransformOrigin="0.5,0.5" Grid.Row="1" Grid.Column="1"/>
+    </Grid>
+  </ControlTemplate>
+  
+  <Style x:Key="styleExpanderToggle" TargetType="ToggleButton">
+    <Setter Property="Template" Value="{StaticResource ctExpanderToggle}"/>
+  </Style>
+  
+  <ControlTemplate x:Key="ctExpander" TargetType="local:Expander">
+    <Grid HorizontalAlignment="{TemplateBinding HorizontalAlignment}"
+          VerticalAlignment="{TemplateBinding VerticalAlignment}">
+      <vsm:VisualStateManager.VisualStateGroups>
+        <vsm:VisualStateGroup x:Name="ExpanderStates">
+          <vsm:VisualStateGroup.Transitions>
+            <vsm:VisualTransition GeneratedDuration="00:00:00.2000000"
+                                  To="Expanded"/>
+            <vsm:VisualTransition GeneratedDuration="00:00:00.2000000"
+                                  From="Expanded"/>
+          </vsm:VisualStateGroup.Transitions>
+          <vsm:VisualState x:Name="Normal">
+            <Storyboard/>
+          </vsm:VisualState>
+          <vsm:VisualState x:Name="Expanded">
+            <Storyboard>           
+              <ObjectAnimationUsingKeyFrames BeginTime="00:00:00" 
+                                 Duration="00:00:00.0010000" 
+                                 Storyboard.TargetName="Body"
+                                 Storyboard.TargetProperty="Visibility">
+                <DiscreteObjectKeyFrame KeyTime="0">
+                  <DiscreteObjectKeyFrame.Value>
+                    <Visibility>Visible</Visibility>
+                  </DiscreteObjectKeyFrame.Value>
+                </DiscreteObjectKeyFrame>
+              </ObjectAnimationUsingKeyFrames>
+            </Storyboard>
+          </vsm:VisualState>
+        </vsm:VisualStateGroup>
+      </vsm:VisualStateManager.VisualStateGroups>
+      <Grid.RowDefinitions>
+        <RowDefinition Height="0.2*"/>
+        <RowDefinition Height="0.8*"/>
+      </Grid.RowDefinitions>
+      <Border Height="Auto" Margin="0,0,0,0" VerticalAlignment="Stretch" 
+              Grid.Row="0" BorderThickness="2,2,2,2" BorderBrush="#FF000000"
+              x:Name="Header">
+        <Border.Background>
+          <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+            <GradientStop Color="#FF0BC4C3"/>
+            <GradientStop Color="#FF055352" Offset="1"/>
+          </LinearGradientBrush>
+        </Border.Background>
+        <Grid>
+          <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="0.80*"/>
+            <ColumnDefinition Width="0.20*"/>
+          </Grid.ColumnDefinitions>
+          <ToggleButton HorizontalAlignment="Center" VerticalAlignment="Center"
+                        Content="ToggleButton" Margin="2,2,2,2" Grid.Column="1"
+                        Style="{StaticResource styleExpanderToggle}" 
+                        x:Name="toggler" >           
+          </ToggleButton>
+          <ContentPresenter HorizontalAlignment="Center" 
+                            VerticalAlignment="Center"
+          Content="{TemplateBinding HeaderContent}"
+          ContentTemplate="{TemplateBinding HeaderContentTemplate}" 
+          x:Name="cpHdr"/>
+        </Grid>
+      </Border>
+      <Border Height="Auto" Margin="0,0,0,0" VerticalAlignment="Stretch"
+              Grid.Row="1" Background="#FFFFFFFF" 
+              BorderThickness="2,0,2,2" BorderBrush="#FF000000" 
+              x:Name="Body"
+              Visibility="Collapsed">
+        <ContentPresenter HorizontalAlignment="Stretch" 
+                          VerticalAlignment="Stretch" 
+                          Content="{TemplateBinding Content}"
+                          ContentTemplate="{TemplateBinding ContentTemplate}"
+                          x:Name="cpBody"/>
+      </Border>
+    </Grid>
+
+  </ControlTemplate>
+  <Style TargetType="local:Expander">
+    <Setter Property="HeaderContent" Value="Header here" />
+    <Setter Property="HeaderContentTemplate">
+      <Setter.Value>
+        <DataTemplate>
+          <TextBlock Text="{Binding}" />
+        </DataTemplate>
+      </Setter.Value>
+    </Setter>
+    <Setter Property="Content" Value="Body here" />
+    <Setter Property="ContentTemplate">
+      <Setter.Value>
+        <DataTemplate>
+          <TextBlock Text="{Binding}" />
+        </DataTemplate>
+      </Setter.Value>
+    </Setter>
+    <Setter Property="Template" Value="{StaticResource ctExpander}" />
+  </Style>
+</ResourceDictionary>

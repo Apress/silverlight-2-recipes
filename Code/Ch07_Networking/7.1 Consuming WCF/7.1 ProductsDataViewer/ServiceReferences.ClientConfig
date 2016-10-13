@@ -1,0 +1,18 @@
+﻿<configuration>
+    <system.serviceModel>
+        <bindings>
+            <basicHttpBinding>
+                <binding name="BasicHttpBinding_IProductManager" maxBufferSize="1048576"
+                    maxReceivedMessageSize="1048576">
+                    <security mode="None" />
+                </binding>
+            </basicHttpBinding>
+        </bindings>
+        <client>
+            <endpoint address="http://localhost:9191/ProductsSoapService.svc"
+                binding="basicHttpBinding" bindingConfiguration="BasicHttpBinding_IProductManager"
+                contract="Ch07_Networking.Recipe7_1.ProductsDataViewer.ProductsDataSoapService.IProductManager"
+                name="BasicHttpBinding_IProductManager" />
+        </client>
+    </system.serviceModel>
+</configuration>

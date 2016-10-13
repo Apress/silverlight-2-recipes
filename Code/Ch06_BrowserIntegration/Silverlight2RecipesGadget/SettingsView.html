@@ -1,0 +1,32 @@
+﻿<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title></title>
+    <link href="css/SettingsView.css" rel="stylesheet" type="text/css" />
+    <script language="javascript" type="text/javascript" src="/js/Silverlight.js"></script>
+    <script language="javascript" type="text/javascript" src="/js/Shared.js"></script>
+    <script language="javascript" type="text/javascript" src="/js/SettingsView.js"></script>
+</head>
+<body onload="loadSettingsView();">
+  <div id="errorLocation" style="font-size: small;color: Gray;"></div>
+ 	<div id="silverlightControlHost">
+ <object data="data:application/x-silverlight-2," type="application/x-silverlight-2" 
+		  width="100%" height="100%" id="XamlGadget" >
+			<param name="source" value="x-gadget:///ClientBin/Ch06_BrowserIntegration.Recipe6_8.xap"/>
+			<param name="onerror" value="onSilverlightError" />
+      <param name="onload" value="onSilverlightLoad" />
+			<param name="minRuntimeVersion" value="2.0.31005.0" />
+			<param name="autoUpgrade" value="true" />
+      <param name="enableHtmlAccess" value="true" />
+			<param name="windowless" value="true" />
+			<param name="background" value ="#00FFFFFF" />
+			<param name="initParams" value="View=Settings" />
+			<a href="http://go.microsoft.com/fwlink/?LinkID=115261" style="text-decoration: none;">
+     			<img src="http://go.microsoft.com/fwlink/?LinkId=108181" alt="Get Microsoft Silverlight" 
+     			 style="border-style: none"/>
+			</a>
+		</object> 
+		<g:background src="/img/transparentSettings.png"mce_src="/img/transparentSettings.png"  id="transparentBackground" style="width:250px;height:250px;z-index:-1"/>
+   </div>
+	
+</body>
+</html>

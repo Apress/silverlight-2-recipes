@@ -1,0 +1,15 @@
+C:\Work\Current Initiatives\Writing\SLBook\WorkInProgress\ChapterSamples\Ch07_Networking\7.2 POX Over HTTP\7.2 ProductsDataPOXService\bin\Ch07_Networking.Recipe7_2.ProductsDataPOXService.dll
+C:\Work\Current Initiatives\Writing\SLBook\WorkInProgress\ChapterSamples\Ch07_Networking\7.2 POX Over HTTP\7.2 ProductsDataPOXService\bin\Ch07_Networking.Recipe7_2.ProductsDataPOXService.pdb
+C:\Work\Current Initiatives\Writing\SLBook\WorkInProgress\ChapterSamples\Ch07_Networking\7.2 POX Over HTTP\7.2 ProductsDataPOXService\obj\Debug\ResolveAssemblyReference.cache
+C:\Work\Current Initiatives\Writing\SLBook\WorkInProgress\ChapterSamples\Ch07_Networking\7.2 POX Over HTTP\7.2 ProductsDataPOXService\obj\Debug\Ch07_Networking.Recipe7_2.ProductsDataPOXService.dll
+C:\Work\Current Initiatives\Writing\SLBook\WorkInProgress\ChapterSamples\Ch07_Networking\7.2 POX Over HTTP\7.2 ProductsDataPOXService\obj\Debug\Ch07_Networking.Recipe7_2.ProductsDataPOXService.pdb
+D:\work\Current Initiatives\Writing\SLBook\WorkInProgress\ChapterSamples\Ch07_Networking\7.2 POX Over HTTP\7.2 ProductsDataPOXService\bin\Ch07_Networking.Recipe7_2.ProductsDataPOXService.dll
+D:\work\Current Initiatives\Writing\SLBook\WorkInProgress\ChapterSamples\Ch07_Networking\7.2 POX Over HTTP\7.2 ProductsDataPOXService\bin\Ch07_Networking.Recipe7_2.ProductsDataPOXService.pdb
+D:\work\Current Initiatives\Writing\SLBook\WorkInProgress\ChapterSamples\Ch07_Networking\7.2 POX Over HTTP\7.2 ProductsDataPOXService\obj\Debug\ResolveAssemblyReference.cache
+D:\work\Current Initiatives\Writing\SLBook\WorkInProgress\ChapterSamples\Ch07_Networking\7.2 POX Over HTTP\7.2 ProductsDataPOXService\obj\Debug\Ch07_Networking.Recipe7_2.ProductsDataPOXService.dll
+D:\work\Current Initiatives\Writing\SLBook\WorkInProgress\ChapterSamples\Ch07_Networking\7.2 POX Over HTTP\7.2 ProductsDataPOXService\obj\Debug\Ch07_Networking.Recipe7_2.ProductsDataPOXService.pdb
+D:\RobcamerDocs\Book Silverlight Recipes\Code\Ch07_Networking\7.2 POX Over HTTP\7.2 ProductsDataPOXService\bin\Ch07_Networking.Recipe7_2.ProductsDataPOXService.dll
+D:\RobcamerDocs\Book Silverlight Recipes\Code\Ch07_Networking\7.2 POX Over HTTP\7.2 ProductsDataPOXService\bin\Ch07_Networking.Recipe7_2.ProductsDataPOXService.pdb
+D:\RobcamerDocs\Book Silverlight Recipes\Code\Ch07_Networking\7.2 POX Over HTTP\7.2 ProductsDataPOXService\obj\Debug\ResolveAssemblyReference.cache
+D:\RobcamerDocs\Book Silverlight Recipes\Code\Ch07_Networking\7.2 POX Over HTTP\7.2 ProductsDataPOXService\obj\Debug\Ch07_Networking.Recipe7_2.ProductsDataPOXService.dll
+D:\RobcamerDocs\Book Silverlight Recipes\Code\Ch07_Networking\7.2 POX Over HTTP\7.2 ProductsDataPOXService\obj\Debug\Ch07_Networking.Recipe7_2.ProductsDataPOXService.pdb

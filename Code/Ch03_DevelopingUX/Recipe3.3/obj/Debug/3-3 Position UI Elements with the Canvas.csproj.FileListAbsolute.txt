@@ -1,0 +1,12 @@
+C:\Users\robcamer.NORTHAMERICA\Documents\Book Silverlight Recipes\Code\Ch03_DevelopingUX\Recipe3.3\Bin\Debug\AppManifest.xaml
+C:\Users\robcamer.NORTHAMERICA\Documents\Book Silverlight Recipes\Code\Ch03_DevelopingUX\Recipe3.3\Bin\Debug\Ch03_DevelopingUX.Recipe3_3.dll
+C:\Users\robcamer.NORTHAMERICA\Documents\Book Silverlight Recipes\Code\Ch03_DevelopingUX\Recipe3.3\Bin\Debug\Ch03_DevelopingUX.Recipe3_3.pdb
+C:\Users\robcamer.NORTHAMERICA\Documents\Book Silverlight Recipes\Code\Ch03_DevelopingUX\Recipe3.3\Bin\Debug\Ch03_DevelopingUX.Recipe3_3.xap
+C:\Users\robcamer.NORTHAMERICA\Documents\Book Silverlight Recipes\Code\Ch03_DevelopingUX\Recipe3.3\Bin\Debug\TestPage.html
+C:\Users\robcamer.NORTHAMERICA\Documents\Book Silverlight Recipes\Code\Ch03_DevelopingUX\Recipe3.3\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\robcamer.NORTHAMERICA\Documents\Book Silverlight Recipes\Code\Ch03_DevelopingUX\Recipe3.3\obj\Debug\App.g.cs
+C:\Users\robcamer.NORTHAMERICA\Documents\Book Silverlight Recipes\Code\Ch03_DevelopingUX\Recipe3.3\obj\Debug\Page.g.cs
+C:\Users\robcamer.NORTHAMERICA\Documents\Book Silverlight Recipes\Code\Ch03_DevelopingUX\Recipe3.3\obj\Debug\Ch03_DevelopingUX.Recipe3_3.g.resources
+C:\Users\robcamer.NORTHAMERICA\Documents\Book Silverlight Recipes\Code\Ch03_DevelopingUX\Recipe3.3\obj\Debug\Ch03_DevelopingUX.Recipe3_3.dll
+C:\Users\robcamer.NORTHAMERICA\Documents\Book Silverlight Recipes\Code\Ch03_DevelopingUX\Recipe3.3\obj\Debug\Ch03_DevelopingUX.Recipe3_3.pdb
+C:\Users\robcamer.NORTHAMERICA\Documents\Book Silverlight Recipes\Code\Ch03_DevelopingUX\Recipe3.3\obj\Debug\XapCacheFile.xml

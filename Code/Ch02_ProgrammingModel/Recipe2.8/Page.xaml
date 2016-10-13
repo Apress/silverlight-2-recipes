@@ -1,0 +1,20 @@
+﻿<UserControl x:Class="Ch02_ProgrammingModel.Recipe2_8.Page"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation" 
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" 
+    Width="400" Height="600" xmlns:d="http://schemas.microsoft.com/expression/blend/2008" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" mc:Ignorable="d">
+  <Grid x:Name="LayoutRoot" Background="White">
+    <Grid.RowDefinitions>
+      <RowDefinition Height="0.027*"/>
+      <RowDefinition Height="0.071*"/>
+      <RowDefinition Height="0.869*"/>
+      <RowDefinition Height="0.033*"/>
+    </Grid.RowDefinitions>
+    <Grid.ColumnDefinitions>
+      <ColumnDefinition Width="0.025*"/>
+      <ColumnDefinition Width="0.947*"/>
+      <ColumnDefinition Width="0.028*"/>
+    </Grid.ColumnDefinitions>
+    <Button Height="27.1" HorizontalAlignment="Left" Margin="8,8,0,7.5" VerticalAlignment="Stretch" Grid.Column="1" Grid.Row="1" Content="Retrieve XML" d:LayoutOverrides="Height" x:Name="ButtonReadXML" Click="ButtonReadXML_Click" Width="106"/>
+    <ListBox Margin="8" Grid.Column="1" Grid.Row="2" x:Name="XmlData"/>
+  </Grid>
+</UserControl>

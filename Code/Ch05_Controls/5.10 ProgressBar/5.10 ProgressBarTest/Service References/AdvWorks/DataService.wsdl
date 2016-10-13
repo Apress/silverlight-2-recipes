@@ -1,0 +1,269 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wsdl:definitions xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:wsu="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-utility-1.0.xsd" xmlns:wsa="http://schemas.xmlsoap.org/ws/2004/08/addressing" xmlns:wsap="http://schemas.xmlsoap.org/ws/2004/08/addressing/policy" xmlns:wsp="http://schemas.xmlsoap.org/ws/2004/09/policy" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msc="http://schemas.microsoft.com/ws/2005/12/wsdl/contract" xmlns:tns="http://tempuri.org/" xmlns:wsaw="http://www.w3.org/2006/05/addressing/wsdl" xmlns:soap12="http://schemas.xmlsoap.org/wsdl/soap12/" xmlns:wsa10="http://www.w3.org/2005/08/addressing" xmlns:wsx="http://schemas.xmlsoap.org/ws/2004/09/mex" xmlns:wsam="http://www.w3.org/2007/05/addressing/metadata" name="DataService" targetNamespace="http://tempuri.org/" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">
+  <wsdl:types>
+    <xsd:schema targetNamespace="http://tempuri.org/Imports">
+      <xsd:import schemaLocation="http://localhost:9191/AdvWorksDataService.svc?xsd=xsd0" namespace="http://tempuri.org/" />
+      <xsd:import schemaLocation="http://localhost:9191/AdvWorksDataService.svc?xsd=xsd1" namespace="http://schemas.microsoft.com/2003/10/Serialization/" />
+      <xsd:import schemaLocation="http://localhost:9191/AdvWorksDataService.svc?xsd=xsd2" namespace="http://schemas.datacontract.org/2004/07/AdventureWorksDataService" />
+      <xsd:import schemaLocation="http://localhost:9191/AdvWorksDataService.svc?xsd=xsd3" namespace="http://schemas.datacontract.org/2004/07/System.Data.Linq" />
+      <xsd:import schemaLocation="http://localhost:9191/AdvWorksDataService.svc?xsd=xsd4" namespace="http://schemas.microsoft.com/2003/10/Serialization/Arrays" />
+    </xsd:schema>
+  </wsdl:types>
+  <wsdl:message name="IAdvWorksDataService_GetProducts_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetProducts" />
+  </wsdl:message>
+  <wsdl:message name="IAdvWorksDataService_GetProducts_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetProductsResponse" />
+  </wsdl:message>
+  <wsdl:message name="IAdvWorksDataService_GetInventory_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetInventory" />
+  </wsdl:message>
+  <wsdl:message name="IAdvWorksDataService_GetInventory_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetInventoryResponse" />
+  </wsdl:message>
+  <wsdl:message name="IAdvWorksDataService_GetProductCostHistory_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetProductCostHistory" />
+  </wsdl:message>
+  <wsdl:message name="IAdvWorksDataService_GetProductCostHistory_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetProductCostHistoryResponse" />
+  </wsdl:message>
+  <wsdl:message name="IAdvWorksDataService_GetPhotos_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetPhotos" />
+  </wsdl:message>
+  <wsdl:message name="IAdvWorksDataService_GetPhotos_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetPhotosResponse" />
+  </wsdl:message>
+  <wsdl:message name="IAdvWorksDataService_GetDescription_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetDescription" />
+  </wsdl:message>
+  <wsdl:message name="IAdvWorksDataService_GetDescription_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetDescriptionResponse" />
+  </wsdl:message>
+  <wsdl:message name="IAdvWorksDataService_GetSubcategory_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetSubcategory" />
+  </wsdl:message>
+  <wsdl:message name="IAdvWorksDataService_GetSubcategory_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetSubcategoryResponse" />
+  </wsdl:message>
+  <wsdl:message name="IAdvWorksDataService_GetCategory_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetCategory" />
+  </wsdl:message>
+  <wsdl:message name="IAdvWorksDataService_GetCategory_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetCategoryResponse" />
+  </wsdl:message>
+  <wsdl:message name="IAdvWorksDataService_GetReview_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetReview" />
+  </wsdl:message>
+  <wsdl:message name="IAdvWorksDataService_GetReview_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetReviewResponse" />
+  </wsdl:message>
+  <wsdl:message name="IAdvWorksDataService_GetAllCategories_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetAllCategories" />
+  </wsdl:message>
+  <wsdl:message name="IAdvWorksDataService_GetAllCategories_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetAllCategoriesResponse" />
+  </wsdl:message>
+  <wsdl:message name="IAdvWorksDataService_GetAllSubCategories_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetAllSubCategories" />
+  </wsdl:message>
+  <wsdl:message name="IAdvWorksDataService_GetAllSubCategories_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetAllSubCategoriesResponse" />
+  </wsdl:message>
+  <wsdl:message name="IAdvWorksDataService_GetProductsCount_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetProductsCount" />
+  </wsdl:message>
+  <wsdl:message name="IAdvWorksDataService_GetProductsCount_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetProductsCountResponse" />
+  </wsdl:message>
+  <wsdl:message name="IAdvWorksDataService_GetProductPage_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetProductPage" />
+  </wsdl:message>
+  <wsdl:message name="IAdvWorksDataService_GetProductPage_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetProductPageResponse" />
+  </wsdl:message>
+  <wsdl:message name="IAdvWorksDataService_GetPhotoIds_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetPhotoIds" />
+  </wsdl:message>
+  <wsdl:message name="IAdvWorksDataService_GetPhotoIds_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetPhotoIdsResponse" />
+  </wsdl:message>
+  <wsdl:portType name="IAdvWorksDataService">
+    <wsdl:operation name="GetProducts">
+      <wsdl:input wsaw:Action="http://tempuri.org/IAdvWorksDataService/GetProducts" message="tns:IAdvWorksDataService_GetProducts_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IAdvWorksDataService/GetProductsResponse" message="tns:IAdvWorksDataService_GetProducts_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetInventory">
+      <wsdl:input wsaw:Action="http://tempuri.org/IAdvWorksDataService/GetInventory" message="tns:IAdvWorksDataService_GetInventory_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IAdvWorksDataService/GetInventoryResponse" message="tns:IAdvWorksDataService_GetInventory_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetProductCostHistory">
+      <wsdl:input wsaw:Action="http://tempuri.org/IAdvWorksDataService/GetProductCostHistory" message="tns:IAdvWorksDataService_GetProductCostHistory_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IAdvWorksDataService/GetProductCostHistoryResponse" message="tns:IAdvWorksDataService_GetProductCostHistory_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetPhotos">
+      <wsdl:input wsaw:Action="http://tempuri.org/IAdvWorksDataService/GetPhotos" message="tns:IAdvWorksDataService_GetPhotos_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IAdvWorksDataService/GetPhotosResponse" message="tns:IAdvWorksDataService_GetPhotos_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetDescription">
+      <wsdl:input wsaw:Action="http://tempuri.org/IAdvWorksDataService/GetDescription" message="tns:IAdvWorksDataService_GetDescription_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IAdvWorksDataService/GetDescriptionResponse" message="tns:IAdvWorksDataService_GetDescription_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetSubcategory">
+      <wsdl:input wsaw:Action="http://tempuri.org/IAdvWorksDataService/GetSubcategory" message="tns:IAdvWorksDataService_GetSubcategory_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IAdvWorksDataService/GetSubcategoryResponse" message="tns:IAdvWorksDataService_GetSubcategory_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetCategory">
+      <wsdl:input wsaw:Action="http://tempuri.org/IAdvWorksDataService/GetCategory" message="tns:IAdvWorksDataService_GetCategory_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IAdvWorksDataService/GetCategoryResponse" message="tns:IAdvWorksDataService_GetCategory_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetReview">
+      <wsdl:input wsaw:Action="http://tempuri.org/IAdvWorksDataService/GetReview" message="tns:IAdvWorksDataService_GetReview_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IAdvWorksDataService/GetReviewResponse" message="tns:IAdvWorksDataService_GetReview_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetAllCategories">
+      <wsdl:input wsaw:Action="http://tempuri.org/IAdvWorksDataService/GetAllCategories" message="tns:IAdvWorksDataService_GetAllCategories_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IAdvWorksDataService/GetAllCategoriesResponse" message="tns:IAdvWorksDataService_GetAllCategories_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetAllSubCategories">
+      <wsdl:input wsaw:Action="http://tempuri.org/IAdvWorksDataService/GetAllSubCategories" message="tns:IAdvWorksDataService_GetAllSubCategories_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IAdvWorksDataService/GetAllSubCategoriesResponse" message="tns:IAdvWorksDataService_GetAllSubCategories_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetProductsCount">
+      <wsdl:input wsaw:Action="http://tempuri.org/IAdvWorksDataService/GetProductsCount" message="tns:IAdvWorksDataService_GetProductsCount_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IAdvWorksDataService/GetProductsCountResponse" message="tns:IAdvWorksDataService_GetProductsCount_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetProductPage">
+      <wsdl:input wsaw:Action="http://tempuri.org/IAdvWorksDataService/GetProductPage" message="tns:IAdvWorksDataService_GetProductPage_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IAdvWorksDataService/GetProductPageResponse" message="tns:IAdvWorksDataService_GetProductPage_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetPhotoIds">
+      <wsdl:input wsaw:Action="http://tempuri.org/IAdvWorksDataService/GetPhotoIds" message="tns:IAdvWorksDataService_GetPhotoIds_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IAdvWorksDataService/GetPhotoIdsResponse" message="tns:IAdvWorksDataService_GetPhotoIds_OutputMessage" />
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:binding name="BasicHttpBinding_IAdvWorksDataService" type="tns:IAdvWorksDataService">
+    <soap:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="GetProducts">
+      <soap:operation soapAction="http://tempuri.org/IAdvWorksDataService/GetProducts" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetInventory">
+      <soap:operation soapAction="http://tempuri.org/IAdvWorksDataService/GetInventory" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetProductCostHistory">
+      <soap:operation soapAction="http://tempuri.org/IAdvWorksDataService/GetProductCostHistory" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetPhotos">
+      <soap:operation soapAction="http://tempuri.org/IAdvWorksDataService/GetPhotos" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetDescription">
+      <soap:operation soapAction="http://tempuri.org/IAdvWorksDataService/GetDescription" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetSubcategory">
+      <soap:operation soapAction="http://tempuri.org/IAdvWorksDataService/GetSubcategory" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetCategory">
+      <soap:operation soapAction="http://tempuri.org/IAdvWorksDataService/GetCategory" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetReview">
+      <soap:operation soapAction="http://tempuri.org/IAdvWorksDataService/GetReview" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetAllCategories">
+      <soap:operation soapAction="http://tempuri.org/IAdvWorksDataService/GetAllCategories" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetAllSubCategories">
+      <soap:operation soapAction="http://tempuri.org/IAdvWorksDataService/GetAllSubCategories" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetProductsCount">
+      <soap:operation soapAction="http://tempuri.org/IAdvWorksDataService/GetProductsCount" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetProductPage">
+      <soap:operation soapAction="http://tempuri.org/IAdvWorksDataService/GetProductPage" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetPhotoIds">
+      <soap:operation soapAction="http://tempuri.org/IAdvWorksDataService/GetPhotoIds" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:service name="DataService">
+    <wsdl:port name="BasicHttpBinding_IAdvWorksDataService" binding="tns:BasicHttpBinding_IAdvWorksDataService">
+      <soap:address location="http://localhost:9191/AdvWorksDataService.svc" />
+    </wsdl:port>
+  </wsdl:service>
+</wsdl:definitions>

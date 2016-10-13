@@ -1,0 +1,14 @@
+C:\Users\robcamer.NORTHAMERICA\Documents\Book Silverlight Recipes\Code\Ch02_ProgrammingModel\Recipe2.2\SimpleControl\TestWeb\bin\TestWeb.dll
+C:\Users\robcamer.NORTHAMERICA\Documents\Book Silverlight Recipes\Code\Ch02_ProgrammingModel\Recipe2.2\SimpleControl\TestWeb\bin\TestWeb.pdb
+C:\Users\robcamer.NORTHAMERICA\Documents\Book Silverlight Recipes\Code\Ch02_ProgrammingModel\Recipe2.2\SimpleControl\TestWeb\bin\System.Web.Silverlight.dll
+C:\Users\robcamer.NORTHAMERICA\Documents\Book Silverlight Recipes\Code\Ch02_ProgrammingModel\Recipe2.2\SimpleControl\TestWeb\bin\de\System.Web.Silverlight.resources.dll
+C:\Users\robcamer.NORTHAMERICA\Documents\Book Silverlight Recipes\Code\Ch02_ProgrammingModel\Recipe2.2\SimpleControl\TestWeb\bin\es\System.Web.Silverlight.resources.dll
+C:\Users\robcamer.NORTHAMERICA\Documents\Book Silverlight Recipes\Code\Ch02_ProgrammingModel\Recipe2.2\SimpleControl\TestWeb\bin\fr\System.Web.Silverlight.resources.dll
+C:\Users\robcamer.NORTHAMERICA\Documents\Book Silverlight Recipes\Code\Ch02_ProgrammingModel\Recipe2.2\SimpleControl\TestWeb\bin\it\System.Web.Silverlight.resources.dll
+C:\Users\robcamer.NORTHAMERICA\Documents\Book Silverlight Recipes\Code\Ch02_ProgrammingModel\Recipe2.2\SimpleControl\TestWeb\bin\ja\System.Web.Silverlight.resources.dll
+C:\Users\robcamer.NORTHAMERICA\Documents\Book Silverlight Recipes\Code\Ch02_ProgrammingModel\Recipe2.2\SimpleControl\TestWeb\bin\ko\System.Web.Silverlight.resources.dll
+C:\Users\robcamer.NORTHAMERICA\Documents\Book Silverlight Recipes\Code\Ch02_ProgrammingModel\Recipe2.2\SimpleControl\TestWeb\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\robcamer.NORTHAMERICA\Documents\Book Silverlight Recipes\Code\Ch02_ProgrammingModel\Recipe2.2\SimpleControl\TestWeb\obj\Debug\TestWeb.dll
+C:\Users\robcamer.NORTHAMERICA\Documents\Book Silverlight Recipes\Code\Ch02_ProgrammingModel\Recipe2.2\SimpleControl\TestWeb\obj\Debug\TestWeb.pdb
+C:\Users\robcamer.NORTHAMERICA\Documents\Book Silverlight Recipes\Code\Ch02_ProgrammingModel\Recipe2.2\SimpleControl\TestWeb\bin\zh-Hans\System.Web.Silverlight.resources.dll
+C:\Users\robcamer.NORTHAMERICA\Documents\Book Silverlight Recipes\Code\Ch02_ProgrammingModel\Recipe2.2\SimpleControl\TestWeb\bin\zh-Hant\System.Web.Silverlight.resources.dll

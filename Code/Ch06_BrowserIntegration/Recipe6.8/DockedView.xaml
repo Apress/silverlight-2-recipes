@@ -1,0 +1,25 @@
+﻿<UserControl x:Class="Ch06_BrowserIntegration.Recipe6_8.DockedView"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation" 
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" 
+    Width="130" Height="200" Background="#00FFFFFF" 
+    HorizontalAlignment="Left" VerticalAlignment="Top">
+  <Grid Background="#00FFFFFF" >
+    <Border CornerRadius="15,15,15,15">
+      <Border.Background>
+        <LinearGradientBrush EndPoint="-0.227,0.337" 
+        StartPoint="1.227,0.663">
+          <GradientStop Color="#FFB9D4C6" Offset="0.397"/>
+          <GradientStop Color="#FF65E8A5" Offset="1"/>
+          <GradientStop Color="#FF65E8A5"/>
+          <GradientStop Color="#FFB9D4C6" Offset="0.554"/>
+          <GradientStop Color="#FFB9D4C6" Offset="0.482"/>
+        </LinearGradientBrush>
+      </Border.Background>
+      <Grid x:Name="LayoutRoot" Margin="4" Background="{x:Null}">
+        <TextBlock Text="Cool Docked Silverlight 2 UI goes here" TextWrapping="Wrap"/>
+        <Button x:Name="BtnShowFlyout" Margin="23,0,23,8" Content="Show Flyout"
+     VerticalAlignment="Bottom"  Click="BtnShowFlyout_Click" Height="Auto"/>
+      </Grid>
+    </Border>
+  </Grid>
+</UserControl>

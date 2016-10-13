@@ -1,0 +1,199 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 10.00
+# Visual Studio 2008
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "5.1 Using Styles", "5.1 Using Styles\5.1 Using Styles.csproj", "{AC422404-9BDE-4A21-A9C6-D101C6E0B7F2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "5.2 Control Template", "5.2 Control Template\5.2 Control Template.csproj", "{103E3DE1-F368-43D4-83E3-179436A2A445}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "5.3 ListBoxItem Customization", "5.3 ListBoxItem Customization\5.3 ListBoxItem Customization.csproj", "{8A02BB72-8497-45D8-9C5A-FC79757B606F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "5.4 Using Popup", "5.4 Using Popup\5.4 Using Popup.csproj", "{E9615125-B5F2-4F76-AACA-D58464216640}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "5.5 DataGrid Row Details", "5.5 DataGrid Row Details\5.5 DataGrid Row Details.csproj", "{1E199CEF-3706-45FB-8E83-BFD75960F44C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "5.6 DataGrid Cell Templating", "5.6 DataGrid Cell Templating\5.6 DataGrid Cell Templating.csproj", "{4DB6D494-2F5A-4654-9E6C-F6EEFAC3DFF5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "5.7 DataGrid Custom Column", "5.7 DataGrid Custom Column\5.7 DataGrid Custom Column.csproj", "{B0B0B2A8-7229-4D63-847C-C0758377300A}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "5.8 Composite Control", "5.8 Composite Control", "{02963406-934B-4DEB-820A-103BF26B0571}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "5.8 Composite Control Library", "5.8 Composite Control\5.8 Composite Control Library\5.8 Composite Control Library.csproj", "{128C6944-BD5C-4E99-968F-FF971DC400FD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "5.8 Composite Control Test", "5.8 Composite Control\5.8 Composite Control Test\5.8 Composite Control Test.csproj", "{D9723ABC-37EA-4F97-BBC2-17794C2AB2B8}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "5.10 ProgressBar", "5.10 ProgressBar", "{CB5DB69F-72E2-440B-B816-F7F34362539F}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "5.9 Custom Wrap Panel", "5.9 Custom Wrap Panel", "{D0C4BD33-A0AC-41F8-B4FC-3B1C4C2D9649}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "5.11 Expander", "5.11 Expander", "{BF90F605-A2C2-4021-9F2B-450EE58CC59B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "5.9 Wrap Panel", "5.9 Custom Wrap Panel\5.9 Wrap Panel\5.9 Wrap Panel.csproj", "{D531564F-0BC0-449D-A6FB-9C5A7B569146}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "5.9 Wrap Panel Test", "5.9 Custom Wrap Panel\5.9 Wrap Panel Test\5.9 Wrap Panel Test.csproj", "{44E2441A-2BCA-4646-8E52-DA1FC689ACFD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "5.10 ProgressBarLib", "5.10 ProgressBar\5.10 ProgressBar\5.10 ProgressBarLib.csproj", "{56784D9F-D9D7-4EF1-B241-0D3323D125DA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "5.10 ProgressBarTest", "5.10 ProgressBar\5.10 ProgressBarTest\5.10 ProgressBarTest.csproj", "{F414515A-A398-404B-B0B3-D12B37C85C8A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "5.11 ExpanderLib", "5.11 Expander\5.11 ExpanderLib\5.11 ExpanderLib.csproj", "{6BD755AE-D50E-435F-8317-C864FBC193B5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "5.11 Expander Test", "5.11 Expander\5.11 Expander Test\5.11 Expander Test.csproj", "{B2E13FB7-4FB3-4002-A1F0-1B9FDC0D25FD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AdventureWorksDataService", "AdventureWorksDataService\AdventureWorksDataService.csproj", "{D6655CBA-6DA7-41DC-8C24-787F6CA2B27D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestWeb", "TestWeb\TestWeb.csproj", "{F11CCDDD-8B45-4271-BE20-24D005EB6F03}"
+EndProject
+Global
+	GlobalSection(TeamFoundationVersionControl) = preSolution
+		SccNumberOfProjects = 18
+		SccEnterpriseProvider = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+		SccTeamFoundationServer = http://jit-m7:8080/
+		SccLocalPath0 = .
+		SccProjectUniqueName1 = 5.1\u0020Using\u0020Styles\\5.1\u0020Using\u0020Styles.csproj
+		SccProjectName1 = 5.1\u0020Using\u0020Styles
+		SccLocalPath1 = 5.1\u0020Using\u0020Styles
+		SccProjectUniqueName2 = 5.2\u0020Control\u0020Template\\5.2\u0020Control\u0020Template.csproj
+		SccProjectName2 = 5.2\u0020Control\u0020Template
+		SccLocalPath2 = 5.2\u0020Control\u0020Template
+		SccProjectUniqueName3 = 5.3\u0020ListBoxItem\u0020Customization\\5.3\u0020ListBoxItem\u0020Customization.csproj
+		SccProjectName3 = 5.3\u0020ListBoxItem\u0020Customization
+		SccLocalPath3 = 5.3\u0020ListBoxItem\u0020Customization
+		SccProjectUniqueName4 = 5.4\u0020Using\u0020Popup\\5.4\u0020Using\u0020Popup.csproj
+		SccProjectName4 = 5.4\u0020Using\u0020Popup
+		SccLocalPath4 = 5.4\u0020Using\u0020Popup
+		SccProjectUniqueName5 = 5.5\u0020DataGrid\u0020Row\u0020Details\\5.5\u0020DataGrid\u0020Row\u0020Details.csproj
+		SccProjectName5 = 5.5\u0020DataGrid\u0020Row\u0020Details
+		SccLocalPath5 = 5.5\u0020DataGrid\u0020Row\u0020Details
+		SccProjectUniqueName6 = 5.6\u0020DataGrid\u0020Cell\u0020Templating\\5.6\u0020DataGrid\u0020Cell\u0020Templating.csproj
+		SccProjectName6 = 5.6\u0020DataGrid\u0020Cell\u0020Templating
+		SccLocalPath6 = 5.6\u0020DataGrid\u0020Cell\u0020Templating
+		SccProjectUniqueName7 = 5.7\u0020DataGrid\u0020Custom\u0020Column\\5.7\u0020DataGrid\u0020Custom\u0020Column.csproj
+		SccProjectName7 = 5.7\u0020DataGrid\u0020Custom\u0020Column
+		SccLocalPath7 = 5.7\u0020DataGrid\u0020Custom\u0020Column
+		SccProjectUniqueName8 = AdventureWorksDataService\\AdventureWorksDataService.csproj
+		SccProjectName8 = AdventureWorksDataService
+		SccLocalPath8 = AdventureWorksDataService
+		SccProjectUniqueName9 = 5.10\u0020ProgressBar\\5.10\u0020ProgressBar\\5.10\u0020ProgressBarLib.csproj
+		SccProjectTopLevelParentUniqueName9 = Ch05_Controls.sln
+		SccProjectName9 = 5.10\u0020ProgressBar/5.10\u0020ProgressBar
+		SccLocalPath9 = 5.10\u0020ProgressBar\\5.10\u0020ProgressBar
+		SccProjectUniqueName10 = 5.10\u0020ProgressBar\\5.10\u0020ProgressBarTest\\5.10\u0020ProgressBarTest.csproj
+		SccProjectTopLevelParentUniqueName10 = Ch05_Controls.sln
+		SccProjectName10 = 5.10\u0020ProgressBar/5.10\u0020ProgressBarTest
+		SccLocalPath10 = 5.10\u0020ProgressBar\\5.10\u0020ProgressBarTest
+		SccProjectUniqueName11 = 5.11\u0020Expander\\5.11\u0020Expander\u0020Test\\5.11\u0020Expander\u0020Test.csproj
+		SccProjectTopLevelParentUniqueName11 = Ch05_Controls.sln
+		SccProjectName11 = 5.11\u0020Expander/5.11\u0020Expander\u0020Test
+		SccLocalPath11 = 5.11\u0020Expander\\5.11\u0020Expander\u0020Test
+		SccProjectUniqueName12 = 5.11\u0020Expander\\5.11\u0020ExpanderLib\\5.11\u0020ExpanderLib.csproj
+		SccProjectTopLevelParentUniqueName12 = Ch05_Controls.sln
+		SccProjectName12 = 5.11\u0020Expander/5.11\u0020ExpanderLib
+		SccLocalPath12 = 5.11\u0020Expander\\5.11\u0020ExpanderLib
+		SccProjectUniqueName13 = 5.8\u0020Composite\u0020Control\\5.8\u0020Composite\u0020Control\u0020Library\\5.8\u0020Composite\u0020Control\u0020Library.csproj
+		SccProjectTopLevelParentUniqueName13 = Ch05_Controls.sln
+		SccProjectName13 = 5.8\u0020Composite\u0020Control/5.8\u0020Composite\u0020Control\u0020Library
+		SccLocalPath13 = 5.8\u0020Composite\u0020Control\\5.8\u0020Composite\u0020Control\u0020Library
+		SccProjectUniqueName14 = 5.8\u0020Composite\u0020Control\\5.8\u0020Composite\u0020Control\u0020Test\\5.8\u0020Composite\u0020Control\u0020Test.csproj
+		SccProjectTopLevelParentUniqueName14 = Ch05_Controls.sln
+		SccProjectName14 = 5.8\u0020Composite\u0020Control/5.8\u0020Composite\u0020Control\u0020Test
+		SccLocalPath14 = 5.8\u0020Composite\u0020Control\\5.8\u0020Composite\u0020Control\u0020Test
+		SccProjectUniqueName15 = 5.9\u0020Custom\u0020Wrap\u0020Panel\\5.9\u0020Wrap\u0020Panel\u0020Test\\5.9\u0020Wrap\u0020Panel\u0020Test.csproj
+		SccProjectTopLevelParentUniqueName15 = Ch05_Controls.sln
+		SccProjectName15 = 5.9\u0020Custom\u0020Wrap\u0020Panel/5.9\u0020Wrap\u0020Panel\u0020Test
+		SccLocalPath15 = 5.9\u0020Custom\u0020Wrap\u0020Panel\\5.9\u0020Wrap\u0020Panel\u0020Test
+		SccProjectUniqueName16 = 5.9\u0020Custom\u0020Wrap\u0020Panel\\5.9\u0020Wrap\u0020Panel\\5.9\u0020Wrap\u0020Panel.csproj
+		SccProjectTopLevelParentUniqueName16 = Ch05_Controls.sln
+		SccProjectName16 = 5.9\u0020Custom\u0020Wrap\u0020Panel/5.9\u0020Wrap\u0020Panel
+		SccLocalPath16 = 5.9\u0020Custom\u0020Wrap\u0020Panel\\5.9\u0020Wrap\u0020Panel
+		SccProjectUniqueName17 = TestWeb\\TestWeb.csproj
+		SccProjectName17 = TestWeb
+		SccLocalPath17 = TestWeb
+	EndGlobalSection
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{AC422404-9BDE-4A21-A9C6-D101C6E0B7F2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AC422404-9BDE-4A21-A9C6-D101C6E0B7F2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AC422404-9BDE-4A21-A9C6-D101C6E0B7F2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AC422404-9BDE-4A21-A9C6-D101C6E0B7F2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{103E3DE1-F368-43D4-83E3-179436A2A445}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{103E3DE1-F368-43D4-83E3-179436A2A445}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{103E3DE1-F368-43D4-83E3-179436A2A445}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{103E3DE1-F368-43D4-83E3-179436A2A445}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8A02BB72-8497-45D8-9C5A-FC79757B606F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8A02BB72-8497-45D8-9C5A-FC79757B606F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8A02BB72-8497-45D8-9C5A-FC79757B606F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8A02BB72-8497-45D8-9C5A-FC79757B606F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E9615125-B5F2-4F76-AACA-D58464216640}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E9615125-B5F2-4F76-AACA-D58464216640}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E9615125-B5F2-4F76-AACA-D58464216640}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E9615125-B5F2-4F76-AACA-D58464216640}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1E199CEF-3706-45FB-8E83-BFD75960F44C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1E199CEF-3706-45FB-8E83-BFD75960F44C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1E199CEF-3706-45FB-8E83-BFD75960F44C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1E199CEF-3706-45FB-8E83-BFD75960F44C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4DB6D494-2F5A-4654-9E6C-F6EEFAC3DFF5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4DB6D494-2F5A-4654-9E6C-F6EEFAC3DFF5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4DB6D494-2F5A-4654-9E6C-F6EEFAC3DFF5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4DB6D494-2F5A-4654-9E6C-F6EEFAC3DFF5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B0B0B2A8-7229-4D63-847C-C0758377300A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B0B0B2A8-7229-4D63-847C-C0758377300A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B0B0B2A8-7229-4D63-847C-C0758377300A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B0B0B2A8-7229-4D63-847C-C0758377300A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{128C6944-BD5C-4E99-968F-FF971DC400FD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{128C6944-BD5C-4E99-968F-FF971DC400FD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{128C6944-BD5C-4E99-968F-FF971DC400FD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{128C6944-BD5C-4E99-968F-FF971DC400FD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D9723ABC-37EA-4F97-BBC2-17794C2AB2B8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D9723ABC-37EA-4F97-BBC2-17794C2AB2B8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D9723ABC-37EA-4F97-BBC2-17794C2AB2B8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D9723ABC-37EA-4F97-BBC2-17794C2AB2B8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D531564F-0BC0-449D-A6FB-9C5A7B569146}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D531564F-0BC0-449D-A6FB-9C5A7B569146}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D531564F-0BC0-449D-A6FB-9C5A7B569146}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D531564F-0BC0-449D-A6FB-9C5A7B569146}.Release|Any CPU.Build.0 = Release|Any CPU
+		{44E2441A-2BCA-4646-8E52-DA1FC689ACFD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{44E2441A-2BCA-4646-8E52-DA1FC689ACFD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{44E2441A-2BCA-4646-8E52-DA1FC689ACFD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{44E2441A-2BCA-4646-8E52-DA1FC689ACFD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{56784D9F-D9D7-4EF1-B241-0D3323D125DA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{56784D9F-D9D7-4EF1-B241-0D3323D125DA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{56784D9F-D9D7-4EF1-B241-0D3323D125DA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{56784D9F-D9D7-4EF1-B241-0D3323D125DA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F414515A-A398-404B-B0B3-D12B37C85C8A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F414515A-A398-404B-B0B3-D12B37C85C8A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F414515A-A398-404B-B0B3-D12B37C85C8A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F414515A-A398-404B-B0B3-D12B37C85C8A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6BD755AE-D50E-435F-8317-C864FBC193B5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6BD755AE-D50E-435F-8317-C864FBC193B5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6BD755AE-D50E-435F-8317-C864FBC193B5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6BD755AE-D50E-435F-8317-C864FBC193B5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B2E13FB7-4FB3-4002-A1F0-1B9FDC0D25FD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B2E13FB7-4FB3-4002-A1F0-1B9FDC0D25FD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B2E13FB7-4FB3-4002-A1F0-1B9FDC0D25FD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B2E13FB7-4FB3-4002-A1F0-1B9FDC0D25FD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D6655CBA-6DA7-41DC-8C24-787F6CA2B27D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D6655CBA-6DA7-41DC-8C24-787F6CA2B27D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D6655CBA-6DA7-41DC-8C24-787F6CA2B27D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D6655CBA-6DA7-41DC-8C24-787F6CA2B27D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F11CCDDD-8B45-4271-BE20-24D005EB6F03}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F11CCDDD-8B45-4271-BE20-24D005EB6F03}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F11CCDDD-8B45-4271-BE20-24D005EB6F03}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F11CCDDD-8B45-4271-BE20-24D005EB6F03}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{128C6944-BD5C-4E99-968F-FF971DC400FD} = {02963406-934B-4DEB-820A-103BF26B0571}
+		{D9723ABC-37EA-4F97-BBC2-17794C2AB2B8} = {02963406-934B-4DEB-820A-103BF26B0571}
+		{56784D9F-D9D7-4EF1-B241-0D3323D125DA} = {CB5DB69F-72E2-440B-B816-F7F34362539F}
+		{F414515A-A398-404B-B0B3-D12B37C85C8A} = {CB5DB69F-72E2-440B-B816-F7F34362539F}
+		{D531564F-0BC0-449D-A6FB-9C5A7B569146} = {D0C4BD33-A0AC-41F8-B4FC-3B1C4C2D9649}
+		{44E2441A-2BCA-4646-8E52-DA1FC689ACFD} = {D0C4BD33-A0AC-41F8-B4FC-3B1C4C2D9649}
+		{6BD755AE-D50E-435F-8317-C864FBC193B5} = {BF90F605-A2C2-4021-9F2B-450EE58CC59B}
+		{B2E13FB7-4FB3-4002-A1F0-1B9FDC0D25FD} = {BF90F605-A2C2-4021-9F2B-450EE58CC59B}
+	EndGlobalSection
+EndGlobal

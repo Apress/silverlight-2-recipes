@@ -1,0 +1,153 @@
+﻿<Project ToolsVersion="3.5" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>9.0.30729</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{4AE7E752-BFD4-4F5C-8D4C-ADA1CD2E09A1}</ProjectGuid>
+    <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>TestWeb</RootNamespace>
+    <AssemblyName>TestWeb</AssemblyName>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+    <SilverlightApplicationList>{CDBF8B4A-66D9-48C3-9E16-A240D0F615E2}|..\Recipe3.1\Recipe3.1.csproj|ClientBin|False,{1A97ECA1-242B-4E88-96AC-FEF922E28370}|..\Recipe3.2\Recipe3.2.csproj|ClientBin|False,{A139FF17-2B00-4339-9BCE-E27C1F3D5A19}|..\Shapes\3-3 How to Use Graphics Primitives to Draw.csproj|ClientBin|False,{64C0432F-18CD-42DD-979F-3A3983AECEBA}|..\Recipe3.4\Recipe3.4.csproj|ClientBin|False,{A9835974-24D2-4AA1-AEBD-E43F24F03D30}|..\Recipe3.5\Recipe3.5.csproj|ClientBin|False,{F1C1B806-6538-4C8F-86FF-CEF58EC26DE5}|..\Recipe3.6\Recipe3.6.csproj|ClientBin|False,{0CA71931-3DC6-440C-8C8C-0E58E345992E}|..\Recipe3.6\Recipe3.6.csproj|ClientBin|False,{B57DC9B6-8351-4BD8-BCF5-14A49560F231}|..\Recipe3.7\Recipe3.7.csproj|ClientBin|False,{AAE272E9-B483-4346-AD12-15BBC6C12CFB}|..\Recipe3.10\Recipe3.10.csproj|ClientBin|False,{F64EE8FB-6D0D-4D67-ADDE-FD309D14BBF0}|..\Recipe3.3\Recipe3.3.csproj|ClientBin|False,{D4B16EFE-4C51-43F8-A14E-422A3B45D260}|..\Recipe3.4\Recipe3.4.csproj|ClientBin|False,{417E7DEC-8AF9-4B71-87A0-883EE2D55F66}|..\Recipe3.7\Recipe3.7.csproj|ClientBin|False,{79C554A7-3CD4-483A-89CF-C8E7DECAB336}|..\Recipe3.10\3-10 How to Apply a Border to Elements.csproj|ClientBin|False,{519F899C-DCA3-4FA6-8736-7D6C4CEE01F0}|..\Recipe3.14\3-14 How to Create a Simple Cartoon.csproj|ClientBin|False,{A848D7A5-5793-4C7E-88B1-4F61BF040DEE}|..\Recipe3.15\3-15 How to Handle Keyboard Input.csproj|ClientBin|False,{CB96116F-5D36-44A9-B24C-1A31E6E3BF93}|..\Recipe3.16\3-16 How to Work with Ink.csproj|ClientBin|False</SilverlightApplicationList>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Core">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data.DataSetExtensions">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Web.Extensions">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Web.Silverlight, Version=2.0.5.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL" />
+    <Reference Include="System.Xml.Linq">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.EnterpriseServices" />
+    <Reference Include="System.Web.Mobile" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="ClientBin\Ch03_DevelopingUX.Recipe3_11.xap" />
+    <Content Include="ClientBin\Ch03_DevelopingUX.Recipe3_12.xap" />
+    <Content Include="ClientBin\Ch03_DevelopingUX.Recipe3_2.xap" />
+    <Content Include="ClientBin\Ch03_DevelopingUX.Recipe3_3.xap" />
+    <Content Include="ClientBin\Ch03_DevelopingUX.Recipe3_4.xap" />
+    <Content Include="ClientBin\Ch03_DevelopingUX.Recipe3_5.xap" />
+    <Content Include="ClientBin\Ch03_DevelopingUX.Recipe3_7.xap" />
+    <Content Include="ClientBin\Ch03_DevelopingUX.Recipe3_9.xap" />
+    <Content Include="ClientBin\video\Video.wmv" />
+    <Content Include="Recipe3.16TestPage.aspx" />
+    <Content Include="Recipe3.16TestPage.html" />
+    <Content Include="Recipe3.15TestPage.aspx" />
+    <Content Include="Recipe3.15TestPage.html" />
+    <Content Include="Recipe3.14TestPage.aspx" />
+    <Content Include="Recipe3.14TestPage.html" />
+    <Content Include="ClientBin\Ch03_DevelopingUX.Recipe3_1.xap" />
+    <Content Include="ClientBin\Ch03_DevelopingUX.Recipe3_10.xap" />
+    <Content Include="ClientBin\Ch03_DevelopingUX.Recipe3_13.xap" />
+    <Content Include="ClientBin\Ch03_DevelopingUX.Recipe3_14.xap" />
+    <Content Include="ClientBin\Ch03_DevelopingUX.Recipe3_15.xap" />
+    <Content Include="ClientBin\Ch03_DevelopingUX.Recipe3_16.xap" />
+    <Content Include="ClientBin\Ch03_DevelopingUX.Recipe3_6.xap" />
+    <Content Include="ClientBin\Ch03_DevelopingUX.Recipe3_8.xap" />
+    <Content Include="Recipe3.10TestPage.aspx" />
+    <Content Include="Recipe3.10TestPage.html" />
+    <Content Include="Recipe3.11TestPage.aspx" />
+    <Content Include="Recipe3.11TestPage.html" />
+    <Content Include="Recipe3.12TestPage.aspx" />
+    <Content Include="Recipe3.12TestPage.html" />
+    <Content Include="Recipe3.13TestPage.aspx" />
+    <Content Include="Recipe3.13TestPage.html" />
+    <Content Include="Recipe3.3TestPage.aspx" />
+    <Content Include="Recipe3.3TestPage.html" />
+    <Content Include="Default.aspx" />
+    <Content Include="Recipe3.1TestPage.aspx" />
+    <Content Include="Recipe3.1TestPage.html" />
+    <Content Include="Recipe3.2TestPage.aspx" />
+    <Content Include="Recipe3.2TestPage.html" />
+    <Content Include="Recipe3.4TestPage.aspx" />
+    <Content Include="Recipe3.4TestPage.html" />
+    <Content Include="Recipe3.5TestPage.aspx" />
+    <Content Include="Recipe3.5TestPage.html" />
+    <Content Include="Recipe3.6TestPage.aspx" />
+    <Content Include="Recipe3.6TestPage.html" />
+    <Content Include="Recipe3.7TestPage.aspx" />
+    <Content Include="Recipe3.7TestPage.html" />
+    <Content Include="Recipe3.8TestPage.aspx" />
+    <Content Include="Recipe3.8TestPage.html" />
+    <Content Include="Recipe3.9TestPage.aspx" />
+    <Content Include="Recipe3.9TestPage.html" />
+    <Content Include="Silverlight.js" />
+    <Content Include="Web.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Default.aspx.cs">
+      <SubType>ASPXCodeBehind</SubType>
+      <DependentUpon>Default.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Default.aspx.designer.cs">
+      <DependentUpon>Default.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="App_Data\" />
+    <Folder Include="ClientBin\img\" />
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <Import Project="$(MSBuildExtensionsPath)\Microsoft\VisualStudio\v9.0\WebApplications\Microsoft.WebApplication.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
+        <WebProjectProperties>
+          <UseIIS>False</UseIIS>
+          <AutoAssignPort>True</AutoAssignPort>
+          <DevelopmentServerPort>3807</DevelopmentServerPort>
+          <DevelopmentServerVPath>/</DevelopmentServerVPath>
+          <IISUrl>
+          </IISUrl>
+          <NTLMAuthentication>False</NTLMAuthentication>
+          <UseCustomServer>False</UseCustomServer>
+          <CustomServerUrl>
+          </CustomServerUrl>
+          <SaveServerSettingsInUserFile>False</SaveServerSettingsInUserFile>
+        </WebProjectProperties>
+      </FlavorProperties>
+    </VisualStudio>
+  </ProjectExtensions>
+</Project>

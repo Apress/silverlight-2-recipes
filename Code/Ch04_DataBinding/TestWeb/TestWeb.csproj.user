@@ -1,0 +1,39 @@
+﻿<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
+        <WebProjectProperties>
+          <StartPageUrl>Default.aspx</StartPageUrl>
+          <StartAction>SpecificPage</StartAction>
+          <AspNetDebugging>True</AspNetDebugging>
+          <SilverlightDebugging>True</SilverlightDebugging>
+          <NativeDebugging>False</NativeDebugging>
+          <SQLDebugging>False</SQLDebugging>
+          <PublishCopyOption>RunFiles</PublishCopyOption>
+          <PublishTargetLocation>
+          </PublishTargetLocation>
+          <PublishDeleteAllFiles>False</PublishDeleteAllFiles>
+          <PublishCopyAppData>True</PublishCopyAppData>
+          <ExternalProgram>
+          </ExternalProgram>
+          <StartExternalURL>
+          </StartExternalURL>
+          <StartCmdLineArguments>
+          </StartCmdLineArguments>
+          <StartWorkingDirectory>
+          </StartWorkingDirectory>
+          <EnableENC>False</EnableENC>
+          <AlwaysStartWebServerOnDebug>True</AlwaysStartWebServerOnDebug>
+          <EnableWcfTestClientForSVC>False</EnableWcfTestClientForSVC>
+          <ProjectOutputReferences>
+            <Ref Project="{56F2F415-5107-43CC-B2C8-CFEEEC091EAF}" Folder="ClientBin">Ch04_DataBinding.Recipe4_1.xap</Ref>
+            <Ref Project="{744428D7-B01C-4755-AE3C-4DE2D9252A48}" Folder="ClientBin">Ch04_DataBinding.Recipe4_2.xap</Ref>
+            <Ref Project="{94A21A9F-7F8B-422C-B49F-980A1455B5FB}" Folder="ClientBin">Ch04_DataBinding.Recipe4_3.xap</Ref>
+            <Ref Project="{828C651F-58AF-455A-9AAF-A14CFDD9A0E4}" Folder="ClientBin">Ch04_DataBinding.Recipe4_4.xap</Ref>
+            <Ref Project="{98E7EF1A-D526-4C7C-9491-68E0098001EE}" Folder="ClientBin">Ch04_DataBinding.Recipe4_5.xap</Ref>
+          </ProjectOutputReferences>
+        </WebProjectProperties>
+      </FlavorProperties>
+    </VisualStudio>
+  </ProjectExtensions>
+</Project>

@@ -1,0 +1,39 @@
+﻿<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
+        <WebProjectProperties>
+          <StartPageUrl>Default.aspx</StartPageUrl>
+          <StartAction>SpecificPage</StartAction>
+          <AspNetDebugging>True</AspNetDebugging>
+          <SilverlightDebugging>True</SilverlightDebugging>
+          <NativeDebugging>False</NativeDebugging>
+          <SQLDebugging>False</SQLDebugging>
+          <PublishCopyOption>RunFiles</PublishCopyOption>
+          <PublishTargetLocation>
+          </PublishTargetLocation>
+          <PublishDeleteAllFiles>False</PublishDeleteAllFiles>
+          <PublishCopyAppData>True</PublishCopyAppData>
+          <ExternalProgram>
+          </ExternalProgram>
+          <StartExternalURL>
+          </StartExternalURL>
+          <StartCmdLineArguments>
+          </StartCmdLineArguments>
+          <StartWorkingDirectory>
+          </StartWorkingDirectory>
+          <EnableENC>False</EnableENC>
+          <AlwaysStartWebServerOnDebug>True</AlwaysStartWebServerOnDebug>
+          <EnableWcfTestClientForSVC>False</EnableWcfTestClientForSVC>
+          <ProjectOutputReferences>
+            <Ref Project="{44A62DB4-8FBB-46C1-80C7-D45EC61ABD7B}" Folder="ClientBin">Ch07_Networking.Recipe7_1.ProductsDataViewer.xap</Ref>
+            <Ref Project="{35CCCD69-50D2-4BF5-9057-851972C21D3F}" Folder="ClientBin">Ch07_Networking.Recipe7_2.POXProductsDataViewer.xap</Ref>
+            <Ref Project="{D1C5128C-79E7-4980-81CF-BC2927F97282}" Folder="ClientBin">Ch07_Networking.Recipe7_3.JSONProductsDataViewer.xap</Ref>
+            <Ref Project="{49424305-8BDB-4432-964F-DB3103D7F5F2}" Folder="ClientBin">Ch07_Networking.Recipe7_4.PhotoClient.xap</Ref>
+            <Ref Project="{41D96324-FBB3-4ED4-ACA4-DD62C1D8C2E3}" Folder="ClientBin">Ch07_Networking.Recipe7_5.ChatClient.xap</Ref>
+          </ProjectOutputReferences>
+        </WebProjectProperties>
+      </FlavorProperties>
+    </VisualStudio>
+  </ProjectExtensions>
+</Project>

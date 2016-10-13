@@ -1,0 +1,45 @@
+﻿<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
+        <WebProjectProperties>
+          <StartPageUrl>Default.aspx</StartPageUrl>
+          <StartAction>SpecificPage</StartAction>
+          <AspNetDebugging>True</AspNetDebugging>
+          <SilverlightDebugging>True</SilverlightDebugging>
+          <NativeDebugging>False</NativeDebugging>
+          <SQLDebugging>False</SQLDebugging>
+          <PublishCopyOption>RunFiles</PublishCopyOption>
+          <PublishTargetLocation>
+          </PublishTargetLocation>
+          <PublishDeleteAllFiles>False</PublishDeleteAllFiles>
+          <PublishCopyAppData>True</PublishCopyAppData>
+          <ExternalProgram>
+          </ExternalProgram>
+          <StartExternalURL>
+          </StartExternalURL>
+          <StartCmdLineArguments>
+          </StartCmdLineArguments>
+          <StartWorkingDirectory>
+          </StartWorkingDirectory>
+          <EnableENC>False</EnableENC>
+          <AlwaysStartWebServerOnDebug>True</AlwaysStartWebServerOnDebug>
+          <EnableWcfTestClientForSVC>False</EnableWcfTestClientForSVC>
+          <ProjectOutputReferences>
+            <Ref Project="{AC422404-9BDE-4A21-A9C6-D101C6E0B7F2}" Folder="ClientBin">Ch05_Controls.Recipe5_1.xap</Ref>
+            <Ref Project="{103E3DE1-F368-43D4-83E3-179436A2A445}" Folder="ClientBin">Ch05_Controls.Recipe5_2.xap</Ref>
+            <Ref Project="{8A02BB72-8497-45D8-9C5A-FC79757B606F}" Folder="ClientBin">Ch05_Controls.Recipe5_3.xap</Ref>
+            <Ref Project="{E9615125-B5F2-4F76-AACA-D58464216640}" Folder="ClientBin">Ch05_Controls.Recipe5_4.xap</Ref>
+            <Ref Project="{1E199CEF-3706-45FB-8E83-BFD75960F44C}" Folder="ClientBin">Ch05_Controls.Recipe5_5.xap</Ref>
+            <Ref Project="{4DB6D494-2F5A-4654-9E6C-F6EEFAC3DFF5}" Folder="ClientBin">Ch05_Controls.Recipe5_6.xap</Ref>
+            <Ref Project="{B0B0B2A8-7229-4D63-847C-C0758377300A}" Folder="ClientBin">Ch05_Controls.Recipe5_7.xap</Ref>
+            <Ref Project="{D9723ABC-37EA-4F97-BBC2-17794C2AB2B8}" Folder="ClientBin">Ch05_Controls.Recipe5_8.CompositeControlTest.xap</Ref>
+            <Ref Project="{44E2441A-2BCA-4646-8E52-DA1FC689ACFD}" Folder="ClientBin">Ch05_Controls.Recipe5_9.WrapPanelTest.xap</Ref>
+            <Ref Project="{F414515A-A398-404B-B0B3-D12B37C85C8A}" Folder="ClientBin">Ch05_Controls.Recipe5_10.ProgressBarTest.xap</Ref>
+            <Ref Project="{B2E13FB7-4FB3-4002-A1F0-1B9FDC0D25FD}" Folder="ClientBin">Ch05_Controls.Recipe5_11.ExpanderTest.xap</Ref>
+          </ProjectOutputReferences>
+        </WebProjectProperties>
+      </FlavorProperties>
+    </VisualStudio>
+  </ProjectExtensions>
+</Project>

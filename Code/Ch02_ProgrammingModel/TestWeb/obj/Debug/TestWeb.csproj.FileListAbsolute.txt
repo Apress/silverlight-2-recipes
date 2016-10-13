@@ -1,0 +1,14 @@
+D:\RobcamerDocs\Book Silverlight Recipes\Code\Ch02_ProgrammingModel\TestWeb\bin\Ch02_ProgrammingModel.TestWeb.dll
+D:\RobcamerDocs\Book Silverlight Recipes\Code\Ch02_ProgrammingModel\TestWeb\bin\Ch02_ProgrammingModel.TestWeb.pdb
+D:\RobcamerDocs\Book Silverlight Recipes\Code\Ch02_ProgrammingModel\TestWeb\bin\System.Web.Silverlight.dll
+D:\RobcamerDocs\Book Silverlight Recipes\Code\Ch02_ProgrammingModel\TestWeb\bin\de\System.Web.Silverlight.resources.dll
+D:\RobcamerDocs\Book Silverlight Recipes\Code\Ch02_ProgrammingModel\TestWeb\bin\es\System.Web.Silverlight.resources.dll
+D:\RobcamerDocs\Book Silverlight Recipes\Code\Ch02_ProgrammingModel\TestWeb\bin\fr\System.Web.Silverlight.resources.dll
+D:\RobcamerDocs\Book Silverlight Recipes\Code\Ch02_ProgrammingModel\TestWeb\bin\it\System.Web.Silverlight.resources.dll
+D:\RobcamerDocs\Book Silverlight Recipes\Code\Ch02_ProgrammingModel\TestWeb\bin\ja\System.Web.Silverlight.resources.dll
+D:\RobcamerDocs\Book Silverlight Recipes\Code\Ch02_ProgrammingModel\TestWeb\bin\ko\System.Web.Silverlight.resources.dll
+D:\RobcamerDocs\Book Silverlight Recipes\Code\Ch02_ProgrammingModel\TestWeb\bin\zh-Hans\System.Web.Silverlight.resources.dll
+D:\RobcamerDocs\Book Silverlight Recipes\Code\Ch02_ProgrammingModel\TestWeb\bin\zh-Hant\System.Web.Silverlight.resources.dll
+D:\RobcamerDocs\Book Silverlight Recipes\Code\Ch02_ProgrammingModel\TestWeb\obj\Debug\ResolveAssemblyReference.cache
+D:\RobcamerDocs\Book Silverlight Recipes\Code\Ch02_ProgrammingModel\TestWeb\obj\Debug\Ch02_ProgrammingModel.TestWeb.dll
+D:\RobcamerDocs\Book Silverlight Recipes\Code\Ch02_ProgrammingModel\TestWeb\obj\Debug\Ch02_ProgrammingModel.TestWeb.pdb

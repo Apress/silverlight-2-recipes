@@ -1,0 +1,126 @@
+﻿<Project ToolsVersion="3.5" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>9.0.30729</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{FC1BDE63-5F28-43F4-A741-4A3D45E01C91}</ProjectGuid>
+    <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>TestApp</RootNamespace>
+    <AssemblyName>TestApp</AssemblyName>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+    <SilverlightApplicationList>{44A62DB4-8FBB-46C1-80C7-D45EC61ABD7B}|..\7.1 Consuming WCF\7.1 ProductsDataViewer\7.1 ProductsDataViewer.csproj|ClientBin|False,{35CCCD69-50D2-4BF5-9057-851972C21D3F}|..\7.2 POX Over HTTP\7.2 POXProductsDataViewer\7.2 POXProductsDataViewer.csproj|ClientBin|False,{D1C5128C-79E7-4980-81CF-BC2927F97282}|..\7.3 JSON Over HTTP\7.3 JSONProductsDataViewer\7.3 JSONProductsDataViewer.csproj|ClientBin|False,{49424305-8BDB-4432-964F-DB3103D7F5F2}|..\7.4 WebClient\7.4 PhotoClient\7.4 PhotoClient.csproj|ClientBin|False,{41D96324-FBB3-4ED4-ACA4-DD62C1D8C2E3}|..\7.5 Sockets\7.5 ChatClient\7.5 ChatClient.csproj|ClientBin|False</SilverlightApplicationList>
+    <SccProjectName>
+    </SccProjectName>
+    <SccLocalPath>
+    </SccLocalPath>
+    <SccAuxPath>
+    </SccAuxPath>
+    <SccProvider>
+    </SccProvider>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Core">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data.DataSetExtensions">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Web.Extensions">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Web.Silverlight, Version=2.0.5.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL" />
+    <Reference Include="System.Xml.Linq">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.EnterpriseServices" />
+    <Reference Include="System.Web.Mobile" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="7.1 ProductsDataViewerTestPage.aspx" />
+    <Content Include="7.1 ProductsDataViewerTestPage.html" />
+    <Content Include="7.2 POXProductsDataViewerTestPage.aspx" />
+    <Content Include="7.2 POXProductsDataViewerTestPage.html" />
+    <Content Include="7.3 JSONProductsDataViewerTestPage.aspx" />
+    <Content Include="7.3 JSONProductsDataViewerTestPage.html" />
+    <Content Include="7.4 PhotoClientTestPage.aspx" />
+    <Content Include="7.4 PhotoClientTestPage.html" />
+    <Content Include="7.5 ChatClientTestPage.aspx" />
+    <Content Include="7.5 ChatClientTestPage.html" />
+    <Content Include="ClientBin\Ch07_Networking.Recipe7_1.ProductsDataViewer.xap" />
+    <Content Include="ClientBin\Ch07_Networking.Recipe7_2.POXProductsDataViewer.xap" />
+    <Content Include="ClientBin\Ch07_Networking.Recipe7_3.JSONProductsDataViewer.xap" />
+    <Content Include="ClientBin\Ch07_Networking.Recipe7_4.PhotoClient.xap" />
+    <Content Include="ClientBin\Ch07_Networking.Recipe7_5.ChatClient.xap" />
+    <Content Include="Default.aspx" />
+    <Content Include="Silverlight.js" />
+    <Content Include="Web.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Default.aspx.cs">
+      <SubType>ASPXCodeBehind</SubType>
+      <DependentUpon>Default.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Default.aspx.designer.cs">
+      <DependentUpon>Default.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="App_Data\" />
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <Import Project="$(MSBuildExtensionsPath)\Microsoft\VisualStudio\v9.0\WebApplications\Microsoft.WebApplication.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
+        <WebProjectProperties>
+          <UseIIS>False</UseIIS>
+          <AutoAssignPort>False</AutoAssignPort>
+          <DevelopmentServerPort>9090</DevelopmentServerPort>
+          <DevelopmentServerVPath>/</DevelopmentServerVPath>
+          <IISUrl>
+          </IISUrl>
+          <NTLMAuthentication>False</NTLMAuthentication>
+          <UseCustomServer>False</UseCustomServer>
+          <CustomServerUrl>
+          </CustomServerUrl>
+          <SaveServerSettingsInUserFile>False</SaveServerSettingsInUserFile>
+        </WebProjectProperties>
+      </FlavorProperties>
+    </VisualStudio>
+  </ProjectExtensions>
+</Project>

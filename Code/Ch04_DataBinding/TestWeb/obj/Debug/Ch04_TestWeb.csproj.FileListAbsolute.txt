@@ -1,0 +1,12 @@
+D:\work\Current Initiatives\Writing\SLBook\WorkInProgress\ChapterSamples\Ch04_DataBinding\Ch04_TestWeb\WebApplication1\obj\Debug\ResolveAssemblyReference.cache
+D:\work\Current Initiatives\Writing\SLBook\WorkInProgress\ChapterSamples\Ch04_DataBinding\Ch04_TestWeb\WebApplication1\bin\System.Web.Silverlight.dll
+D:\work\Current Initiatives\Writing\SLBook\WorkInProgress\ChapterSamples\Ch04_DataBinding\Ch04_TestWeb\WebApplication1\bin\de\System.Web.Silverlight.resources.dll
+D:\work\Current Initiatives\Writing\SLBook\WorkInProgress\ChapterSamples\Ch04_DataBinding\Ch04_TestWeb\WebApplication1\bin\es\System.Web.Silverlight.resources.dll
+D:\work\Current Initiatives\Writing\SLBook\WorkInProgress\ChapterSamples\Ch04_DataBinding\Ch04_TestWeb\WebApplication1\bin\fr\System.Web.Silverlight.resources.dll
+D:\work\Current Initiatives\Writing\SLBook\WorkInProgress\ChapterSamples\Ch04_DataBinding\Ch04_TestWeb\WebApplication1\bin\it\System.Web.Silverlight.resources.dll
+D:\work\Current Initiatives\Writing\SLBook\WorkInProgress\ChapterSamples\Ch04_DataBinding\Ch04_TestWeb\WebApplication1\bin\ja\System.Web.Silverlight.resources.dll
+D:\work\Current Initiatives\Writing\SLBook\WorkInProgress\ChapterSamples\Ch04_DataBinding\Ch04_TestWeb\WebApplication1\bin\ko\System.Web.Silverlight.resources.dll
+D:\work\Current Initiatives\Writing\SLBook\WorkInProgress\ChapterSamples\Ch04_DataBinding\Ch04_TestWeb\WebApplication1\bin\Ch04_DataBinding.TestWeb.dll
+D:\work\Current Initiatives\Writing\SLBook\WorkInProgress\ChapterSamples\Ch04_DataBinding\Ch04_TestWeb\WebApplication1\bin\Ch04_DataBinding.TestWeb.pdb
+D:\work\Current Initiatives\Writing\SLBook\WorkInProgress\ChapterSamples\Ch04_DataBinding\Ch04_TestWeb\WebApplication1\obj\Debug\Ch04_DataBinding.TestWeb.dll
+D:\work\Current Initiatives\Writing\SLBook\WorkInProgress\ChapterSamples\Ch04_DataBinding\Ch04_TestWeb\WebApplication1\obj\Debug\Ch04_DataBinding.TestWeb.pdb

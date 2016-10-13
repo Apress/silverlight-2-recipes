@@ -1,0 +1,251 @@
+﻿<UserControl x:Class="Ch07_Networking.Recipe7_4.PhotoClient.Page"
+  xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation" 
+  xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" 
+  FontFamily="Trebuchet MS" FontSize="11"
+  Width="800" Height="700"   
+  xmlns:Controls
+  ="clr-namespace:System.Windows.Controls;assembly=System.Windows.Controls"  
+  xmlns:vsm="clr-namespace:System.Windows;assembly=System.Windows">
+  <UserControl.Resources>
+
+    <DataTemplate x:Key="dtProgressMessage">
+      <StackPanel Orientation="Horizontal">
+        <TextBlock Text="Processing" Margin="0,0,5,0" Foreground="Red"/>
+        <TextBlock Text="{Binding}" Margin="0,0,2,0" Foreground="Red"/>
+        <TextBlock Text="%" Foreground="Red"/>
+      </StackPanel>
+    </DataTemplate>
+
+    <DataTemplate x:Key="dtThumbnail">
+      <Grid>
+        <Image Width="100" Height="75" 
+               Source="{Binding '', Mode=OneWay, Path=Small}" 
+               Stretch="Fill" Margin="5,5,5,5"/>
+      </Grid>
+    </DataTemplate>
+
+    <DataTemplate x:Key="dtLargePhoto">
+      <Grid VerticalAlignment="Top" HorizontalAlignment="Stretch" Height="Auto">
+        <Grid.RowDefinitions>
+          <RowDefinition Height="0.8*"/>
+          <RowDefinition Height="0.2*"/>
+        </Grid.RowDefinitions>
+        <Image  HorizontalAlignment="Stretch" 
+                VerticalAlignment="Stretch" 
+                Source="{Binding '', Mode=OneWay, Path=Large}" 
+                Stretch="Uniform" Grid.Row="0"  
+                Margin="0,0,0,0" 
+                Visibility="{Binding Mode=OneWay, Path=ImageVisible}"/>
+        <CheckBox Content="{Binding '',Mode=OneWay, Path=FileName}" 
+                  Grid.Row="1" HorizontalAlignment="Center" 
+                  VerticalAlignment="Center" 
+                  Foreground="Black" 
+                  Margin="0,0,0,0" FontSize="16" FontWeight="Bold" 
+                  x:Name="btnMeta" Checked="btnMeta_Checked" 
+                  Unchecked="btnMeta_Unchecked" />
+        <ProgressBar 
+          Maximum="100" Minimum="100" Width="290" Foreground="Red" Height="30"
+          Value="{Binding Mode=OneWay, Path=PercentProgress}" 
+          Visibility="{Binding Mode=OneWay, Path=ProgressVisible}"
+          HorizontalAlignment="Center" VerticalAlignment="Center"/>
+      </Grid>
+    </DataTemplate>
+
+    <DataTemplate x:Key="dtPhotoMetaData">
+      <Grid>
+        <Grid.RowDefinitions>
+          <RowDefinition Height="0.15*"/>
+          <RowDefinition Height="0.15*"/>
+          <RowDefinition Height="0.15*"/>
+          <RowDefinition Height="0.15*"/>
+          <RowDefinition Height="0.15*"/>
+          <RowDefinition Height="0.15*"/>
+          <RowDefinition Height="0.10*"/>
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+          <ColumnDefinition Width="0.5*" />
+          <ColumnDefinition Width="0.5*" />
+        </Grid.ColumnDefinitions>
+        <TextBlock Grid.Row="0" Grid.Column="0" 
+                   Grid.ColumnSpan="2" Text="Edit Metadata" 
+                   HorizontalAlignment="Center" 
+                   VerticalAlignment="Center" Margin="3,3,3,3"/>
+        <TextBlock Grid.Row="1" Grid.Column="0" 
+                   Text="Name:" Margin="3,3,3,3" />
+        <TextBlock Grid.Row="2" Grid.Column="0" 
+                   Text="Description:" Margin="3,3,3,3" />
+        <TextBlock Grid.Row="3" Grid.Column="0" 
+                   Text="Location:" Margin="3,3,3,3" />
+        <TextBlock Grid.Row="4" Grid.Column="0" 
+                   Text="Rating:" Margin="3,3,3,3" />
+        <TextBlock Grid.Row="5" Grid.Column="0" 
+                   Text="Date Taken:" Margin="3,3,3,3" />
+        <TextBox Grid.Row="1" Grid.Column="1" 
+                 Text="{Binding Mode=TwoWay,Path=Info.Name}" 
+                 Width="275" Margin="3,3,3,3" />
+        <TextBox Grid.Row="2" Grid.Column="1" 
+                 Text="{Binding Mode=TwoWay,Path=Info.Description}" 
+                 Width="275" Margin="3,3,3,3" TextWrapping="Wrap" 
+                 AcceptsReturn="True" />
+        <TextBox Grid.Row="3" Grid.Column="1" 
+                 Text="{Binding Mode=TwoWay,Path=Info.Location}" 
+                 Width="275" Margin="3,3,3,3" TextWrapping="Wrap" 
+                 AcceptsReturn="True" />
+        <TextBox Grid.Row="4" Grid.Column="1" 
+                 Text="{Binding Mode=TwoWay,Path=Info.Rating}" 
+                 Width="275" Margin="3,3,3,3" />
+        <Controls:DatePicker Grid.Row="5" Grid.Column="1" 
+                        SelectedDate="{Binding Mode=TwoWay,Path=Info.DateTaken}"
+                        Width="275" Margin="3,3,3,3"/>
+        <Button Content="Save Changes" x:Name="btnSaveMetaData" 
+                Grid.Row="6" Grid.ColumnSpan="2" HorizontalAlignment="Center" 
+                VerticalAlignment="Center" Height="30" Width="100" 
+                Margin="10,10,10,10" Click="btnSaveMetaData_Click"/>
+      </Grid>
+    </DataTemplate>
+
+    <ControlTemplate x:Key="ctThumbnailListBoxItem" TargetType="ListBoxItem">
+      <Grid>
+        <vsm:VisualStateManager.VisualStateGroups>
+          <vsm:VisualStateGroup x:Name="CommonStates">
+            <vsm:VisualState x:Name="Normal">
+              <Storyboard/>
+            </vsm:VisualState>
+            <vsm:VisualState x:Name="MouseOver">
+              <Storyboard>
+                <ColorAnimationUsingKeyFrames 
+                  BeginTime="00:00:00" 
+                  Duration="00:00:00.0010000" 
+                  Storyboard.TargetName="brdrHover" 
+                  Storyboard.TargetProperty=
+                  "(Border.BorderBrush).(SolidColorBrush.Color)">
+                  <SplineColorKeyFrame 
+                    KeyTime="00:00:00" Value="#FF0748BD"/>
+                </ColorAnimationUsingKeyFrames>
+              </Storyboard>
+            </vsm:VisualState>
+          </vsm:VisualStateGroup>
+          <vsm:VisualStateGroup x:Name="SelectionStates">
+            <vsm:VisualState x:Name="Unselected"/>
+            <vsm:VisualState x:Name="Selected">
+              <Storyboard>
+                <ColorAnimationUsingKeyFrames 
+                  BeginTime="00:00:00" 
+                  Duration="00:00:00.0010000" 
+                  Storyboard.TargetName="brdrSelect" 
+                  Storyboard.TargetProperty=
+                  "(Border.Background).(SolidColorBrush.Color)">
+                  <SplineColorKeyFrame 
+                    KeyTime="00:00:00" Value="#FF0748BD"/>
+                </ColorAnimationUsingKeyFrames>
+              </Storyboard>
+            </vsm:VisualState>
+            <vsm:VisualState x:Name="SelectedUnfocused"/>
+          </vsm:VisualStateGroup>
+          <vsm:VisualStateGroup x:Name="FocusStates">
+            <vsm:VisualState x:Name="Unfocused"/>
+            <vsm:VisualState x:Name="Focused"/>
+          </vsm:VisualStateGroup>
+        </vsm:VisualStateManager.VisualStateGroups>
+        <Border HorizontalAlignment="Stretch" 
+                VerticalAlignment="Stretch" 
+                x:Name="brdrHover" BorderBrush="#FF000000" 
+                BorderThickness="5" CornerRadius="3,3,3,3" 
+                Margin="3,3,3,3" >
+          <Border  CornerRadius="3,3,3,3" Padding="7,7,7,7" 
+                   Background="Transparent">
+            <Border x:Name="brdrSelect" Background="#FF9AE1F5" 
+                    CornerRadius="3,3,3,3" Padding="3,3,3,3"  >
+              <ContentPresenter
+                Content="{TemplateBinding Content}"
+                ContentTemplate="{TemplateBinding ContentTemplate}"
+                HorizontalAlignment="Left"
+                 />
+            </Border>
+          </Border>
+        </Border>
+      </Grid>
+    </ControlTemplate>
+    <Style x:Key="styleThumbnailListBoxItem" TargetType="ListBoxItem">
+      <Setter Property="IsEnabled" Value="true" />
+      <Setter Property="Foreground" Value="#FF000000" />
+      <Setter Property="HorizontalContentAlignment" Value="Left" />
+      <Setter Property="VerticalContentAlignment" Value="Top" />
+      <Setter Property="FontSize" Value="12" />
+      <Setter Property="Background" Value="White" />
+      <Setter Property="Padding" Value="2,0,0,0" />
+      <Setter Property="Template" Value="{StaticResource ctThumbnailListBoxItem}"/>
+    </Style>
+  </UserControl.Resources>
+
+  <Grid Background="BurlyWood">
+    <Grid.ColumnDefinitions>
+      <ColumnDefinition Width="*"/>
+      <ColumnDefinition Width="Auto"/>
+    </Grid.ColumnDefinitions>
+    <Grid.RowDefinitions>
+      <RowDefinition Height="150"/>
+      <RowDefinition Height="*"/>
+      <RowDefinition Height="Auto"/>
+    </Grid.RowDefinitions>
+    <ListBox HorizontalAlignment="Stretch" 
+             Margin="5,5,5,5"  
+             Width="Auto" 
+             SelectionChanged="lbxThumbs_SelectionChanged"
+             ItemTemplate="{StaticResource dtThumbnail}" 
+             x:Name="lbxThumbs" 
+             ItemContainerStyle="{StaticResource styleThumbnailListBoxItem}" 
+             Grid.ColumnSpan="2" Visibility="Collapsed">
+      <ListBox.ItemsPanel>
+        <ItemsPanelTemplate>
+          <StackPanel Orientation="Horizontal"/>
+        </ItemsPanelTemplate>
+      </ListBox.ItemsPanel>
+    </ListBox>
+    <StackPanel x:Name="visualThumbZipDownload" Margin="0,20,0,0">
+      <ProgressBar 
+        Maximum="100" Minimum="0" Height="30" Foreground="Red"
+        Width="290" x:Name="pbarThumbZipDownload"
+        Visibility="Visible" HorizontalAlignment="Center" 
+        VerticalAlignment="Center"/>
+      <Button x:Name="btnZipDownloadCancel" 
+              Content="Cancel" 
+              Click="btnZipDownloadCancel_Click" 
+              HorizontalAlignment="Center" Width="125" />
+    </StackPanel>
+
+    <ContentControl x:Name="contentctlLargeImage" 
+                    HorizontalAlignment="Stretch" 
+                    VerticalAlignment="Stretch"  
+                    Grid.Row="1" Margin="8,8,8,8" 
+                    ContentTemplate="{StaticResource dtLargePhoto}" 
+                    Grid.RowSpan="1"/>
+    <ContentControl x:Name="contentctlImageInfo" 
+                    HorizontalAlignment="Stretch" 
+                    VerticalAlignment="Stretch"  
+                    Grid.Row="1" Grid.Column="1"  
+                    Margin="8,0,8,0" 
+                    ContentTemplate="{StaticResource dtPhotoMetaData}" 
+                    Grid.RowSpan="1" Visibility="Collapsed"/>
+    <Grid HorizontalAlignment="Stretch" Margin="8,8,8,8" 
+          VerticalAlignment="Stretch" Grid.Row="2">
+      <Grid.ColumnDefinitions>
+        <ColumnDefinition Width="0.5*"/>
+        <ColumnDefinition Width="0.5*"/>
+      </Grid.ColumnDefinitions>
+      <Button HorizontalAlignment="Right" 
+              VerticalAlignment="Stretch" Content="Previous" 
+              Margin="8,0,8,0"   Height="32.11" x:Name="btnPrevious"
+              Width="99.936"  
+              Click="btnPrev_Click"/>
+      <Button Margin="8,0,8,0" VerticalAlignment="Stretch" 
+              Content="Next" HorizontalAlignment="Left" 
+              Height="31.11" x:Name="btnNext" 
+              Grid.Column="1" Width="99.936" 
+              Click="btnNext_Click"/>
+      <Button HorizontalAlignment="Left" Margin="0,0,0,0" 
+              Width="100" Content="Upload" x:Name="btnUpload" 
+              Click="btnUpload_Click"/>
+    </Grid>
+  </Grid>
+</UserControl>

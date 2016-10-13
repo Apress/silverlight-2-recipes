@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ReferenceGroup xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" ID="42721b46-a677-4f4a-a80a-5a2c1f73ce32" xmlns="urn:schemas-microsoft-com:xml-wcfservicemap">
+  <ClientOptions>
+    <GenerateAsynchronousMethods>true</GenerateAsynchronousMethods>
+    <EnableDataBinding>true</EnableDataBinding>
+    <ExcludedTypes />
+    <ImportXmlTypes>false</ImportXmlTypes>
+    <GenerateInternalTypes>false</GenerateInternalTypes>
+    <GenerateMessageContracts>false</GenerateMessageContracts>
+    <NamespaceMappings />
+    <CollectionMappings>
+      <CollectionMapping TypeName="System.Collections.Generic.List`1" Category="List" />
+    </CollectionMappings>
+    <GenerateSerializableTypes>false</GenerateSerializableTypes>
+    <Serializer>Auto</Serializer>
+    <ReferenceAllAssemblies>true</ReferenceAllAssemblies>
+    <ReferencedAssemblies />
+    <ReferencedDataContractTypes />
+    <ServiceContractMappings />
+  </ClientOptions>
+  <MetadataSources>
+    <MetadataSource Address="http://localhost:9191/ProductsSoapService.svc" Protocol="http" SourceId="1" />
+  </MetadataSources>
+  <Metadata>
+    <MetadataFile FileName="ProductsSoapService.xsd" MetadataType="Schema" ID="21fc93cc-e733-4cca-9b98-6ce149b505fe" SourceId="1" SourceUrl="http://localhost:9191/ProductsSoapService.svc?xsd=xsd2" />
+    <MetadataFile FileName="ProductsSoapService1.xsd" MetadataType="Schema" ID="1f846a44-6d1e-4402-a7db-8e1b02b2f48e" SourceId="1" SourceUrl="http://localhost:9191/ProductsSoapService.svc?xsd=xsd1" />
+    <MetadataFile FileName="ProductsSoapService2.xsd" MetadataType="Schema" ID="699e8061-162e-4abf-a54f-443d7ae2d715" SourceId="1" SourceUrl="http://localhost:9191/ProductsSoapService.svc?xsd=xsd0" />
+    <MetadataFile FileName="ProductsSoapService.disco" MetadataType="Disco" ID="d732ef7e-d98d-45a9-9b5b-3415078b624e" SourceId="1" SourceUrl="http://localhost:9191/ProductsSoapService.svc?disco" />
+    <MetadataFile FileName="ProductManager1.wsdl" MetadataType="Wsdl" ID="51b0d72c-67bb-4265-8ca9-95c6108fa3c7" SourceId="1" SourceUrl="http://localhost:9191/ProductsSoapService.svc?wsdl" />
+  </Metadata>
+  <Extensions>
+    <ExtensionFile FileName="configuration91.svcinfo" Name="configuration91.svcinfo" />
+    <ExtensionFile FileName="configuration.svcinfo" Name="configuration.svcinfo" />
+  </Extensions>
+</ReferenceGroup>
